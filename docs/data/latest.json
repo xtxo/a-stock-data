@@ -1,76 +1,34 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-20T13:39:17+08:00",
-  "trade_date": "2026-08-20",
-  "is_trading_day": true,
-  "market_phase": "下午交易",
+  "generated_at": "2026-08-20T14:49:43+08:00",
+  "trade_date": null,
+  "is_trading_day": false,
+  "market_phase": "非交易日/数据未进入当日",
   "indices": {
     "shanghai": {
       "name": "上证指数",
       "code": "000001",
-      "price": 3893.24,
-      "pct": -0.03,
-      "change": -1.18,
-      "volume": 385234056.0,
-      "amount": 783859177620.2,
-      "open": 3907.21,
-      "prev_close": 3894.42,
-      "high": 3925.06,
-      "low": 3892.88,
-      "rsi14_daily": 46.85,
-      "rsi14_30m": 35.21,
-      "rsi_alerts": [],
-      "latest_kline_date": "2026-08-20"
+      "error": "GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "chinext": {
       "name": "创业板指",
       "code": "399006",
-      "price": 3477.32,
-      "pct": 0.11,
-      "change": 3.83,
-      "volume": 144631773.0,
-      "amount": 405676807585.33,
-      "open": 3517.65,
-      "prev_close": 3473.49,
-      "high": 3531.92,
-      "low": 3477.0,
-      "rsi14_daily": 44.18,
-      "rsi14_30m": 32.59,
-      "rsi_alerts": [],
-      "latest_kline_date": "2026-08-20"
+      "error": "GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "star50": {
       "name": "科创50",
       "code": "000688",
-      "price": 1647.8,
-      "pct": -1.18,
-      "change": -19.72,
-      "volume": 6698670.0,
-      "amount": 73529896187.0,
-      "open": 1685.48,
-      "prev_close": 1667.52,
-      "high": 1694.36,
-      "low": 1647.8,
-      "rsi14_daily": 41.92,
-      "rsi14_30m": 30.33,
-      "rsi_alerts": [],
-      "latest_kline_date": "2026-08-20"
+      "error": "GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     }
   },
   "breadth": {
-    "up": 100,
-    "down": 0,
-    "flat": 0,
-    "total": 100,
-    "up_ratio": 100.0,
-    "strong_ge_5pct": 100,
-    "weak_le_minus5pct": 0
+    "error": "GET failed: https://push2.eastmoney.com/api/qt/clist/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/clist/get?pn=1&pz=6000&po=1&np=1&fltt=2&invt=2&fid=f3&fs=m%3A0%2Bt%3A6%2Cm%3A0%2Bt%3A80%2Cm%3A1%2Bt%3A2%2Cm%3A1%2Bt%3A23&fields=f12%2Cf14%2Cf3"
   },
   "limit_emotion": {
-    "limit_up": 84,
-    "broken": 38,
+    "limit_up": 77,
+    "broken": 47,
     "limit_down": 0,
-    "seal_success_rate": 68.9,
+    "seal_success_rate": 62.1,
     "max_streak": 4,
     "streak_leaders": [
       {
@@ -79,7 +37,7 @@
         "pct": 9.974424362182617,
         "streak": 4,
         "industry": "农产品加",
-        "seal_fund": 93631640.0,
+        "seal_fund": 59816044.0,
         "open_count": 9
       },
       {
@@ -88,7 +46,7 @@
         "pct": 9.97624683380127,
         "streak": 2,
         "industry": "中药Ⅱ",
-        "seal_fund": 312455809.0,
+        "seal_fund": 266591677.0,
         "open_count": 0
       },
       {
@@ -97,7 +55,7 @@
         "pct": 10.009099960327148,
         "streak": 2,
         "industry": "专用设备",
-        "seal_fund": 227989846.0,
+        "seal_fund": 221979907.0,
         "open_count": 3
       },
       {
@@ -106,480 +64,27 @@
         "pct": 10.045661926269531,
         "streak": 2,
         "industry": "家居用品",
-        "seal_fund": 47509501.0,
+        "seal_fund": 42857907.0,
         "open_count": 1
       }
     ]
   },
   "emotion_telemetry": {
-    "score": 80.8,
-    "label": "高热",
-    "note": "仅为盘面遥测分，不替代人工分析"
+    "score": null,
+    "label": "数据不足"
   },
   "fund_flow": {
-    "industry_top_in": [
-      {
-        "code": "BK1216",
-        "name": "医药生物",
-        "pct": 4.54,
-        "main_net": 12085203968.0,
-        "main_ratio": 6.25,
-        "super_net": 9006072064.0,
-        "large_net": 3079131904.0,
-        "mid_net": -4550273536.0,
-        "small_net": -7392049152.0,
-        "leader_code": "药明康德",
-        "leader_name": "603259",
-        "leader_pct": 1.0
-      },
-      {
-        "code": "BK0727",
-        "name": "医疗服务",
-        "pct": 6.56,
-        "main_net": 4245657344.0,
-        "main_ratio": 8.2,
-        "super_net": 2870905088.0,
-        "large_net": 1374752256.0,
-        "mid_net": -1519882752.0,
-        "small_net": -2722292992.0,
-        "leader_code": "药明康德",
-        "leader_name": "603259",
-        "leader_pct": 1.0
-      },
-      {
-        "code": "BK0478",
-        "name": "有色金属",
-        "pct": 0.01,
-        "main_net": 3530160896.0,
-        "main_ratio": 3.08,
-        "super_net": 3592307712.0,
-        "large_net": -62146816.0,
-        "mid_net": -1949484288.0,
-        "small_net": -1590062336.0,
-        "leader_code": "紫金矿业",
-        "leader_name": "601899",
-        "leader_pct": 1.0
-      },
-      {
-        "code": "BK1600",
-        "name": "医疗研发外包",
-        "pct": 7.46,
-        "main_net": 3367265792.0,
-        "main_ratio": 7.87,
-        "super_net": 2052739840.0,
-        "large_net": 1314525952.0,
-        "mid_net": -1169840640.0,
-        "small_net": -2197863168.0,
-        "leader_code": "药明康德",
-        "leader_name": "603259",
-        "leader_pct": 1.0
-      },
-      {
-        "code": "BK0465",
-        "name": "化学制药",
-        "pct": 4.06,
-        "main_net": 3328243712.0,
-        "main_ratio": 4.73,
-        "super_net": 2151969024.0,
-        "large_net": 1176274688.0,
-        "mid_net": -1301030656.0,
-        "small_net": -2029867520.0,
-        "leader_code": "誉衡药业",
-        "leader_name": "002437",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK1044",
-        "name": "生物制品",
-        "pct": 8.97,
-        "main_net": 3118199584.0,
-        "main_ratio": 11.1,
-        "super_net": 2988757024.0,
-        "large_net": 129442560.0,
-        "mid_net": -1028062464.0,
-        "small_net": -1979756544.0,
-        "leader_code": "沃森生物",
-        "leader_name": "300142",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK0732",
-        "name": "贵金属",
-        "pct": 4.28,
-        "main_net": 3020944128.0,
-        "main_ratio": 10.0,
-        "super_net": 2663777280.0,
-        "large_net": 357166848.0,
-        "mid_net": -1386789632.0,
-        "small_net": -1634110976.0,
-        "leader_code": "盛达资源",
-        "leader_name": "000603",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK1615",
-        "name": "铜",
-        "pct": 1.28,
-        "main_net": 2503636480.0,
-        "main_ratio": 9.25,
-        "super_net": 1914419200.0,
-        "large_net": 589217280.0,
-        "mid_net": -766181120.0,
-        "small_net": -1737608960.0,
-        "leader_code": "紫金矿业",
-        "leader_name": "601899",
-        "leader_pct": 1.0
-      }
-    ],
-    "industry_top_out": [
-      {
-        "code": "BK1596",
-        "name": "其他生物制品",
-        "pct": 7.83,
-        "main_net": 1893421472.0,
-        "main_ratio": 9.21,
-        "super_net": 1420546720.0,
-        "large_net": 472874752.0,
-        "mid_net": -387174656.0,
-        "small_net": -1396712448.0,
-        "leader_code": "安科生物",
-        "leader_name": "300009",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK1215",
-        "name": "通信",
-        "pct": 2.04,
-        "main_net": 2149001984.0,
-        "main_ratio": 1.69,
-        "super_net": 2794572032.0,
-        "large_net": -645570048.0,
-        "mid_net": -70242816.0,
-        "small_net": -1998340096.0,
-        "leader_code": "通鼎互联",
-        "leader_name": "002491",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK0448",
-        "name": "通信设备",
-        "pct": 2.65,
-        "main_net": 2234458112.0,
-        "main_ratio": 1.9,
-        "super_net": 2799678976.0,
-        "large_net": -565220864.0,
-        "mid_net": 132403968.0,
-        "small_net": -2284780800.0,
-        "leader_code": "通鼎互联",
-        "leader_name": "002491",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK1594",
-        "name": "化学制剂",
-        "pct": 4.02,
-        "main_net": 2425050368.0,
-        "main_ratio": 4.42,
-        "super_net": 1479702528.0,
-        "large_net": 945347840.0,
-        "mid_net": -952754944.0,
-        "small_net": -1447041792.0,
-        "leader_code": "誉衡药业",
-        "leader_name": "002437",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK1615",
-        "name": "铜",
-        "pct": 1.28,
-        "main_net": 2503636480.0,
-        "main_ratio": 9.25,
-        "super_net": 1914419200.0,
-        "large_net": 589217280.0,
-        "mid_net": -766181120.0,
-        "small_net": -1737608960.0,
-        "leader_code": "紫金矿业",
-        "leader_name": "601899",
-        "leader_pct": 1.0
-      },
-      {
-        "code": "BK0732",
-        "name": "贵金属",
-        "pct": 4.28,
-        "main_net": 3020944128.0,
-        "main_ratio": 10.0,
-        "super_net": 2663777280.0,
-        "large_net": 357166848.0,
-        "mid_net": -1386789632.0,
-        "small_net": -1634110976.0,
-        "leader_code": "盛达资源",
-        "leader_name": "000603",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK1044",
-        "name": "生物制品",
-        "pct": 8.97,
-        "main_net": 3118199584.0,
-        "main_ratio": 11.1,
-        "super_net": 2988757024.0,
-        "large_net": 129442560.0,
-        "mid_net": -1028062464.0,
-        "small_net": -1979756544.0,
-        "leader_code": "沃森生物",
-        "leader_name": "300142",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK0465",
-        "name": "化学制药",
-        "pct": 4.06,
-        "main_net": 3328243712.0,
-        "main_ratio": 4.73,
-        "super_net": 2151969024.0,
-        "large_net": 1176274688.0,
-        "mid_net": -1301030656.0,
-        "small_net": -2029867520.0,
-        "leader_code": "誉衡药业",
-        "leader_name": "002437",
-        "leader_pct": 0.0
-      }
-    ],
-    "concept_top_in": [
-      {
-        "code": "BK1106",
-        "name": "创新药",
-        "pct": 5.08,
-        "main_net": 7298571776.0,
-        "main_ratio": 5.92,
-        "super_net": 5281259008.0,
-        "large_net": 2017312768.0,
-        "mid_net": -2665022464.0,
-        "small_net": -4498646784.0,
-        "leader_code": "药明康德",
-        "leader_name": "603259",
-        "leader_pct": 1.0
-      },
-      {
-        "code": "BK1712",
-        "name": "医药医疗风格",
-        "pct": 4.68,
-        "main_net": 5673617152.0,
-        "main_ratio": 5.7,
-        "super_net": 4263199744.0,
-        "large_net": 1410417408.0,
-        "mid_net": -2717815296.0,
-        "small_net": -2955335168.0,
-        "leader_code": "药明康德",
-        "leader_name": "603259",
-        "leader_pct": 1.0
-      },
-      {
-        "code": "BK0547",
-        "name": "黄金概念",
-        "pct": 1.64,
-        "main_net": 5529209344.0,
-        "main_ratio": 8.57,
-        "super_net": 4648672000.0,
-        "large_net": 880537344.0,
-        "mid_net": -1933697536.0,
-        "small_net": -3594249472.0,
-        "leader_code": "紫金矿业",
-        "leader_name": "601899",
-        "leader_pct": 1.0
-      },
-      {
-        "code": "BK1657",
-        "name": "病原体防治",
-        "pct": 5.01,
-        "main_net": 5343542528.0,
-        "main_ratio": 7.69,
-        "super_net": 4863075584.0,
-        "large_net": 480466944.0,
-        "mid_net": -1822501120.0,
-        "small_net": -3522054400.0,
-        "leader_code": "凯莱英",
-        "leader_name": "002821",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK0596",
-        "name": "融资融券",
-        "pct": 0.87,
-        "main_net": 4979716096.0,
-        "main_ratio": 0.35,
-        "super_net": 8874602496.0,
-        "large_net": -3894886400.0,
-        "mid_net": -10073210880.0,
-        "small_net": 4646146048.0,
-        "leader_code": "紫金矿业",
-        "leader_name": "601899",
-        "leader_pct": 1.0
-      },
-      {
-        "code": "BK0707",
-        "name": "沪股通",
-        "pct": 0.79,
-        "main_net": 4519903232.0,
-        "main_ratio": 0.64,
-        "super_net": 5704163328.0,
-        "large_net": -1184260096.0,
-        "mid_net": -6600781824.0,
-        "small_net": 2088529920.0,
-        "leader_code": "紫金矿业",
-        "leader_name": "601899",
-        "leader_pct": 1.0
-      },
-      {
-        "code": "BK1658",
-        "name": "创新医疗服务",
-        "pct": 4.29,
-        "main_net": 3835844096.0,
-        "main_ratio": 6.85,
-        "super_net": 2346039552.0,
-        "large_net": 1489804544.0,
-        "mid_net": -1317870592.0,
-        "small_net": -2510127616.0,
-        "leader_code": "药明康德",
-        "leader_name": "603259",
-        "leader_pct": 1.0
-      },
-      {
-        "code": "BK0899",
-        "name": "CRO",
-        "pct": 6.48,
-        "main_net": 3817591808.0,
-        "main_ratio": 7.73,
-        "super_net": 2299513344.0,
-        "large_net": 1518078464.0,
-        "mid_net": -1278299392.0,
-        "small_net": -2531473664.0,
-        "leader_code": "药明康德",
-        "leader_name": "603259",
-        "leader_pct": 1.0
-      }
-    ],
-    "concept_top_out": [
-      {
-        "code": "BK0742",
-        "name": "创业板综",
-        "pct": 1.38,
-        "main_net": 3104498944.0,
-        "main_ratio": 0.77,
-        "super_net": 3852203264.0,
-        "large_net": -747704320.0,
-        "mid_net": -2330861568.0,
-        "small_net": -773636096.0,
-        "leader_code": "太辰光",
-        "leader_name": "300570",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK0675",
-        "name": "病毒防治",
-        "pct": 4.89,
-        "main_net": 3254770464.0,
-        "main_ratio": 8.26,
-        "super_net": 3308783904.0,
-        "large_net": -54013440.0,
-        "mid_net": -1401194496.0,
-        "small_net": -1854101504.0,
-        "leader_code": "凯莱英",
-        "leader_name": "002821",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK0879",
-        "name": "标准普尔",
-        "pct": 0.53,
-        "main_net": 3374743552.0,
-        "main_ratio": 0.62,
-        "super_net": 5734268928.0,
-        "large_net": -2359525376.0,
-        "mid_net": -5389537280.0,
-        "small_net": 2016714752.0,
-        "leader_code": "紫金矿业",
-        "leader_name": "601899",
-        "leader_pct": 1.0
-      },
-      {
-        "code": "BK1660",
-        "name": "光纤概念",
-        "pct": 2.22,
-        "main_net": 3413921024.0,
-        "main_ratio": 3.03,
-        "super_net": 3419438336.0,
-        "large_net": -5517312.0,
-        "mid_net": -1804351488.0,
-        "small_net": -1514788096.0,
-        "leader_code": "通鼎互联",
-        "leader_name": "002491",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK0899",
-        "name": "CRO",
-        "pct": 6.48,
-        "main_net": 3817591808.0,
-        "main_ratio": 7.73,
-        "super_net": 2299513344.0,
-        "large_net": 1518078464.0,
-        "mid_net": -1278299392.0,
-        "small_net": -2531473664.0,
-        "leader_code": "药明康德",
-        "leader_name": "603259",
-        "leader_pct": 1.0
-      },
-      {
-        "code": "BK1658",
-        "name": "创新医疗服务",
-        "pct": 4.29,
-        "main_net": 3835844096.0,
-        "main_ratio": 6.85,
-        "super_net": 2346039552.0,
-        "large_net": 1489804544.0,
-        "mid_net": -1317870592.0,
-        "small_net": -2510127616.0,
-        "leader_code": "药明康德",
-        "leader_name": "603259",
-        "leader_pct": 1.0
-      },
-      {
-        "code": "BK0707",
-        "name": "沪股通",
-        "pct": 0.79,
-        "main_net": 4519903232.0,
-        "main_ratio": 0.64,
-        "super_net": 5704163328.0,
-        "large_net": -1184260096.0,
-        "mid_net": -6600781824.0,
-        "small_net": 2088529920.0,
-        "leader_code": "紫金矿业",
-        "leader_name": "601899",
-        "leader_pct": 1.0
-      },
-      {
-        "code": "BK0596",
-        "name": "融资融券",
-        "pct": 0.87,
-        "main_net": 4979716096.0,
-        "main_ratio": 0.35,
-        "super_net": 8874602496.0,
-        "large_net": -3894886400.0,
-        "mid_net": -10073210880.0,
-        "small_net": 4646146048.0,
-        "leader_code": "紫金矿业",
-        "leader_name": "601899",
-        "leader_pct": 1.0
-      }
-    ]
+    "industry_top_in": [],
+    "industry_top_out": [],
+    "concept_top_in": [],
+    "concept_top_out": []
   },
   "hot_stocks": [
     {
       "rank": 1,
       "code": "688836",
       "name": "宇树科技",
-      "pct": 1103996.0,
+      "pct": 1428246.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -591,7 +96,7 @@
       "rank": 2,
       "code": "600664",
       "name": "哈药股份",
-      "pct": 408042.0,
+      "pct": 384908.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -601,9 +106,21 @@
     },
     {
       "rank": 3,
+      "code": "600206",
+      "name": "有研新材",
+      "pct": 378662.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "中芯国际概念",
+        "国家大基金持股"
+      ]
+    },
+    {
+      "rank": 4,
       "code": "600613",
       "name": "神奇制药",
-      "pct": 395830.0,
+      "pct": 345926.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -612,22 +129,10 @@
       ]
     },
     {
-      "rank": 4,
-      "code": "603259",
-      "name": "药明康德",
-      "pct": 323033.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "创新药",
-        "CRO概念"
-      ]
-    },
-    {
       "rank": 5,
       "code": "600721",
       "name": "百花医药",
-      "pct": 310461.0,
+      "pct": 321695.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -637,57 +142,21 @@
     },
     {
       "rank": 6,
-      "code": "600206",
-      "name": "有研新材",
-      "pct": 282058.0,
+      "code": "603259",
+      "name": "药明康德",
+      "pct": 313373.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "中芯国际概念",
-        "国家大基金持股"
+        "创新药",
+        "CRO概念"
       ]
     },
     {
       "rank": 7,
-      "code": "600127",
-      "name": "金健米业",
-      "pct": 274460.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "粮食概念",
-        "玉米"
-      ]
-    },
-    {
-      "rank": 8,
-      "code": "002437",
-      "name": "誉衡药业",
-      "pct": 245310.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "仿制药一致性评价",
-        "创新药"
-      ]
-    },
-    {
-      "rank": 9,
-      "code": "002081",
-      "name": "金螳螂",
-      "pct": 242849.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "新型城镇化",
-        "光伏建筑一体化"
-      ]
-    },
-    {
-      "rank": 10,
       "code": "688825",
       "name": "长鑫科技",
-      "pct": 239475.0,
+      "pct": 298631.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -696,10 +165,22 @@
       ]
     },
     {
-      "rank": 11,
+      "rank": 8,
+      "code": "600127",
+      "name": "金健米业",
+      "pct": 296358.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "粮食概念",
+        "玉米"
+      ]
+    },
+    {
+      "rank": 9,
       "code": "000725",
       "name": "京东方A",
-      "pct": 233725.0,
+      "pct": 269053.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -708,81 +189,34 @@
       ]
     },
     {
+      "rank": 10,
+      "code": "002081",
+      "name": "金螳螂",
+      "pct": 261281.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "新型城镇化",
+        "光伏建筑一体化"
+      ]
+    },
+    {
+      "rank": 11,
+      "code": "002437",
+      "name": "誉衡药业",
+      "pct": 250313.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "仿制药一致性评价",
+        "创新药"
+      ]
+    },
+    {
       "rank": 12,
-      "code": "600172",
-      "name": "黄河旋风",
-      "pct": 216831.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "培育钻石",
-        "第三代半导体"
-      ]
-    },
-    {
-      "rank": 13,
-      "code": "605179",
-      "name": "一鸣食品",
-      "pct": 215967.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "乳业",
-        "三胎概念"
-      ]
-    },
-    {
-      "rank": 14,
-      "code": "600667",
-      "name": "太极实业",
-      "pct": 215461.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "存储芯片",
-        "先进封装"
-      ]
-    },
-    {
-      "rank": 15,
-      "code": "603221",
-      "name": "爱丽家居",
-      "pct": 215217.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "人民币贬值受益"
-      ]
-    },
-    {
-      "rank": 16,
-      "code": "300142",
-      "name": "沃森生物",
-      "pct": 206245.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "生物疫苗",
-        "流感"
-      ]
-    },
-    {
-      "rank": 17,
-      "code": "002900",
-      "name": "哈三联",
-      "pct": 206120.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "维生素",
-        "流感"
-      ]
-    },
-    {
-      "rank": 18,
       "code": "002202",
       "name": "金风科技",
-      "pct": 198704.0,
+      "pct": 242075.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -791,10 +225,69 @@
       ]
     },
     {
-      "rank": 19,
+      "rank": 13,
+      "code": "600667",
+      "name": "太极实业",
+      "pct": 239476.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "存储芯片",
+        "先进封装"
+      ]
+    },
+    {
+      "rank": 14,
+      "code": "600172",
+      "name": "黄河旋风",
+      "pct": 238126.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "培育钻石",
+        "第三代半导体"
+      ]
+    },
+    {
+      "rank": 15,
+      "code": "603221",
+      "name": "爱丽家居",
+      "pct": 231311.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "人民币贬值受益"
+      ]
+    },
+    {
+      "rank": 16,
+      "code": "002407",
+      "name": "多氟多",
+      "pct": 231177.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "氟化工概念",
+        "PVDF概念"
+      ]
+    },
+    {
+      "rank": 17,
+      "code": "605179",
+      "name": "一鸣食品",
+      "pct": 215861.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "乳业",
+        "三胎概念"
+      ]
+    },
+    {
+      "rank": 18,
       "code": "600487",
       "name": "亨通光电",
-      "pct": 190311.0,
+      "pct": 213395.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -803,42 +296,54 @@
       ]
     },
     {
-      "rank": 20,
-      "code": "002407",
-      "name": "多氟多",
-      "pct": 185845.0,
+      "rank": 19,
+      "code": "603629",
+      "name": "利通电子",
+      "pct": 207357.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "氟化工概念",
-        "PVDF概念"
+        "算力租赁",
+        "英伟达概念"
+      ]
+    },
+    {
+      "rank": 20,
+      "code": "600584",
+      "name": "长电科技",
+      "pct": 195655.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "国家大基金持股",
+        "存储芯片"
       ]
     }
   ],
   "source_health": {
-    "indexes_rsi": "ok",
-    "breadth": "ok",
-    "board_flow": "ok",
+    "indexes_rsi": "error: GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "breadth": "error: GET failed: https://push2.eastmoney.com/api/qt/clist/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/clist/get?pn=1&pz=6000&po=1&np=1&fltt=2&invt=2&fid=f3&fs=m%3A0%2Bt%3A6%2Cm%3A0%2Bt%3A80%2Cm%3A1%2Bt%3A2%2Cm%3A1%2Bt%3A23&fields=f12%2Cf14%2Cf3",
+    "board_flow": "error: GET failed: https://push2.eastmoney.com/api/qt/clist/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/clist/get?pn=1&pz=40&po=1&np=1&fltt=2&invt=2&fid=f62&fs=m%3A90%2Bt%3A2%2Bf%3A%2150&fields=f12%2Cf14%2Cf3%2Cf62%2Cf184%2Cf66%2Cf69%2Cf72%2Cf75%2Cf78%2Cf81%2Cf84%2Cf87%2Cf204%2Cf205%2Cf206",
     "limit_pool": "ok",
     "hot_list": "ok"
   },
   "vs_1h": {
-    "reference_at": "2026-08-20T13:04:28+08:00",
+    "reference_at": "2026-08-20T13:39:17+08:00",
     "indices": {
       "shanghai": {
-        "pct_change_points": -0.39,
-        "rsi30_change": -5.62
+        "pct_change_points": null,
+        "rsi30_change": null
       },
       "chinext": {
-        "pct_change_points": -0.94,
-        "rsi30_change": -4.49
+        "pct_change_points": null,
+        "rsi30_change": null
       },
       "star50": {
-        "pct_change_points": -1.13,
-        "rsi30_change": -3.93
+        "pct_change_points": null,
+        "rsi30_change": null
       }
     },
-    "up_ratio": 0.0,
-    "emotion_score": -2.3
+    "up_ratio": null,
+    "emotion_score": null
   }
 }
