@@ -2,14 +2,14 @@ name: A-share market radar
 
 on:
   push:
-    branches: [feature/market-radar-pages]
+    branches: [main]
     paths:
       - 'scripts/market_snapshot.py'
       - 'docs/index.html'
       - '.github/workflows/market-radar-pages.yml'
   schedule:
     # Beijing time 09:05-15:35, every 30 minutes on weekdays.
-    # Scheduled workflows run from the default branch after this feature is merged.
+    # Scheduled workflows run from the default branch.
     - cron: '5,35 1-7 * * 1-5'
   workflow_dispatch:
 
