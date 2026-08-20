@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-20T11:25:16+08:00",
+  "generated_at": "2026-08-20T12:08:19+08:00",
   "trade_date": null,
   "is_trading_day": false,
   "market_phase": "非交易日/数据未进入当日",
@@ -25,10 +25,10 @@
     "error": "GET failed: https://push2.eastmoney.com/api/qt/clist/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/clist/get?pn=1&pz=6000&po=1&np=1&fltt=2&invt=2&fid=f3&fs=m%3A0%2Bt%3A6%2Cm%3A0%2Bt%3A80%2Cm%3A1%2Bt%3A2%2Cm%3A1%2Bt%3A23&fields=f12%2Cf14%2Cf3"
   },
   "limit_emotion": {
-    "limit_up": 80,
-    "broken": 27,
+    "limit_up": 82,
+    "broken": 26,
     "limit_down": 0,
-    "seal_success_rate": 74.8,
+    "seal_success_rate": 75.9,
     "max_streak": 4,
     "streak_leaders": [
       {
@@ -37,7 +37,7 @@
         "pct": 9.974424362182617,
         "streak": 4,
         "industry": "农产品加",
-        "seal_fund": 98861282.0,
+        "seal_fund": 96465322.0,
         "open_count": 8
       },
       {
@@ -46,7 +46,7 @@
         "pct": 9.97624683380127,
         "streak": 2,
         "industry": "中药Ⅱ",
-        "seal_fund": 321876007.0,
+        "seal_fund": 320940747.0,
         "open_count": 0
       },
       {
@@ -55,7 +55,7 @@
         "pct": 10.009099960327148,
         "streak": 2,
         "industry": "专用设备",
-        "seal_fund": 226310292.0,
+        "seal_fund": 226252260.0,
         "open_count": 3
       },
       {
@@ -64,7 +64,7 @@
         "pct": 10.045661926269531,
         "streak": 2,
         "industry": "家居用品",
-        "seal_fund": 46613704.0,
+        "seal_fund": 45759841.0,
         "open_count": 1
       }
     ]
@@ -84,7 +84,7 @@
       "rank": 1,
       "code": "688836",
       "name": "宇树科技",
-      "pct": 981663.0,
+      "pct": 1160859.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -96,7 +96,7 @@
       "rank": 2,
       "code": "600664",
       "name": "哈药股份",
-      "pct": 401818.0,
+      "pct": 472647.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -106,21 +106,9 @@
     },
     {
       "rank": 3,
-      "code": "600206",
-      "name": "有研新材",
-      "pct": 332872.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "中芯国际概念",
-        "国家大基金持股"
-      ]
-    },
-    {
-      "rank": 4,
       "code": "603259",
       "name": "药明康德",
-      "pct": 313420.0,
+      "pct": 381415.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -129,130 +117,10 @@
       ]
     },
     {
-      "rank": 5,
-      "code": "600172",
-      "name": "黄河旋风",
-      "pct": 307403.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "培育钻石",
-        "第三代半导体"
-      ]
-    },
-    {
-      "rank": 6,
-      "code": "300142",
-      "name": "沃森生物",
-      "pct": 285546.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "生物疫苗",
-        "流感"
-      ]
-    },
-    {
-      "rank": 7,
-      "code": "600721",
-      "name": "百花医药",
-      "pct": 268383.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "青蒿素",
-        "肝炎概念"
-      ]
-    },
-    {
-      "rank": 8,
-      "code": "688825",
-      "name": "长鑫科技",
-      "pct": 254059.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "新股与次新股",
-        "融资融券"
-      ]
-    },
-    {
-      "rank": 9,
-      "code": "002202",
-      "name": "金风科技",
-      "pct": 246643.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "商业航天",
-        "东数西算(算力)"
-      ]
-    },
-    {
-      "rank": 10,
-      "code": "600667",
-      "name": "太极实业",
-      "pct": 242826.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "存储芯片",
-        "先进封装"
-      ]
-    },
-    {
-      "rank": 11,
-      "code": "000725",
-      "name": "京东方A",
-      "pct": 241040.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "电子纸",
-        "MicroLED概念"
-      ]
-    },
-    {
-      "rank": 12,
-      "code": "003032",
-      "name": "传智教育",
-      "pct": 238017.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "机器人概念",
-        "人形机器人"
-      ]
-    },
-    {
-      "rank": 13,
-      "code": "603629",
-      "name": "利通电子",
-      "pct": 226593.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "算力租赁",
-        "英伟达概念"
-      ]
-    },
-    {
-      "rank": 14,
-      "code": "600127",
-      "name": "金健米业",
-      "pct": 225020.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "粮食概念",
-        "玉米"
-      ]
-    },
-    {
-      "rank": 15,
+      "rank": 4,
       "code": "600613",
       "name": "神奇制药",
-      "pct": 217406.0,
+      "pct": 334675.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -261,10 +129,70 @@
       ]
     },
     {
-      "rank": 16,
+      "rank": 5,
+      "code": "600721",
+      "name": "百花医药",
+      "pct": 332113.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "青蒿素",
+        "肝炎概念"
+      ]
+    },
+    {
+      "rank": 6,
+      "code": "600172",
+      "name": "黄河旋风",
+      "pct": 330846.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "培育钻石",
+        "第三代半导体"
+      ]
+    },
+    {
+      "rank": 7,
+      "code": "600206",
+      "name": "有研新材",
+      "pct": 322272.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "中芯国际概念",
+        "国家大基金持股"
+      ]
+    },
+    {
+      "rank": 8,
+      "code": "300142",
+      "name": "沃森生物",
+      "pct": 306365.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "生物疫苗",
+        "流感"
+      ]
+    },
+    {
+      "rank": 9,
+      "code": "600127",
+      "name": "金健米业",
+      "pct": 303040.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "粮食概念",
+        "玉米"
+      ]
+    },
+    {
+      "rank": 10,
       "code": "002081",
       "name": "金螳螂",
-      "pct": 214916.0,
+      "pct": 294325.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -273,10 +201,82 @@
       ]
     },
     {
+      "rank": 11,
+      "code": "600667",
+      "name": "太极实业",
+      "pct": 292604.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "存储芯片",
+        "先进封装"
+      ]
+    },
+    {
+      "rank": 12,
+      "code": "002202",
+      "name": "金风科技",
+      "pct": 279572.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "商业航天",
+        "东数西算(算力)"
+      ]
+    },
+    {
+      "rank": 13,
+      "code": "605179",
+      "name": "一鸣食品",
+      "pct": 275433.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "乳业",
+        "三胎概念"
+      ]
+    },
+    {
+      "rank": 14,
+      "code": "688825",
+      "name": "长鑫科技",
+      "pct": 271136.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "新股与次新股",
+        "融资融券"
+      ]
+    },
+    {
+      "rank": 15,
+      "code": "003032",
+      "name": "传智教育",
+      "pct": 268701.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "机器人概念",
+        "人形机器人"
+      ]
+    },
+    {
+      "rank": 16,
+      "code": "000725",
+      "name": "京东方A",
+      "pct": 267006.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "电子纸",
+        "MicroLED概念"
+      ]
+    },
+    {
       "rank": 17,
       "code": "002900",
       "name": "哈三联",
-      "pct": 207789.0,
+      "pct": 261029.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -286,38 +286,37 @@
     },
     {
       "rank": 18,
-      "code": "603986",
-      "name": "兆易创新",
-      "pct": 205601.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "存储芯片",
-        "汽车芯片"
-      ]
-    },
-    {
-      "rank": 19,
-      "code": "000506",
-      "name": "招金黄金",
-      "pct": 199538.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "黄金概念",
-        "金属铜"
-      ]
-    },
-    {
-      "rank": 20,
-      "code": "600487",
-      "name": "亨通光电",
-      "pct": 194024.0,
+      "code": "002491",
+      "name": "通鼎互联",
+      "pct": 252098.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
         "光纤概念",
-        "F5G概念"
+        "5G"
+      ]
+    },
+    {
+      "rank": 19,
+      "code": "603221",
+      "name": "爱丽家居",
+      "pct": 245550.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "人民币贬值受益"
+      ]
+    },
+    {
+      "rank": 20,
+      "code": "002361",
+      "name": "神剑股份",
+      "pct": 238045.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "航空发动机",
+        "卫星导航"
       ]
     }
   ],
@@ -329,7 +328,7 @@
     "hot_list": "ok"
   },
   "vs_1h": {
-    "reference_at": "2026-08-20T10:22:31+08:00",
+    "reference_at": "2026-08-20T11:25:16+08:00",
     "indices": {
       "shanghai": {
         "pct_change_points": null,
