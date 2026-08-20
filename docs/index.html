@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>A股盘中雷达</title>
+  <meta name="description" content="A股盘中指数、RSI、市场情绪、板块资金与热门股实时快照" />
+  <style>
+    :root{color-scheme:dark;--bg:#0b0d10;--panel:#11151a;--panel2:#161b22;--line:#252b33;--text:#eef2f6;--muted:#8b96a5;--up:#ff5c5c;--down:#32c48d;--warn:#ffcc66;--blue:#69a7ff}
+    *{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 20% 0%,#17202b 0,#0b0d10 34rem);font:14px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;color:var(--text)}
+    .wrap{max-width:1240px;margin:auto;padding:28px 20px 56px}.top{display:flex;justify-content:space-between;gap:18px;align-items:flex-end;margin-bottom:20px}.eyebrow{color:var(--blue);font-weight:700;letter-spacing:.08em;text-transform:uppercase}.title{font-size:30px;font-weight:800;margin:4px 0}.sub{color:var(--muted)}
+    .status{border:1px solid var(--line);background:#0e1217;padding:10px 13px;border-radius:12px;color:var(--muted);text-align:right}.status b{color:var(--text)}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}.card{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:16px;padding:16px;min-width:0}.span4{grid-column:span 4}.span5{grid-column:span 5}.span7{grid-column:span 7}.span12{grid-column:span 12}
+    .kicker{font-size:12px;color:var(--muted);margin-bottom:8px}.index-row{display:flex;justify-content:space-between;align-items:flex-start}.price{font-size:26px;font-weight:800}.pct{font-size:17px;font-weight:800}.up{color:var(--up)}.down{color:var(--down)}.flat{color:var(--muted)}
+    .rsi{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}.pill{border:1px solid var(--line);border-radius:11px;padding:9px 10px;background:#0d1116}.pill span{display:block;color:var(--muted);font-size:11px}.pill b{font-size:18px}.alert{margin-top:10px;font-weight:700;color:var(--warn)}
+    .metrics{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.metric{background:#0d1116;border:1px solid var(--line);border-radius:12px;padding:12px}.metric span{display:block;color:var(--muted);font-size:11px}.metric b{font-size:20px}.emotion{display:flex;gap:16px;align-items:center}.score{width:86px;height:86px;border-radius:50%;display:grid;place-items:center;background:conic-gradient(var(--blue) calc(var(--score)*1%),#242b34 0);position:relative}.score:after{content:"";position:absolute;inset:8px;border-radius:50%;background:#11151a}.score strong{position:relative;z-index:1;font-size:22px}.score-label{font-size:20px;font-weight:800}.muted{color:var(--muted)}
+    h2{font-size:16px;margin:0 0 12px}table{width:100%;border-collapse:collapse}th,td{padding:9px 8px;text-align:left;border-bottom:1px solid #20262e;white-space:nowrap}th{color:var(--muted);font-size:11px;font-weight:600}td.num{text-align:right;font-variant-numeric:tabular-nums}.tag{display:inline-block;padding:2px 7px;margin:2px 3px 2px 0;background:#202735;border:1px solid #2c3644;border-radius:999px;color:#b8c7db;font-size:11px}
+    .tabs{display:flex;gap:7px;margin-bottom:10px}.tabs button{cursor:pointer;border:1px solid var(--line);background:#0e1217;color:var(--muted);padding:6px 10px;border-radius:9px}.tabs button.active{color:var(--text);border-color:#4b617b;background:#172333}.hot{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.hot-item{border:1px solid var(--line);background:#0d1116;border-radius:11px;padding:10px}.hot-rank{color:var(--blue);font-weight:800;margin-right:6px}.hot-name{font-weight:700}.foot{margin-top:18px;color:var(--muted);font-size:12px}.health{display:flex;gap:7px;flex-wrap:wrap}.health span{padding:4px 8px;border-radius:999px;background:#0d1116;border:1px solid var(--line)}
+    @media(max-width:900px){.span4,.span5,.span7{grid-column:span 12}.metrics{grid-template-columns:repeat(2,1fr)}.hot{grid-template-columns:1fr}.top{align-items:flex-start;flex-direction:column}.status{text-align:left}}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div><div class="eyebrow">A-Share Market Radar</div><div class="title">A股盘中雷达</div><div class="sub">数据负责客观记录，判断交给 AI。页面每30分钟尝试更新一次。</div></div>
+    <div class="status"><b id="phase">读取中…</b><br><span id="updated">--</span></div>
+  </div>
+
+  <div class="grid" id="indices"></div>
+
+  <div class="grid" style="margin-top:14px">
+    <section class="card span7">
+      <h2>市场情绪</h2>
+      <div class="metrics" id="metrics"></div>
+    </section>
+    <section class="card span5">
+      <h2>情绪遥测</h2>
+      <div class="emotion"><div class="score" id="scoreRing" style="--score:0"><strong id="score">--</strong></div><div><div class="score-label" id="scoreLabel">--</div><div class="muted">仅为数据遥测分<br>最终结论以每小时 AI 分析为准</div></div></div>
+    </section>
+
+    <section class="card span7">
+      <h2>板块主力资金</h2>
+      <div class="tabs"><button class="active" data-view="industry_top_in">行业流入</button><button data-view="industry_top_out">行业流出</button><button data-view="concept_top_in">概念流入</button><button data-view="concept_top_out">概念流出</button></div>
+      <div style="overflow:auto"><table><thead><tr><th>板块</th><th class="num">涨跌</th><th class="num">主力净额</th><th class="num">净占比</th><th>领涨股</th></tr></thead><tbody id="flowBody"></tbody></table></div>
+    </section>
+    <section class="card span5">
+      <h2>小时热门股</h2>
+      <div class="hot" id="hot"></div>
+    </section>
+
+    <section class="card span12">
+      <h2>连板梯队</h2>
+      <div style="overflow:auto"><table><thead><tr><th>股票</th><th>代码</th><th class="num">连板</th><th>行业</th><th class="num">封单资金</th></tr></thead><tbody id="leaders"></tbody></table></div>
+    </section>
+
+    <section class="card span12">
+      <h2>数据源状态</h2>
+      <div class="health" id="health"></div>
+    </section>
+  </div>
+  <div class="foot">RSI 规则：低于 20 标记超卖，高于 80 标记超买。本站只展示市场数据与指标，不构成投资建议。AI 输入文件：<a href="data/analysis-input.md" style="color:#8dbbff">analysis-input.md</a> · <a href="data/latest.json" style="color:#8dbbff">latest.json</a></div>
+</div>
+<script>
+const $=s=>document.querySelector(s); const esc=s=>String(s??'--').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+const cls=v=>v>0?'up':v<0?'down':'flat'; const pct=v=>v==null?'--':`${v>0?'+':''}${Number(v).toFixed(2)}%`; const yi=v=>v==null?'--':`${v>=0?'+':''}${(v/1e8).toFixed(2)}亿`;
+let DATA=null, view='industry_top_in';
+function renderIndices(d){
+  const order=['shanghai','chinext','star50'];
+  $('#indices').innerHTML=order.map(k=>{const x=d.indices?.[k]||{}; const alerts=x.rsi_alerts||[];return `<section class="card span4"><div class="kicker">${esc(x.code)}</div><div class="index-row"><div><div style="font-weight:700">${esc(x.name)}</div><div class="price">${x.price??'--'}</div></div><div class="pct ${cls(x.pct)}">${pct(x.pct)}</div></div><div class="rsi"><div class="pill"><span>日线 RSI14</span><b>${x.rsi14_daily??'--'}</b></div><div class="pill"><span>30分钟 RSI14</span><b>${x.rsi14_30m??'--'}</b></div></div>${alerts.length?`<div class="alert">⚠ ${alerts.map(esc).join(' · ')}</div>`:''}</section>`}).join('');
+}
+function renderMetrics(d){const b=d.breadth||{},l=d.limit_emotion||{}; const arr=[['上涨',b.up],['下跌',b.down],['涨停',l.limit_up],['炸板',l.broken],['跌停',l.limit_down]]; $('#metrics').innerHTML=arr.map(([a,b])=>`<div class="metric"><span>${a}</span><b>${b??'--'}</b></div>`).join(''); const s=d.emotion_telemetry?.score; $('#score').textContent=s??'--'; $('#scoreRing').style.setProperty('--score',s??0); $('#scoreLabel').textContent=d.emotion_telemetry?.label??'--';}
+function renderFlow(){const rows=DATA?.fund_flow?.[view]||[]; $('#flowBody').innerHTML=rows.map(x=>`<tr><td>${esc(x.name)}</td><td class="num ${cls(x.pct)}">${pct(x.pct)}</td><td class="num ${cls(x.main_net)}">${yi(x.main_net)}</td><td class="num">${x.main_ratio==null?'--':Number(x.main_ratio).toFixed(2)+'%'}</td><td>${esc(x.leader_name||'--')}</td></tr>`).join('')||'<tr><td colspan="5" class="muted">暂无数据</td></tr>';}
+function renderHot(d){$('#hot').innerHTML=(d.hot_stocks||[]).slice(0,12).map(x=>`<div class="hot-item"><span class="hot-rank">#${esc(x.rank)}</span><span class="hot-name">${esc(x.name)}</span><div style="margin-top:5px">${(x.concepts||[]).slice(0,3).map(c=>`<span class="tag">${esc(c)}</span>`).join('')}</div></div>`).join('')||'<div class="muted">暂无热榜数据</div>';}
+function renderLeaders(d){$('#leaders').innerHTML=(d.limit_emotion?.streak_leaders||[]).map(x=>`<tr><td>${esc(x.name)}</td><td>${esc(x.code)}</td><td class="num">${x.streak??'--'}板</td><td>${esc(x.industry||'--')}</td><td class="num">${yi(x.seal_fund)}</td></tr>`).join('')||'<tr><td colspan="5" class="muted">暂无连板数据</td></tr>';}
+function renderHealth(d){$('#health').innerHTML=Object.entries(d.source_health||{}).map(([k,v])=>`<span>${esc(k)} · ${esc(v)}</span>`).join('');}
+async function load(){try{const r=await fetch(`data/latest.json?t=${Date.now()}`,{cache:'no-store'}); if(!r.ok)throw new Error(r.status); DATA=await r.json(); $('#phase').textContent=`${DATA.market_phase||'--'} · ${DATA.is_trading_day?'当日':'非当日'}数据`; $('#updated').textContent=`北京时间 ${DATA.generated_at||'--'}`; renderIndices(DATA);renderMetrics(DATA);renderFlow();renderHot(DATA);renderLeaders(DATA);renderHealth(DATA);}catch(e){$('#phase').textContent='等待首份数据';$('#updated').textContent='GitHub Action 运行后自动出现';}}
+document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tabs button').forEach(x=>x.classList.remove('active'));b.classList.add('active');view=b.dataset.view;renderFlow();});
+load(); setInterval(load,120000);
+</script>
+</body>
+</html>
