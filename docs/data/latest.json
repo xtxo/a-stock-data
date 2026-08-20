@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "generated_at": null,
+  "trade_date": null,
+  "is_trading_day": false,
+  "market_phase": "等待首份数据",
+  "indices": {},
+  "breadth": {},
+  "limit_emotion": {},
+  "emotion_telemetry": {"score": null, "label": "等待数据"},
+  "fund_flow": {"industry_top_in": [], "industry_top_out": [], "concept_top_in": [], "concept_top_out": []},
+  "hot_stocks": [],
+  "source_health": {}
+}
