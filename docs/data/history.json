@@ -1542,5 +1542,822 @@
       "hot_list": "ok"
     },
     "vs_1h": null
+  },
+  {
+    "schema_version": 3,
+    "generated_at": "2026-08-20T09:37:51+08:00",
+    "trade_date": "2026-08-20",
+    "is_trading_day": true,
+    "market_phase": "上午交易",
+    "indices": {
+      "shanghai": {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3908.6,
+        "pct": 0.36,
+        "change": 14.18,
+        "open": 3907.21,
+        "prev_close": 3894.42,
+        "high": 3914.81,
+        "low": 3905.77,
+        "quote_date": "2026-08-20",
+        "rsi14_daily": 48.58,
+        "rsi14_30m": 38.33,
+        "latest_kline_date": "2026-08-20",
+        "rsi_sources": {
+          "day": "tencent",
+          "m30": "tencent"
+        },
+        "rsi_alerts": []
+      },
+      "chinext": {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3493.36,
+        "pct": 0.57,
+        "change": 19.87,
+        "open": 3517.65,
+        "prev_close": 3473.49,
+        "high": 3517.65,
+        "low": 3480.96,
+        "quote_date": "2026-08-20",
+        "rsi14_daily": 44.95,
+        "rsi14_30m": 30.95,
+        "latest_kline_date": "2026-08-20",
+        "rsi_sources": {
+          "day": "tencent",
+          "m30": "tencent"
+        },
+        "rsi_alerts": []
+      },
+      "star50": {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1671.43,
+        "pct": 0.23,
+        "change": 3.91,
+        "open": 1685.48,
+        "prev_close": 1667.52,
+        "high": 1686.05,
+        "low": 1665.9,
+        "quote_date": "2026-08-20",
+        "rsi14_daily": 43.56,
+        "rsi14_30m": 31.98,
+        "latest_kline_date": "2026-08-20",
+        "rsi_sources": {
+          "day": "tencent",
+          "m30": "tencent"
+        },
+        "rsi_alerts": []
+      }
+    },
+    "breadth": {
+      "up": 3896,
+      "down": 1216,
+      "flat": 170,
+      "total": 5282,
+      "up_ratio": 73.8,
+      "exchanges": [
+        {
+          "name": "上证指数",
+          "up": 1735,
+          "down": 543,
+          "flat": 76
+        },
+        {
+          "name": "深证综指",
+          "up": 2161,
+          "down": 673,
+          "flat": 94
+        }
+      ]
+    },
+    "limit_emotion": {
+      "limit_up": 42,
+      "broken": 6,
+      "limit_down": 0,
+      "seal_success_rate": 87.5,
+      "max_streak": 2,
+      "streak_leaders": [
+        {
+          "code": "002412",
+          "name": "汉森制药",
+          "pct": 9.97624683380127,
+          "streak": 2,
+          "industry": "中药Ⅱ",
+          "seal_fund": 366191635.0,
+          "open_count": 0
+        },
+        {
+          "code": "002900",
+          "name": "哈三联",
+          "pct": 9.980806350708008,
+          "streak": 2,
+          "industry": "化学制药",
+          "seal_fund": 207283552.0,
+          "open_count": 0
+        },
+        {
+          "code": "001277",
+          "name": "速达股份",
+          "pct": 10.009099960327148,
+          "streak": 2,
+          "industry": "专用设备",
+          "seal_fund": 190515429.0,
+          "open_count": 3
+        },
+        {
+          "code": "603801",
+          "name": "志邦家居",
+          "pct": 10.045661926269531,
+          "streak": 2,
+          "industry": "家居用品",
+          "seal_fund": 42502306.0,
+          "open_count": 1
+        }
+      ]
+    },
+    "emotion_telemetry": {
+      "score": 69.3,
+      "label": "偏强",
+      "note": "盘面遥测分，不替代AI综合判断"
+    },
+    "fund_flow": {
+      "industry_top_in": [
+        {
+          "code": "BK1216",
+          "name": "医药生物",
+          "pct": 3.65,
+          "main_net": 2872774400.0,
+          "main_ratio": 5.58,
+          "super_net": 3016689920.0,
+          "large_net": -143915520.0,
+          "mid_net": -1484540928.0,
+          "small_net": -1375715072.0,
+          "leader_name": "药明康德",
+          "leader_code": "603259"
+        },
+        {
+          "code": "BK0478",
+          "name": "有色金属",
+          "pct": 1.67,
+          "main_net": 2098673104.0,
+          "main_ratio": 7.29,
+          "super_net": 1558141648.0,
+          "large_net": 540531456.0,
+          "mid_net": -877974016.0,
+          "small_net": -1221688576.0,
+          "leader_name": "紫金矿业",
+          "leader_code": "601899"
+        },
+        {
+          "code": "BK0732",
+          "name": "贵金属",
+          "pct": 6.5,
+          "main_net": 1345886752.0,
+          "main_ratio": 14.46,
+          "super_net": 953993440.0,
+          "large_net": 391893312.0,
+          "mid_net": -597292944.0,
+          "small_net": -748620336.0,
+          "leader_name": "山东黄金",
+          "leader_code": "600547"
+        },
+        {
+          "code": "BK1044",
+          "name": "生物制品",
+          "pct": 7.84,
+          "main_net": 1188556656.0,
+          "main_ratio": 13.52,
+          "super_net": 1285935136.0,
+          "large_net": -97378480.0,
+          "mid_net": -511188432.0,
+          "small_net": -615589712.0,
+          "leader_name": "智飞生物",
+          "leader_code": "300122"
+        },
+        {
+          "code": "BK1287",
+          "name": "工业金属",
+          "pct": 1.83,
+          "main_net": 976581344.0,
+          "main_ratio": 9.47,
+          "super_net": 629300848.0,
+          "large_net": 347280496.0,
+          "mid_net": -278904560.0,
+          "small_net": -697649952.0,
+          "leader_name": "紫金矿业",
+          "leader_code": "601899"
+        },
+        {
+          "code": "BK1615",
+          "name": "铜",
+          "pct": 2.92,
+          "main_net": 960821184.0,
+          "main_ratio": 13.77,
+          "super_net": 626066064.0,
+          "large_net": 334755120.0,
+          "mid_net": -296182064.0,
+          "small_net": -664669776.0,
+          "leader_name": "紫金矿业",
+          "leader_code": "601899"
+        },
+        {
+          "code": "BK0727",
+          "name": "医疗服务",
+          "pct": 4.21,
+          "main_net": 920096432.0,
+          "main_ratio": 6.98,
+          "super_net": 810187184.0,
+          "large_net": 109909248.0,
+          "mid_net": -414897008.0,
+          "small_net": -501755760.0,
+          "leader_name": "药明康德",
+          "leader_code": "603259"
+        },
+        {
+          "code": "BK1617",
+          "name": "黄金",
+          "pct": 6.13,
+          "main_net": 827611104.0,
+          "main_ratio": 12.49,
+          "super_net": 463233520.0,
+          "large_net": 364377584.0,
+          "mid_net": -342204576.0,
+          "small_net": -485166736.0,
+          "leader_name": "山东黄金",
+          "leader_code": "600547"
+        }
+      ],
+      "industry_top_out": [
+        {
+          "code": "BK1201",
+          "name": "电子",
+          "pct": -0.03,
+          "main_net": -2384685056.0,
+          "main_ratio": -2.89,
+          "super_net": -456516352.0,
+          "large_net": -1928168704.0,
+          "mid_net": 33240576.0,
+          "small_net": 2313088768.0,
+          "leader_name": "普冉股份",
+          "leader_code": "688766"
+        },
+        {
+          "code": "BK1036",
+          "name": "半导体",
+          "pct": -0.47,
+          "main_net": -1209989888.0,
+          "main_ratio": -2.82,
+          "super_net": -474227456.0,
+          "large_net": -735762432.0,
+          "mid_net": 180073472.0,
+          "small_net": 1002133760.0,
+          "leader_name": "普冉股份",
+          "leader_code": "688766"
+        },
+        {
+          "code": "BK0448",
+          "name": "通信设备",
+          "pct": 0.42,
+          "main_net": -1031479472.0,
+          "main_ratio": -5.03,
+          "super_net": -369661104.0,
+          "large_net": -661818368.0,
+          "mid_net": 208959232.0,
+          "small_net": 822073328.0,
+          "leader_name": "太辰光",
+          "leader_code": "300570"
+        },
+        {
+          "code": "BK1215",
+          "name": "通信",
+          "pct": 0.36,
+          "main_net": -1001369936.0,
+          "main_ratio": -4.57,
+          "super_net": -339562832.0,
+          "large_net": -661807104.0,
+          "mid_net": 176580864.0,
+          "small_net": 825243840.0,
+          "leader_name": "太辰光",
+          "leader_code": "300570"
+        },
+        {
+          "code": "BK1591",
+          "name": "通信网络设备及器件",
+          "pct": 0.43,
+          "main_net": -561783552.0,
+          "main_ratio": -4.1,
+          "super_net": -201100864.0,
+          "large_net": -360682688.0,
+          "mid_net": 88034304.0,
+          "small_net": 476007200.0,
+          "leader_name": "太辰光",
+          "leader_code": "300570"
+        },
+        {
+          "code": "BK1325",
+          "name": "半导体材料",
+          "pct": -2.57,
+          "main_net": -497795200.0,
+          "main_ratio": -6.15,
+          "super_net": -267586912.0,
+          "large_net": -230208288.0,
+          "mid_net": 111882768.0,
+          "small_net": 359904080.0,
+          "leader_name": "路维光电",
+          "leader_code": "688401"
+        },
+        {
+          "code": "BK1038",
+          "name": "光学光电子",
+          "pct": -0.06,
+          "main_net": -424239520.0,
+          "main_ratio": -5.42,
+          "super_net": -264543936.0,
+          "large_net": -159695584.0,
+          "mid_net": 87728976.0,
+          "small_net": 330234416.0,
+          "leader_name": "东田微",
+          "leader_code": "301183"
+        },
+        {
+          "code": "BK1592",
+          "name": "通信线缆及配套",
+          "pct": -0.01,
+          "main_net": -414765440.0,
+          "main_ratio": -9.36,
+          "super_net": -173719632.0,
+          "large_net": -241045808.0,
+          "mid_net": 101186608.0,
+          "small_net": 312710720.0,
+          "leader_name": "长盈通",
+          "leader_code": "688143"
+        }
+      ],
+      "concept_top_in": [
+        {
+          "code": "BK0547",
+          "name": "黄金概念",
+          "pct": 2.98,
+          "main_net": 2142867664.0,
+          "main_ratio": 11.99,
+          "super_net": 1369677184.0,
+          "large_net": 773190480.0,
+          "mid_net": -784823296.0,
+          "small_net": -1355948512.0,
+          "leader_name": "紫金矿业",
+          "leader_code": "601899"
+        },
+        {
+          "code": "BK1657",
+          "name": "病原体防治",
+          "pct": 4.18,
+          "main_net": 1442243664.0,
+          "main_ratio": 7.5,
+          "super_net": 1729394768.0,
+          "large_net": -287151104.0,
+          "mid_net": -664135168.0,
+          "small_net": -777970688.0,
+          "leader_name": "智飞生物",
+          "leader_code": "300122"
+        },
+        {
+          "code": "BK1106",
+          "name": "创新药",
+          "pct": 3.89,
+          "main_net": 1438072496.0,
+          "main_ratio": 4.61,
+          "super_net": 1598043568.0,
+          "large_net": -159971072.0,
+          "mid_net": -741912320.0,
+          "small_net": -621792512.0,
+          "leader_name": "药明康德",
+          "leader_code": "603259"
+        },
+        {
+          "code": "BK0695",
+          "name": "小金属概念",
+          "pct": 1.54,
+          "main_net": 1294131808.0,
+          "main_ratio": 5.15,
+          "super_net": 1095617376.0,
+          "large_net": 198514432.0,
+          "mid_net": -668609280.0,
+          "small_net": -625587968.0,
+          "leader_name": "紫金矿业",
+          "leader_code": "601899"
+        },
+        {
+          "code": "BK1712",
+          "name": "医药医疗风格",
+          "pct": 3.46,
+          "main_net": 1250331792.0,
+          "main_ratio": 5.0,
+          "super_net": 1542803856.0,
+          "large_net": -292472064.0,
+          "mid_net": -745623808.0,
+          "small_net": -502448640.0,
+          "leader_name": "药明康德",
+          "leader_code": "603259"
+        },
+        {
+          "code": "BK0519",
+          "name": "稀缺资源",
+          "pct": 1.47,
+          "main_net": 1209837136.0,
+          "main_ratio": 6.43,
+          "super_net": 814377296.0,
+          "large_net": 395459840.0,
+          "mid_net": -576562944.0,
+          "small_net": -633674000.0,
+          "leader_name": "紫金矿业",
+          "leader_code": "601899"
+        },
+        {
+          "code": "BK0612",
+          "name": "上证180_",
+          "pct": 0.59,
+          "main_net": 1206320640.0,
+          "main_ratio": 2.49,
+          "super_net": 920487168.0,
+          "large_net": 285833472.0,
+          "mid_net": -822823168.0,
+          "small_net": -380184832.0,
+          "leader_name": "紫金矿业",
+          "leader_code": "601899"
+        },
+        {
+          "code": "BK1661",
+          "name": "行业龙头",
+          "pct": 0.69,
+          "main_net": 1195473920.0,
+          "main_ratio": 3.6,
+          "super_net": 933639168.0,
+          "large_net": 261834752.0,
+          "mid_net": -831143168.0,
+          "small_net": -361509888.0,
+          "leader_name": "紫金矿业",
+          "leader_code": "601899"
+        }
+      ],
+      "concept_top_out": [
+        {
+          "code": "BK1633",
+          "name": "昨日高振幅",
+          "pct": -0.5,
+          "main_net": -4386907904.0,
+          "main_ratio": -3.74,
+          "super_net": -1117360128.0,
+          "large_net": -3269547776.0,
+          "mid_net": -68298496.0,
+          "small_net": 4456911104.0,
+          "leader_name": "山东黄金",
+          "leader_code": "600547"
+        },
+        {
+          "code": "BK1650",
+          "name": "通信技术",
+          "pct": 0.25,
+          "main_net": -2492552192.0,
+          "main_ratio": -3.8,
+          "super_net": -540448512.0,
+          "large_net": -1952103680.0,
+          "mid_net": 63401216.0,
+          "small_net": 2425265920.0,
+          "leader_name": "太辰光",
+          "leader_code": "300570"
+        },
+        {
+          "code": "BK0714",
+          "name": "5G概念",
+          "pct": 0.26,
+          "main_net": -2251146752.0,
+          "main_ratio": -4.13,
+          "super_net": -608707840.0,
+          "large_net": -1642438912.0,
+          "mid_net": 137526272.0,
+          "small_net": 2112122880.0,
+          "leader_name": "太辰光",
+          "leader_code": "300570"
+        },
+        {
+          "code": "BK1713",
+          "name": "科技风格",
+          "pct": -0.18,
+          "main_net": -2170772480.0,
+          "main_ratio": -4.0,
+          "super_net": -948377344.0,
+          "large_net": -1222395136.0,
+          "mid_net": 477558272.0,
+          "small_net": 1694252544.0,
+          "leader_name": "蓝思科技",
+          "leader_code": "300433"
+        },
+        {
+          "code": "BK0854",
+          "name": "华为概念",
+          "pct": 0.42,
+          "main_net": -2148442368.0,
+          "main_ratio": -3.09,
+          "super_net": -483318528.0,
+          "large_net": -1665123840.0,
+          "mid_net": -385812224.0,
+          "small_net": 2528620032.0,
+          "leader_name": "比亚迪",
+          "leader_code": "002594"
+        },
+        {
+          "code": "BK0891",
+          "name": "国产芯片",
+          "pct": 0.09,
+          "main_net": -2031150336.0,
+          "main_ratio": -3.08,
+          "super_net": -607513088.0,
+          "large_net": -1423637248.0,
+          "mid_net": 110714112.0,
+          "small_net": 1918028032.0,
+          "leader_name": "昆仑万维",
+          "leader_code": "300418"
+        },
+        {
+          "code": "BK0917",
+          "name": "半导体概念",
+          "pct": -0.02,
+          "main_net": -1691730688.0,
+          "main_ratio": -2.19,
+          "super_net": -91729408.0,
+          "large_net": -1600001280.0,
+          "mid_net": -163193344.0,
+          "small_net": 1793266944.0,
+          "leader_name": "比亚迪",
+          "leader_code": "002594"
+        },
+        {
+          "code": "BK1128",
+          "name": "CPO概念",
+          "pct": -0.29,
+          "main_net": -1478844160.0,
+          "main_ratio": -4.61,
+          "super_net": -585458176.0,
+          "large_net": -893385984.0,
+          "mid_net": 254738688.0,
+          "small_net": 1225284096.0,
+          "leader_name": "太辰光",
+          "leader_code": "300570"
+        }
+      ]
+    },
+    "hot_stocks": [
+      {
+        "rank": 1,
+        "code": "688836",
+        "name": "宇树科技",
+        "pct": -12.0722,
+        "heat": 1492336.0,
+        "rank_change": 0,
+        "concepts": [
+          "新股与次新股",
+          "注册制次新股"
+        ]
+      },
+      {
+        "rank": 2,
+        "code": "600206",
+        "name": "有研新材",
+        "pct": -7.1853,
+        "heat": 584765.0,
+        "rank_change": 0,
+        "concepts": [
+          "中芯国际概念",
+          "国家大基金持股"
+        ]
+      },
+      {
+        "rank": 3,
+        "code": "600664",
+        "name": "哈药股份",
+        "pct": -0.9934,
+        "heat": 568145.0,
+        "rank_change": 0,
+        "concepts": [
+          "流感",
+          "医药电商"
+        ]
+      },
+      {
+        "rank": 4,
+        "code": "688825",
+        "name": "长鑫科技",
+        "pct": -1.199,
+        "heat": 466052.0,
+        "rank_change": 0,
+        "concepts": [
+          "新股与次新股",
+          "融资融券"
+        ]
+      },
+      {
+        "rank": 5,
+        "code": "600172",
+        "name": "黄河旋风",
+        "pct": -5.1318,
+        "heat": 457422.0,
+        "rank_change": 0,
+        "concepts": [
+          "培育钻石",
+          "第三代半导体"
+        ]
+      },
+      {
+        "rank": 6,
+        "code": "000725",
+        "name": "京东方A",
+        "pct": -1.6639,
+        "heat": 376835.0,
+        "rank_change": 2,
+        "concepts": [
+          "电子纸",
+          "MicroLED概念"
+        ]
+      },
+      {
+        "rank": 7,
+        "code": "002202",
+        "name": "金风科技",
+        "pct": -7.1266,
+        "heat": 367479.0,
+        "rank_change": -1,
+        "concepts": [
+          "商业航天",
+          "东数西算(算力)"
+        ]
+      },
+      {
+        "rank": 8,
+        "code": "600721",
+        "name": "百花医药",
+        "pct": 3.7901,
+        "heat": 365666.0,
+        "rank_change": -1,
+        "concepts": [
+          "青蒿素",
+          "肝炎概念"
+        ]
+      },
+      {
+        "rank": 9,
+        "code": "002407",
+        "name": "多氟多",
+        "pct": -5.3838,
+        "heat": 331391.0,
+        "rank_change": 1,
+        "concepts": [
+          "氟化工概念",
+          "PVDF概念"
+        ]
+      },
+      {
+        "rank": 10,
+        "code": "603259",
+        "name": "药明康德",
+        "pct": 2.5,
+        "heat": 328004.0,
+        "rank_change": 1,
+        "concepts": [
+          "创新药",
+          "CRO概念"
+        ]
+      },
+      {
+        "rank": 11,
+        "code": "000620",
+        "name": "盈新发展",
+        "pct": -7.9096,
+        "heat": 322344.0,
+        "rank_change": 1,
+        "concepts": [
+          "短剧游戏",
+          "数据要素"
+        ]
+      },
+      {
+        "rank": 12,
+        "code": "600487",
+        "name": "亨通光电",
+        "pct": -1.0355,
+        "heat": 321394.0,
+        "rank_change": -3,
+        "concepts": [
+          "光纤概念",
+          "F5G概念"
+        ]
+      },
+      {
+        "rank": 13,
+        "code": "603629",
+        "name": "利通电子",
+        "pct": -8.04,
+        "heat": 301757.0,
+        "rank_change": 1,
+        "concepts": [
+          "算力租赁",
+          "英伟达概念"
+        ]
+      },
+      {
+        "rank": 14,
+        "code": "600667",
+        "name": "太极实业",
+        "pct": -0.3314,
+        "heat": 296334.0,
+        "rank_change": -1,
+        "concepts": [
+          "存储芯片",
+          "先进封装"
+        ]
+      },
+      {
+        "rank": 15,
+        "code": "600613",
+        "name": "神奇制药",
+        "pct": 10.0257,
+        "heat": 289205.0,
+        "rank_change": 1,
+        "concepts": [
+          "医药电商",
+          "流感"
+        ]
+      },
+      {
+        "rank": 16,
+        "code": "003032",
+        "name": "传智教育",
+        "pct": -10.0151,
+        "heat": 289096.0,
+        "rank_change": 1,
+        "concepts": [
+          "机器人概念",
+          "人形机器人"
+        ]
+      },
+      {
+        "rank": 17,
+        "code": "600547",
+        "name": "山东黄金",
+        "pct": 7.2086,
+        "heat": 286448.0,
+        "rank_change": -2,
+        "concepts": [
+          "黄金概念",
+          "数字经济"
+        ]
+      },
+      {
+        "rank": 18,
+        "code": "600127",
+        "name": "金健米业",
+        "pct": 4.6036,
+        "heat": 285858.0,
+        "rank_change": 0,
+        "concepts": [
+          "粮食概念",
+          "玉米"
+        ]
+      },
+      {
+        "rank": 19,
+        "code": "000636",
+        "name": "风华高科",
+        "pct": -1.9426,
+        "heat": 275912.0,
+        "rank_change": 0,
+        "concepts": [
+          "超级电容",
+          "共封装光学(CPO)"
+        ]
+      },
+      {
+        "rank": 20,
+        "code": "002081",
+        "name": "金螳螂",
+        "pct": -7.2695,
+        "heat": 266975.0,
+        "rank_change": 1,
+        "concepts": [
+          "新型城镇化",
+          "光伏建筑一体化"
+        ]
+      }
+    ],
+    "source_health": {
+      "quotes": "ok:tencent",
+      "rsi": "ok",
+      "breadth": "ok",
+      "board_flow": "ok",
+      "limit_pool": "ok",
+      "hot_list": "ok"
+    },
+    "vs_1h": null
   }
 ]
