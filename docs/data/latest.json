@@ -1,60 +1,24 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-24T15:14:30+08:00",
-  "trade_date": "2026-08-24",
-  "is_trading_day": true,
-  "market_phase": "收盘后",
+  "generated_at": "2026-08-24T16:11:24+08:00",
+  "trade_date": null,
+  "is_trading_day": false,
+  "market_phase": "非交易日/数据未进入当日",
   "indices": {
     "shanghai": {
       "name": "上证指数",
       "code": "000001",
-      "price": 3882.01,
-      "pct": -0.59,
-      "change": -23.19,
-      "volume": 486931412.0,
-      "amount": 952039262500.5,
-      "open": 3902.7,
-      "prev_close": 3905.2,
-      "high": 3910.24,
-      "low": 3855.35,
-      "rsi14_daily": 45.61,
-      "rsi14_30m": 43.36,
-      "rsi_alerts": [],
-      "latest_kline_date": "2026-08-24"
+      "error": "GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "chinext": {
       "name": "创业板指",
       "code": "399006",
-      "price": 3431.89,
-      "pct": -3.21,
-      "change": -113.69,
-      "volume": 175246393.0,
-      "amount": 508582994803.63,
-      "open": 3550.25,
-      "prev_close": 3545.58,
-      "high": 3551.51,
-      "low": 3376.64,
-      "rsi14_daily": 42.82,
-      "rsi14_30m": 38.96,
-      "rsi_alerts": [],
-      "latest_kline_date": "2026-08-24"
+      "error": "GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "star50": {
       "name": "科创50",
       "code": "000688",
-      "price": 1602.34,
-      "pct": -3.1,
-      "change": -51.22,
-      "volume": 8601909.0,
-      "amount": 93832918317.0,
-      "open": 1651.88,
-      "prev_close": 1653.56,
-      "high": 1651.96,
-      "low": 1575.28,
-      "rsi14_daily": 38.84,
-      "rsi14_30m": 35.19,
-      "rsi_alerts": [],
-      "latest_kline_date": "2026-08-24"
+      "error": "GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     }
   },
   "breadth": {
@@ -106,8 +70,17 @@
         "pct": 10.024331092834473,
         "streak": 3,
         "industry": "服装家纺",
-        "seal_fund": 7671573.0,
+        "seal_fund": 52624775.0,
         "open_count": 3
+      },
+      {
+        "code": "601212",
+        "name": "白银有色",
+        "pct": 10.016420364379883,
+        "streak": 2,
+        "industry": "工业金属",
+        "seal_fund": 303296109.0,
+        "open_count": 2
       },
       {
         "code": "002716",
@@ -119,6 +92,15 @@
         "open_count": 2
       },
       {
+        "code": "600785",
+        "name": "新华百货",
+        "pct": 9.958932876586914,
+        "streak": 2,
+        "industry": "一般零售",
+        "seal_fund": 74140264.0,
+        "open_count": 1
+      },
+      {
         "code": "002017",
         "name": "东信和平",
         "pct": 9.979352951049805,
@@ -128,6 +110,15 @@
         "open_count": 5
       },
       {
+        "code": "603330",
+        "name": "天洋新材",
+        "pct": 10.03009033203125,
+        "streak": 2,
+        "industry": "塑料",
+        "seal_fund": 49273510.0,
+        "open_count": 7
+      },
+      {
         "code": "003040",
         "name": "楚天龙",
         "pct": 10.007819175720215,
@@ -135,39 +126,12 @@
         "industry": "通信设备",
         "seal_fund": 32440579.0,
         "open_count": 7
-      },
-      {
-        "code": "601212",
-        "name": "白银有色",
-        "pct": 10.016420364379883,
-        "streak": 2,
-        "industry": "工业金属",
-        "seal_fund": 31606580.0,
-        "open_count": 2
-      },
-      {
-        "code": "603330",
-        "name": "天洋新材",
-        "pct": 10.03009033203125,
-        "streak": 2,
-        "industry": "塑料",
-        "seal_fund": 4777435.0,
-        "open_count": 7
-      },
-      {
-        "code": "600785",
-        "name": "新华百货",
-        "pct": 9.958932876586914,
-        "streak": 2,
-        "industry": "一般零售",
-        "seal_fund": 3838464.0,
-        "open_count": 1
       }
     ]
   },
   "emotion_telemetry": {
-    "score": 74.0,
-    "label": "偏强",
+    "score": 78.6,
+    "label": "高热",
     "note": "仅为盘面遥测分，不替代人工分析"
   },
   "fund_flow": {
@@ -633,31 +597,19 @@
       "rank": 1,
       "code": "688836",
       "name": "宇树科技",
-      "pct": 632715.0,
+      "pct": 897591.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "新股与次新股",
-        "注册制次新股"
+        "注册制次新股",
+        "科创次新股"
       ]
     },
     {
       "rank": 2,
       "code": "600613",
       "name": "神奇制药",
-      "pct": 429332.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "医药电商",
-        "流感"
-      ]
-    },
-    {
-      "rank": 3,
-      "code": "600664",
-      "name": "哈药股份",
-      "pct": 393258.0,
+      "pct": 557263.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -666,34 +618,46 @@
       ]
     },
     {
-      "rank": 4,
+      "rank": 3,
       "code": "600460",
       "name": "士兰微",
-      "pct": 355240.0,
+      "pct": 529232.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
         "国家大基金持股",
-        "汽车芯片"
+        "先进封装"
+      ]
+    },
+    {
+      "rank": 4,
+      "code": "600664",
+      "name": "哈药股份",
+      "pct": 523456.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "维生素",
+        "仿制药一致性评价"
       ]
     },
     {
       "rank": 5,
-      "code": "002716",
-      "name": "湖南白银",
-      "pct": 310544.0,
+      "code": "600722",
+      "name": "金牛化工",
+      "pct": 454702.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "金属铅",
-        "金属锌"
+        "煤化工概念",
+        "国企改革"
       ]
     },
     {
       "rank": 6,
       "code": "300308",
       "name": "中际旭创",
-      "pct": 309152.0,
+      "pct": 446517.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -703,9 +667,9 @@
     },
     {
       "rank": 7,
-      "code": "601212",
-      "name": "白银有色",
-      "pct": 286450.0,
+      "code": "002716",
+      "name": "湖南白银",
+      "pct": 419882.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -715,9 +679,21 @@
     },
     {
       "rank": 8,
+      "code": "601212",
+      "name": "白银有色",
+      "pct": 386053.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "金属铅",
+        "金属锌"
+      ]
+    },
+    {
+      "rank": 9,
       "code": "002491",
       "name": "通鼎互联",
-      "pct": 278790.0,
+      "pct": 374016.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -726,82 +702,70 @@
       ]
     },
     {
-      "rank": 9,
-      "code": "600722",
-      "name": "金牛化工",
-      "pct": 271425.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "煤化工概念",
-        "国企改革"
-      ]
-    },
-    {
       "rank": 10,
-      "code": "002580",
-      "name": "圣阳股份",
-      "pct": 248292.0,
+      "code": "688825",
+      "name": "长鑫科技",
+      "pct": 338284.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "快手概念",
-        "新疆振兴"
+        "小米概念",
+        "人民币贬值受益"
       ]
     },
     {
       "rank": 11,
-      "code": "688825",
-      "name": "长鑫科技",
-      "pct": 243821.0,
+      "code": "002580",
+      "name": "圣阳股份",
+      "pct": 337707.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "新股与次新股",
-        "融资融券"
+        "快手概念",
+        "动力电池回收"
       ]
     },
     {
       "rank": 12,
-      "code": "600721",
-      "name": "百花医药",
-      "pct": 218169.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "青蒿素",
-        "肝炎概念"
-      ]
-    },
-    {
-      "rank": 13,
       "code": "600487",
       "name": "亨通光电",
-      "pct": 210140.0,
+      "pct": 297522.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
         "光纤概念",
-        "F5G概念"
+        "共封装光学(CPO)"
+      ]
+    },
+    {
+      "rank": 13,
+      "code": "600721",
+      "name": "百花医药",
+      "pct": 288075.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "青蒿素",
+        "CRO概念"
       ]
     },
     {
       "rank": 14,
       "code": "000620",
       "name": "盈新发展",
-      "pct": 206943.0,
+      "pct": 274171.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "短剧游戏",
-        "数据要素"
+        "芯片概念",
+        "MCU芯片"
       ]
     },
     {
       "rank": 15,
       "code": "002015",
       "name": "协鑫能科",
-      "pct": 193772.0,
+      "pct": 266906.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -813,19 +777,19 @@
       "rank": 16,
       "code": "000725",
       "name": "京东方A",
-      "pct": 185910.0,
+      "pct": 260365.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "电子纸",
-        "MicroLED概念"
+        "MicroLED概念",
+        "电子纸"
       ]
     },
     {
       "rank": 17,
       "code": "603986",
       "name": "兆易创新",
-      "pct": 183963.0,
+      "pct": 259072.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -837,7 +801,7 @@
       "rank": 18,
       "code": "600667",
       "name": "太极实业",
-      "pct": 183569.0,
+      "pct": 258240.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -847,38 +811,38 @@
     },
     {
       "rank": 19,
-      "code": "600176",
-      "name": "中国巨石",
-      "pct": 179069.0,
+      "code": "000603",
+      "name": "盛达资源",
+      "pct": 253558.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "PCB概念",
-        "2026一季报预增"
+        "金属铅",
+        "金属锌"
       ]
     },
     {
       "rank": 20,
       "code": "600110",
       "name": "诺德股份",
-      "pct": 177618.0,
+      "pct": 243559.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
         "PET铜箔",
-        "固态电池"
+        "PCB概念"
       ]
     }
   ],
   "source_health": {
-    "indexes_rsi": "ok",
+    "indexes_rsi": "error: GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
     "breadth": "ok",
     "board_flow": "ok",
     "limit_pool": "ok",
     "hot_list": "ok"
   },
   "vs_1h": {
-    "reference_at": "2026-08-24T14:04:07+08:00",
+    "reference_at": "2026-08-24T15:14:30+08:00",
     "indices": {
       "shanghai": {
         "pct_change_points": null,
@@ -893,7 +857,7 @@
         "rsi30_change": null
       }
     },
-    "up_ratio": null,
-    "emotion_score": null
+    "up_ratio": 0.0,
+    "emotion_score": 4.6
   }
 }
