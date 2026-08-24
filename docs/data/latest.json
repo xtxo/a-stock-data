@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-24T11:31:41+08:00",
+  "generated_at": "2026-08-24T12:22:55+08:00",
   "trade_date": null,
   "is_trading_day": false,
   "market_phase": "非交易日/数据未进入当日",
@@ -120,7 +120,7 @@
       "rank": 1,
       "code": "688836",
       "name": "宇树科技",
-      "pct": 734978.0,
+      "pct": 529533.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -130,21 +130,21 @@
     },
     {
       "rank": 2,
-      "code": "601212",
-      "name": "白银有色",
-      "pct": 582520.0,
+      "code": "600613",
+      "name": "神奇制药",
+      "pct": 416246.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "金属铅",
-        "金属锌"
+        "医药电商",
+        "流感"
       ]
     },
     {
       "rank": 3,
       "code": "600664",
       "name": "哈药股份",
-      "pct": 549493.0,
+      "pct": 410199.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -156,7 +156,7 @@
       "rank": 4,
       "code": "002716",
       "name": "湖南白银",
-      "pct": 535128.0,
+      "pct": 368760.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -166,21 +166,21 @@
     },
     {
       "rank": 5,
-      "code": "600613",
-      "name": "神奇制药",
-      "pct": 522063.0,
+      "code": "601212",
+      "name": "白银有色",
+      "pct": 364412.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "医药电商",
-        "流感"
+        "金属铅",
+        "金属锌"
       ]
     },
     {
       "rank": 6,
       "code": "600460",
       "name": "士兰微",
-      "pct": 521355.0,
+      "pct": 354396.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -192,7 +192,7 @@
       "rank": 7,
       "code": "002491",
       "name": "通鼎互联",
-      "pct": 452013.0,
+      "pct": 301264.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -202,9 +202,21 @@
     },
     {
       "rank": 8,
+      "code": "300308",
+      "name": "中际旭创",
+      "pct": 251609.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "共封装光学(CPO)",
+        "F5G概念"
+      ]
+    },
+    {
+      "rank": 9,
       "code": "002015",
       "name": "协鑫能科",
-      "pct": 344242.0,
+      "pct": 219509.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -213,34 +225,10 @@
       ]
     },
     {
-      "rank": 9,
-      "code": "300308",
-      "name": "中际旭创",
-      "pct": 339192.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "共封装光学(CPO)",
-        "F5G概念"
-      ]
-    },
-    {
       "rank": 10,
-      "code": "002412",
-      "name": "汉森制药",
-      "pct": 336438.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "流感",
-        "仿制药一致性评价"
-      ]
-    },
-    {
-      "rank": 11,
       "code": "688825",
       "name": "长鑫科技",
-      "pct": 288542.0,
+      "pct": 208492.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -249,46 +237,46 @@
       ]
     },
     {
-      "rank": 12,
-      "code": "002384",
-      "name": "东山精密",
-      "pct": 253869.0,
+      "rank": 11,
+      "code": "002580",
+      "name": "圣阳股份",
+      "pct": 202134.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "共封装光学(CPO)",
-        "光纤概念"
+        "快手概念",
+        "新疆振兴"
+      ]
+    },
+    {
+      "rank": 12,
+      "code": "002412",
+      "name": "汉森制药",
+      "pct": 196923.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "流感",
+        "仿制药一致性评价"
       ]
     },
     {
       "rank": 13,
-      "code": "002428",
-      "name": "云南锗业",
-      "pct": 248171.0,
+      "code": "600722",
+      "name": "金牛化工",
+      "pct": 191918.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "光纤概念",
-        "第三代半导体"
+        "煤化工概念",
+        "国企改革"
       ]
     },
     {
       "rank": 14,
-      "code": "600176",
-      "name": "中国巨石",
-      "pct": 247665.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "PCB概念",
-        "2026一季报预增"
-      ]
-    },
-    {
-      "rank": 15,
       "code": "600487",
       "name": "亨通光电",
-      "pct": 242324.0,
+      "pct": 191817.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -297,34 +285,10 @@
       ]
     },
     {
-      "rank": 16,
-      "code": "000725",
-      "name": "京东方A",
-      "pct": 236832.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "电子纸",
-        "MicroLED概念"
-      ]
-    },
-    {
-      "rank": 17,
-      "code": "600127",
-      "name": "金健米业",
-      "pct": 234638.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "粮食概念",
-        "玉米"
-      ]
-    },
-    {
-      "rank": 18,
+      "rank": 15,
       "code": "000620",
       "name": "盈新发展",
-      "pct": 233076.0,
+      "pct": 190265.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -333,27 +297,63 @@
       ]
     },
     {
-      "rank": 19,
-      "code": "603958",
-      "name": "哈森股份",
-      "pct": 230526.0,
+      "rank": 16,
+      "code": "600176",
+      "name": "中国巨石",
+      "pct": 177013.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "3D打印",
-        "苹果概念"
+        "PCB概念",
+        "2026一季报预增"
+      ]
+    },
+    {
+      "rank": 17,
+      "code": "000725",
+      "name": "京东方A",
+      "pct": 175629.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "电子纸",
+        "MicroLED概念"
+      ]
+    },
+    {
+      "rank": 18,
+      "code": "600721",
+      "name": "百花医药",
+      "pct": 175604.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "青蒿素",
+        "肝炎概念"
+      ]
+    },
+    {
+      "rank": 19,
+      "code": "003040",
+      "name": "楚天龙",
+      "pct": 167801.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "数字货币",
+        "跨境支付(CIPS)"
       ]
     },
     {
       "rank": 20,
-      "code": "601899",
-      "name": "紫金矿业",
-      "pct": 224619.0,
+      "code": "002428",
+      "name": "云南锗业",
+      "pct": 167106.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "金属铅",
-        "金属锌"
+        "光纤概念",
+        "第三代半导体"
       ]
     }
   ],
@@ -365,7 +365,7 @@
     "hot_list": "ok"
   },
   "vs_1h": {
-    "reference_at": "2026-08-24T10:23:11+08:00",
+    "reference_at": "2026-08-24T11:31:41+08:00",
     "indices": {
       "shanghai": {
         "pct_change_points": null,
