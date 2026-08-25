@@ -14166,5 +14166,895 @@
       "up_ratio": 0.0,
       "emotion_score": 4.6
     }
+  },
+  {
+    "schema_version": 1,
+    "generated_at": "2026-08-25T10:18:32+08:00",
+    "trade_date": "2026-08-25",
+    "is_trading_day": true,
+    "market_phase": "上午交易",
+    "indices": {
+      "shanghai": {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3880.7,
+        "pct": -0.03,
+        "change": -1.31,
+        "volume": 204697323.0,
+        "amount": 376957779837.5,
+        "open": 3863.37,
+        "prev_close": 3882.01,
+        "high": 3880.7,
+        "low": 3850.86,
+        "rsi14_daily": 45.48,
+        "rsi14_30m": 44.55,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-08-25"
+      },
+      "chinext": {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3418.89,
+        "pct": -0.38,
+        "change": -13.0,
+        "volume": 73355931.0,
+        "amount": 194377127405.96,
+        "open": 3403.2,
+        "prev_close": 3431.89,
+        "high": 3420.24,
+        "low": 3359.74,
+        "rsi14_daily": 42.32,
+        "rsi14_30m": 39.16,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-08-25"
+      },
+      "star50": {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1608.53,
+        "pct": 0.39,
+        "change": 6.19,
+        "volume": 3109106.0,
+        "amount": 34060106995.0,
+        "open": 1584.52,
+        "prev_close": 1602.34,
+        "high": 1609.69,
+        "low": 1564.77,
+        "rsi14_daily": 39.5,
+        "rsi14_30m": 40.04,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-08-25"
+      }
+    },
+    "breadth": {
+      "up": 100,
+      "down": 0,
+      "flat": 0,
+      "total": 100,
+      "up_ratio": 100.0,
+      "strong_ge_5pct": 100,
+      "weak_le_minus5pct": 0
+    },
+    "limit_emotion": {
+      "limit_up": 46,
+      "broken": 11,
+      "limit_down": 0,
+      "seal_success_rate": 80.7,
+      "max_streak": 5,
+      "streak_leaders": [
+        {
+          "code": "002412",
+          "name": "汉森制药",
+          "pct": 9.991079330444336,
+          "streak": 5,
+          "industry": "中药Ⅱ",
+          "seal_fund": 276746640.0,
+          "open_count": 0
+        },
+        {
+          "code": "000017",
+          "name": "深中华A",
+          "pct": 9.974424362182617,
+          "streak": 4,
+          "industry": "饰品",
+          "seal_fund": 218577617.0,
+          "open_count": 1
+        },
+        {
+          "code": "003040",
+          "name": "楚天龙",
+          "pct": 10.021322250366211,
+          "streak": 3,
+          "industry": "通信设备",
+          "seal_fund": 239443092.0,
+          "open_count": 0
+        },
+        {
+          "code": "002084",
+          "name": "海鸥住工",
+          "pct": 10.126582145690918,
+          "streak": 2,
+          "industry": "家居用品",
+          "seal_fund": 465307824.0,
+          "open_count": 0
+        },
+        {
+          "code": "002041",
+          "name": "登海种业",
+          "pct": 10.00981330871582,
+          "streak": 2,
+          "industry": "种植业",
+          "seal_fund": 342171641.0,
+          "open_count": 0
+        },
+        {
+          "code": "002445",
+          "name": "中南文化",
+          "pct": 10.089020729064941,
+          "streak": 2,
+          "industry": "通用设备",
+          "seal_fund": 309330079.0,
+          "open_count": 0
+        },
+        {
+          "code": "600984",
+          "name": "建设机械",
+          "pct": 10.022271156311035,
+          "streak": 2,
+          "industry": "工程机械",
+          "seal_fund": 171345382.0,
+          "open_count": 0
+        },
+        {
+          "code": "600508",
+          "name": "上海能源",
+          "pct": 10.020242691040039,
+          "streak": 2,
+          "industry": "煤炭开采",
+          "seal_fund": 163189679.0,
+          "open_count": 0
+        },
+        {
+          "code": "001268",
+          "name": "联合精密",
+          "pct": 9.991079330444336,
+          "streak": 2,
+          "industry": "家电零部",
+          "seal_fund": 55950580.0,
+          "open_count": 0
+        }
+      ]
+    },
+    "emotion_telemetry": {
+      "score": 79.6,
+      "label": "高热",
+      "note": "仅为盘面遥测分，不替代人工分析"
+    },
+    "fund_flow": {
+      "industry_top_in": [
+        {
+          "code": "BK0910",
+          "name": "专用设备",
+          "pct": 0.86,
+          "main_net": 2551672096.0,
+          "main_ratio": 12.43,
+          "super_net": 2057904752.0,
+          "large_net": 493767344.0,
+          "mid_net": -1964156416.0,
+          "small_net": -578224128.0,
+          "leader_code": "N高凯",
+          "leader_name": "688835",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1405",
+          "name": "其他专用设备",
+          "pct": 0.78,
+          "main_net": 2413134528.0,
+          "main_ratio": 17.0,
+          "super_net": 1992436416.0,
+          "large_net": 420698112.0,
+          "mid_net": -1834915440.0,
+          "small_net": -574894720.0,
+          "leader_code": "N高凯",
+          "leader_name": "688835",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1205",
+          "name": "机械设备",
+          "pct": 0.9,
+          "main_net": 2332005888.0,
+          "main_ratio": 3.65,
+          "super_net": 2254415360.0,
+          "large_net": 77590528.0,
+          "mid_net": -1806762752.0,
+          "small_net": -550314496.0,
+          "leader_code": "N高凯",
+          "leader_name": "688835",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1216",
+          "name": "医药生物",
+          "pct": 1.36,
+          "main_net": 1744946176.0,
+          "main_ratio": 2.64,
+          "super_net": 1401618944.0,
+          "large_net": 343327232.0,
+          "mid_net": -1206592512.0,
+          "small_net": -517770240.0,
+          "leader_code": "誉衡药业",
+          "leader_name": "002437",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0433",
+          "name": "农林牧渔",
+          "pct": 2.06,
+          "main_net": 917003504.0,
+          "main_ratio": 5.76,
+          "super_net": 635994096.0,
+          "large_net": 281009408.0,
+          "mid_net": -302596352.0,
+          "small_net": -583331840.0,
+          "leader_code": "金健米业",
+          "leader_name": "600127",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0465",
+          "name": "化学制药",
+          "pct": 1.43,
+          "main_net": 886755104.0,
+          "main_ratio": 4.08,
+          "super_net": 997188640.0,
+          "large_net": -110433536.0,
+          "mid_net": -623459072.0,
+          "small_net": -256568320.0,
+          "leader_code": "誉衡药业",
+          "leader_name": "002437",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1594",
+          "name": "化学制剂",
+          "pct": 1.36,
+          "main_net": 786355184.0,
+          "main_ratio": 4.74,
+          "super_net": 918031472.0,
+          "large_net": -131676288.0,
+          "mid_net": -537786624.0,
+          "small_net": -248765440.0,
+          "leader_code": "誉衡药业",
+          "leader_name": "002437",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1213",
+          "name": "商贸零售",
+          "pct": 1.89,
+          "main_net": 488501264.0,
+          "main_ratio": 6.92,
+          "super_net": 228901184.0,
+          "large_net": 259600080.0,
+          "mid_net": -160479648.0,
+          "small_net": -327775552.0,
+          "leader_code": "中百集团",
+          "leader_name": "000759",
+          "leader_pct": 0.0
+        }
+      ],
+      "industry_top_out": [
+        {
+          "code": "BK0482",
+          "name": "一般零售",
+          "pct": 2.37,
+          "main_net": 393566107.0,
+          "main_ratio": 8.31,
+          "super_net": 180369995.0,
+          "large_net": 213196112.0,
+          "mid_net": -91240976.0,
+          "small_net": -302356304.0,
+          "leader_code": "中百集团",
+          "leader_name": "000759",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1526",
+          "name": "底盘与发动机系统",
+          "pct": 1.09,
+          "main_net": 399744288.0,
+          "main_ratio": 5.0,
+          "super_net": 377573424.0,
+          "large_net": 22170864.0,
+          "mid_net": -238395392.0,
+          "small_net": -154896208.0,
+          "leader_code": "浙江世宝",
+          "leader_name": "002703",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0486",
+          "name": "传媒",
+          "pct": 1.38,
+          "main_net": 405837104.0,
+          "main_ratio": 3.64,
+          "super_net": 224956976.0,
+          "large_net": 180880128.0,
+          "mid_net": -235010416.0,
+          "small_net": -169076288.0,
+          "leader_code": "巨人网络",
+          "leader_name": "002558",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1592",
+          "name": "通信线缆及配套",
+          "pct": 2.69,
+          "main_net": 480840240.0,
+          "main_ratio": 3.26,
+          "super_net": 427124848.0,
+          "large_net": 53715392.0,
+          "mid_net": -335275520.0,
+          "small_net": -144510912.0,
+          "leader_code": "长飞光纤",
+          "leader_name": "601869",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1213",
+          "name": "商贸零售",
+          "pct": 1.89,
+          "main_net": 488501264.0,
+          "main_ratio": 6.92,
+          "super_net": 228901184.0,
+          "large_net": 259600080.0,
+          "mid_net": -160479648.0,
+          "small_net": -327775552.0,
+          "leader_code": "中百集团",
+          "leader_name": "000759",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1594",
+          "name": "化学制剂",
+          "pct": 1.36,
+          "main_net": 786355184.0,
+          "main_ratio": 4.74,
+          "super_net": 918031472.0,
+          "large_net": -131676288.0,
+          "mid_net": -537786624.0,
+          "small_net": -248765440.0,
+          "leader_code": "誉衡药业",
+          "leader_name": "002437",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0465",
+          "name": "化学制药",
+          "pct": 1.43,
+          "main_net": 886755104.0,
+          "main_ratio": 4.08,
+          "super_net": 997188640.0,
+          "large_net": -110433536.0,
+          "mid_net": -623459072.0,
+          "small_net": -256568320.0,
+          "leader_code": "誉衡药业",
+          "leader_name": "002437",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0433",
+          "name": "农林牧渔",
+          "pct": 2.06,
+          "main_net": 917003504.0,
+          "main_ratio": 5.76,
+          "super_net": 635994096.0,
+          "large_net": 281009408.0,
+          "mid_net": -302596352.0,
+          "small_net": -583331840.0,
+          "leader_code": "金健米业",
+          "leader_name": "600127",
+          "leader_pct": 1.0
+        }
+      ],
+      "concept_top_in": [
+        {
+          "code": "BK0689",
+          "name": "阿里概念",
+          "pct": 0.99,
+          "main_net": 1476011008.0,
+          "main_ratio": 3.34,
+          "super_net": 2121050112.0,
+          "large_net": -645039104.0,
+          "mid_net": -1017717504.0,
+          "small_net": -456211200.0,
+          "leader_code": "英维克",
+          "leader_name": "002837",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1106",
+          "name": "创新药",
+          "pct": 1.18,
+          "main_net": 1368002720.0,
+          "main_ratio": 3.66,
+          "super_net": 1134993312.0,
+          "large_net": 233009408.0,
+          "mid_net": -759270912.0,
+          "small_net": -605820416.0,
+          "leader_code": "誉衡药业",
+          "leader_name": "002437",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0834",
+          "name": "乡村振兴",
+          "pct": 1.77,
+          "main_net": 1148141760.0,
+          "main_ratio": 6.55,
+          "super_net": 819052080.0,
+          "large_net": 329089680.0,
+          "mid_net": -456849664.0,
+          "small_net": -674254080.0,
+          "leader_code": "金健米业",
+          "leader_name": "600127",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0852",
+          "name": "冷链物流",
+          "pct": 1.46,
+          "main_net": 1110562240.0,
+          "main_ratio": 6.49,
+          "super_net": 1149706784.0,
+          "large_net": -39144544.0,
+          "mid_net": -584571392.0,
+          "small_net": -524563200.0,
+          "leader_code": "英维克",
+          "leader_name": "002837",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1064",
+          "name": "东数西算",
+          "pct": 1.04,
+          "main_net": 1103468944.0,
+          "main_ratio": 5.09,
+          "super_net": 1185659536.0,
+          "large_net": -82190592.0,
+          "mid_net": -719128320.0,
+          "small_net": -369591040.0,
+          "leader_code": "英维克",
+          "leader_name": "002837",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1657",
+          "name": "病原体防治",
+          "pct": 1.57,
+          "main_net": 945433232.0,
+          "main_ratio": 3.65,
+          "super_net": 1081104016.0,
+          "large_net": -135670784.0,
+          "mid_net": -613240576.0,
+          "small_net": -327384064.0,
+          "leader_code": "誉衡药业",
+          "leader_name": "002437",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0922",
+          "name": "数据中心",
+          "pct": 0.84,
+          "main_net": 816055040.0,
+          "main_ratio": 1.03,
+          "super_net": 1782481408.0,
+          "large_net": -966426368.0,
+          "mid_net": -1322492928.0,
+          "small_net": 567091968.0,
+          "leader_code": "英维克",
+          "leader_name": "002837",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1189",
+          "name": "腾讯云",
+          "pct": 1.11,
+          "main_net": 796621056.0,
+          "main_ratio": 10.43,
+          "super_net": 838035376.0,
+          "large_net": -41414320.0,
+          "mid_net": -399250336.0,
+          "small_net": -397382288.0,
+          "leader_code": "英维克",
+          "leader_name": "002837",
+          "leader_pct": 0.0
+        }
+      ],
+      "concept_top_out": [
+        {
+          "code": "BK1174",
+          "name": "合成生物",
+          "pct": 1.43,
+          "main_net": 728669072.0,
+          "main_ratio": 4.19,
+          "super_net": 384460544.0,
+          "large_net": 344208528.0,
+          "mid_net": -254985472.0,
+          "small_net": -465705472.0,
+          "leader_code": "牧原股份",
+          "leader_name": "002714",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1138",
+          "name": "液冷服务器",
+          "pct": 0.93,
+          "main_net": 745022464.0,
+          "main_ratio": 1.22,
+          "super_net": 1166116096.0,
+          "large_net": -421093632.0,
+          "mid_net": -1027035648.0,
+          "small_net": 295351296.0,
+          "leader_code": "英维克",
+          "leader_name": "002837",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0665",
+          "name": "电商概念",
+          "pct": 1.36,
+          "main_net": 746975408.0,
+          "main_ratio": 2.33,
+          "super_net": 439169968.0,
+          "large_net": 307805440.0,
+          "mid_net": -356820224.0,
+          "small_net": -371995904.0,
+          "leader_code": "金健米业",
+          "leader_name": "600127",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0895",
+          "name": "维生素",
+          "pct": 2.63,
+          "main_net": 777541648.0,
+          "main_ratio": 12.41,
+          "super_net": 769850144.0,
+          "large_net": 7691504.0,
+          "mid_net": -394364528.0,
+          "small_net": -381383648.0,
+          "leader_code": "誉衡药业",
+          "leader_name": "002437",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1189",
+          "name": "腾讯云",
+          "pct": 1.11,
+          "main_net": 796621056.0,
+          "main_ratio": 10.43,
+          "super_net": 838035376.0,
+          "large_net": -41414320.0,
+          "mid_net": -399250336.0,
+          "small_net": -397382288.0,
+          "leader_code": "英维克",
+          "leader_name": "002837",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0922",
+          "name": "数据中心",
+          "pct": 0.84,
+          "main_net": 816055040.0,
+          "main_ratio": 1.03,
+          "super_net": 1782481408.0,
+          "large_net": -966426368.0,
+          "mid_net": -1322492928.0,
+          "small_net": 567091968.0,
+          "leader_code": "英维克",
+          "leader_name": "002837",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1657",
+          "name": "病原体防治",
+          "pct": 1.57,
+          "main_net": 945433232.0,
+          "main_ratio": 3.65,
+          "super_net": 1081104016.0,
+          "large_net": -135670784.0,
+          "mid_net": -613240576.0,
+          "small_net": -327384064.0,
+          "leader_code": "誉衡药业",
+          "leader_name": "002437",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1064",
+          "name": "东数西算",
+          "pct": 1.04,
+          "main_net": 1103468944.0,
+          "main_ratio": 5.09,
+          "super_net": 1185659536.0,
+          "large_net": -82190592.0,
+          "mid_net": -719128320.0,
+          "small_net": -369591040.0,
+          "leader_code": "英维克",
+          "leader_name": "002837",
+          "leader_pct": 0.0
+        }
+      ]
+    },
+    "hot_stocks": [
+      {
+        "rank": 1,
+        "code": "601212",
+        "name": "白银有色",
+        "pct": 1276665.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "金属铅",
+          "金属锌"
+        ]
+      },
+      {
+        "rank": 2,
+        "code": "688836",
+        "name": "宇树科技",
+        "pct": 1095661.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "注册制次新股",
+          "科创次新股"
+        ]
+      },
+      {
+        "rank": 3,
+        "code": "002015",
+        "name": "协鑫能科",
+        "pct": 851325.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "华为数字能源",
+          "抽水蓄能"
+        ]
+      },
+      {
+        "rank": 4,
+        "code": "002412",
+        "name": "汉森制药",
+        "pct": 779800.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "仿制药一致性评价",
+          "流感"
+        ]
+      },
+      {
+        "rank": 5,
+        "code": "002716",
+        "name": "湖南白银",
+        "pct": 762979.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "金属铅",
+          "金属锌"
+        ]
+      },
+      {
+        "rank": 6,
+        "code": "600613",
+        "name": "神奇制药",
+        "pct": 618016.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "流感",
+          "医药电商"
+        ]
+      },
+      {
+        "rank": 7,
+        "code": "002580",
+        "name": "圣阳股份",
+        "pct": 596033.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "快手概念",
+          "动力电池回收"
+        ]
+      },
+      {
+        "rank": 8,
+        "code": "600869",
+        "name": "远东股份",
+        "pct": 574487.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "PET铜箔",
+          "光纤概念"
+        ]
+      },
+      {
+        "rank": 9,
+        "code": "600664",
+        "name": "哈药股份",
+        "pct": 513205.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "维生素",
+          "仿制药一致性评价"
+        ]
+      },
+      {
+        "rank": 10,
+        "code": "003040",
+        "name": "楚天龙",
+        "pct": 499712.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "数字货币",
+          "移动支付"
+        ]
+      },
+      {
+        "rank": 11,
+        "code": "600460",
+        "name": "士兰微",
+        "pct": 499141.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "国家大基金持股",
+          "先进封装"
+        ]
+      },
+      {
+        "rank": 12,
+        "code": "300308",
+        "name": "中际旭创",
+        "pct": 446561.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "共封装光学(CPO)",
+          "F5G概念"
+        ]
+      },
+      {
+        "rank": 13,
+        "code": "000017",
+        "name": "深中华A",
+        "pct": 419266.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "锂电池概念",
+          "粤港澳大湾区"
+        ]
+      },
+      {
+        "rank": 14,
+        "code": "002176",
+        "name": "江特电机",
+        "pct": 371153.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "锂电池概念",
+          "风电"
+        ]
+      },
+      {
+        "rank": 15,
+        "code": "603958",
+        "name": "哈森股份",
+        "pct": 357629.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "苹果概念",
+          "工业母机"
+        ]
+      },
+      {
+        "rank": 16,
+        "code": "600722",
+        "name": "金牛化工",
+        "pct": 351148.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "煤化工概念",
+          "国企改革"
+        ]
+      },
+      {
+        "rank": 17,
+        "code": "600610",
+        "name": "中毅达",
+        "pct": 344718.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "国企改革",
+          "西部大开发"
+        ]
+      },
+      {
+        "rank": 18,
+        "code": "603823",
+        "name": "百合花",
+        "pct": 326911.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "光刻胶",
+          "PEEK材料"
+        ]
+      },
+      {
+        "rank": 19,
+        "code": "600176",
+        "name": "中国巨石",
+        "pct": 308785.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "PCB概念",
+          "2026一季报预增"
+        ]
+      },
+      {
+        "rank": 20,
+        "code": "603986",
+        "name": "兆易创新",
+        "pct": 305131.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "存储芯片",
+          "汽车芯片"
+        ]
+      }
+    ],
+    "source_health": {
+      "indexes_rsi": "ok",
+      "breadth": "ok",
+      "board_flow": "ok",
+      "limit_pool": "ok",
+      "hot_list": "ok"
+    },
+    "vs_1h": {
+      "reference_at": "2026-08-24T16:11:24+08:00",
+      "indices": {
+        "shanghai": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        },
+        "chinext": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        },
+        "star50": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        }
+      },
+      "up_ratio": 0.0,
+      "emotion_score": 1.0
+    }
   }
 ]
