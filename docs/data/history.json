@@ -21440,5 +21440,904 @@
       "up_ratio": null,
       "emotion_score": null
     }
+  },
+  {
+    "schema_version": 1,
+    "generated_at": "2026-08-26T14:53:04+08:00",
+    "trade_date": "2026-08-26",
+    "is_trading_day": true,
+    "market_phase": "下午交易",
+    "indices": {
+      "shanghai": {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3913.85,
+        "pct": 0.63,
+        "change": 24.41,
+        "volume": 470285634.0,
+        "amount": 826068297001.9,
+        "open": 3881.74,
+        "prev_close": 3889.44,
+        "high": 3926.44,
+        "low": 3881.74,
+        "rsi14_daily": 49.97,
+        "rsi14_30m": 58.73,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-08-26"
+      },
+      "chinext": {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3418.42,
+        "pct": 0.62,
+        "change": 20.9,
+        "volume": 164050406.0,
+        "amount": 429921505954.15,
+        "open": 3409.28,
+        "prev_close": 3397.52,
+        "high": 3455.89,
+        "low": 3379.14,
+        "rsi14_daily": 42.69,
+        "rsi14_30m": 45.15,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-08-26"
+      },
+      "star50": {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1633.01,
+        "pct": 1.77,
+        "change": 28.42,
+        "volume": 7160012.0,
+        "amount": 76652883050.0,
+        "open": 1605.74,
+        "prev_close": 1604.59,
+        "high": 1644.72,
+        "low": 1598.44,
+        "rsi14_daily": 42.16,
+        "rsi14_30m": 54.25,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-08-26"
+      }
+    },
+    "breadth": {
+      "up": 100,
+      "down": 0,
+      "flat": 0,
+      "total": 100,
+      "up_ratio": 100.0,
+      "strong_ge_5pct": 100,
+      "weak_le_minus5pct": 0
+    },
+    "limit_emotion": {
+      "limit_up": 52,
+      "broken": 20,
+      "limit_down": 0,
+      "seal_success_rate": 72.2,
+      "max_streak": 5,
+      "streak_leaders": [
+        {
+          "code": "000017",
+          "name": "深中华A",
+          "pct": 10.0,
+          "streak": 5,
+          "industry": "饰品",
+          "seal_fund": 66724653.0,
+          "open_count": 2
+        },
+        {
+          "code": "003040",
+          "name": "楚天龙",
+          "pct": 10.012920379638672,
+          "streak": 4,
+          "industry": "通信设备",
+          "seal_fund": 37685687.0,
+          "open_count": 8
+        },
+        {
+          "code": "002084",
+          "name": "海鸥住工",
+          "pct": 10.11494255065918,
+          "streak": 3,
+          "industry": "家居用品",
+          "seal_fund": 399502405.0,
+          "open_count": 0
+        },
+        {
+          "code": "000428",
+          "name": "华天酒店",
+          "pct": 9.953703880310059,
+          "streak": 2,
+          "industry": "酒店餐饮",
+          "seal_fund": 134256498.0,
+          "open_count": 0
+        },
+        {
+          "code": "600103",
+          "name": "青山纸业",
+          "pct": 10.158730506896973,
+          "streak": 2,
+          "industry": "造纸",
+          "seal_fund": 132071774.0,
+          "open_count": 1
+        },
+        {
+          "code": "002703",
+          "name": "浙江世宝",
+          "pct": 10.018903732299805,
+          "streak": 2,
+          "industry": "汽车零部",
+          "seal_fund": 126174707.0,
+          "open_count": 3
+        },
+        {
+          "code": "002742",
+          "name": "冀衡医药",
+          "pct": 10.04273509979248,
+          "streak": 2,
+          "industry": "化学制药",
+          "seal_fund": 124871143.0,
+          "open_count": 0
+        },
+        {
+          "code": "002418",
+          "name": "康盛股份",
+          "pct": 10.123456954956055,
+          "streak": 2,
+          "industry": "家电零部",
+          "seal_fund": 122198188.0,
+          "open_count": 0
+        },
+        {
+          "code": "002855",
+          "name": "捷荣技术",
+          "pct": 10.0,
+          "streak": 2,
+          "industry": "消费电子",
+          "seal_fund": 102404720.0,
+          "open_count": 0
+        },
+        {
+          "code": "002949",
+          "name": "华阳国际",
+          "pct": 9.967845916748047,
+          "streak": 2,
+          "industry": "工程咨询",
+          "seal_fund": 59241253.0,
+          "open_count": 5
+        }
+      ]
+    },
+    "emotion_telemetry": {
+      "score": 80.9,
+      "label": "高热",
+      "note": "仅为盘面遥测分，不替代人工分析"
+    },
+    "fund_flow": {
+      "industry_top_in": [
+        {
+          "code": "BK1287",
+          "name": "工业金属",
+          "pct": 2.86,
+          "main_net": 7140835328.0,
+          "main_ratio": 10.9,
+          "super_net": 5926448384.0,
+          "large_net": 1214386944.0,
+          "mid_net": -2679317760.0,
+          "small_net": -4458070272.0,
+          "leader_code": "洛阳钼业",
+          "leader_name": "603993",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1615",
+          "name": "铜",
+          "pct": 5.13,
+          "main_net": 6002045952.0,
+          "main_ratio": 13.77,
+          "super_net": 5168152064.0,
+          "large_net": 833893888.0,
+          "mid_net": -2403583232.0,
+          "small_net": -3598444032.0,
+          "leader_code": "洛阳钼业",
+          "leader_name": "603993",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1203",
+          "name": "非银金融",
+          "pct": 2.56,
+          "main_net": 5689547008.0,
+          "main_ratio": 9.8,
+          "super_net": 4463971840.0,
+          "large_net": 1225575168.0,
+          "mid_net": -2960164608.0,
+          "small_net": -2729358848.0,
+          "leader_code": "中信证券",
+          "leader_name": "600030",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0478",
+          "name": "有色金属",
+          "pct": 1.14,
+          "main_net": 5521873408.0,
+          "main_ratio": 3.85,
+          "super_net": 5365550592.0,
+          "large_net": 156322816.0,
+          "mid_net": -2573334016.0,
+          "small_net": -2961207808.0,
+          "leader_code": "洛阳钼业",
+          "leader_name": "603993",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1366",
+          "name": "证券Ⅲ",
+          "pct": 2.97,
+          "main_net": 4839869440.0,
+          "main_ratio": 12.32,
+          "super_net": 3510967040.0,
+          "large_net": 1328902400.0,
+          "mid_net": -2171236864.0,
+          "small_net": -2668653568.0,
+          "leader_code": "中信证券",
+          "leader_name": "600030",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0473",
+          "name": "证券Ⅱ",
+          "pct": 2.97,
+          "main_net": 4839869440.0,
+          "main_ratio": 12.32,
+          "super_net": 3510967040.0,
+          "large_net": 1328902400.0,
+          "mid_net": -2171236864.0,
+          "small_net": -2668653568.0,
+          "leader_code": "中信证券",
+          "leader_name": "600030",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1200",
+          "name": "电力设备",
+          "pct": 0.45,
+          "main_net": 2356358400.0,
+          "main_ratio": 1.88,
+          "super_net": 2186032640.0,
+          "large_net": 170325760.0,
+          "mid_net": -784328448.0,
+          "small_net": -1545041664.0,
+          "leader_code": "杭电股份",
+          "leader_name": "603618",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1340",
+          "name": "印制电路板",
+          "pct": -0.26,
+          "main_net": 1895462400.0,
+          "main_ratio": 2.87,
+          "super_net": 1240950528.0,
+          "large_net": 654511872.0,
+          "mid_net": -558291968.0,
+          "small_net": -1335865856.0,
+          "leader_code": "沪电股份",
+          "leader_name": "002463",
+          "leader_pct": 0.0
+        }
+      ],
+      "industry_top_out": [
+        {
+          "code": "BK1201",
+          "name": "电子",
+          "pct": -0.16,
+          "main_net": 1464673792.0,
+          "main_ratio": 0.35,
+          "super_net": 1415251456.0,
+          "large_net": 49422336.0,
+          "mid_net": -1375932416.0,
+          "small_net": -133894144.0,
+          "leader_code": "立讯精密",
+          "leader_name": "002475",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1593",
+          "name": "通信终端及配件",
+          "pct": 0.8,
+          "main_net": 1467403152.0,
+          "main_ratio": 8.69,
+          "super_net": 1636840272.0,
+          "large_net": -169437120.0,
+          "mid_net": -598146816.0,
+          "small_net": -874988288.0,
+          "leader_code": "剑桥科技",
+          "leader_name": "603083",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1338",
+          "name": "消费电子零部件及组装",
+          "pct": -0.12,
+          "main_net": 1859649280.0,
+          "main_ratio": 3.53,
+          "super_net": 1542065408.0,
+          "large_net": 317583872.0,
+          "mid_net": -766475008.0,
+          "small_net": -1088000768.0,
+          "leader_code": "立讯精密",
+          "leader_name": "002475",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1037",
+          "name": "消费电子",
+          "pct": -0.12,
+          "main_net": 1865358080.0,
+          "main_ratio": 3.38,
+          "super_net": 1530361088.0,
+          "large_net": 334996992.0,
+          "mid_net": -776603904.0,
+          "small_net": -1083599616.0,
+          "leader_code": "立讯精密",
+          "leader_name": "002475",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1340",
+          "name": "印制电路板",
+          "pct": -0.26,
+          "main_net": 1895462400.0,
+          "main_ratio": 2.87,
+          "super_net": 1240950528.0,
+          "large_net": 654511872.0,
+          "mid_net": -558291968.0,
+          "small_net": -1335865856.0,
+          "leader_code": "沪电股份",
+          "leader_name": "002463",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1200",
+          "name": "电力设备",
+          "pct": 0.45,
+          "main_net": 2356358400.0,
+          "main_ratio": 1.88,
+          "super_net": 2186032640.0,
+          "large_net": 170325760.0,
+          "mid_net": -784328448.0,
+          "small_net": -1545041664.0,
+          "leader_code": "杭电股份",
+          "leader_name": "603618",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1366",
+          "name": "证券Ⅲ",
+          "pct": 2.97,
+          "main_net": 4839869440.0,
+          "main_ratio": 12.32,
+          "super_net": 3510967040.0,
+          "large_net": 1328902400.0,
+          "mid_net": -2171236864.0,
+          "small_net": -2668653568.0,
+          "leader_code": "中信证券",
+          "leader_name": "600030",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0473",
+          "name": "证券Ⅱ",
+          "pct": 2.97,
+          "main_net": 4839869440.0,
+          "main_ratio": 12.32,
+          "super_net": 3510967040.0,
+          "large_net": 1328902400.0,
+          "mid_net": -2171236864.0,
+          "small_net": -2668653568.0,
+          "leader_code": "中信证券",
+          "leader_name": "600030",
+          "leader_pct": 1.0
+        }
+      ],
+      "concept_top_in": [
+        {
+          "code": "BK0707",
+          "name": "沪股通",
+          "pct": 0.52,
+          "main_net": 10217603072.0,
+          "main_ratio": 1.38,
+          "super_net": 12279832576.0,
+          "large_net": -2062229504.0,
+          "mid_net": -8690577408.0,
+          "small_net": -1527455744.0,
+          "leader_code": "洛阳钼业",
+          "leader_name": "603993",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1749",
+          "name": "2026中报预增",
+          "pct": 0.4,
+          "main_net": 9506095104.0,
+          "main_ratio": 1.88,
+          "super_net": 9907077120.0,
+          "large_net": -400982016.0,
+          "mid_net": -5648498688.0,
+          "small_net": -3894415360.0,
+          "leader_code": "洛阳钼业",
+          "leader_name": "603993",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0821",
+          "name": "MSCI中国",
+          "pct": 0.89,
+          "main_net": 9072930816.0,
+          "main_ratio": 1.21,
+          "super_net": 10215698432.0,
+          "large_net": -1142767616.0,
+          "mid_net": -9556254720.0,
+          "small_net": 485236736.0,
+          "leader_code": "洛阳钼业",
+          "leader_name": "603993",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0499",
+          "name": "AH股",
+          "pct": 1.07,
+          "main_net": 9046512128.0,
+          "main_ratio": 3.62,
+          "super_net": 8561188352.0,
+          "large_net": 485323776.0,
+          "mid_net": -7084199936.0,
+          "small_net": -1962214656.0,
+          "leader_code": "洛阳钼业",
+          "leader_name": "603993",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0596",
+          "name": "融资融券",
+          "pct": 0.26,
+          "main_net": 8836456448.0,
+          "main_ratio": 0.57,
+          "super_net": 13066346496.0,
+          "large_net": -4229890048.0,
+          "mid_net": -10325082112.0,
+          "small_net": 1099993088.0,
+          "leader_code": "洛阳钼业",
+          "leader_name": "603993",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1639",
+          "name": "周期股",
+          "pct": 1.12,
+          "main_net": 8389579520.0,
+          "main_ratio": 4.38,
+          "super_net": 7450509568.0,
+          "large_net": 939069952.0,
+          "mid_net": -5364549888.0,
+          "small_net": -3024508416.0,
+          "leader_code": "洛阳钼业",
+          "leader_name": "603993",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1663",
+          "name": "大盘股",
+          "pct": 0.88,
+          "main_net": 8127045632.0,
+          "main_ratio": 1.49,
+          "super_net": 8653852672.0,
+          "large_net": -526807040.0,
+          "mid_net": -7883104256.0,
+          "small_net": -243183616.0,
+          "leader_code": "洛阳钼业",
+          "leader_name": "603993",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0500",
+          "name": "HS300_",
+          "pct": 0.93,
+          "main_net": 7992791040.0,
+          "main_ratio": 1.69,
+          "super_net": 9117114368.0,
+          "large_net": -1124323328.0,
+          "mid_net": -7683317760.0,
+          "small_net": -308154368.0,
+          "leader_code": "洛阳钼业",
+          "leader_name": "603993",
+          "leader_pct": 1.0
+        }
+      ],
+      "concept_top_out": [
+        {
+          "code": "BK0611",
+          "name": "上证50_",
+          "pct": 0.97,
+          "main_net": 5969220608.0,
+          "main_ratio": 4.41,
+          "super_net": 5424812288.0,
+          "large_net": 544408320.0,
+          "mid_net": -3705277952.0,
+          "small_net": -2263973888.0,
+          "leader_code": "洛阳钼业",
+          "leader_name": "603993",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0612",
+          "name": "上证180_",
+          "pct": 0.97,
+          "main_net": 6127806464.0,
+          "main_ratio": 2.4,
+          "super_net": 7048017920.0,
+          "large_net": -920211456.0,
+          "mid_net": -4683214848.0,
+          "small_net": -1443522048.0,
+          "leader_code": "洛阳钼业",
+          "leader_name": "603993",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0637",
+          "name": "互联网金融",
+          "pct": 1.54,
+          "main_net": 6551140608.0,
+          "main_ratio": 6.05,
+          "super_net": 5553202944.0,
+          "large_net": 997937664.0,
+          "mid_net": -3418555392.0,
+          "small_net": -3104181248.0,
+          "leader_code": "中信证券",
+          "leader_name": "600030",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1662",
+          "name": "权重股",
+          "pct": 1.09,
+          "main_net": 6903816192.0,
+          "main_ratio": 3.89,
+          "super_net": 5861276160.0,
+          "large_net": 1042540032.0,
+          "mid_net": -4439006464.0,
+          "small_net": -2465014016.0,
+          "leader_code": "洛阳钼业",
+          "leader_name": "603993",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0500",
+          "name": "HS300_",
+          "pct": 0.93,
+          "main_net": 7992791040.0,
+          "main_ratio": 1.69,
+          "super_net": 9117114368.0,
+          "large_net": -1124323328.0,
+          "mid_net": -7683317760.0,
+          "small_net": -308154368.0,
+          "leader_code": "洛阳钼业",
+          "leader_name": "603993",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1663",
+          "name": "大盘股",
+          "pct": 0.88,
+          "main_net": 8127045632.0,
+          "main_ratio": 1.49,
+          "super_net": 8653852672.0,
+          "large_net": -526807040.0,
+          "mid_net": -7883104256.0,
+          "small_net": -243183616.0,
+          "leader_code": "洛阳钼业",
+          "leader_name": "603993",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1639",
+          "name": "周期股",
+          "pct": 1.12,
+          "main_net": 8389579520.0,
+          "main_ratio": 4.38,
+          "super_net": 7450509568.0,
+          "large_net": 939069952.0,
+          "mid_net": -5364549888.0,
+          "small_net": -3024508416.0,
+          "leader_code": "洛阳钼业",
+          "leader_name": "603993",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0596",
+          "name": "融资融券",
+          "pct": 0.26,
+          "main_net": 8836456448.0,
+          "main_ratio": 0.57,
+          "super_net": 13066346496.0,
+          "large_net": -4229890048.0,
+          "mid_net": -10325082112.0,
+          "small_net": 1099993088.0,
+          "leader_code": "洛阳钼业",
+          "leader_name": "603993",
+          "leader_pct": 1.0
+        }
+      ]
+    },
+    "hot_stocks": [
+      {
+        "rank": 1,
+        "code": "688836",
+        "name": "宇树科技",
+        "pct": 452800.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "注册制次新股",
+          "科创次新股"
+        ]
+      },
+      {
+        "rank": 2,
+        "code": "600487",
+        "name": "亨通光电",
+        "pct": 434415.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "光纤概念",
+          "共封装光学(CPO)"
+        ]
+      },
+      {
+        "rank": 3,
+        "code": "603618",
+        "name": "杭电股份",
+        "pct": 432616.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "光纤概念",
+          "PET铜箔"
+        ]
+      },
+      {
+        "rank": 4,
+        "code": "002081",
+        "name": "金螳螂",
+        "pct": 417718.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "新型城镇化",
+          "装配式建筑"
+        ]
+      },
+      {
+        "rank": 5,
+        "code": "600127",
+        "name": "金健米业",
+        "pct": 376733.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "玉米",
+          "粮食概念"
+        ]
+      },
+      {
+        "rank": 6,
+        "code": "600721",
+        "name": "百花医药",
+        "pct": 345099.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "青蒿素",
+          "CRO概念"
+        ]
+      },
+      {
+        "rank": 7,
+        "code": "002412",
+        "name": "汉森制药",
+        "pct": 339330.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "仿制药一致性评价",
+          "流感"
+        ]
+      },
+      {
+        "rank": 8,
+        "code": "600272",
+        "name": "开开实业",
+        "pct": 333891.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "民营医院",
+          "医药电商"
+        ]
+      },
+      {
+        "rank": 9,
+        "code": "600722",
+        "name": "金牛化工",
+        "pct": 305300.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "煤化工概念",
+          "国企改革"
+        ]
+      },
+      {
+        "rank": 10,
+        "code": "601869",
+        "name": "长飞光纤",
+        "pct": 304179.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "光纤概念",
+          "共封装光学(CPO)"
+        ]
+      },
+      {
+        "rank": 11,
+        "code": "002837",
+        "name": "英维克",
+        "pct": 297694.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "液冷服务器",
+          "英伟达概念"
+        ]
+      },
+      {
+        "rank": 12,
+        "code": "003040",
+        "name": "楚天龙",
+        "pct": 296614.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "数字货币",
+          "移动支付"
+        ]
+      },
+      {
+        "rank": 13,
+        "code": "600869",
+        "name": "远东股份",
+        "pct": 287982.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "PET铜箔",
+          "光纤概念"
+        ]
+      },
+      {
+        "rank": 14,
+        "code": "600664",
+        "name": "哈药股份",
+        "pct": 273810.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "维生素",
+          "仿制药一致性评价"
+        ]
+      },
+      {
+        "rank": 15,
+        "code": "002491",
+        "name": "通鼎互联",
+        "pct": 273735.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "光纤概念",
+          "5G"
+        ]
+      },
+      {
+        "rank": 16,
+        "code": "600362",
+        "name": "江西铜业",
+        "pct": 265124.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "金属铜",
+          "黄金概念"
+        ]
+      },
+      {
+        "rank": 17,
+        "code": "601212",
+        "name": "白银有色",
+        "pct": 260284.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "金属铅",
+          "金属锌"
+        ]
+      },
+      {
+        "rank": 18,
+        "code": "600227",
+        "name": "赤天化",
+        "pct": 225880.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "煤炭概念",
+          "化肥"
+        ]
+      },
+      {
+        "rank": 19,
+        "code": "002015",
+        "name": "协鑫能科",
+        "pct": 213002.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "华为数字能源",
+          "抽水蓄能"
+        ]
+      },
+      {
+        "rank": 20,
+        "code": "600103",
+        "name": "青山纸业",
+        "pct": 208977.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "数据中心(AIDC)",
+          "碳中和"
+        ]
+      }
+    ],
+    "source_health": {
+      "indexes_rsi": "ok",
+      "breadth": "ok",
+      "board_flow": "ok",
+      "limit_pool": "ok",
+      "hot_list": "ok"
+    },
+    "vs_1h": {
+      "reference_at": "2026-08-26T14:00:03+08:00",
+      "indices": {
+        "shanghai": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        },
+        "chinext": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        },
+        "star50": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        }
+      },
+      "up_ratio": null,
+      "emotion_score": null
+    }
   }
 ]
