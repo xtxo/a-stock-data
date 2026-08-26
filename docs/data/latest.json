@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-26T13:06:11+08:00",
+  "generated_at": "2026-08-26T14:00:03+08:00",
   "trade_date": null,
   "is_trading_day": false,
   "market_phase": "非交易日/数据未进入当日",
@@ -25,10 +25,10 @@
     "error": "GET failed: https://push2.eastmoney.com/api/qt/clist/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/clist/get?pn=1&pz=6000&po=1&np=1&fltt=2&invt=2&fid=f3&fs=m%3A0%2Bt%3A6%2Cm%3A0%2Bt%3A80%2Cm%3A1%2Bt%3A2%2Cm%3A1%2Bt%3A23&fields=f12%2Cf14%2Cf3"
   },
   "limit_emotion": {
-    "limit_up": 50,
-    "broken": 17,
+    "limit_up": 51,
+    "broken": 20,
     "limit_down": 0,
-    "seal_success_rate": 74.6,
+    "seal_success_rate": 71.8,
     "max_streak": 5,
     "streak_leaders": [
       {
@@ -37,7 +37,7 @@
         "pct": 10.0,
         "streak": 5,
         "industry": "饰品",
-        "seal_fund": 97317347.0,
+        "seal_fund": 81471847.0,
         "open_count": 2
       },
       {
@@ -46,7 +46,7 @@
         "pct": 10.012920379638672,
         "streak": 4,
         "industry": "通信设备",
-        "seal_fund": 60445532.0,
+        "seal_fund": 39603265.0,
         "open_count": 8
       },
       {
@@ -55,16 +55,7 @@
         "pct": 10.11494255065918,
         "streak": 3,
         "industry": "家居用品",
-        "seal_fund": 538083054.0,
-        "open_count": 0
-      },
-      {
-        "code": "002418",
-        "name": "康盛股份",
-        "pct": 10.123456954956055,
-        "streak": 2,
-        "industry": "家电零部",
-        "seal_fund": 160323174.0,
+        "seal_fund": 492064087.0,
         "open_count": 0
       },
       {
@@ -73,17 +64,8 @@
         "pct": 10.158730506896973,
         "streak": 2,
         "industry": "造纸",
-        "seal_fund": 159107758.0,
+        "seal_fund": 155023221.0,
         "open_count": 1
-      },
-      {
-        "code": "002703",
-        "name": "浙江世宝",
-        "pct": 10.018903732299805,
-        "streak": 2,
-        "industry": "汽车零部",
-        "seal_fund": 154152594.0,
-        "open_count": 3
       },
       {
         "code": "000428",
@@ -91,7 +73,16 @@
         "pct": 9.953703880310059,
         "streak": 2,
         "industry": "酒店餐饮",
-        "seal_fund": 153780637.0,
+        "seal_fund": 152337112.0,
+        "open_count": 0
+      },
+      {
+        "code": "002418",
+        "name": "康盛股份",
+        "pct": 10.123456954956055,
+        "streak": 2,
+        "industry": "家电零部",
+        "seal_fund": 139794686.0,
         "open_count": 0
       },
       {
@@ -100,8 +91,17 @@
         "pct": 10.04273509979248,
         "streak": 2,
         "industry": "化学制药",
-        "seal_fund": 143518263.0,
+        "seal_fund": 138912103.0,
         "open_count": 0
+      },
+      {
+        "code": "002703",
+        "name": "浙江世宝",
+        "pct": 10.018903732299805,
+        "streak": 2,
+        "industry": "汽车零部",
+        "seal_fund": 134213291.0,
+        "open_count": 3
       },
       {
         "code": "002855",
@@ -109,17 +109,17 @@
         "pct": 10.0,
         "streak": 2,
         "industry": "消费电子",
-        "seal_fund": 106311810.0,
+        "seal_fund": 105317190.0,
         "open_count": 0
       },
       {
-        "code": "002094",
-        "name": "青岛金王",
-        "pct": 9.922179222106934,
+        "code": "002949",
+        "name": "华阳国际",
+        "pct": 9.967845916748047,
         "streak": 2,
-        "industry": "家居用品",
-        "seal_fund": 72031059.0,
-        "open_count": 0
+        "industry": "工程咨询",
+        "seal_fund": 64488901.0,
+        "open_count": 5
       }
     ]
   },
@@ -136,21 +136,9 @@
   "hot_stocks": [
     {
       "rank": 1,
-      "code": "603618",
-      "name": "杭电股份",
-      "pct": 470468.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "光纤概念",
-        "PET铜箔"
-      ]
-    },
-    {
-      "rank": 2,
       "code": "688836",
       "name": "宇树科技",
-      "pct": 451309.0,
+      "pct": 524165.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -159,10 +147,10 @@
       ]
     },
     {
-      "rank": 3,
+      "rank": 2,
       "code": "600487",
       "name": "亨通光电",
-      "pct": 450495.0,
+      "pct": 515146.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -171,10 +159,22 @@
       ]
     },
     {
+      "rank": 3,
+      "code": "603618",
+      "name": "杭电股份",
+      "pct": 502472.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "光纤概念",
+        "PET铜箔"
+      ]
+    },
+    {
       "rank": 4,
       "code": "002081",
       "name": "金螳螂",
-      "pct": 440032.0,
+      "pct": 494718.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -186,7 +186,7 @@
       "rank": 5,
       "code": "600127",
       "name": "金健米业",
-      "pct": 427088.0,
+      "pct": 441458.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -198,7 +198,7 @@
       "rank": 6,
       "code": "600721",
       "name": "百花医药",
-      "pct": 391541.0,
+      "pct": 420713.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -208,21 +208,9 @@
     },
     {
       "rank": 7,
-      "code": "002412",
-      "name": "汉森制药",
-      "pct": 371437.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "仿制药一致性评价",
-        "流感"
-      ]
-    },
-    {
-      "rank": 8,
       "code": "600272",
       "name": "开开实业",
-      "pct": 350001.0,
+      "pct": 411295.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -231,22 +219,22 @@
       ]
     },
     {
-      "rank": 9,
-      "code": "600869",
-      "name": "远东股份",
-      "pct": 331652.0,
+      "rank": 8,
+      "code": "002412",
+      "name": "汉森制药",
+      "pct": 404014.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "PET铜箔",
-        "光纤概念"
+        "仿制药一致性评价",
+        "流感"
       ]
     },
     {
-      "rank": 10,
+      "rank": 9,
       "code": "002837",
       "name": "英维克",
-      "pct": 326138.0,
+      "pct": 356918.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -255,10 +243,22 @@
       ]
     },
     {
+      "rank": 10,
+      "code": "600869",
+      "name": "远东股份",
+      "pct": 354653.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "PET铜箔",
+        "光纤概念"
+      ]
+    },
+    {
       "rank": 11,
       "code": "601869",
       "name": "长飞光纤",
-      "pct": 299054.0,
+      "pct": 351180.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -268,33 +268,9 @@
     },
     {
       "rank": 12,
-      "code": "600664",
-      "name": "哈药股份",
-      "pct": 294428.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "维生素",
-        "仿制药一致性评价"
-      ]
-    },
-    {
-      "rank": 13,
-      "code": "600103",
-      "name": "青山纸业",
-      "pct": 288700.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "数据中心(AIDC)",
-        "碳中和"
-      ]
-    },
-    {
-      "rank": 14,
       "code": "600722",
       "name": "金牛化工",
-      "pct": 279291.0,
+      "pct": 341277.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -303,46 +279,22 @@
       ]
     },
     {
-      "rank": 15,
-      "code": "002172",
-      "name": "澳洋健康",
-      "pct": 267145.0,
+      "rank": 13,
+      "code": "600664",
+      "name": "哈药股份",
+      "pct": 326729.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "高压氧舱",
-        "民营医院"
+        "维生素",
+        "仿制药一致性评价"
       ]
     },
     {
-      "rank": 16,
-      "code": "002491",
-      "name": "通鼎互联",
-      "pct": 254865.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "光纤概念",
-        "5G"
-      ]
-    },
-    {
-      "rank": 17,
-      "code": "603118",
-      "name": "共进股份",
-      "pct": 244522.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "WiFi 6",
-        "F5G概念"
-      ]
-    },
-    {
-      "rank": 18,
+      "rank": 14,
       "code": "003040",
       "name": "楚天龙",
-      "pct": 242386.0,
+      "pct": 308552.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -351,10 +303,46 @@
       ]
     },
     {
-      "rank": 19,
+      "rank": 15,
+      "code": "002491",
+      "name": "通鼎互联",
+      "pct": 297705.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "光纤概念",
+        "5G"
+      ]
+    },
+    {
+      "rank": 16,
+      "code": "601212",
+      "name": "白银有色",
+      "pct": 276958.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "金属铅",
+        "金属锌"
+      ]
+    },
+    {
+      "rank": 17,
+      "code": "600103",
+      "name": "青山纸业",
+      "pct": 272994.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "数据中心(AIDC)",
+        "碳中和"
+      ]
+    },
+    {
+      "rank": 18,
       "code": "600227",
       "name": "赤天化",
-      "pct": 233339.0,
+      "pct": 261931.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -363,15 +351,27 @@
       ]
     },
     {
-      "rank": 20,
-      "code": "601212",
-      "name": "白银有色",
-      "pct": 227207.0,
+      "rank": 19,
+      "code": "603118",
+      "name": "共进股份",
+      "pct": 261329.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "金属铅",
-        "金属锌"
+        "WiFi 6",
+        "F5G概念"
+      ]
+    },
+    {
+      "rank": 20,
+      "code": "002172",
+      "name": "澳洋健康",
+      "pct": 260450.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "高压氧舱",
+        "民营医院"
       ]
     }
   ],
@@ -383,7 +383,7 @@
     "hot_list": "ok"
   },
   "vs_1h": {
-    "reference_at": "2026-08-26T12:18:36+08:00",
+    "reference_at": "2026-08-26T13:06:11+08:00",
     "indices": {
       "shanghai": {
         "pct_change_points": null,
