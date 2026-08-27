@@ -23238,5 +23238,416 @@
       "up_ratio": 0.0,
       "emotion_score": -0.2
     }
+  },
+  {
+    "schema_version": 1,
+    "generated_at": "2026-08-27T18:58:50+08:00",
+    "trade_date": null,
+    "is_trading_day": false,
+    "market_phase": "非交易日/数据未进入当日",
+    "indices": {
+      "shanghai": {
+        "name": "上证指数",
+        "code": "000001",
+        "error": "GET failed: https://push2.eastmoney.com/api/qt/ulist.np/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/ulist.np/get?secids=1.000001%2C0.399006%2C1.000688&fltt=2&invt=2&fields=f12%2Cf14%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf17%2Cf18%2Cf15%2Cf16"
+      },
+      "chinext": {
+        "name": "创业板指",
+        "code": "399006",
+        "error": "GET failed: https://push2.eastmoney.com/api/qt/ulist.np/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/ulist.np/get?secids=1.000001%2C0.399006%2C1.000688&fltt=2&invt=2&fields=f12%2Cf14%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf17%2Cf18%2Cf15%2Cf16"
+      },
+      "star50": {
+        "name": "科创50",
+        "code": "000688",
+        "error": "GET failed: https://push2.eastmoney.com/api/qt/ulist.np/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/ulist.np/get?secids=1.000001%2C0.399006%2C1.000688&fltt=2&invt=2&fields=f12%2Cf14%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf17%2Cf18%2Cf15%2Cf16"
+      }
+    },
+    "breadth": {
+      "up": 100,
+      "down": 0,
+      "flat": 0,
+      "total": 100,
+      "up_ratio": 100.0,
+      "strong_ge_5pct": 100,
+      "weak_le_minus5pct": 0
+    },
+    "limit_emotion": {
+      "limit_up": 77,
+      "broken": 17,
+      "limit_down": 0,
+      "seal_success_rate": 81.9,
+      "max_streak": 6,
+      "streak_leaders": [
+        {
+          "code": "000017",
+          "name": "深中华A",
+          "pct": 10.042283058166504,
+          "streak": 6,
+          "industry": "饰品",
+          "seal_fund": 45440691.0,
+          "open_count": 2
+        },
+        {
+          "code": "003040",
+          "name": "楚天龙",
+          "pct": 9.982383728027344,
+          "streak": 5,
+          "industry": "通信设备",
+          "seal_fund": 38151137.0,
+          "open_count": 19
+        },
+        {
+          "code": "002084",
+          "name": "海鸥住工",
+          "pct": 10.02087688446045,
+          "streak": 4,
+          "industry": "家居用品",
+          "seal_fund": 329225563.0,
+          "open_count": 0
+        },
+        {
+          "code": "600103",
+          "name": "青山纸业",
+          "pct": 10.086455345153809,
+          "streak": 3,
+          "industry": "造纸",
+          "seal_fund": 307811504.0,
+          "open_count": 0
+        },
+        {
+          "code": "600371",
+          "name": "万向德农",
+          "pct": 9.9580717086792,
+          "streak": 3,
+          "industry": "种植业",
+          "seal_fund": 204232474.0,
+          "open_count": 0
+        },
+        {
+          "code": "002742",
+          "name": "冀衡医药",
+          "pct": 10.097086906433105,
+          "streak": 3,
+          "industry": "化学制药",
+          "seal_fund": 168347970.0,
+          "open_count": 0
+        },
+        {
+          "code": "002855",
+          "name": "捷荣技术",
+          "pct": 10.0,
+          "streak": 3,
+          "industry": "消费电子",
+          "seal_fund": 92996970.0,
+          "open_count": 0
+        },
+        {
+          "code": "002418",
+          "name": "康盛股份",
+          "pct": 10.089685440063477,
+          "streak": 3,
+          "industry": "家电零部",
+          "seal_fund": 86280007.0,
+          "open_count": 2
+        },
+        {
+          "code": "002942",
+          "name": "新农股份",
+          "pct": 10.011573791503906,
+          "streak": 2,
+          "industry": "农化制品",
+          "seal_fund": 356469246.0,
+          "open_count": 0
+        },
+        {
+          "code": "603618",
+          "name": "杭电股份",
+          "pct": 9.993734359741211,
+          "streak": 2,
+          "industry": "电网设备",
+          "seal_fund": 347233967.0,
+          "open_count": 1
+        }
+      ]
+    },
+    "emotion_telemetry": {
+      "score": 82.9,
+      "label": "高热",
+      "note": "仅为盘面遥测分，不替代人工分析"
+    },
+    "fund_flow": {
+      "industry_top_in": [],
+      "industry_top_out": [],
+      "concept_top_in": [],
+      "concept_top_out": []
+    },
+    "hot_stocks": [
+      {
+        "rank": 1,
+        "code": "600487",
+        "name": "亨通光电",
+        "pct": 946243.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "光纤概念",
+          "共封装光学(CPO)"
+        ]
+      },
+      {
+        "rank": 2,
+        "code": "002491",
+        "name": "通鼎互联",
+        "pct": 555449.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "光纤概念",
+          "5G"
+        ]
+      },
+      {
+        "rank": 3,
+        "code": "600721",
+        "name": "百花医药",
+        "pct": 553337.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "青蒿素",
+          "CRO概念"
+        ]
+      },
+      {
+        "rank": 4,
+        "code": "603618",
+        "name": "杭电股份",
+        "pct": 527839.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "光纤概念",
+          "PET铜箔"
+        ]
+      },
+      {
+        "rank": 5,
+        "code": "601869",
+        "name": "长飞光纤",
+        "pct": 413665.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "光纤概念",
+          "共封装光学(CPO)"
+        ]
+      },
+      {
+        "rank": 6,
+        "code": "003040",
+        "name": "楚天龙",
+        "pct": 390648.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "数字货币",
+          "跨境支付(CIPS)"
+        ]
+      },
+      {
+        "rank": 7,
+        "code": "600127",
+        "name": "金健米业",
+        "pct": 377409.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "玉米",
+          "粮食概念"
+        ]
+      },
+      {
+        "rank": 8,
+        "code": "600664",
+        "name": "哈药股份",
+        "pct": 375010.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "维生素",
+          "仿制药一致性评价"
+        ]
+      },
+      {
+        "rank": 9,
+        "code": "002412",
+        "name": "汉森制药",
+        "pct": 371517.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "仿制药一致性评价",
+          "流感"
+        ]
+      },
+      {
+        "rank": 10,
+        "code": "600613",
+        "name": "神奇制药",
+        "pct": 351816.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "流感",
+          "医药电商"
+        ]
+      },
+      {
+        "rank": 11,
+        "code": "600206",
+        "name": "有研新材",
+        "pct": 317394.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "中芯国际概念",
+          "国家大基金持股"
+        ]
+      },
+      {
+        "rank": 12,
+        "code": "600522",
+        "name": "中天科技",
+        "pct": 308579.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "光纤概念",
+          "共封装光学(CPO)"
+        ]
+      },
+      {
+        "rank": 13,
+        "code": "688836",
+        "name": "宇树科技",
+        "pct": 305795.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "注册制次新股",
+          "科创次新股"
+        ]
+      },
+      {
+        "rank": 14,
+        "code": "601212",
+        "name": "白银有色",
+        "pct": 296548.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "金属铅",
+          "金属锌"
+        ]
+      },
+      {
+        "rank": 15,
+        "code": "002837",
+        "name": "英维克",
+        "pct": 267928.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "液冷服务器",
+          "英伟达概念"
+        ]
+      },
+      {
+        "rank": 16,
+        "code": "600869",
+        "name": "远东股份",
+        "pct": 251403.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "PET铜箔",
+          "光纤概念"
+        ]
+      },
+      {
+        "rank": 17,
+        "code": "000017",
+        "name": "深中华A",
+        "pct": 236026.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "粤港澳大湾区",
+          "锂电池概念"
+        ]
+      },
+      {
+        "rank": 18,
+        "code": "002536",
+        "name": "飞龙股份",
+        "pct": 233756.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "液冷服务器",
+          "芯片概念"
+        ]
+      },
+      {
+        "rank": 19,
+        "code": "600103",
+        "name": "青山纸业",
+        "pct": 224989.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "碳中和",
+          "数据中心(AIDC)"
+        ]
+      },
+      {
+        "rank": 20,
+        "code": "002716",
+        "name": "湖南白银",
+        "pct": 218158.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "金属铅",
+          "金属锌"
+        ]
+      }
+    ],
+    "source_health": {
+      "indexes_rsi": "error: GET failed: https://push2.eastmoney.com/api/qt/ulist.np/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/ulist.np/get?secids=1.000001%2C0.399006%2C1.000688&fltt=2&invt=2&fields=f12%2Cf14%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf17%2Cf18%2Cf15%2Cf16",
+      "breadth": "ok",
+      "board_flow": "error: GET failed: https://push2.eastmoney.com/api/qt/clist/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/clist/get?pn=1&pz=40&po=1&np=1&fltt=2&invt=2&fid=f62&fs=m%3A90%2Bt%3A2%2Bf%3A%2150&fields=f12%2Cf14%2Cf3%2Cf62%2Cf184%2Cf66%2Cf69%2Cf72%2Cf75%2Cf78%2Cf81%2Cf84%2Cf87%2Cf204%2Cf205%2Cf206",
+      "limit_pool": "ok",
+      "hot_list": "ok"
+    },
+    "vs_1h": {
+      "reference_at": "2026-08-26T15:48:57+08:00",
+      "indices": {
+        "shanghai": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        },
+        "chinext": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        },
+        "star50": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        }
+      },
+      "up_ratio": 0.0,
+      "emotion_score": 2.2
+    }
   }
 ]
