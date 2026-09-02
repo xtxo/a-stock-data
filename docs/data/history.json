@@ -28016,5 +28016,903 @@
       "up_ratio": null,
       "emotion_score": null
     }
+  },
+  {
+    "schema_version": 1,
+    "generated_at": "2026-09-02T17:50:31+08:00",
+    "trade_date": "2026-09-02",
+    "is_trading_day": true,
+    "market_phase": "收盘后",
+    "indices": {
+      "shanghai": {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3941.39,
+        "pct": -0.97,
+        "change": -38.5,
+        "volume": 516472775.0,
+        "amount": 835367755899.5,
+        "open": 3963.07,
+        "prev_close": 3979.89,
+        "high": 3965.81,
+        "low": 3932.25,
+        "rsi14_daily": 51.63,
+        "rsi14_30m": 42.56,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-09-02"
+      },
+      "chinext": {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3312.24,
+        "pct": -2.39,
+        "change": -81.19,
+        "volume": 171711415.0,
+        "amount": 442089001954.03,
+        "open": 3347.68,
+        "prev_close": 3393.43,
+        "high": 3348.69,
+        "low": 3296.47,
+        "rsi14_daily": 38.57,
+        "rsi14_30m": 35.7,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-09-02"
+      },
+      "star50": {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1617.6,
+        "pct": -1.82,
+        "change": -29.93,
+        "volume": 7081557.0,
+        "amount": 64341749225.0,
+        "open": 1623.53,
+        "prev_close": 1647.53,
+        "high": 1635.76,
+        "low": 1607.19,
+        "rsi14_daily": 42.03,
+        "rsi14_30m": 40.07,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-09-02"
+      }
+    },
+    "breadth": {
+      "up": 100,
+      "down": 0,
+      "flat": 0,
+      "total": 100,
+      "up_ratio": 100.0,
+      "strong_ge_5pct": 100,
+      "weak_le_minus5pct": 0
+    },
+    "limit_emotion": {
+      "limit_up": 52,
+      "broken": 15,
+      "limit_down": 0,
+      "seal_success_rate": 77.6,
+      "max_streak": 4,
+      "streak_leaders": [
+        {
+          "code": "601086",
+          "name": "国芳集团",
+          "pct": 10.009910583496094,
+          "streak": 4,
+          "industry": "一般零售",
+          "seal_fund": 306061410.0,
+          "open_count": 0
+        },
+        {
+          "code": "003005",
+          "name": "竞业达",
+          "pct": 10.011000633239746,
+          "streak": 4,
+          "industry": "IT服务Ⅱ",
+          "seal_fund": 180729380.0,
+          "open_count": 0
+        },
+        {
+          "code": "000892",
+          "name": "欢瑞世纪",
+          "pct": 9.936574935913086,
+          "streak": 3,
+          "industry": "影视院线",
+          "seal_fund": 394979265.0,
+          "open_count": 0
+        },
+        {
+          "code": "600892",
+          "name": "大晟文化",
+          "pct": 10.082304000854492,
+          "streak": 3,
+          "industry": "游戏Ⅱ",
+          "seal_fund": 133568100.0,
+          "open_count": 0
+        },
+        {
+          "code": "002909",
+          "name": "集泰股份",
+          "pct": 9.969788551330566,
+          "streak": 3,
+          "industry": "化学制品",
+          "seal_fund": 74416742.0,
+          "open_count": 0
+        },
+        {
+          "code": "605577",
+          "name": "龙版传媒",
+          "pct": 10.017123222351074,
+          "streak": 3,
+          "industry": "出版",
+          "seal_fund": 74112375.0,
+          "open_count": 0
+        },
+        {
+          "code": "600967",
+          "name": "内蒙一机",
+          "pct": 10.008203506469727,
+          "streak": 2,
+          "industry": "地面兵装",
+          "seal_fund": 275709036.0,
+          "open_count": 0
+        },
+        {
+          "code": "000635",
+          "name": "英 力 特",
+          "pct": 9.972298622131348,
+          "streak": 2,
+          "industry": "化学原料",
+          "seal_fund": 93295000.0,
+          "open_count": 0
+        },
+        {
+          "code": "002104",
+          "name": "恒宝股份",
+          "pct": 10.016286849975586,
+          "streak": 2,
+          "industry": "通信设备",
+          "seal_fund": 91959868.0,
+          "open_count": 1
+        },
+        {
+          "code": "600828",
+          "name": "茂业商业",
+          "pct": 10.068650245666504,
+          "streak": 2,
+          "industry": "一般零售",
+          "seal_fund": 63942216.0,
+          "open_count": 1
+        }
+      ]
+    },
+    "emotion_telemetry": {
+      "score": 76.3,
+      "label": "高热",
+      "note": "仅为盘面遥测分，不替代人工分析"
+    },
+    "fund_flow": {
+      "industry_top_in": [
+        {
+          "code": "BK1204",
+          "name": "国防军工",
+          "pct": 1.31,
+          "main_net": 2743796992.0,
+          "main_ratio": 4.86,
+          "super_net": 1501229056.0,
+          "large_net": 1242567936.0,
+          "mid_net": -267858688.0,
+          "small_net": -2341148672.0,
+          "leader_code": "长城军工",
+          "leader_name": "601606",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1312",
+          "name": "线缆部件及其他",
+          "pct": 1.62,
+          "main_net": 2006971408.0,
+          "main_ratio": 11.84,
+          "super_net": 1889885504.0,
+          "large_net": 117085904.0,
+          "mid_net": -691910400.0,
+          "small_net": -1282110208.0,
+          "leader_code": "远东股份",
+          "leader_name": "600869",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0457",
+          "name": "电网设备",
+          "pct": 0.49,
+          "main_net": 1482468768.0,
+          "main_ratio": 4.17,
+          "super_net": 1483962272.0,
+          "large_net": -1493504.0,
+          "mid_net": -190687232.0,
+          "small_net": -1176918272.0,
+          "leader_code": "远东股份",
+          "leader_name": "600869",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1384",
+          "name": "航空装备Ⅲ",
+          "pct": 1.56,
+          "main_net": 1359811184.0,
+          "main_ratio": 6.52,
+          "super_net": 725157488.0,
+          "large_net": 634653696.0,
+          "mid_net": -435808768.0,
+          "small_net": -798827264.0,
+          "leader_code": "博云新材",
+          "leader_name": "002297",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1231",
+          "name": "航空装备Ⅱ",
+          "pct": 1.56,
+          "main_net": 1359811184.0,
+          "main_ratio": 6.52,
+          "super_net": 725157488.0,
+          "large_net": 634653696.0,
+          "mid_net": -435808768.0,
+          "small_net": -798827264.0,
+          "leader_code": "博云新材",
+          "leader_name": "002297",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1382",
+          "name": "地面兵装Ⅲ",
+          "pct": 5.9,
+          "main_net": 1280932112.0,
+          "main_ratio": 12.15,
+          "super_net": 1115479024.0,
+          "large_net": 165453088.0,
+          "mid_net": -293986432.0,
+          "small_net": -986945664.0,
+          "leader_code": "长城军工",
+          "leader_name": "601606",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1229",
+          "name": "地面兵装Ⅱ",
+          "pct": 5.9,
+          "main_net": 1280932112.0,
+          "main_ratio": 12.15,
+          "super_net": 1115479024.0,
+          "large_net": 165453088.0,
+          "mid_net": -293986432.0,
+          "small_net": -986945664.0,
+          "leader_code": "长城军工",
+          "leader_name": "601606",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1600",
+          "name": "医疗研发外包",
+          "pct": -0.92,
+          "main_net": 1277829040.0,
+          "main_ratio": 6.3,
+          "super_net": 413737024.0,
+          "large_net": 864092016.0,
+          "mid_net": 171296256.0,
+          "small_net": -1449125376.0,
+          "leader_code": "药明康德",
+          "leader_name": "603259",
+          "leader_pct": 1.0
+        }
+      ],
+      "industry_top_out": [
+        {
+          "code": "BK0546",
+          "name": "玻璃玻纤",
+          "pct": 1.0,
+          "main_net": 910973136.0,
+          "main_ratio": 4.33,
+          "super_net": 956494032.0,
+          "large_net": -45520896.0,
+          "mid_net": -581715712.0,
+          "small_net": -329257728.0,
+          "leader_code": "山东玻纤",
+          "leader_name": "605006",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1037",
+          "name": "消费电子",
+          "pct": 0.79,
+          "main_net": 966985216.0,
+          "main_ratio": 1.71,
+          "super_net": 570722048.0,
+          "large_net": 396263168.0,
+          "mid_net": 72088576.0,
+          "small_net": -926381568.0,
+          "leader_code": "协创数据",
+          "leader_name": "300857",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1338",
+          "name": "消费电子零部件及组装",
+          "pct": 0.61,
+          "main_net": 989046016.0,
+          "main_ratio": 1.9,
+          "super_net": 580937728.0,
+          "large_net": 408108288.0,
+          "mid_net": 24956928.0,
+          "small_net": -901362432.0,
+          "leader_code": "协创数据",
+          "leader_name": "300857",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0727",
+          "name": "医疗服务",
+          "pct": -1.13,
+          "main_net": 1063251920.0,
+          "main_ratio": 4.32,
+          "super_net": 276774352.0,
+          "large_net": 786477568.0,
+          "mid_net": 166444288.0,
+          "small_net": -1223861760.0,
+          "leader_code": "药明康德",
+          "leader_name": "603259",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1600",
+          "name": "医疗研发外包",
+          "pct": -0.92,
+          "main_net": 1277829040.0,
+          "main_ratio": 6.3,
+          "super_net": 413737024.0,
+          "large_net": 864092016.0,
+          "mid_net": 171296256.0,
+          "small_net": -1449125376.0,
+          "leader_code": "药明康德",
+          "leader_name": "603259",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1382",
+          "name": "地面兵装Ⅲ",
+          "pct": 5.9,
+          "main_net": 1280932112.0,
+          "main_ratio": 12.15,
+          "super_net": 1115479024.0,
+          "large_net": 165453088.0,
+          "mid_net": -293986432.0,
+          "small_net": -986945664.0,
+          "leader_code": "长城军工",
+          "leader_name": "601606",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1229",
+          "name": "地面兵装Ⅱ",
+          "pct": 5.9,
+          "main_net": 1280932112.0,
+          "main_ratio": 12.15,
+          "super_net": 1115479024.0,
+          "large_net": 165453088.0,
+          "mid_net": -293986432.0,
+          "small_net": -986945664.0,
+          "leader_code": "长城军工",
+          "leader_name": "601606",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1384",
+          "name": "航空装备Ⅲ",
+          "pct": 1.56,
+          "main_net": 1359811184.0,
+          "main_ratio": 6.52,
+          "super_net": 725157488.0,
+          "large_net": 634653696.0,
+          "mid_net": -435808768.0,
+          "small_net": -798827264.0,
+          "leader_code": "博云新材",
+          "leader_name": "002297",
+          "leader_pct": 0.0
+        }
+      ],
+      "concept_top_in": [
+        {
+          "code": "BK0490",
+          "name": "军工",
+          "pct": 0.47,
+          "main_net": 2354263808.0,
+          "main_ratio": 1.69,
+          "super_net": 1056322304.0,
+          "large_net": 1297941504.0,
+          "mid_net": -117713408.0,
+          "small_net": -1949092352.0,
+          "leader_code": "长城军工",
+          "leader_name": "601606",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0808",
+          "name": "军民融合",
+          "pct": 0.68,
+          "main_net": 1832438272.0,
+          "main_ratio": 2.75,
+          "super_net": 1281342208.0,
+          "large_net": 551096064.0,
+          "mid_net": -523248384.0,
+          "small_net": -1278005504.0,
+          "leader_code": "长城军工",
+          "leader_name": "601606",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1168",
+          "name": "铜缆高速连接",
+          "pct": 0.65,
+          "main_net": 1467764496.0,
+          "main_ratio": 4.3,
+          "super_net": 1383060240.0,
+          "large_net": 84704256.0,
+          "mid_net": -377432320.0,
+          "small_net": -1060626944.0,
+          "leader_code": "远东股份",
+          "leader_name": "600869",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0899",
+          "name": "CRO",
+          "pct": -0.72,
+          "main_net": 1400869792.0,
+          "main_ratio": 5.61,
+          "super_net": 414183584.0,
+          "large_net": 986686208.0,
+          "mid_net": 250685440.0,
+          "small_net": -1646699520.0,
+          "leader_code": "药明康德",
+          "leader_name": "603259",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0814",
+          "name": "大飞机",
+          "pct": -0.06,
+          "main_net": 1383926576.0,
+          "main_ratio": 3.63,
+          "super_net": 651219504.0,
+          "large_net": 732707072.0,
+          "mid_net": -88841984.0,
+          "small_net": -1293332480.0,
+          "leader_code": "博云新材",
+          "leader_name": "002297",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0606",
+          "name": "油气设服",
+          "pct": 1.05,
+          "main_net": 1349194416.0,
+          "main_ratio": 6.77,
+          "super_net": 648529728.0,
+          "large_net": 700664688.0,
+          "mid_net": 212611840.0,
+          "small_net": -1472203520.0,
+          "leader_code": "雪人集团",
+          "leader_name": "002639",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1138",
+          "name": "液冷服务器",
+          "pct": 0.18,
+          "main_net": 1204366848.0,
+          "main_ratio": 0.79,
+          "super_net": 953515520.0,
+          "large_net": 250851328.0,
+          "mid_net": -924252416.0,
+          "small_net": -156584960.0,
+          "leader_code": "远东股份",
+          "leader_name": "600869",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0480",
+          "name": "航天航空",
+          "pct": 1.13,
+          "main_net": 1198567088.0,
+          "main_ratio": 5.44,
+          "super_net": 529297328.0,
+          "large_net": 669269760.0,
+          "mid_net": -329549312.0,
+          "small_net": -730228480.0,
+          "leader_code": "博云新材",
+          "leader_name": "002297",
+          "leader_pct": 0.0
+        }
+      ],
+      "concept_top_out": [
+        {
+          "code": "BK0601",
+          "name": "海工装备",
+          "pct": 0.07,
+          "main_net": 933642240.0,
+          "main_ratio": 2.01,
+          "super_net": 510630912.0,
+          "large_net": 423011328.0,
+          "mid_net": -593976064.0,
+          "small_net": -312560384.0,
+          "leader_code": "远东股份",
+          "leader_name": "600869",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1752",
+          "name": "2026中报预减",
+          "pct": -0.49,
+          "main_net": 1095309088.0,
+          "main_ratio": 2.53,
+          "super_net": 1170307104.0,
+          "large_net": -74998016.0,
+          "mid_net": -408826880.0,
+          "small_net": -686481920.0,
+          "leader_code": "飞龙股份",
+          "leader_name": "002536",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1649",
+          "name": "油气资源",
+          "pct": -0.16,
+          "main_net": 1104787600.0,
+          "main_ratio": 2.35,
+          "super_net": 400369296.0,
+          "large_net": 704418304.0,
+          "mid_net": 548235776.0,
+          "small_net": -1550417408.0,
+          "leader_code": "雪人集团",
+          "leader_name": "002639",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0597",
+          "name": "水利建设",
+          "pct": -0.24,
+          "main_net": 1171183856.0,
+          "main_ratio": 3.8,
+          "super_net": 1348089584.0,
+          "large_net": -176905728.0,
+          "mid_net": -492515072.0,
+          "small_net": -666584320.0,
+          "leader_code": "远东股份",
+          "leader_name": "600869",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0480",
+          "name": "航天航空",
+          "pct": 1.13,
+          "main_net": 1198567088.0,
+          "main_ratio": 5.44,
+          "super_net": 529297328.0,
+          "large_net": 669269760.0,
+          "mid_net": -329549312.0,
+          "small_net": -730228480.0,
+          "leader_code": "博云新材",
+          "leader_name": "002297",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1138",
+          "name": "液冷服务器",
+          "pct": 0.18,
+          "main_net": 1204366848.0,
+          "main_ratio": 0.79,
+          "super_net": 953515520.0,
+          "large_net": 250851328.0,
+          "mid_net": -924252416.0,
+          "small_net": -156584960.0,
+          "leader_code": "远东股份",
+          "leader_name": "600869",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0606",
+          "name": "油气设服",
+          "pct": 1.05,
+          "main_net": 1349194416.0,
+          "main_ratio": 6.77,
+          "super_net": 648529728.0,
+          "large_net": 700664688.0,
+          "mid_net": 212611840.0,
+          "small_net": -1472203520.0,
+          "leader_code": "雪人集团",
+          "leader_name": "002639",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0814",
+          "name": "大飞机",
+          "pct": -0.06,
+          "main_net": 1383926576.0,
+          "main_ratio": 3.63,
+          "super_net": 651219504.0,
+          "large_net": 732707072.0,
+          "mid_net": -88841984.0,
+          "small_net": -1293332480.0,
+          "leader_code": "博云新材",
+          "leader_name": "002297",
+          "leader_pct": 0.0
+        }
+      ]
+    },
+    "hot_stocks": [
+      {
+        "rank": 1,
+        "code": "600127",
+        "name": "金健米业",
+        "pct": 524886.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "玉米",
+          "粮食概念"
+        ]
+      },
+      {
+        "rank": 2,
+        "code": "600722",
+        "name": "金牛化工",
+        "pct": 505574.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "煤化工概念",
+          "国企改革"
+        ]
+      },
+      {
+        "rank": 3,
+        "code": "600869",
+        "name": "远东股份",
+        "pct": 462401.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "PET铜箔",
+          "光纤概念"
+        ]
+      },
+      {
+        "rank": 4,
+        "code": "003040",
+        "name": "楚天龙",
+        "pct": 362179.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "数字货币",
+          "移动支付"
+        ]
+      },
+      {
+        "rank": 5,
+        "code": "601606",
+        "name": "长城军工",
+        "pct": 334807.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "兵装重组概念",
+          "军民融合"
+        ]
+      },
+      {
+        "rank": 6,
+        "code": "600176",
+        "name": "中国巨石",
+        "pct": 314325.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "PCB概念",
+          "2026一季报预增"
+        ]
+      },
+      {
+        "rank": 7,
+        "code": "603618",
+        "name": "杭电股份",
+        "pct": 309452.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "光纤概念",
+          "PET铜箔"
+        ]
+      },
+      {
+        "rank": 8,
+        "code": "600371",
+        "name": "万向德农",
+        "pct": 282238.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "转基因",
+          "玉米"
+        ]
+      },
+      {
+        "rank": 9,
+        "code": "600172",
+        "name": "黄河旋风",
+        "pct": 258230.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "培育钻石",
+          "第三代半导体"
+        ]
+      },
+      {
+        "rank": 10,
+        "code": "600378",
+        "name": "昊华科技",
+        "pct": 257267.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "中芯国际概念",
+          "氟化工概念"
+        ]
+      },
+      {
+        "rank": 11,
+        "code": "688836",
+        "name": "宇树科技",
+        "pct": 252523.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "科创次新股",
+          "注册制次新股"
+        ]
+      },
+      {
+        "rank": 12,
+        "code": "600487",
+        "name": "亨通光电",
+        "pct": 246354.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "光纤概念",
+          "共封装光学(CPO)"
+        ]
+      },
+      {
+        "rank": 13,
+        "code": "002437",
+        "name": "誉衡药业",
+        "pct": 245701.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "创新药",
+          "肝炎概念"
+        ]
+      },
+      {
+        "rank": 14,
+        "code": "600613",
+        "name": "神奇制药",
+        "pct": 239273.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "流感",
+          "医药电商"
+        ]
+      },
+      {
+        "rank": 15,
+        "code": "600664",
+        "name": "哈药股份",
+        "pct": 238213.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "维生素",
+          "仿制药一致性评价"
+        ]
+      },
+      {
+        "rank": 16,
+        "code": "605179",
+        "name": "一鸣食品",
+        "pct": 229120.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "乳业",
+          "三胎概念"
+        ]
+      },
+      {
+        "rank": 17,
+        "code": "002536",
+        "name": "飞龙股份",
+        "pct": 222705.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "液冷服务器",
+          "芯片概念"
+        ]
+      },
+      {
+        "rank": 18,
+        "code": "603221",
+        "name": "爱丽家居",
+        "pct": 222091.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "人民币贬值受益"
+        ]
+      },
+      {
+        "rank": 19,
+        "code": "002886",
+        "name": "沃特股份",
+        "pct": 221723.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "PEEK材料",
+          "PCB概念"
+        ]
+      },
+      {
+        "rank": 20,
+        "code": "000560",
+        "name": "我爱我家",
+        "pct": 216002.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "租售同权",
+          "物业管理"
+        ]
+      }
+    ],
+    "source_health": {
+      "indexes_rsi": "ok",
+      "breadth": "ok",
+      "board_flow": "ok",
+      "limit_pool": "ok",
+      "hot_list": "ok"
+    },
+    "vs_1h": {
+      "reference_at": "2026-09-02T13:31:35+08:00",
+      "indices": {
+        "shanghai": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        },
+        "chinext": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        },
+        "star50": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        }
+      },
+      "up_ratio": null,
+      "emotion_score": null
+    }
   }
 ]
