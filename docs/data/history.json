@@ -30685,5 +30685,418 @@
       "up_ratio": 0.0,
       "emotion_score": 2.6
     }
+  },
+  {
+    "schema_version": 1,
+    "generated_at": "2026-09-04T13:37:04+08:00",
+    "trade_date": "2026-09-04",
+    "is_trading_day": true,
+    "market_phase": "下午交易",
+    "indices": {
+      "shanghai": {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3950.97,
+        "pct": 0.23,
+        "change": 8.88,
+        "volume": 383721709.0,
+        "amount": 663894465004.3,
+        "open": 3955.55,
+        "prev_close": 3942.09,
+        "high": 3980.2,
+        "low": 3950.73,
+        "rsi14_daily": 52.94,
+        "rsi14_30m": 47.97,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-09-04"
+      },
+      "chinext": {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3312.98,
+        "pct": 0.01,
+        "change": 0.44,
+        "volume": 145452764.0,
+        "amount": 365793991565.92,
+        "open": 3344.62,
+        "prev_close": 3312.54,
+        "high": 3370.47,
+        "low": 3312.98,
+        "rsi14_daily": 38.61,
+        "rsi14_30m": 42.28,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-09-04"
+      },
+      "star50": {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1593.81,
+        "pct": -1.08,
+        "change": -17.36,
+        "volume": 4875501.0,
+        "amount": 47983519805.0,
+        "open": 1627.95,
+        "prev_close": 1611.17,
+        "high": 1637.1,
+        "low": 1593.52,
+        "rsi14_daily": 40.02,
+        "rsi14_30m": 36.84,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-09-04"
+      }
+    },
+    "breadth": {
+      "error": "GET failed: https://push2.eastmoney.com/api/qt/clist/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/clist/get?pn=1&pz=6000&po=1&np=1&fltt=2&invt=2&fid=f3&fs=m%3A0%2Bt%3A6%2Cm%3A0%2Bt%3A80%2Cm%3A1%2Bt%3A2%2Cm%3A1%2Bt%3A23&fields=f12%2Cf14%2Cf3"
+    },
+    "limit_emotion": {
+      "limit_up": 45,
+      "broken": 38,
+      "limit_down": 0,
+      "seal_success_rate": 54.2,
+      "max_streak": 5,
+      "streak_leaders": [
+        {
+          "code": "605577",
+          "name": "龙版传媒",
+          "pct": 9.971712112426758,
+          "streak": 5,
+          "industry": "出版",
+          "seal_fund": 127573739.0,
+          "open_count": 2
+        },
+        {
+          "code": "600657",
+          "name": "信达地产",
+          "pct": 10.119048118591309,
+          "streak": 3,
+          "industry": "房地产开",
+          "seal_fund": 68831040.0,
+          "open_count": 2
+        },
+        {
+          "code": "600108",
+          "name": "亚盛集团",
+          "pct": 10.1010103225708,
+          "streak": 2,
+          "industry": "种植业",
+          "seal_fund": 228749379.0,
+          "open_count": 1
+        },
+        {
+          "code": "002403",
+          "name": "爱仕达",
+          "pct": 10.04878044128418,
+          "streak": 2,
+          "industry": "小家电",
+          "seal_fund": 179997780.0,
+          "open_count": 0
+        },
+        {
+          "code": "605580",
+          "name": "恒盛能源",
+          "pct": 9.985315322875977,
+          "streak": 2,
+          "industry": "电力",
+          "seal_fund": 117673143.0,
+          "open_count": 0
+        },
+        {
+          "code": "605398",
+          "name": "新炬网络",
+          "pct": 9.983498573303223,
+          "streak": 2,
+          "industry": "IT服务Ⅱ",
+          "seal_fund": 112023480.0,
+          "open_count": 0
+        },
+        {
+          "code": "603162",
+          "name": "海通发展",
+          "pct": 9.992486953735352,
+          "streak": 2,
+          "industry": "航运港口",
+          "seal_fund": 48459044.0,
+          "open_count": 9
+        }
+      ]
+    },
+    "emotion_telemetry": {
+      "score": null,
+      "label": "数据不足"
+    },
+    "fund_flow": {
+      "industry_top_in": [],
+      "industry_top_out": [],
+      "concept_top_in": [],
+      "concept_top_out": []
+    },
+    "hot_stocks": [
+      {
+        "rank": 1,
+        "code": "003040",
+        "name": "楚天龙",
+        "pct": 807566.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "数字货币",
+          "移动支付"
+        ]
+      },
+      {
+        "rank": 2,
+        "code": "601086",
+        "name": "国芳集团",
+        "pct": 462737.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "IP经济(谷子经济)",
+          "参股券商"
+        ]
+      },
+      {
+        "rank": 3,
+        "code": "002104",
+        "name": "恒宝股份",
+        "pct": 456190.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "电子身份证",
+          "移动支付"
+        ]
+      },
+      {
+        "rank": 4,
+        "code": "600127",
+        "name": "金健米业",
+        "pct": 364314.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "玉米",
+          "粮食概念"
+        ]
+      },
+      {
+        "rank": 5,
+        "code": "600172",
+        "name": "黄河旋风",
+        "pct": 341747.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "培育钻石",
+          "第三代半导体"
+        ]
+      },
+      {
+        "rank": 6,
+        "code": "600869",
+        "name": "远东股份",
+        "pct": 325646.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "PET铜箔",
+          "光纤概念"
+        ]
+      },
+      {
+        "rank": 7,
+        "code": "600664",
+        "name": "哈药股份",
+        "pct": 322287.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "维生素",
+          "仿制药一致性评价"
+        ]
+      },
+      {
+        "rank": 8,
+        "code": "600611",
+        "name": "大众交通",
+        "pct": 313263.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "网约车",
+          "云计算"
+        ]
+      },
+      {
+        "rank": 9,
+        "code": "600722",
+        "name": "金牛化工",
+        "pct": 300554.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "煤化工概念",
+          "国企改革"
+        ]
+      },
+      {
+        "rank": 10,
+        "code": "002703",
+        "name": "浙江世宝",
+        "pct": 294591.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "长安汽车概念",
+          "小米汽车"
+        ]
+      },
+      {
+        "rank": 11,
+        "code": "000560",
+        "name": "我爱我家",
+        "pct": 288468.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "租售同权",
+          "物业管理"
+        ]
+      },
+      {
+        "rank": 12,
+        "code": "601212",
+        "name": "白银有色",
+        "pct": 281334.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "金属铅",
+          "金属锌"
+        ]
+      },
+      {
+        "rank": 13,
+        "code": "603123",
+        "name": "翠微股份",
+        "pct": 273273.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "跨境支付(CIPS)",
+          "移动支付"
+        ]
+      },
+      {
+        "rank": 14,
+        "code": "605577",
+        "name": "龙版传媒",
+        "pct": 263984.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "IP经济(谷子经济)",
+          "黑龙江自贸区"
+        ]
+      },
+      {
+        "rank": 15,
+        "code": "002909",
+        "name": "集泰股份",
+        "pct": 240902.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "装配式建筑",
+          "新型城镇化"
+        ]
+      },
+      {
+        "rank": 16,
+        "code": "002081",
+        "name": "金螳螂",
+        "pct": 234097.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "新型城镇化",
+          "装配式建筑"
+        ]
+      },
+      {
+        "rank": 17,
+        "code": "605179",
+        "name": "一鸣食品",
+        "pct": 224831.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "乳业",
+          "三胎概念"
+        ]
+      },
+      {
+        "rank": 18,
+        "code": "603618",
+        "name": "杭电股份",
+        "pct": 213654.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "光纤概念",
+          "PET铜箔"
+        ]
+      },
+      {
+        "rank": 19,
+        "code": "002536",
+        "name": "飞龙股份",
+        "pct": 198296.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "液冷服务器",
+          "芯片概念"
+        ]
+      },
+      {
+        "rank": 20,
+        "code": "300468",
+        "name": "四方精创",
+        "pct": 189115.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "数字货币",
+          "跨境支付(CIPS)"
+        ]
+      }
+    ],
+    "source_health": {
+      "indexes_rsi": "ok",
+      "breadth": "error: GET failed: https://push2.eastmoney.com/api/qt/clist/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/clist/get?pn=1&pz=6000&po=1&np=1&fltt=2&invt=2&fid=f3&fs=m%3A0%2Bt%3A6%2Cm%3A0%2Bt%3A80%2Cm%3A1%2Bt%3A2%2Cm%3A1%2Bt%3A23&fields=f12%2Cf14%2Cf3",
+      "board_flow": "error: GET failed: https://push2.eastmoney.com/api/qt/clist/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/clist/get?pn=1&pz=40&po=1&np=1&fltt=2&invt=2&fid=f62&fs=m%3A90%2Bt%3A2%2Bf%3A%2150&fields=f12%2Cf14%2Cf3%2Cf62%2Cf184%2Cf66%2Cf69%2Cf72%2Cf75%2Cf78%2Cf81%2Cf84%2Cf87%2Cf204%2Cf205%2Cf206",
+      "limit_pool": "ok",
+      "hot_list": "ok"
+    },
+    "vs_1h": {
+      "reference_at": "2026-09-03T18:02:28+08:00",
+      "indices": {
+        "shanghai": {
+          "pct_change_points": 0.21,
+          "rsi30_change": 2.78
+        },
+        "chinext": {
+          "pct_change_points": 0.0,
+          "rsi30_change": 0.64
+        },
+        "star50": {
+          "pct_change_points": -0.68,
+          "rsi30_change": -5.37
+        }
+      },
+      "up_ratio": null,
+      "emotion_score": null
+    }
   }
 ]
