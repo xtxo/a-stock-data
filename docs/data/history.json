@@ -31098,5 +31098,877 @@
       "up_ratio": null,
       "emotion_score": null
     }
+  },
+  {
+    "schema_version": 1,
+    "generated_at": "2026-09-04T18:51:04+08:00",
+    "trade_date": "2026-09-04",
+    "is_trading_day": true,
+    "market_phase": "收盘后",
+    "indices": {
+      "shanghai": {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3930.12,
+        "pct": -0.3,
+        "change": -11.97,
+        "volume": 537286161.0,
+        "amount": 938255187184.3,
+        "open": 3955.55,
+        "prev_close": 3942.09,
+        "high": 3980.2,
+        "low": 3915.22,
+        "rsi14_daily": 49.93,
+        "rsi14_30m": 40.74,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-09-04"
+      },
+      "chinext": {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3286.55,
+        "pct": -0.78,
+        "change": -25.99,
+        "volume": 200462512.0,
+        "amount": 503647887923.53,
+        "open": 3344.62,
+        "prev_close": 3312.54,
+        "high": 3370.47,
+        "low": 3266.8,
+        "rsi14_daily": 37.4,
+        "rsi14_30m": 36.8,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-09-04"
+      },
+      "star50": {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1577.36,
+        "pct": -2.1,
+        "change": -33.81,
+        "volume": 7539251.0,
+        "amount": 74189842191.0,
+        "open": 1627.95,
+        "prev_close": 1611.17,
+        "high": 1637.1,
+        "low": 1566.87,
+        "rsi14_daily": 38.77,
+        "rsi14_30m": 31.74,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-09-04"
+      }
+    },
+    "breadth": {
+      "up": 100,
+      "down": 0,
+      "flat": 0,
+      "total": 100,
+      "up_ratio": 100.0,
+      "strong_ge_5pct": 100,
+      "weak_le_minus5pct": 0
+    },
+    "limit_emotion": {
+      "limit_up": 39,
+      "broken": 48,
+      "limit_down": 0,
+      "seal_success_rate": 44.8,
+      "max_streak": 5,
+      "streak_leaders": [
+        {
+          "code": "605577",
+          "name": "龙版传媒",
+          "pct": 9.971712112426758,
+          "streak": 5,
+          "industry": "出版",
+          "seal_fund": 83333989.0,
+          "open_count": 2
+        },
+        {
+          "code": "600108",
+          "name": "亚盛集团",
+          "pct": 10.1010103225708,
+          "streak": 2,
+          "industry": "种植业",
+          "seal_fund": 157784414.0,
+          "open_count": 1
+        },
+        {
+          "code": "605580",
+          "name": "恒盛能源",
+          "pct": 9.985315322875977,
+          "streak": 2,
+          "industry": "电力",
+          "seal_fund": 102941811.0,
+          "open_count": 0
+        },
+        {
+          "code": "002403",
+          "name": "爱仕达",
+          "pct": 10.04878044128418,
+          "streak": 2,
+          "industry": "小家电",
+          "seal_fund": 87603300.0,
+          "open_count": 0
+        },
+        {
+          "code": "605398",
+          "name": "新炬网络",
+          "pct": 9.983498573303223,
+          "streak": 2,
+          "industry": "IT服务Ⅱ",
+          "seal_fund": 83906671.0,
+          "open_count": 0
+        },
+        {
+          "code": "603162",
+          "name": "海通发展",
+          "pct": 9.992486953735352,
+          "streak": 2,
+          "industry": "航运港口",
+          "seal_fund": 25500757.0,
+          "open_count": 9
+        },
+        {
+          "code": "600865",
+          "name": "百大集团",
+          "pct": 9.980620384216309,
+          "streak": 2,
+          "industry": "一般零售",
+          "seal_fund": 25398950.0,
+          "open_count": 2
+        }
+      ]
+    },
+    "emotion_telemetry": {
+      "score": 71.0,
+      "label": "偏强",
+      "note": "仅为盘面遥测分，不替代人工分析"
+    },
+    "fund_flow": {
+      "industry_top_in": [
+        {
+          "code": "BK0486",
+          "name": "传媒",
+          "pct": 2.32,
+          "main_net": 6174208000.0,
+          "main_ratio": 7.24,
+          "super_net": 4360015104.0,
+          "large_net": 1814192896.0,
+          "mid_net": -2672702208.0,
+          "small_net": -3463497216.0,
+          "leader_code": "天娱数科",
+          "leader_name": "002354",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1220",
+          "name": "广告营销",
+          "pct": 2.66,
+          "main_net": 3862364848.0,
+          "main_ratio": 13.44,
+          "super_net": 3234593968.0,
+          "large_net": 627770880.0,
+          "mid_net": -1675944960.0,
+          "small_net": -2186419712.0,
+          "leader_code": "天娱数科",
+          "leader_name": "002354",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1293",
+          "name": "营销代理",
+          "pct": 2.79,
+          "main_net": 3772204976.0,
+          "main_ratio": 13.59,
+          "super_net": 3156627120.0,
+          "large_net": 615577856.0,
+          "mid_net": -1608855808.0,
+          "small_net": -2163349248.0,
+          "leader_code": "天娱数科",
+          "leader_name": "002354",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0433",
+          "name": "农林牧渔",
+          "pct": 3.61,
+          "main_net": 3015932160.0,
+          "main_ratio": 6.59,
+          "super_net": 2461189632.0,
+          "large_net": 554742528.0,
+          "mid_net": -1082123008.0,
+          "small_net": -1859797760.0,
+          "leader_code": "平潭发展",
+          "leader_name": "000592",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0737",
+          "name": "软件开发",
+          "pct": 1.26,
+          "main_net": 2358010112.0,
+          "main_ratio": 4.2,
+          "super_net": 1584666880.0,
+          "large_net": 773343232.0,
+          "mid_net": -940231680.0,
+          "small_net": -1354374400.0,
+          "leader_code": "四方精创",
+          "leader_name": "300468",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1383",
+          "name": "航海装备Ⅲ",
+          "pct": 3.1,
+          "main_net": 2186877856.0,
+          "main_ratio": 12.97,
+          "super_net": 1904734368.0,
+          "large_net": 282143488.0,
+          "mid_net": -963233488.0,
+          "small_net": -1223644368.0,
+          "leader_code": "中国船舶",
+          "leader_name": "600150",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1230",
+          "name": "航海装备Ⅱ",
+          "pct": 3.1,
+          "main_net": 2186877856.0,
+          "main_ratio": 12.97,
+          "super_net": 1904734368.0,
+          "large_net": 282143488.0,
+          "mid_net": -963233488.0,
+          "small_net": -1223644368.0,
+          "leader_code": "中国船舶",
+          "leader_name": "600150",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1447",
+          "name": "垂直应用软件",
+          "pct": 1.04,
+          "main_net": 1557901200.0,
+          "main_ratio": 4.07,
+          "super_net": 1130724496.0,
+          "large_net": 427176704.0,
+          "mid_net": -699056128.0,
+          "small_net": -795441152.0,
+          "leader_code": "四方精创",
+          "leader_name": "300468",
+          "leader_pct": 0.0
+        }
+      ],
+      "industry_top_out": [
+        {
+          "code": "BK1575",
+          "name": "白酒Ⅲ",
+          "pct": 2.82,
+          "main_net": 1031836576.0,
+          "main_ratio": 6.3,
+          "super_net": 452228912.0,
+          "large_net": 579607664.0,
+          "mid_net": -785845504.0,
+          "small_net": -245990960.0,
+          "leader_code": "五 粮 液",
+          "leader_name": "000858",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1593",
+          "name": "通信终端及配件",
+          "pct": -0.46,
+          "main_net": 1124665536.0,
+          "main_ratio": 6.49,
+          "super_net": 1630909248.0,
+          "large_net": -506243712.0,
+          "mid_net": -967253760.0,
+          "small_net": -162738176.0,
+          "leader_code": "楚天龙",
+          "leader_name": "003040",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1204",
+          "name": "国防军工",
+          "pct": 0.14,
+          "main_net": 1156241152.0,
+          "main_ratio": 1.72,
+          "super_net": 1666023424.0,
+          "large_net": -509782272.0,
+          "mid_net": -848075776.0,
+          "small_net": -313184512.0,
+          "leader_code": "中国船舶",
+          "leader_name": "600150",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0438",
+          "name": "食品饮料",
+          "pct": 2.19,
+          "main_net": 1385145120.0,
+          "main_ratio": 3.73,
+          "super_net": 720354080.0,
+          "large_net": 664791040.0,
+          "mid_net": -1153707776.0,
+          "small_net": -191797504.0,
+          "leader_code": "五 粮 液",
+          "leader_name": "000858",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1447",
+          "name": "垂直应用软件",
+          "pct": 1.04,
+          "main_net": 1557901200.0,
+          "main_ratio": 4.07,
+          "super_net": 1130724496.0,
+          "large_net": 427176704.0,
+          "mid_net": -699056128.0,
+          "small_net": -795441152.0,
+          "leader_code": "四方精创",
+          "leader_name": "300468",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1383",
+          "name": "航海装备Ⅲ",
+          "pct": 3.1,
+          "main_net": 2186877856.0,
+          "main_ratio": 12.97,
+          "super_net": 1904734368.0,
+          "large_net": 282143488.0,
+          "mid_net": -963233488.0,
+          "small_net": -1223644368.0,
+          "leader_code": "中国船舶",
+          "leader_name": "600150",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1230",
+          "name": "航海装备Ⅱ",
+          "pct": 3.1,
+          "main_net": 2186877856.0,
+          "main_ratio": 12.97,
+          "super_net": 1904734368.0,
+          "large_net": 282143488.0,
+          "mid_net": -963233488.0,
+          "small_net": -1223644368.0,
+          "leader_code": "中国船舶",
+          "leader_name": "600150",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0737",
+          "name": "软件开发",
+          "pct": 1.26,
+          "main_net": 2358010112.0,
+          "main_ratio": 4.2,
+          "super_net": 1584666880.0,
+          "large_net": 773343232.0,
+          "mid_net": -940231680.0,
+          "small_net": -1354374400.0,
+          "leader_code": "四方精创",
+          "leader_name": "300468",
+          "leader_pct": 0.0
+        }
+      ],
+      "concept_top_in": [
+        {
+          "code": "BK1629",
+          "name": "AI应用",
+          "pct": 1.02,
+          "main_net": 8555132416.0,
+          "main_ratio": 5.6,
+          "super_net": 6429299968.0,
+          "large_net": 2125832448.0,
+          "mid_net": -3773796096.0,
+          "small_net": -4640099584.0,
+          "leader_code": "天娱数科",
+          "leader_name": "002354",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1111",
+          "name": "AIGC概念",
+          "pct": 1.86,
+          "main_net": 5812803328.0,
+          "main_ratio": 5.27,
+          "super_net": 4387600128.0,
+          "large_net": 1425203200.0,
+          "mid_net": -2732076544.0,
+          "small_net": -2952793344.0,
+          "leader_code": "天娱数科",
+          "leader_name": "002354",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1126",
+          "name": "ChatGPT概念",
+          "pct": 1.47,
+          "main_net": 4644528384.0,
+          "main_ratio": 7.82,
+          "super_net": 3707523328.0,
+          "large_net": 937005056.0,
+          "mid_net": -2271515648.0,
+          "small_net": -2373012736.0,
+          "leader_code": "天娱数科",
+          "leader_name": "002354",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1151",
+          "name": "短剧互动游戏",
+          "pct": 2.3,
+          "main_net": 4365976576.0,
+          "main_ratio": 8.51,
+          "super_net": 3479213056.0,
+          "large_net": 886763520.0,
+          "mid_net": -1909132288.0,
+          "small_net": -2456844288.0,
+          "leader_code": "天娱数科",
+          "leader_name": "002354",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0637",
+          "name": "互联网金融",
+          "pct": 1.14,
+          "main_net": 4295299584.0,
+          "main_ratio": 3.53,
+          "super_net": 2953186304.0,
+          "large_net": 1342113280.0,
+          "mid_net": -2161856768.0,
+          "small_net": -2074360320.0,
+          "leader_code": "天娱数科",
+          "leader_name": "002354",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1654",
+          "name": "文娱消费",
+          "pct": 1.8,
+          "main_net": 4200773888.0,
+          "main_ratio": 6.56,
+          "super_net": 2793234176.0,
+          "large_net": 1407539712.0,
+          "mid_net": -1810128128.0,
+          "small_net": -2390646016.0,
+          "leader_code": "天娱数科",
+          "leader_name": "002354",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0809",
+          "name": "AI智能体",
+          "pct": 0.92,
+          "main_net": 4148445952.0,
+          "main_ratio": 4.51,
+          "super_net": 3188279296.0,
+          "large_net": 960166656.0,
+          "mid_net": -1814151168.0,
+          "small_net": -2236324352.0,
+          "leader_code": "天娱数科",
+          "leader_name": "002354",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1110",
+          "name": "Web3.0",
+          "pct": 1.9,
+          "main_net": 4093357424.0,
+          "main_ratio": 10.1,
+          "super_net": 3300106608.0,
+          "large_net": 793250816.0,
+          "mid_net": -1471250944.0,
+          "small_net": -2622106624.0,
+          "leader_code": "天娱数科",
+          "leader_name": "002354",
+          "leader_pct": 0.0
+        }
+      ],
+      "concept_top_out": [
+        {
+          "code": "BK1673",
+          "name": "破增发价股",
+          "pct": 0.43,
+          "main_net": 3384286208.0,
+          "main_ratio": 1.59,
+          "super_net": 3772480512.0,
+          "large_net": -388194304.0,
+          "mid_net": -3045402368.0,
+          "small_net": -334753792.0,
+          "leader_code": "中国船舶",
+          "leader_name": "600150",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1115",
+          "name": "跨境电商",
+          "pct": 1.01,
+          "main_net": 3676300800.0,
+          "main_ratio": 7.12,
+          "super_net": 3368842240.0,
+          "large_net": 307458560.0,
+          "mid_net": -2077625344.0,
+          "small_net": -1562631168.0,
+          "leader_code": "天娱数科",
+          "leader_name": "002354",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1153",
+          "name": "多模态AI",
+          "pct": 1.63,
+          "main_net": 3926974464.0,
+          "main_ratio": 7.48,
+          "super_net": 3061049600.0,
+          "large_net": 865924864.0,
+          "mid_net": -1636726784.0,
+          "small_net": -2196164864.0,
+          "leader_code": "天娱数科",
+          "leader_name": "002354",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1055",
+          "name": "虚拟数字人",
+          "pct": 1.28,
+          "main_net": 4091332608.0,
+          "main_ratio": 6.12,
+          "super_net": 2684800000.0,
+          "large_net": 1406532608.0,
+          "mid_net": -1387072512.0,
+          "small_net": -2704259840.0,
+          "leader_code": "天娱数科",
+          "leader_name": "002354",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1110",
+          "name": "Web3.0",
+          "pct": 1.9,
+          "main_net": 4093357424.0,
+          "main_ratio": 10.1,
+          "super_net": 3300106608.0,
+          "large_net": 793250816.0,
+          "mid_net": -1471250944.0,
+          "small_net": -2622106624.0,
+          "leader_code": "天娱数科",
+          "leader_name": "002354",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0809",
+          "name": "AI智能体",
+          "pct": 0.92,
+          "main_net": 4148445952.0,
+          "main_ratio": 4.51,
+          "super_net": 3188279296.0,
+          "large_net": 960166656.0,
+          "mid_net": -1814151168.0,
+          "small_net": -2236324352.0,
+          "leader_code": "天娱数科",
+          "leader_name": "002354",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1654",
+          "name": "文娱消费",
+          "pct": 1.8,
+          "main_net": 4200773888.0,
+          "main_ratio": 6.56,
+          "super_net": 2793234176.0,
+          "large_net": 1407539712.0,
+          "mid_net": -1810128128.0,
+          "small_net": -2390646016.0,
+          "leader_code": "天娱数科",
+          "leader_name": "002354",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0637",
+          "name": "互联网金融",
+          "pct": 1.14,
+          "main_net": 4295299584.0,
+          "main_ratio": 3.53,
+          "super_net": 2953186304.0,
+          "large_net": 1342113280.0,
+          "mid_net": -2161856768.0,
+          "small_net": -2074360320.0,
+          "leader_code": "天娱数科",
+          "leader_name": "002354",
+          "leader_pct": 0.0
+        }
+      ]
+    },
+    "hot_stocks": [
+      {
+        "rank": 1,
+        "code": "003040",
+        "name": "楚天龙",
+        "pct": 462682.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "数字货币",
+          "移动支付"
+        ]
+      },
+      {
+        "rank": 2,
+        "code": "601086",
+        "name": "国芳集团",
+        "pct": 359144.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "IP经济(谷子经济)",
+          "参股券商"
+        ]
+      },
+      {
+        "rank": 3,
+        "code": "600722",
+        "name": "金牛化工",
+        "pct": 357482.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "煤化工概念",
+          "国企改革"
+        ]
+      },
+      {
+        "rank": 4,
+        "code": "600127",
+        "name": "金健米业",
+        "pct": 353828.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "玉米",
+          "粮食概念"
+        ]
+      },
+      {
+        "rank": 5,
+        "code": "600664",
+        "name": "哈药股份",
+        "pct": 344952.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "维生素",
+          "仿制药一致性评价"
+        ]
+      },
+      {
+        "rank": 6,
+        "code": "002354",
+        "name": "天娱数科",
+        "pct": 344314.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "小红书概念",
+          "AI视频"
+        ]
+      },
+      {
+        "rank": 7,
+        "code": "600869",
+        "name": "远东股份",
+        "pct": 339443.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "PET铜箔",
+          "光纤概念"
+        ]
+      },
+      {
+        "rank": 8,
+        "code": "600172",
+        "name": "黄河旋风",
+        "pct": 335262.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "培育钻石",
+          "第三代半导体"
+        ]
+      },
+      {
+        "rank": 9,
+        "code": "002104",
+        "name": "恒宝股份",
+        "pct": 321071.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "电子身份证",
+          "移动支付"
+        ]
+      },
+      {
+        "rank": 10,
+        "code": "300058",
+        "name": "蓝色光标",
+        "pct": 311351.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "快手概念",
+          "AI视频"
+        ]
+      },
+      {
+        "rank": 11,
+        "code": "000560",
+        "name": "我爱我家",
+        "pct": 310348.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "租售同权",
+          "物业管理"
+        ]
+      },
+      {
+        "rank": 12,
+        "code": "002081",
+        "name": "金螳螂",
+        "pct": 285988.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "新型城镇化",
+          "装配式建筑"
+        ]
+      },
+      {
+        "rank": 13,
+        "code": "301171",
+        "name": "易点天下",
+        "pct": 277098.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "AI视频",
+          "快手概念"
+        ]
+      },
+      {
+        "rank": 14,
+        "code": "000892",
+        "name": "欢瑞世纪",
+        "pct": 266498.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "短剧游戏",
+          "文化传媒概念"
+        ]
+      },
+      {
+        "rank": 15,
+        "code": "601212",
+        "name": "白银有色",
+        "pct": 235868.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "金属铅",
+          "金属锌"
+        ]
+      },
+      {
+        "rank": 16,
+        "code": "605179",
+        "name": "一鸣食品",
+        "pct": 225919.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "乳业",
+          "三胎概念"
+        ]
+      },
+      {
+        "rank": 17,
+        "code": "300413",
+        "name": "芒果超媒",
+        "pct": 223296.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "短剧游戏",
+          "文化传媒概念"
+        ]
+      },
+      {
+        "rank": 18,
+        "code": "605577",
+        "name": "龙版传媒",
+        "pct": 219520.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "IP经济(谷子经济)",
+          "黑龙江自贸区"
+        ]
+      },
+      {
+        "rank": 19,
+        "code": "000977",
+        "name": "浪潮信息",
+        "pct": 217816.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "中国AI 50",
+          "英伟达概念"
+        ]
+      },
+      {
+        "rank": 20,
+        "code": "300468",
+        "name": "四方精创",
+        "pct": 212478.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "数字货币",
+          "跨境支付(CIPS)"
+        ]
+      }
+    ],
+    "source_health": {
+      "indexes_rsi": "ok",
+      "breadth": "ok",
+      "board_flow": "ok",
+      "limit_pool": "ok",
+      "hot_list": "ok"
+    },
+    "vs_1h": {
+      "reference_at": "2026-09-04T13:37:04+08:00",
+      "indices": {
+        "shanghai": {
+          "pct_change_points": -0.53,
+          "rsi30_change": -7.23
+        },
+        "chinext": {
+          "pct_change_points": -0.79,
+          "rsi30_change": -5.48
+        },
+        "star50": {
+          "pct_change_points": -1.02,
+          "rsi30_change": -5.1
+        }
+      },
+      "up_ratio": null,
+      "emotion_score": null
+    }
   }
 ]
