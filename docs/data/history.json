@@ -35420,5 +35420,445 @@
       "up_ratio": null,
       "emotion_score": null
     }
+  },
+  {
+    "schema_version": 1,
+    "generated_at": "2026-09-10T13:41:21+08:00",
+    "trade_date": "2026-09-10",
+    "is_trading_day": true,
+    "market_phase": "下午交易",
+    "indices": {
+      "shanghai": {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3931.74,
+        "pct": -0.5,
+        "change": -19.77,
+        "volume": 374944147.0,
+        "amount": 602697531778.9,
+        "open": 3939.09,
+        "prev_close": 3951.51,
+        "high": 3949.25,
+        "low": 3927.35,
+        "rsi14_daily": 49.77,
+        "rsi14_30m": 41.66,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-09-10"
+      },
+      "chinext": {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3337.07,
+        "pct": -0.53,
+        "change": -17.9,
+        "volume": 113794840.0,
+        "amount": 296252653945.66,
+        "open": 3324.33,
+        "prev_close": 3354.97,
+        "high": 3368.73,
+        "low": 3308.71,
+        "rsi14_daily": 41.96,
+        "rsi14_30m": 43.92,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-09-10"
+      },
+      "star50": {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1568.47,
+        "pct": -0.73,
+        "change": -11.59,
+        "volume": 4376102.0,
+        "amount": 41070232527.0,
+        "open": 1569.46,
+        "prev_close": 1580.06,
+        "high": 1588.0,
+        "low": 1562.34,
+        "rsi14_daily": 39.23,
+        "rsi14_30m": 38.05,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-09-10"
+      }
+    },
+    "breadth": {
+      "error": "GET failed: https://push2.eastmoney.com/api/qt/clist/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/clist/get?pn=1&pz=6000&po=1&np=1&fltt=2&invt=2&fid=f3&fs=m%3A0%2Bt%3A6%2Cm%3A0%2Bt%3A80%2Cm%3A1%2Bt%3A2%2Cm%3A1%2Bt%3A23&fields=f12%2Cf14%2Cf3"
+    },
+    "limit_emotion": {
+      "limit_up": 32,
+      "broken": 21,
+      "limit_down": 0,
+      "seal_success_rate": 60.4,
+      "max_streak": 4,
+      "streak_leaders": [
+        {
+          "code": "000759",
+          "name": "中百集团",
+          "pct": 10.035419464111328,
+          "streak": 4,
+          "industry": "一般零售",
+          "seal_fund": 127980683.0,
+          "open_count": 3
+        },
+        {
+          "code": "000978",
+          "name": "桂林旅游",
+          "pct": 9.988649368286133,
+          "streak": 4,
+          "industry": "旅游及景",
+          "seal_fund": 93429419.0,
+          "open_count": 1
+        },
+        {
+          "code": "002790",
+          "name": "瑞尔特",
+          "pct": 10.0130033493042,
+          "streak": 3,
+          "industry": "家居用品",
+          "seal_fund": 366700290.0,
+          "open_count": 0
+        },
+        {
+          "code": "600792",
+          "name": "云煤能源",
+          "pct": 9.959349632263184,
+          "streak": 3,
+          "industry": "焦炭Ⅱ",
+          "seal_fund": 73262220.0,
+          "open_count": 1
+        },
+        {
+          "code": "000993",
+          "name": "闽东电力",
+          "pct": 10.026155471801758,
+          "streak": 2,
+          "industry": "电力",
+          "seal_fund": 176987309.0,
+          "open_count": 1
+        },
+        {
+          "code": "002377",
+          "name": "国创高新",
+          "pct": 10.158730506896973,
+          "streak": 2,
+          "industry": "炼化及贸",
+          "seal_fund": 169453980.0,
+          "open_count": 0
+        },
+        {
+          "code": "600359",
+          "name": "新农开发",
+          "pct": 10.045661926269531,
+          "streak": 2,
+          "industry": "种植业",
+          "seal_fund": 123292708.0,
+          "open_count": 1
+        },
+        {
+          "code": "603421",
+          "name": "鼎信通讯",
+          "pct": 9.954751014709473,
+          "streak": 2,
+          "industry": "通信设备",
+          "seal_fund": 105634432.0,
+          "open_count": 0
+        },
+        {
+          "code": "000565",
+          "name": "渝三峡Ａ",
+          "pct": 10.013908386230469,
+          "streak": 2,
+          "industry": "化学制品",
+          "seal_fund": 90483494.0,
+          "open_count": 0
+        },
+        {
+          "code": "600192",
+          "name": "长城电工",
+          "pct": 10.012674331665039,
+          "streak": 2,
+          "industry": "电网设备",
+          "seal_fund": 88007388.0,
+          "open_count": 3
+        }
+      ]
+    },
+    "emotion_telemetry": {
+      "score": null,
+      "label": "数据不足"
+    },
+    "fund_flow": {
+      "industry_top_in": [],
+      "industry_top_out": [],
+      "concept_top_in": [],
+      "concept_top_out": []
+    },
+    "hot_stocks": [
+      {
+        "rank": 1,
+        "code": "600869",
+        "name": "远东股份",
+        "pct": 774584.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "PET铜箔",
+          "光纤概念"
+        ]
+      },
+      {
+        "rank": 2,
+        "code": "600667",
+        "name": "太极实业",
+        "pct": 724816.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "存储芯片",
+          "先进封装"
+        ]
+      },
+      {
+        "rank": 3,
+        "code": "000759",
+        "name": "中百集团",
+        "pct": 645181.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "免税店",
+          "预制菜"
+        ]
+      },
+      {
+        "rank": 4,
+        "code": "600108",
+        "name": "亚盛集团",
+        "pct": 589667.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "玉米",
+          "粮食概念"
+        ]
+      },
+      {
+        "rank": 5,
+        "code": "600127",
+        "name": "金健米业",
+        "pct": 537528.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "玉米",
+          "粮食概念"
+        ]
+      },
+      {
+        "rank": 6,
+        "code": "600865",
+        "name": "百大集团",
+        "pct": 482661.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "物业管理",
+          "信托概念"
+        ]
+      },
+      {
+        "rank": 7,
+        "code": "000523",
+        "name": "红棉股份",
+        "pct": 408450.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "啤酒概念",
+          "代糖概念"
+        ]
+      },
+      {
+        "rank": 8,
+        "code": "000978",
+        "name": "桂林旅游",
+        "pct": 393536.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "旅游概念",
+          "国企改革"
+        ]
+      },
+      {
+        "rank": 9,
+        "code": "600722",
+        "name": "金牛化工",
+        "pct": 364300.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "煤化工概念",
+          "国企改革"
+        ]
+      },
+      {
+        "rank": 10,
+        "code": "000930",
+        "name": "中粮科技",
+        "pct": 348771.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "玉米",
+          "粮食概念"
+        ]
+      },
+      {
+        "rank": 11,
+        "code": "600737",
+        "name": "中粮糖业",
+        "pct": 342726.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "乡村振兴",
+          "新疆振兴"
+        ]
+      },
+      {
+        "rank": 12,
+        "code": "000021",
+        "name": "深科技",
+        "pct": 318592.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "存储芯片",
+          "先进封装"
+        ]
+      },
+      {
+        "rank": 13,
+        "code": "600403",
+        "name": "大有能源",
+        "pct": 294018.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "煤炭概念",
+          "新疆振兴"
+        ]
+      },
+      {
+        "rank": 14,
+        "code": "603618",
+        "name": "杭电股份",
+        "pct": 280526.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "光纤概念",
+          "PET铜箔"
+        ]
+      },
+      {
+        "rank": 15,
+        "code": "002470",
+        "name": "金正大",
+        "pct": 272937.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "化肥",
+          "生态农业"
+        ]
+      },
+      {
+        "rank": 16,
+        "code": "600172",
+        "name": "黄河旋风",
+        "pct": 259637.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "培育钻石",
+          "第三代半导体"
+        ]
+      },
+      {
+        "rank": 17,
+        "code": "601949",
+        "name": "中国出版",
+        "pct": 254487.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "同花顺中特估100",
+          "NFT概念"
+        ]
+      },
+      {
+        "rank": 18,
+        "code": "600121",
+        "name": "郑州煤电",
+        "pct": 241411.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "煤炭概念",
+          "国企改革"
+        ]
+      },
+      {
+        "rank": 19,
+        "code": "002059",
+        "name": "云南旅游",
+        "pct": 240881.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "旅游概念",
+          "参股银行"
+        ]
+      },
+      {
+        "rank": 20,
+        "code": "600792",
+        "name": "云煤能源",
+        "pct": 234544.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "煤炭概念",
+          "煤化工概念"
+        ]
+      }
+    ],
+    "source_health": {
+      "indexes_rsi": "ok",
+      "breadth": "error: GET failed: https://push2.eastmoney.com/api/qt/clist/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/clist/get?pn=1&pz=6000&po=1&np=1&fltt=2&invt=2&fid=f3&fs=m%3A0%2Bt%3A6%2Cm%3A0%2Bt%3A80%2Cm%3A1%2Bt%3A2%2Cm%3A1%2Bt%3A23&fields=f12%2Cf14%2Cf3",
+      "board_flow": "error: GET failed: https://push2.eastmoney.com/api/qt/clist/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/clist/get?pn=1&pz=40&po=1&np=1&fltt=2&invt=2&fid=f62&fs=m%3A90%2Bt%3A2%2Bf%3A%2150&fields=f12%2Cf14%2Cf3%2Cf62%2Cf184%2Cf66%2Cf69%2Cf72%2Cf75%2Cf78%2Cf81%2Cf84%2Cf87%2Cf204%2Cf205%2Cf206",
+      "limit_pool": "ok",
+      "hot_list": "ok"
+    },
+    "vs_1h": {
+      "reference_at": "2026-09-09T18:55:53+08:00",
+      "indices": {
+        "shanghai": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        },
+        "chinext": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        },
+        "star50": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        }
+      },
+      "up_ratio": null,
+      "emotion_score": null
+    }
   }
 ]
