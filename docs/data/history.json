@@ -35860,5 +35860,159 @@
       "up_ratio": null,
       "emotion_score": null
     }
+  },
+  {
+    "schema_version": 1,
+    "generated_at": "2026-09-10T18:52:15+08:00",
+    "trade_date": null,
+    "is_trading_day": false,
+    "market_phase": "非交易日/数据未进入当日",
+    "indices": {
+      "shanghai": {
+        "name": "上证指数",
+        "code": "000001",
+        "error": "GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      },
+      "chinext": {
+        "name": "创业板指",
+        "code": "399006",
+        "error": "GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      },
+      "star50": {
+        "name": "科创50",
+        "code": "000688",
+        "error": "GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      }
+    },
+    "breadth": {
+      "error": "GET failed: https://push2.eastmoney.com/api/qt/clist/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/clist/get?pn=1&pz=6000&po=1&np=1&fltt=2&invt=2&fid=f3&fs=m%3A0%2Bt%3A6%2Cm%3A0%2Bt%3A80%2Cm%3A1%2Bt%3A2%2Cm%3A1%2Bt%3A23&fields=f12%2Cf14%2Cf3"
+    },
+    "limit_emotion": {
+      "limit_up": 35,
+      "broken": 22,
+      "limit_down": 0,
+      "seal_success_rate": 61.4,
+      "max_streak": 4,
+      "streak_leaders": [
+        {
+          "code": "000978",
+          "name": "桂林旅游",
+          "pct": 9.988649368286133,
+          "streak": 4,
+          "industry": "旅游及景",
+          "seal_fund": 70007963.0,
+          "open_count": 1
+        },
+        {
+          "code": "002790",
+          "name": "瑞尔特",
+          "pct": 10.0130033493042,
+          "streak": 3,
+          "industry": "家居用品",
+          "seal_fund": 372712947.0,
+          "open_count": 0
+        },
+        {
+          "code": "600792",
+          "name": "云煤能源",
+          "pct": 9.959349632263184,
+          "streak": 3,
+          "industry": "焦炭Ⅱ",
+          "seal_fund": 33286648.0,
+          "open_count": 1
+        },
+        {
+          "code": "000993",
+          "name": "闽东电力",
+          "pct": 10.026155471801758,
+          "streak": 2,
+          "industry": "电力",
+          "seal_fund": 122261941.0,
+          "open_count": 1
+        },
+        {
+          "code": "002377",
+          "name": "国创高新",
+          "pct": 10.158730506896973,
+          "streak": 2,
+          "industry": "炼化及贸",
+          "seal_fund": 104476148.0,
+          "open_count": 0
+        },
+        {
+          "code": "603421",
+          "name": "鼎信通讯",
+          "pct": 9.954751014709473,
+          "streak": 2,
+          "industry": "通信设备",
+          "seal_fund": 65399464.0,
+          "open_count": 0
+        },
+        {
+          "code": "000565",
+          "name": "渝三峡Ａ",
+          "pct": 10.013908386230469,
+          "streak": 2,
+          "industry": "化学制品",
+          "seal_fund": 48895103.0,
+          "open_count": 0
+        },
+        {
+          "code": "600359",
+          "name": "新农开发",
+          "pct": 10.045661926269531,
+          "streak": 2,
+          "industry": "种植业",
+          "seal_fund": 43204552.0,
+          "open_count": 1
+        },
+        {
+          "code": "600192",
+          "name": "长城电工",
+          "pct": 10.012674331665039,
+          "streak": 2,
+          "industry": "电网设备",
+          "seal_fund": 38523576.0,
+          "open_count": 3
+        }
+      ]
+    },
+    "emotion_telemetry": {
+      "score": null,
+      "label": "数据不足"
+    },
+    "fund_flow": {
+      "industry_top_in": [],
+      "industry_top_out": [],
+      "concept_top_in": [],
+      "concept_top_out": []
+    },
+    "hot_stocks": [],
+    "source_health": {
+      "indexes_rsi": "error: GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "breadth": "error: GET failed: https://push2.eastmoney.com/api/qt/clist/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/clist/get?pn=1&pz=6000&po=1&np=1&fltt=2&invt=2&fid=f3&fs=m%3A0%2Bt%3A6%2Cm%3A0%2Bt%3A80%2Cm%3A1%2Bt%3A2%2Cm%3A1%2Bt%3A23&fields=f12%2Cf14%2Cf3",
+      "board_flow": "error: GET failed: https://push2.eastmoney.com/api/qt/clist/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/clist/get?pn=1&pz=40&po=1&np=1&fltt=2&invt=2&fid=f62&fs=m%3A90%2Bt%3A2%2Bf%3A%2150&fields=f12%2Cf14%2Cf3%2Cf62%2Cf184%2Cf66%2Cf69%2Cf72%2Cf75%2Cf78%2Cf81%2Cf84%2Cf87%2Cf204%2Cf205%2Cf206",
+      "limit_pool": "ok",
+      "hot_list": "empty"
+    },
+    "vs_1h": {
+      "reference_at": "2026-09-10T13:41:21+08:00",
+      "indices": {
+        "shanghai": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        },
+        "chinext": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        },
+        "star50": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        }
+      },
+      "up_ratio": null,
+      "emotion_score": null
+    }
   }
 ]
