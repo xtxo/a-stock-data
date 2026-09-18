@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-18T13:36:55+08:00",
+  "generated_at": "2026-09-18T18:45:39+08:00",
   "trade_date": null,
   "is_trading_day": false,
   "market_phase": "非交易日/数据未进入当日",
@@ -22,19 +22,13 @@
     }
   },
   "breadth": {
-    "up": 100,
-    "down": 0,
-    "flat": 0,
-    "total": 100,
-    "up_ratio": 100.0,
-    "strong_ge_5pct": 100,
-    "weak_le_minus5pct": 0
+    "error": "GET failed: https://push2.eastmoney.com/api/qt/clist/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/clist/get?pn=1&pz=6000&po=1&np=1&fltt=2&invt=2&fid=f3&fs=m%3A0%2Bt%3A6%2Cm%3A0%2Bt%3A80%2Cm%3A1%2Bt%3A2%2Cm%3A1%2Bt%3A23&fields=f12%2Cf14%2Cf3"
   },
   "limit_emotion": {
-    "limit_up": 72,
-    "broken": 24,
+    "limit_up": 78,
+    "broken": 25,
     "limit_down": 0,
-    "seal_success_rate": 75.0,
+    "seal_success_rate": 75.7,
     "max_streak": 4,
     "streak_leaders": [
       {
@@ -43,7 +37,7 @@
         "pct": 10.01006031036377,
         "streak": 4,
         "industry": "家居用品",
-        "seal_fund": 173414228.0,
+        "seal_fund": 98271095.0,
         "open_count": 1
       },
       {
@@ -52,7 +46,7 @@
         "pct": 9.982094764709473,
         "streak": 4,
         "industry": "风电设备",
-        "seal_fund": 95176980.0,
+        "seal_fund": 48929213.0,
         "open_count": 1
       },
       {
@@ -61,8 +55,17 @@
         "pct": 9.885931968688965,
         "streak": 3,
         "industry": "房地产服",
-        "seal_fund": 13015115.0,
+        "seal_fund": 41009813.0,
         "open_count": 1
+      },
+      {
+        "code": "603230",
+        "name": "内蒙新华",
+        "pct": 10.040816307067871,
+        "streak": 3,
+        "industry": "出版",
+        "seal_fund": 32045451.0,
+        "open_count": 6
       },
       {
         "code": "002836",
@@ -70,7 +73,7 @@
         "pct": 9.963099479675293,
         "streak": 2,
         "industry": "包装印刷",
-        "seal_fund": 301558978.0,
+        "seal_fund": 278374578.0,
         "open_count": 2
       },
       {
@@ -79,17 +82,8 @@
         "pct": 20.0,
         "streak": 2,
         "industry": "工程咨询",
-        "seal_fund": 121716000.0,
+        "seal_fund": 98828640.0,
         "open_count": 0
-      },
-      {
-        "code": "603626",
-        "name": "科森科技",
-        "pct": 10.0046968460083,
-        "streak": 2,
-        "industry": "消费电子",
-        "seal_fund": 110795336.0,
-        "open_count": 5
       },
       {
         "code": "600630",
@@ -97,7 +91,7 @@
         "pct": 9.94694995880127,
         "streak": 2,
         "industry": "服装家纺",
-        "seal_fund": 108133151.0,
+        "seal_fund": 84059820.0,
         "open_count": 1
       },
       {
@@ -106,7 +100,7 @@
         "pct": 10.0,
         "streak": 2,
         "industry": "医疗服务",
-        "seal_fund": 104651526.0,
+        "seal_fund": 75129054.0,
         "open_count": 1
       },
       {
@@ -115,513 +109,36 @@
         "pct": 9.937888145446777,
         "streak": 2,
         "industry": "纺织制造",
-        "seal_fund": 79470805.0,
+        "seal_fund": 68793457.0,
         "open_count": 0
       },
       {
-        "code": "002453",
-        "name": "华软科技",
-        "pct": 10.103093147277832,
+        "code": "603626",
+        "name": "科森科技",
+        "pct": 10.0046968460083,
         "streak": 2,
-        "industry": "化学制品",
-        "seal_fund": 76327290.0,
-        "open_count": 1
+        "industry": "消费电子",
+        "seal_fund": 63193951.0,
+        "open_count": 5
       }
     ]
   },
   "emotion_telemetry": {
-    "score": 81.3,
-    "label": "高热",
-    "note": "仅为盘面遥测分，不替代人工分析"
+    "score": null,
+    "label": "数据不足"
   },
   "fund_flow": {
-    "industry_top_in": [
-      {
-        "code": "BK1201",
-        "name": "电子",
-        "pct": 2.85,
-        "main_net": 19233546240.0,
-        "main_ratio": 3.8,
-        "super_net": 16200372224.0,
-        "large_net": 3033174016.0,
-        "mid_net": -12759408640.0,
-        "small_net": -6367264768.0,
-        "leader_code": "华天科技",
-        "leader_name": "002185",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK1036",
-        "name": "半导体",
-        "pct": 4.53,
-        "main_net": 17786085120.0,
-        "main_ratio": 6.71,
-        "super_net": 13958848256.0,
-        "large_net": 3827236864.0,
-        "mid_net": -10357350400.0,
-        "small_net": -7376336896.0,
-        "leader_code": "华天科技",
-        "leader_name": "002185",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK1331",
-        "name": "数字芯片设计",
-        "pct": 4.7,
-        "main_net": 7757956608.0,
-        "main_ratio": 7.3,
-        "super_net": 5953866496.0,
-        "large_net": 1804090112.0,
-        "mid_net": -5333699584.0,
-        "small_net": -2392271104.0,
-        "leader_code": "兆易创新",
-        "leader_name": "603986",
-        "leader_pct": 1.0
-      },
-      {
-        "code": "BK1591",
-        "name": "通信网络设备及器件",
-        "pct": 2.88,
-        "main_net": 6372463872.0,
-        "main_ratio": 6.74,
-        "super_net": 5196482048.0,
-        "large_net": 1175981824.0,
-        "mid_net": -4026003968.0,
-        "small_net": -2372278528.0,
-        "leader_code": "中际旭创",
-        "leader_name": "300308",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK1328",
-        "name": "集成电路封测",
-        "pct": 4.53,
-        "main_net": 4592327552.0,
-        "main_ratio": 16.13,
-        "super_net": 4336594560.0,
-        "large_net": 255732992.0,
-        "mid_net": -1577763328.0,
-        "small_net": -3001224448.0,
-        "leader_code": "华天科技",
-        "leader_name": "002185",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK1215",
-        "name": "通信",
-        "pct": 1.87,
-        "main_net": 4252726016.0,
-        "main_ratio": 2.68,
-        "super_net": 4474253312.0,
-        "large_net": -221527296.0,
-        "mid_net": -3978867968.0,
-        "small_net": -295801088.0,
-        "leader_code": "中际旭创",
-        "leader_name": "300308",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK0448",
-        "name": "通信设备",
-        "pct": 2.23,
-        "main_net": 4195283456.0,
-        "main_ratio": 2.75,
-        "super_net": 4308329728.0,
-        "large_net": -113046272.0,
-        "mid_net": -3945640448.0,
-        "small_net": -274001664.0,
-        "leader_code": "中际旭创",
-        "leader_name": "300308",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK1205",
-        "name": "机械设备",
-        "pct": 1.79,
-        "main_net": 2949300992.0,
-        "main_ratio": 2.47,
-        "super_net": 1364954880.0,
-        "large_net": 1584346112.0,
-        "mid_net": -1267923968.0,
-        "small_net": -1326684160.0,
-        "leader_code": "冰轮环境",
-        "leader_name": "000811",
-        "leader_pct": 0.0
-      }
-    ],
-    "industry_top_out": [
-      {
-        "code": "BK1326",
-        "name": "半导体设备",
-        "pct": 5.22,
-        "main_net": 1808932608.0,
-        "main_ratio": 4.17,
-        "super_net": 1232545792.0,
-        "large_net": 576386816.0,
-        "mid_net": -1089495040.0,
-        "small_net": -719594576.0,
-        "leader_code": "长川科技",
-        "leader_name": "300604",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK1338",
-        "name": "消费电子零部件及组装",
-        "pct": 1.76,
-        "main_net": 1906467072.0,
-        "main_ratio": 4.26,
-        "super_net": 1450834688.0,
-        "large_net": 455632384.0,
-        "mid_net": -1287533312.0,
-        "small_net": -611969024.0,
-        "leader_code": "工业富联",
-        "leader_name": "601138",
-        "leader_pct": 1.0
-      },
-      {
-        "code": "BK1037",
-        "name": "消费电子",
-        "pct": 1.73,
-        "main_net": 1936090368.0,
-        "main_ratio": 4.16,
-        "super_net": 1487801856.0,
-        "large_net": 448288512.0,
-        "mid_net": -1340705280.0,
-        "small_net": -587059200.0,
-        "leader_code": "工业富联",
-        "leader_name": "601138",
-        "leader_pct": 1.0
-      },
-      {
-        "code": "BK1207",
-        "name": "计算机",
-        "pct": 1.82,
-        "main_net": 2524685312.0,
-        "main_ratio": 3.61,
-        "super_net": 2080162560.0,
-        "large_net": 444522752.0,
-        "mid_net": -1010112768.0,
-        "small_net": -1441329408.0,
-        "leader_code": "紫光股份",
-        "leader_name": "000938",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK1205",
-        "name": "机械设备",
-        "pct": 1.79,
-        "main_net": 2949300992.0,
-        "main_ratio": 2.47,
-        "super_net": 1364954880.0,
-        "large_net": 1584346112.0,
-        "mid_net": -1267923968.0,
-        "small_net": -1326684160.0,
-        "leader_code": "冰轮环境",
-        "leader_name": "000811",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK0448",
-        "name": "通信设备",
-        "pct": 2.23,
-        "main_net": 4195283456.0,
-        "main_ratio": 2.75,
-        "super_net": 4308329728.0,
-        "large_net": -113046272.0,
-        "mid_net": -3945640448.0,
-        "small_net": -274001664.0,
-        "leader_code": "中际旭创",
-        "leader_name": "300308",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK1215",
-        "name": "通信",
-        "pct": 1.87,
-        "main_net": 4252726016.0,
-        "main_ratio": 2.68,
-        "super_net": 4474253312.0,
-        "large_net": -221527296.0,
-        "mid_net": -3978867968.0,
-        "small_net": -295801088.0,
-        "leader_code": "中际旭创",
-        "leader_name": "300308",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK1328",
-        "name": "集成电路封测",
-        "pct": 4.53,
-        "main_net": 4592327552.0,
-        "main_ratio": 16.13,
-        "super_net": 4336594560.0,
-        "large_net": 255732992.0,
-        "mid_net": -1577763328.0,
-        "small_net": -3001224448.0,
-        "leader_code": "华天科技",
-        "leader_name": "002185",
-        "leader_pct": 0.0
-      }
-    ],
-    "concept_top_in": [
-      {
-        "code": "BK0596",
-        "name": "融资融券",
-        "pct": 1.63,
-        "main_net": 31463448576.0,
-        "main_ratio": 2.26,
-        "super_net": 27486625792.0,
-        "large_net": 3976822784.0,
-        "mid_net": -21275353088.0,
-        "small_net": -9432399872.0,
-        "leader_code": "华天科技",
-        "leader_name": "002185",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK0821",
-        "name": "MSCI中国",
-        "pct": 1.44,
-        "main_net": 22011789312.0,
-        "main_ratio": 3.03,
-        "super_net": 18692681728.0,
-        "large_net": 3319107584.0,
-        "mid_net": -14916067328.0,
-        "small_net": -7096819712.0,
-        "leader_code": "华天科技",
-        "leader_name": "002185",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK0891",
-        "name": "国产芯片",
-        "pct": 2.87,
-        "main_net": 21119322112.0,
-        "main_ratio": 5.45,
-        "super_net": 17260554240.0,
-        "large_net": 3858767872.0,
-        "mid_net": -11357573120.0,
-        "small_net": -9647243264.0,
-        "leader_code": "华天科技",
-        "leader_name": "002185",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK0804",
-        "name": "深股通",
-        "pct": 1.51,
-        "main_net": 19676991488.0,
-        "main_ratio": 2.68,
-        "super_net": 16560082944.0,
-        "large_net": 3116908544.0,
-        "mid_net": -10665623552.0,
-        "small_net": -9011367936.0,
-        "leader_code": "华天科技",
-        "leader_name": "002185",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK0917",
-        "name": "半导体概念",
-        "pct": 3.13,
-        "main_net": 19497789184.0,
-        "main_ratio": 4.31,
-        "super_net": 15190841088.0,
-        "large_net": 4306948096.0,
-        "mid_net": -11356712960.0,
-        "small_net": -7740272640.0,
-        "leader_code": "华天科技",
-        "leader_name": "002185",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK1713",
-        "name": "科技风格",
-        "pct": 3.12,
-        "main_net": 17254277120.0,
-        "main_ratio": 4.71,
-        "super_net": 13985947648.0,
-        "large_net": 3268329472.0,
-        "mid_net": -11394637824.0,
-        "small_net": -5860168192.0,
-        "leader_code": "中际旭创",
-        "leader_name": "300308",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK0867",
-        "name": "富时罗素",
-        "pct": 1.06,
-        "main_net": 15932416000.0,
-        "main_ratio": 2.34,
-        "super_net": 14157062144.0,
-        "large_net": 1775353856.0,
-        "mid_net": -10233307136.0,
-        "small_net": -5698719744.0,
-        "leader_code": "华天科技",
-        "leader_name": "002185",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK1059",
-        "name": "百元股",
-        "pct": 3.26,
-        "main_net": 15573913600.0,
-        "main_ratio": 3.57,
-        "super_net": 12554235904.0,
-        "large_net": 3019677696.0,
-        "mid_net": -11050852352.0,
-        "small_net": -4548430336.0,
-        "leader_code": "中际旭创",
-        "leader_name": "300308",
-        "leader_pct": 0.0
-      }
-    ],
-    "concept_top_out": [
-      {
-        "code": "BK1128",
-        "name": "CPO概念",
-        "pct": 2.51,
-        "main_net": 12552120320.0,
-        "main_ratio": 5.31,
-        "super_net": 11266803200.0,
-        "large_net": 1285317120.0,
-        "mid_net": -7922532096.0,
-        "small_net": -4653548288.0,
-        "leader_code": "华天科技",
-        "leader_name": "002185",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK1663",
-        "name": "大盘股",
-        "pct": 1.26,
-        "main_net": 13573492736.0,
-        "main_ratio": 2.65,
-        "super_net": 11649413120.0,
-        "large_net": 1924079616.0,
-        "mid_net": -10965884928.0,
-        "small_net": -2608775168.0,
-        "leader_code": "中际旭创",
-        "leader_name": "300308",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK0536",
-        "name": "基金重仓",
-        "pct": 2.12,
-        "main_net": 13881421824.0,
-        "main_ratio": 3.17,
-        "super_net": 10704838656.0,
-        "large_net": 3176583168.0,
-        "mid_net": -10276753408.0,
-        "small_net": -3618394112.0,
-        "leader_code": "中际旭创",
-        "leader_name": "300308",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK0568",
-        "name": "深成500",
-        "pct": 1.31,
-        "main_net": 15509692672.0,
-        "main_ratio": 3.61,
-        "super_net": 12968374528.0,
-        "large_net": 2541318144.0,
-        "mid_net": -8555945984.0,
-        "small_net": -6953742336.0,
-        "leader_code": "华天科技",
-        "leader_name": "002185",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK1059",
-        "name": "百元股",
-        "pct": 3.26,
-        "main_net": 15573913600.0,
-        "main_ratio": 3.57,
-        "super_net": 12554235904.0,
-        "large_net": 3019677696.0,
-        "mid_net": -11050852352.0,
-        "small_net": -4548430336.0,
-        "leader_code": "中际旭创",
-        "leader_name": "300308",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK0867",
-        "name": "富时罗素",
-        "pct": 1.06,
-        "main_net": 15932416000.0,
-        "main_ratio": 2.34,
-        "super_net": 14157062144.0,
-        "large_net": 1775353856.0,
-        "mid_net": -10233307136.0,
-        "small_net": -5698719744.0,
-        "leader_code": "华天科技",
-        "leader_name": "002185",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK1713",
-        "name": "科技风格",
-        "pct": 3.12,
-        "main_net": 17254277120.0,
-        "main_ratio": 4.71,
-        "super_net": 13985947648.0,
-        "large_net": 3268329472.0,
-        "mid_net": -11394637824.0,
-        "small_net": -5860168192.0,
-        "leader_code": "中际旭创",
-        "leader_name": "300308",
-        "leader_pct": 0.0
-      },
-      {
-        "code": "BK0917",
-        "name": "半导体概念",
-        "pct": 3.13,
-        "main_net": 19497789184.0,
-        "main_ratio": 4.31,
-        "super_net": 15190841088.0,
-        "large_net": 4306948096.0,
-        "mid_net": -11356712960.0,
-        "small_net": -7740272640.0,
-        "leader_code": "华天科技",
-        "leader_name": "002185",
-        "leader_pct": 0.0
-      }
-    ]
+    "industry_top_in": [],
+    "industry_top_out": [],
+    "concept_top_in": [],
+    "concept_top_out": []
   },
   "hot_stocks": [
     {
       "rank": 1,
-      "code": "601091",
-      "name": "沈鼓集团",
-      "pct": 637086.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "天然气",
-        "新股与次新股"
-      ]
-    },
-    {
-      "rank": 2,
-      "code": "600176",
-      "name": "中国巨石",
-      "pct": 501268.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "PCB概念",
-        "2026一季报预增"
-      ]
-    },
-    {
-      "rank": 3,
       "code": "000993",
       "name": "闽东电力",
-      "pct": 500280.0,
+      "pct": 750492.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -630,22 +147,46 @@
       ]
     },
     {
-      "rank": 4,
-      "code": "600667",
-      "name": "太极实业",
-      "pct": 486960.0,
+      "rank": 2,
+      "code": "601091",
+      "name": "沈鼓集团",
+      "pct": 742890.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "存储芯片",
-        "先进封装"
+        "煤化工概念",
+        "天然气"
+      ]
+    },
+    {
+      "rank": 3,
+      "code": "601086",
+      "name": "国芳集团",
+      "pct": 714323.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "IP经济(谷子经济)",
+        "参股券商"
+      ]
+    },
+    {
+      "rank": 4,
+      "code": "600176",
+      "name": "中国巨石",
+      "pct": 658225.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "PCB概念",
+        "2026一季报预增"
       ]
     },
     {
       "rank": 5,
       "code": "600127",
       "name": "金健米业",
-      "pct": 469094.0,
+      "pct": 599883.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -655,45 +196,45 @@
     },
     {
       "rank": 6,
-      "code": "002080",
-      "name": "中材科技",
-      "pct": 465971.0,
+      "code": "600667",
+      "name": "太极实业",
+      "pct": 492291.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "PCB概念",
-        "6G概念"
+        "存储芯片",
+        "先进封装"
       ]
     },
     {
       "rank": 7,
-      "code": "003026",
-      "name": "中晶科技",
-      "pct": 375084.0,
+      "code": "600105",
+      "name": "永鼎股份",
+      "pct": 397771.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "芯片概念",
-        "汽车电子"
+        "共封装光学(CPO)",
+        "光纤概念"
       ]
     },
     {
       "rank": 8,
-      "code": "000981",
-      "name": "山子高科",
-      "pct": 356218.0,
+      "code": "000592",
+      "name": "平潭发展",
+      "pct": 374088.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "汽车拆解概念",
-        "减速器"
+        "福建自贸区",
+        "海峡两岸"
       ]
     },
     {
       "rank": 9,
       "code": "600487",
       "name": "亨通光电",
-      "pct": 340307.0,
+      "pct": 371883.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -703,45 +244,45 @@
     },
     {
       "rank": 10,
-      "code": "601086",
-      "name": "国芳集团",
-      "pct": 324931.0,
+      "code": "000978",
+      "name": "桂林旅游",
+      "pct": 369909.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "IP经济(谷子经济)",
-        "参股券商"
+        "旅游概念",
+        "国企改革"
       ]
     },
     {
       "rank": 11,
-      "code": "002584",
-      "name": "西陇科学",
-      "pct": 317996.0,
+      "code": "000981",
+      "name": "山子高科",
+      "pct": 339942.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "光刻胶",
-        "氟化工概念"
+        "汽车拆解概念",
+        "减速器"
       ]
     },
     {
       "rank": 12,
-      "code": "600105",
-      "name": "永鼎股份",
-      "pct": 280546.0,
+      "code": "002185",
+      "name": "华天科技",
+      "pct": 325680.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "共封装光学(CPO)",
-        "光纤概念"
+        "国家大基金持股",
+        "存储芯片"
       ]
     },
     {
       "rank": 13,
       "code": "000725",
       "name": "京东方A",
-      "pct": 268407.0,
+      "pct": 324678.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -751,9 +292,33 @@
     },
     {
       "rank": 14,
+      "code": "002080",
+      "name": "中材科技",
+      "pct": 321917.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "PCB概念",
+        "6G概念"
+      ]
+    },
+    {
+      "rank": 15,
+      "code": "003026",
+      "name": "中晶科技",
+      "pct": 318113.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "芯片概念",
+        "汽车电子"
+      ]
+    },
+    {
+      "rank": 16,
       "code": "600522",
       "name": "中天科技",
-      "pct": 267034.0,
+      "pct": 300557.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -762,34 +327,34 @@
       ]
     },
     {
-      "rank": 15,
-      "code": "001216",
-      "name": "华瓷股份",
-      "pct": 259660.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "牙科医疗",
-        "跨境电商"
-      ]
-    },
-    {
-      "rank": 16,
-      "code": "000636",
-      "name": "风华高科",
-      "pct": 256042.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "MLCC概念",
-        "超级电容"
-      ]
-    },
-    {
       "rank": 17,
+      "code": "600664",
+      "name": "哈药股份",
+      "pct": 292117.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "民营医院",
+        "维生素"
+      ]
+    },
+    {
+      "rank": 18,
+      "code": "002579",
+      "name": "中京电子",
+      "pct": 287432.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "共封装光学(CPO)",
+        "PCB概念"
+      ]
+    },
+    {
+      "rank": 19,
       "code": "600206",
       "name": "有研新材",
-      "pct": 251095.0,
+      "pct": 267639.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -798,51 +363,27 @@
       ]
     },
     {
-      "rank": 18,
-      "code": "002491",
-      "name": "通鼎互联",
-      "pct": 225582.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "光纤概念",
-        "5G"
-      ]
-    },
-    {
-      "rank": 19,
-      "code": "000978",
-      "name": "桂林旅游",
-      "pct": 222736.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "旅游概念",
-        "国企改革"
-      ]
-    },
-    {
       "rank": 20,
-      "code": "600869",
-      "name": "远东股份",
-      "pct": 222684.0,
+      "code": "000636",
+      "name": "风华高科",
+      "pct": 265320.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "光纤概念",
-        "铜缆高速连接"
+        "MLCC概念",
+        "超级电容"
       ]
     }
   ],
   "source_health": {
     "indexes_rsi": "error: GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-    "breadth": "ok",
-    "board_flow": "ok",
+    "breadth": "error: GET failed: https://push2.eastmoney.com/api/qt/clist/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/clist/get?pn=1&pz=6000&po=1&np=1&fltt=2&invt=2&fid=f3&fs=m%3A0%2Bt%3A6%2Cm%3A0%2Bt%3A80%2Cm%3A1%2Bt%3A2%2Cm%3A1%2Bt%3A23&fields=f12%2Cf14%2Cf3",
+    "board_flow": "error: GET failed: https://push2.eastmoney.com/api/qt/clist/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/clist/get?pn=1&pz=40&po=1&np=1&fltt=2&invt=2&fid=f62&fs=m%3A90%2Bt%3A2%2Bf%3A%2150&fields=f12%2Cf14%2Cf3%2Cf62%2Cf184%2Cf66%2Cf69%2Cf72%2Cf75%2Cf78%2Cf81%2Cf84%2Cf87%2Cf204%2Cf205%2Cf206",
     "limit_pool": "ok",
     "hot_list": "ok"
   },
   "vs_1h": {
-    "reference_at": "2026-09-17T19:12:47+08:00",
+    "reference_at": "2026-09-18T13:36:55+08:00",
     "indices": {
       "shanghai": {
         "pct_change_points": null,
@@ -857,7 +398,7 @@
         "rsi30_change": null
       }
     },
-    "up_ratio": 0.0,
-    "emotion_score": 4.2
+    "up_ratio": null,
+    "emotion_score": null
   }
 }
