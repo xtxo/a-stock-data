@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-18T18:45:39+08:00",
+  "generated_at": "2026-09-21T13:58:45+08:00",
   "trade_date": null,
   "is_trading_day": false,
   "market_phase": "非交易日/数据未进入当日",
@@ -25,101 +25,101 @@
     "error": "GET failed: https://push2.eastmoney.com/api/qt/clist/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/clist/get?pn=1&pz=6000&po=1&np=1&fltt=2&invt=2&fid=f3&fs=m%3A0%2Bt%3A6%2Cm%3A0%2Bt%3A80%2Cm%3A1%2Bt%3A2%2Cm%3A1%2Bt%3A23&fields=f12%2Cf14%2Cf3"
   },
   "limit_emotion": {
-    "limit_up": 78,
-    "broken": 25,
+    "limit_up": 93,
+    "broken": 27,
     "limit_down": 0,
-    "seal_success_rate": 75.7,
-    "max_streak": 4,
+    "seal_success_rate": 77.5,
+    "max_streak": 5,
     "streak_leaders": [
       {
         "code": "001216",
         "name": "华瓷股份",
-        "pct": 10.01006031036377,
-        "streak": 4,
+        "pct": 10.013717651367188,
+        "streak": 5,
         "industry": "家居用品",
-        "seal_fund": 98271095.0,
-        "open_count": 1
-      },
-      {
-        "code": "603248",
-        "name": "锡华科技",
-        "pct": 9.982094764709473,
-        "streak": 4,
-        "industry": "风电设备",
-        "seal_fund": 48929213.0,
-        "open_count": 1
-      },
-      {
-        "code": "002285",
-        "name": "世联行",
-        "pct": 9.885931968688965,
-        "streak": 3,
-        "industry": "房地产服",
-        "seal_fund": 41009813.0,
-        "open_count": 1
+        "seal_fund": 377683678.0,
+        "open_count": 0
       },
       {
         "code": "603230",
         "name": "内蒙新华",
-        "pct": 10.040816307067871,
-        "streak": 3,
+        "pct": 10.014836311340332,
+        "streak": 4,
         "industry": "出版",
-        "seal_fund": 32045451.0,
-        "open_count": 6
+        "seal_fund": 110622219.0,
+        "open_count": 3
       },
       {
-        "code": "002836",
-        "name": "新宏泽",
-        "pct": 9.963099479675293,
-        "streak": 2,
-        "industry": "包装印刷",
-        "seal_fund": 278374578.0,
+        "code": "002285",
+        "name": "世联行",
+        "pct": 10.034602165222168,
+        "streak": 4,
+        "industry": "房地产服",
+        "seal_fund": 91951207.0,
+        "open_count": 0
+      },
+      {
+        "code": "000504",
+        "name": "南华生物",
+        "pct": 9.990009307861328,
+        "streak": 3,
+        "industry": "医疗服务",
+        "seal_fund": 307654312.0,
+        "open_count": 0
+      },
+      {
+        "code": "600127",
+        "name": "金健米业",
+        "pct": 9.98603343963623,
+        "streak": 3,
+        "industry": "农产品加",
+        "seal_fund": 213445606.0,
         "open_count": 2
       },
       {
-        "code": "301390",
-        "name": "经纬股份",
-        "pct": 20.0,
-        "streak": 2,
-        "industry": "工程咨询",
-        "seal_fund": 98828640.0,
+        "code": "002453",
+        "name": "华软科技",
+        "pct": 9.925093650817871,
+        "streak": 3,
+        "industry": "化学制品",
+        "seal_fund": 167109414.0,
         "open_count": 0
       },
       {
         "code": "600630",
         "name": "龙头股份",
-        "pct": 9.94694995880127,
-        "streak": 2,
+        "pct": 10.012063026428223,
+        "streak": 3,
         "industry": "服装家纺",
-        "seal_fund": 84059820.0,
+        "seal_fund": 81881184.0,
         "open_count": 1
       },
       {
-        "code": "000504",
-        "name": "南华生物",
-        "pct": 10.0,
+        "code": "000002",
+        "name": "万  科Ａ",
+        "pct": 9.939759254455566,
         "streak": 2,
-        "industry": "医疗服务",
-        "seal_fund": 75129054.0,
+        "industry": "房地产开",
+        "seal_fund": 201673450.0,
         "open_count": 1
       },
       {
-        "code": "600448",
-        "name": "华纺股份",
-        "pct": 9.937888145446777,
+        "code": "600606",
+        "name": "绿地控股",
+        "pct": 10.344827651977539,
         "streak": 2,
-        "industry": "纺织制造",
-        "seal_fund": 68793457.0,
+        "industry": "房地产开",
+        "seal_fund": 148870683.0,
         "open_count": 0
       },
       {
-        "code": "603626",
-        "name": "科森科技",
-        "pct": 10.0046968460083,
+        "code": "001376",
+        "name": "百通能源",
+        "pct": 10.031596183776855,
         "streak": 2,
-        "industry": "消费电子",
-        "seal_fund": 63193951.0,
-        "open_count": 5
+        "industry": "电力",
+        "seal_fund": 148572922.0,
+        "open_count": 0
       }
     ]
   },
@@ -136,141 +136,9 @@
   "hot_stocks": [
     {
       "rank": 1,
-      "code": "000993",
-      "name": "闽东电力",
-      "pct": 750492.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "绿色电力",
-        "航运概念"
-      ]
-    },
-    {
-      "rank": 2,
-      "code": "601091",
-      "name": "沈鼓集团",
-      "pct": 742890.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "煤化工概念",
-        "天然气"
-      ]
-    },
-    {
-      "rank": 3,
-      "code": "601086",
-      "name": "国芳集团",
-      "pct": 714323.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "IP经济(谷子经济)",
-        "参股券商"
-      ]
-    },
-    {
-      "rank": 4,
-      "code": "600176",
-      "name": "中国巨石",
-      "pct": 658225.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "PCB概念",
-        "2026一季报预增"
-      ]
-    },
-    {
-      "rank": 5,
-      "code": "600127",
-      "name": "金健米业",
-      "pct": 599883.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "玉米",
-        "粮食概念"
-      ]
-    },
-    {
-      "rank": 6,
-      "code": "600667",
-      "name": "太极实业",
-      "pct": 492291.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "存储芯片",
-        "先进封装"
-      ]
-    },
-    {
-      "rank": 7,
-      "code": "600105",
-      "name": "永鼎股份",
-      "pct": 397771.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "共封装光学(CPO)",
-        "光纤概念"
-      ]
-    },
-    {
-      "rank": 8,
-      "code": "000592",
-      "name": "平潭发展",
-      "pct": 374088.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "福建自贸区",
-        "海峡两岸"
-      ]
-    },
-    {
-      "rank": 9,
-      "code": "600487",
-      "name": "亨通光电",
-      "pct": 371883.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "光纤概念",
-        "共封装光学(CPO)"
-      ]
-    },
-    {
-      "rank": 10,
-      "code": "000978",
-      "name": "桂林旅游",
-      "pct": 369909.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "旅游概念",
-        "国企改革"
-      ]
-    },
-    {
-      "rank": 11,
-      "code": "000981",
-      "name": "山子高科",
-      "pct": 339942.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "汽车拆解概念",
-        "减速器"
-      ]
-    },
-    {
-      "rank": 12,
       "code": "002185",
       "name": "华天科技",
-      "pct": 325680.0,
+      "pct": 675508.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -279,46 +147,34 @@
       ]
     },
     {
-      "rank": 13,
-      "code": "000725",
-      "name": "京东方A",
-      "pct": 324678.0,
+      "rank": 2,
+      "code": "600825",
+      "name": "新华传媒",
+      "pct": 636996.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "先进封装",
-        "MicroLED概念"
+        "文化传媒概念",
+        "无人零售"
       ]
     },
     {
-      "rank": 14,
-      "code": "002080",
-      "name": "中材科技",
-      "pct": 321917.0,
+      "rank": 3,
+      "code": "000636",
+      "name": "风华高科",
+      "pct": 604860.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "PCB概念",
-        "6G概念"
+        "MLCC概念",
+        "超级电容"
       ]
     },
     {
-      "rank": 15,
-      "code": "003026",
-      "name": "中晶科技",
-      "pct": 318113.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "芯片概念",
-        "汽车电子"
-      ]
-    },
-    {
-      "rank": 16,
-      "code": "600522",
-      "name": "中天科技",
-      "pct": 300557.0,
+      "rank": 4,
+      "code": "600487",
+      "name": "亨通光电",
+      "pct": 354164.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -327,10 +183,22 @@
       ]
     },
     {
-      "rank": 17,
+      "rank": 5,
+      "code": "001216",
+      "name": "华瓷股份",
+      "pct": 345646.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "牙科医疗",
+        "跨境电商"
+      ]
+    },
+    {
+      "rank": 6,
       "code": "600664",
       "name": "哈药股份",
-      "pct": 292117.0,
+      "pct": 333517.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -339,39 +207,171 @@
       ]
     },
     {
-      "rank": 18,
-      "code": "002579",
-      "name": "中京电子",
-      "pct": 287432.0,
+      "rank": 7,
+      "code": "601086",
+      "name": "国芳集团",
+      "pct": 312082.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "共封装光学(CPO)",
-        "PCB概念"
+        "IP经济(谷子经济)",
+        "参股券商"
+      ]
+    },
+    {
+      "rank": 8,
+      "code": "603230",
+      "name": "内蒙新华",
+      "pct": 283629.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "文化传媒概念",
+        "国企改革"
+      ]
+    },
+    {
+      "rank": 9,
+      "code": "600127",
+      "name": "金健米业",
+      "pct": 280447.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "玉米",
+        "粮食概念"
+      ]
+    },
+    {
+      "rank": 10,
+      "code": "003040",
+      "name": "楚天龙",
+      "pct": 266470.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "数字货币",
+        "移动支付"
+      ]
+    },
+    {
+      "rank": 11,
+      "code": "002585",
+      "name": "双星新材",
+      "pct": 241569.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "PET铜箔",
+        "MLCC概念"
+      ]
+    },
+    {
+      "rank": 12,
+      "code": "000993",
+      "name": "闽东电力",
+      "pct": 236425.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "绿色电力",
+        "航运概念"
+      ]
+    },
+    {
+      "rank": 13,
+      "code": "688825",
+      "name": "长鑫科技",
+      "pct": 228120.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "存储芯片",
+        "消费电子概念"
+      ]
+    },
+    {
+      "rank": 14,
+      "code": "000725",
+      "name": "京东方A",
+      "pct": 225745.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "先进封装",
+        "MicroLED概念"
+      ]
+    },
+    {
+      "rank": 15,
+      "code": "600176",
+      "name": "中国巨石",
+      "pct": 206657.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "PCB概念",
+        "2026一季报预增"
+      ]
+    },
+    {
+      "rank": 16,
+      "code": "600667",
+      "name": "太极实业",
+      "pct": 190849.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "存储芯片",
+        "先进封装"
+      ]
+    },
+    {
+      "rank": 17,
+      "code": "002453",
+      "name": "华软科技",
+      "pct": 186752.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "芯片概念",
+        "光刻胶"
+      ]
+    },
+    {
+      "rank": 18,
+      "code": "000657",
+      "name": "中钨高新",
+      "pct": 177557.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "PCB概念",
+        "2026一季报预增"
       ]
     },
     {
       "rank": 19,
-      "code": "600206",
-      "name": "有研新材",
-      "pct": 267639.0,
+      "code": "600410",
+      "name": "华胜天成",
+      "pct": 170061.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "中芯国际概念",
-        "国家大基金持股"
+        "云计算",
+        "华为鲲鹏"
       ]
     },
     {
       "rank": 20,
-      "code": "000636",
-      "name": "风华高科",
-      "pct": 265320.0,
+      "code": "600869",
+      "name": "远东股份",
+      "pct": 169321.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "MLCC概念",
-        "超级电容"
+        "光纤概念",
+        "铜缆高速连接"
       ]
     }
   ],
@@ -383,7 +383,7 @@
     "hot_list": "ok"
   },
   "vs_1h": {
-    "reference_at": "2026-09-18T13:36:55+08:00",
+    "reference_at": "2026-09-18T18:45:39+08:00",
     "indices": {
       "shanghai": {
         "pct_change_points": null,
