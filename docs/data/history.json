@@ -45919,5 +45919,409 @@
       "up_ratio": null,
       "emotion_score": null
     }
+  },
+  {
+    "schema_version": 1,
+    "generated_at": "2026-09-21T20:17:05+08:00",
+    "trade_date": null,
+    "is_trading_day": false,
+    "market_phase": "非交易日/数据未进入当日",
+    "indices": {
+      "shanghai": {
+        "name": "上证指数",
+        "code": "000001",
+        "error": "GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      },
+      "chinext": {
+        "name": "创业板指",
+        "code": "399006",
+        "error": "GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      },
+      "star50": {
+        "name": "科创50",
+        "code": "000688",
+        "error": "GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      }
+    },
+    "breadth": {
+      "error": "GET failed: https://push2.eastmoney.com/api/qt/clist/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/clist/get?pn=1&pz=6000&po=1&np=1&fltt=2&invt=2&fid=f3&fs=m%3A0%2Bt%3A6%2Cm%3A0%2Bt%3A80%2Cm%3A1%2Bt%3A2%2Cm%3A1%2Bt%3A23&fields=f12%2Cf14%2Cf3"
+    },
+    "limit_emotion": {
+      "limit_up": 103,
+      "broken": 25,
+      "limit_down": 0,
+      "seal_success_rate": 80.5,
+      "max_streak": 5,
+      "streak_leaders": [
+        {
+          "code": "001216",
+          "name": "华瓷股份",
+          "pct": 10.013717651367188,
+          "streak": 5,
+          "industry": "家居用品",
+          "seal_fund": 278775424.0,
+          "open_count": 0
+        },
+        {
+          "code": "603230",
+          "name": "内蒙新华",
+          "pct": 10.014836311340332,
+          "streak": 4,
+          "industry": "出版",
+          "seal_fund": 86492326.0,
+          "open_count": 3
+        },
+        {
+          "code": "002285",
+          "name": "世联行",
+          "pct": 10.034602165222168,
+          "streak": 4,
+          "industry": "房地产服",
+          "seal_fund": 42228174.0,
+          "open_count": 0
+        },
+        {
+          "code": "000504",
+          "name": "南华生物",
+          "pct": 9.990009307861328,
+          "streak": 3,
+          "industry": "医疗服务",
+          "seal_fund": 183280948.0,
+          "open_count": 0
+        },
+        {
+          "code": "600127",
+          "name": "金健米业",
+          "pct": 9.98603343963623,
+          "streak": 3,
+          "industry": "农产品加",
+          "seal_fund": 127612863.0,
+          "open_count": 2
+        },
+        {
+          "code": "002453",
+          "name": "华软科技",
+          "pct": 9.925093650817871,
+          "streak": 3,
+          "industry": "化学制品",
+          "seal_fund": 109824037.0,
+          "open_count": 0
+        },
+        {
+          "code": "600630",
+          "name": "龙头股份",
+          "pct": 10.012063026428223,
+          "streak": 3,
+          "industry": "服装家纺",
+          "seal_fund": 69662208.0,
+          "open_count": 1
+        },
+        {
+          "code": "600448",
+          "name": "华纺股份",
+          "pct": 9.887005805969238,
+          "streak": 3,
+          "industry": "纺织制造",
+          "seal_fund": 24319035.0,
+          "open_count": 3
+        },
+        {
+          "code": "001376",
+          "name": "百通能源",
+          "pct": 10.031596183776855,
+          "streak": 2,
+          "industry": "电力",
+          "seal_fund": 119804686.0,
+          "open_count": 0
+        },
+        {
+          "code": "601123",
+          "name": "马矿股份",
+          "pct": 10.011248588562012,
+          "streak": 2,
+          "industry": "冶钢原料",
+          "seal_fund": 90631885.0,
+          "open_count": 0
+        }
+      ]
+    },
+    "emotion_telemetry": {
+      "score": null,
+      "label": "数据不足"
+    },
+    "fund_flow": {
+      "industry_top_in": [],
+      "industry_top_out": [],
+      "concept_top_in": [],
+      "concept_top_out": []
+    },
+    "hot_stocks": [
+      {
+        "rank": 1,
+        "code": "002185",
+        "name": "华天科技",
+        "pct": 543510.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "国家大基金持股",
+          "存储芯片"
+        ]
+      },
+      {
+        "rank": 2,
+        "code": "600127",
+        "name": "金健米业",
+        "pct": 512865.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "玉米",
+          "粮食概念"
+        ]
+      },
+      {
+        "rank": 3,
+        "code": "600664",
+        "name": "哈药股份",
+        "pct": 496526.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "民营医院",
+          "维生素"
+        ]
+      },
+      {
+        "rank": 4,
+        "code": "000636",
+        "name": "风华高科",
+        "pct": 480985.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "MLCC概念",
+          "超级电容"
+        ]
+      },
+      {
+        "rank": 5,
+        "code": "600869",
+        "name": "远东股份",
+        "pct": 457302.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "光纤概念",
+          "铜缆高速连接"
+        ]
+      },
+      {
+        "rank": 6,
+        "code": "601086",
+        "name": "国芳集团",
+        "pct": 456545.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "IP经济(谷子经济)",
+          "参股券商"
+        ]
+      },
+      {
+        "rank": 7,
+        "code": "600487",
+        "name": "亨通光电",
+        "pct": 372234.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "光纤概念",
+          "共封装光学(CPO)"
+        ]
+      },
+      {
+        "rank": 8,
+        "code": "600825",
+        "name": "新华传媒",
+        "pct": 358355.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "文化传媒概念",
+          "无人零售"
+        ]
+      },
+      {
+        "rank": 9,
+        "code": "000725",
+        "name": "京东方A",
+        "pct": 329562.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "先进封装",
+          "MicroLED概念"
+        ]
+      },
+      {
+        "rank": 10,
+        "code": "600176",
+        "name": "中国巨石",
+        "pct": 324071.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "PCB概念",
+          "2026一季报预增"
+        ]
+      },
+      {
+        "rank": 11,
+        "code": "002585",
+        "name": "双星新材",
+        "pct": 320555.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "PET铜箔",
+          "MLCC概念"
+        ]
+      },
+      {
+        "rank": 12,
+        "code": "600721",
+        "name": "百花医药",
+        "pct": 263152.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "青蒿素",
+          "CRO概念"
+        ]
+      },
+      {
+        "rank": 13,
+        "code": "000993",
+        "name": "闽东电力",
+        "pct": 257382.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "绿色电力",
+          "航运概念"
+        ]
+      },
+      {
+        "rank": 14,
+        "code": "600410",
+        "name": "华胜天成",
+        "pct": 257236.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "云计算",
+          "华为鲲鹏"
+        ]
+      },
+      {
+        "rank": 15,
+        "code": "600667",
+        "name": "太极实业",
+        "pct": 251372.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "存储芯片",
+          "先进封装"
+        ]
+      },
+      {
+        "rank": 16,
+        "code": "688825",
+        "name": "长鑫科技",
+        "pct": 229625.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "存储芯片",
+          "消费电子概念"
+        ]
+      },
+      {
+        "rank": 17,
+        "code": "600522",
+        "name": "中天科技",
+        "pct": 221820.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "光纤概念",
+          "共封装光学(CPO)"
+        ]
+      },
+      {
+        "rank": 18,
+        "code": "002080",
+        "name": "中材科技",
+        "pct": 211572.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "PCB概念",
+          "6G概念"
+        ]
+      },
+      {
+        "rank": 19,
+        "code": "001216",
+        "name": "华瓷股份",
+        "pct": 204599.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "牙科医疗",
+          "跨境电商"
+        ]
+      },
+      {
+        "rank": 20,
+        "code": "600584",
+        "name": "长电科技",
+        "pct": 204056.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "国家大基金持股",
+          "中芯国际概念"
+        ]
+      }
+    ],
+    "source_health": {
+      "indexes_rsi": "error: GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "breadth": "error: GET failed: https://push2.eastmoney.com/api/qt/clist/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/clist/get?pn=1&pz=6000&po=1&np=1&fltt=2&invt=2&fid=f3&fs=m%3A0%2Bt%3A6%2Cm%3A0%2Bt%3A80%2Cm%3A1%2Bt%3A2%2Cm%3A1%2Bt%3A23&fields=f12%2Cf14%2Cf3",
+      "board_flow": "error: GET failed: https://push2.eastmoney.com/api/qt/clist/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/clist/get?pn=1&pz=40&po=1&np=1&fltt=2&invt=2&fid=f62&fs=m%3A90%2Bt%3A2%2Bf%3A%2150&fields=f12%2Cf14%2Cf3%2Cf62%2Cf184%2Cf66%2Cf69%2Cf72%2Cf75%2Cf78%2Cf81%2Cf84%2Cf87%2Cf204%2Cf205%2Cf206",
+      "limit_pool": "ok",
+      "hot_list": "ok"
+    },
+    "vs_1h": {
+      "reference_at": "2026-09-21T13:58:45+08:00",
+      "indices": {
+        "shanghai": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        },
+        "chinext": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        },
+        "star50": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        }
+      },
+      "up_ratio": null,
+      "emotion_score": null
+    }
   }
 ]
