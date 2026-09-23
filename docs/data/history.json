@@ -47662,5 +47662,895 @@
       "up_ratio": null,
       "emotion_score": null
     }
+  },
+  {
+    "schema_version": 1,
+    "generated_at": "2026-09-23T13:36:29+08:00",
+    "trade_date": "2026-09-23",
+    "is_trading_day": true,
+    "market_phase": "下午交易",
+    "indices": {
+      "shanghai": {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3936.76,
+        "pct": -0.39,
+        "change": -15.37,
+        "volume": 353547231.0,
+        "amount": 631264295693.7,
+        "open": 3951.37,
+        "prev_close": 3952.13,
+        "high": 3951.52,
+        "low": 3936.54,
+        "rsi14_daily": 52.58,
+        "rsi14_30m": 51.59,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-09-23"
+      },
+      "chinext": {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3379.02,
+        "pct": -0.62,
+        "change": -20.91,
+        "volume": 122905705.0,
+        "amount": 331460034228.2,
+        "open": 3412.53,
+        "prev_close": 3399.93,
+        "high": 3412.53,
+        "low": 3373.78,
+        "rsi14_daily": 48.23,
+        "rsi14_30m": 47.86,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-09-23"
+      },
+      "star50": {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1662.77,
+        "pct": -0.14,
+        "change": -2.27,
+        "volume": 4486264.0,
+        "amount": 56452031276.8,
+        "open": 1671.77,
+        "prev_close": 1665.04,
+        "high": 1676.85,
+        "low": 1656.98,
+        "rsi14_daily": 53.33,
+        "rsi14_30m": 52.77,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-09-23"
+      }
+    },
+    "breadth": {
+      "up": 100,
+      "down": 0,
+      "flat": 0,
+      "total": 100,
+      "up_ratio": 100.0,
+      "strong_ge_5pct": 100,
+      "weak_le_minus5pct": 0
+    },
+    "limit_emotion": {
+      "limit_up": 45,
+      "broken": 24,
+      "limit_down": 0,
+      "seal_success_rate": 65.2,
+      "max_streak": 4,
+      "streak_leaders": [
+        {
+          "code": "601811",
+          "name": "新华文轩",
+          "pct": 9.98810863494873,
+          "streak": 4,
+          "industry": "出版",
+          "seal_fund": 176932150.0,
+          "open_count": 0
+        },
+        {
+          "code": "000910",
+          "name": "大亚圣象",
+          "pct": 10.014513969421387,
+          "streak": 4,
+          "industry": "家居用品",
+          "seal_fund": 113321758.0,
+          "open_count": 0
+        },
+        {
+          "code": "600825",
+          "name": "新华传媒",
+          "pct": 9.968847274780273,
+          "streak": 3,
+          "industry": "出版",
+          "seal_fund": 3079217644.0,
+          "open_count": 0
+        },
+        {
+          "code": "001234",
+          "name": "泰慕士",
+          "pct": 10.017093658447266,
+          "streak": 3,
+          "industry": "服装家纺",
+          "seal_fund": 349200304.0,
+          "open_count": 0
+        },
+        {
+          "code": "600743",
+          "name": "华远控股",
+          "pct": 10.15625,
+          "streak": 3,
+          "industry": "房地产服",
+          "seal_fund": 260368391.0,
+          "open_count": 0
+        },
+        {
+          "code": "000560",
+          "name": "我爱我家",
+          "pct": 9.97150993347168,
+          "streak": 3,
+          "industry": "房地产服",
+          "seal_fund": 129397622.0,
+          "open_count": 4
+        },
+        {
+          "code": "002614",
+          "name": "奥佳华",
+          "pct": 10.029069900512695,
+          "streak": 3,
+          "industry": "其他家电",
+          "seal_fund": 93510272.0,
+          "open_count": 7
+        },
+        {
+          "code": "603636",
+          "name": "南威软件",
+          "pct": 9.987516403198242,
+          "streak": 3,
+          "industry": "IT服务Ⅱ",
+          "seal_fund": 76065046.0,
+          "open_count": 3
+        },
+        {
+          "code": "002238",
+          "name": "天威视讯",
+          "pct": 10.05747127532959,
+          "streak": 2,
+          "industry": "电视广播",
+          "seal_fund": 139031068.0,
+          "open_count": 0
+        }
+      ]
+    },
+    "emotion_telemetry": {
+      "score": 76.3,
+      "label": "高热",
+      "note": "仅为盘面遥测分，不替代人工分析"
+    },
+    "fund_flow": {
+      "industry_top_in": [
+        {
+          "code": "BK1038",
+          "name": "光学光电子",
+          "pct": 0.33,
+          "main_net": 1173381120.0,
+          "main_ratio": 2.82,
+          "super_net": 1149210880.0,
+          "large_net": 24170240.0,
+          "mid_net": -422648064.0,
+          "small_net": -635840000.0,
+          "leader_code": "沃格光电",
+          "leader_name": "603773",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1335",
+          "name": "面板",
+          "pct": 0.18,
+          "main_net": 1099966464.0,
+          "main_ratio": 4.56,
+          "super_net": 1068448256.0,
+          "large_net": 31518208.0,
+          "mid_net": -492115200.0,
+          "small_net": -607762688.0,
+          "leader_code": "沃格光电",
+          "leader_name": "603773",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1202",
+          "name": "房地产",
+          "pct": 0.32,
+          "main_net": 1096203632.0,
+          "main_ratio": 4.25,
+          "super_net": 1177750128.0,
+          "large_net": -81546496.0,
+          "mid_net": -512491520.0,
+          "small_net": -583688448.0,
+          "leader_code": "万  科Ａ",
+          "leader_name": "000002",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1346",
+          "name": "住宅开发",
+          "pct": -0.09,
+          "main_net": 986852336.0,
+          "main_ratio": 5.29,
+          "super_net": 1039478512.0,
+          "large_net": -52626176.0,
+          "mid_net": -461608448.0,
+          "small_net": -525220864.0,
+          "leader_code": "万  科Ａ",
+          "leader_name": "000002",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0451",
+          "name": "房地产开发",
+          "pct": 0.08,
+          "main_net": 968354880.0,
+          "main_ratio": 4.44,
+          "super_net": 996681792.0,
+          "large_net": -28326912.0,
+          "mid_net": -485054208.0,
+          "small_net": -483276800.0,
+          "leader_code": "万  科Ａ",
+          "leader_name": "000002",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0438",
+          "name": "食品饮料",
+          "pct": -0.19,
+          "main_net": 901731984.0,
+          "main_ratio": 3.64,
+          "super_net": 875681680.0,
+          "large_net": 26050304.0,
+          "mid_net": -454321920.0,
+          "small_net": -472262912.0,
+          "leader_code": "莲花控股",
+          "leader_name": "600186",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0545",
+          "name": "通用设备",
+          "pct": 1.11,
+          "main_net": 634467584.0,
+          "main_ratio": 1.36,
+          "super_net": 749099776.0,
+          "large_net": -114632192.0,
+          "mid_net": -269599232.0,
+          "small_net": -175094272.0,
+          "leader_code": "四方达",
+          "leader_name": "300179",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0458",
+          "name": "仪器仪表",
+          "pct": 3.03,
+          "main_net": 474396432.0,
+          "main_ratio": 3.1,
+          "super_net": 469972240.0,
+          "large_net": 4424192.0,
+          "mid_net": 11822848.0,
+          "small_net": -367623840.0,
+          "leader_code": "普源精电",
+          "leader_name": "688337",
+          "leader_pct": 1.0
+        }
+      ],
+      "industry_top_out": [
+        {
+          "code": "BK1439",
+          "name": "膜材料",
+          "pct": 1.43,
+          "main_net": 378249168.0,
+          "main_ratio": 4.31,
+          "super_net": 222779424.0,
+          "large_net": 155469744.0,
+          "mid_net": -198698992.0,
+          "small_net": -176651616.0,
+          "leader_code": "东材科技",
+          "leader_name": "601208",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1303",
+          "name": "锂电池",
+          "pct": 1.14,
+          "main_net": 418743280.0,
+          "main_ratio": 1.89,
+          "super_net": 629618672.0,
+          "large_net": -210875392.0,
+          "mid_net": -411984640.0,
+          "small_net": -2595072.0,
+          "leader_code": "中一科技",
+          "leader_name": "301150",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1530",
+          "name": "商用载货车",
+          "pct": 0.55,
+          "main_net": 421156032.0,
+          "main_ratio": 9.76,
+          "super_net": 367549648.0,
+          "large_net": 53606384.0,
+          "mid_net": -221252704.0,
+          "small_net": -199903328.0,
+          "leader_code": "江淮汽车",
+          "leader_name": "600418",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1264",
+          "name": "商用车",
+          "pct": 0.07,
+          "main_net": 441289376.0,
+          "main_ratio": 7.93,
+          "super_net": 434731312.0,
+          "large_net": 6558064.0,
+          "mid_net": -269691200.0,
+          "small_net": -171600672.0,
+          "leader_code": "江淮汽车",
+          "leader_name": "600418",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0458",
+          "name": "仪器仪表",
+          "pct": 3.03,
+          "main_net": 474396432.0,
+          "main_ratio": 3.1,
+          "super_net": 469972240.0,
+          "large_net": 4424192.0,
+          "mid_net": 11822848.0,
+          "small_net": -367623840.0,
+          "leader_code": "普源精电",
+          "leader_name": "688337",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0545",
+          "name": "通用设备",
+          "pct": 1.11,
+          "main_net": 634467584.0,
+          "main_ratio": 1.36,
+          "super_net": 749099776.0,
+          "large_net": -114632192.0,
+          "mid_net": -269599232.0,
+          "small_net": -175094272.0,
+          "leader_code": "四方达",
+          "leader_name": "300179",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0438",
+          "name": "食品饮料",
+          "pct": -0.19,
+          "main_net": 901731984.0,
+          "main_ratio": 3.64,
+          "super_net": 875681680.0,
+          "large_net": 26050304.0,
+          "mid_net": -454321920.0,
+          "small_net": -472262912.0,
+          "leader_code": "莲花控股",
+          "leader_name": "600186",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0451",
+          "name": "房地产开发",
+          "pct": 0.08,
+          "main_net": 968354880.0,
+          "main_ratio": 4.44,
+          "super_net": 996681792.0,
+          "large_net": -28326912.0,
+          "mid_net": -485054208.0,
+          "small_net": -483276800.0,
+          "leader_code": "万  科Ａ",
+          "leader_name": "000002",
+          "leader_pct": 0.0
+        }
+      ],
+      "concept_top_in": [
+        {
+          "code": "BK1113",
+          "name": "复合集流体",
+          "pct": 2.67,
+          "main_net": 1866594576.0,
+          "main_ratio": 8.15,
+          "super_net": 2386134800.0,
+          "large_net": -519540224.0,
+          "mid_net": -1309537024.0,
+          "small_net": -557218816.0,
+          "leader_code": "沃格光电",
+          "leader_name": "603773",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1175",
+          "name": "玻璃基板",
+          "pct": 2.36,
+          "main_net": 1378224384.0,
+          "main_ratio": 2.27,
+          "super_net": 1372444416.0,
+          "large_net": 5779968.0,
+          "mid_net": -724562944.0,
+          "small_net": -526355968.0,
+          "leader_code": "沃格光电",
+          "leader_name": "603773",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0884",
+          "name": "光刻机",
+          "pct": 0.94,
+          "main_net": 1074602896.0,
+          "main_ratio": 3.98,
+          "super_net": 1304303248.0,
+          "large_net": -229700352.0,
+          "mid_net": -451844096.0,
+          "small_net": -612824320.0,
+          "leader_code": "沃格光电",
+          "leader_name": "603773",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1101",
+          "name": "先进封装",
+          "pct": 1.39,
+          "main_net": 1064936192.0,
+          "main_ratio": 1.32,
+          "super_net": 1247748864.0,
+          "large_net": -182812672.0,
+          "mid_net": -1412749312.0,
+          "small_net": 471319808.0,
+          "leader_code": "沃格光电",
+          "leader_name": "603773",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1651",
+          "name": "显示技术",
+          "pct": 0.27,
+          "main_net": 1016548352.0,
+          "main_ratio": 4.07,
+          "super_net": 1034957312.0,
+          "large_net": -18408960.0,
+          "mid_net": -428651264.0,
+          "small_net": -587868928.0,
+          "leader_code": "沃格光电",
+          "leader_name": "603773",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0811",
+          "name": "超级品牌",
+          "pct": -0.13,
+          "main_net": 927167920.0,
+          "main_ratio": 6.19,
+          "super_net": 942375232.0,
+          "large_net": -15207312.0,
+          "mid_net": -584694784.0,
+          "small_net": -342502704.0,
+          "leader_code": "万  科Ａ",
+          "leader_name": "000002",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0877",
+          "name": "PCB",
+          "pct": 1.57,
+          "main_net": 923049728.0,
+          "main_ratio": 0.52,
+          "super_net": 477984512.0,
+          "large_net": 445065216.0,
+          "mid_net": -1863044864.0,
+          "small_net": 1103902464.0,
+          "leader_code": "沪电股份",
+          "leader_name": "002463",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0881",
+          "name": "3D玻璃",
+          "pct": 0.44,
+          "main_net": 887238320.0,
+          "main_ratio": 7.2,
+          "super_net": 1043667744.0,
+          "large_net": -156429424.0,
+          "mid_net": -601222928.0,
+          "small_net": -286015392.0,
+          "leader_code": "沃格光电",
+          "leader_name": "603773",
+          "leader_pct": 1.0
+        }
+      ],
+      "concept_top_out": [
+        {
+          "code": "BK0945",
+          "name": "装配建筑",
+          "pct": 0.31,
+          "main_net": 630150880.0,
+          "main_ratio": 3.76,
+          "super_net": 878043408.0,
+          "large_net": -247892528.0,
+          "mid_net": -276253952.0,
+          "small_net": -344967680.0,
+          "leader_code": "万  科Ａ",
+          "leader_name": "000002",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0477",
+          "name": "酿酒概念",
+          "pct": 0.36,
+          "main_net": 642409120.0,
+          "main_ratio": 4.85,
+          "super_net": 616960608.0,
+          "large_net": 25448512.0,
+          "mid_net": -241604096.0,
+          "small_net": -400854240.0,
+          "leader_code": "古越龙山",
+          "leader_name": "600059",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1653",
+          "name": "味蕾经济",
+          "pct": 0.07,
+          "main_net": 844210976.0,
+          "main_ratio": 3.57,
+          "super_net": 861012768.0,
+          "large_net": -16801792.0,
+          "mid_net": -390465536.0,
+          "small_net": -468187392.0,
+          "leader_code": "莲花控股",
+          "leader_name": "600186",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0948",
+          "name": "MicroLED",
+          "pct": 1.56,
+          "main_net": 879624448.0,
+          "main_ratio": 3.19,
+          "super_net": 1078530816.0,
+          "large_net": -198906368.0,
+          "mid_net": -550823424.0,
+          "small_net": -311260672.0,
+          "leader_code": "沃格光电",
+          "leader_name": "603773",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0881",
+          "name": "3D玻璃",
+          "pct": 0.44,
+          "main_net": 887238320.0,
+          "main_ratio": 7.2,
+          "super_net": 1043667744.0,
+          "large_net": -156429424.0,
+          "mid_net": -601222928.0,
+          "small_net": -286015392.0,
+          "leader_code": "沃格光电",
+          "leader_name": "603773",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0877",
+          "name": "PCB",
+          "pct": 1.57,
+          "main_net": 923049728.0,
+          "main_ratio": 0.52,
+          "super_net": 477984512.0,
+          "large_net": 445065216.0,
+          "mid_net": -1863044864.0,
+          "small_net": 1103902464.0,
+          "leader_code": "沪电股份",
+          "leader_name": "002463",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0811",
+          "name": "超级品牌",
+          "pct": -0.13,
+          "main_net": 927167920.0,
+          "main_ratio": 6.19,
+          "super_net": 942375232.0,
+          "large_net": -15207312.0,
+          "mid_net": -584694784.0,
+          "small_net": -342502704.0,
+          "leader_code": "万  科Ａ",
+          "leader_name": "000002",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1651",
+          "name": "显示技术",
+          "pct": 0.27,
+          "main_net": 1016548352.0,
+          "main_ratio": 4.07,
+          "super_net": 1034957312.0,
+          "large_net": -18408960.0,
+          "mid_net": -428651264.0,
+          "small_net": -587868928.0,
+          "leader_code": "沃格光电",
+          "leader_name": "603773",
+          "leader_pct": 1.0
+        }
+      ]
+    },
+    "hot_stocks": [
+      {
+        "rank": 1,
+        "code": "600664",
+        "name": "哈药股份",
+        "pct": 751637.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "民营医院",
+          "维生素"
+        ]
+      },
+      {
+        "rank": 2,
+        "code": "001216",
+        "name": "华瓷股份",
+        "pct": 549081.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "牙科医疗",
+          "跨境电商"
+        ]
+      },
+      {
+        "rank": 3,
+        "code": "600825",
+        "name": "新华传媒",
+        "pct": 541153.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "文化传媒概念",
+          "无人零售"
+        ]
+      },
+      {
+        "rank": 4,
+        "code": "920025",
+        "name": "凯达重工",
+        "pct": 507705.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "新股与次新股",
+          "融资融券"
+        ]
+      },
+      {
+        "rank": 5,
+        "code": "000993",
+        "name": "闽东电力",
+        "pct": 469917.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "绿色电力",
+          "航运概念"
+        ]
+      },
+      {
+        "rank": 6,
+        "code": "301686",
+        "name": "中塑股份",
+        "pct": 456090.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "新股与次新股",
+          "注册制次新股"
+        ]
+      },
+      {
+        "rank": 7,
+        "code": "000725",
+        "name": "京东方A",
+        "pct": 408633.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "先进封装",
+          "MicroLED概念"
+        ]
+      },
+      {
+        "rank": 8,
+        "code": "000560",
+        "name": "我爱我家",
+        "pct": 357751.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "物业管理",
+          "租售同权"
+        ]
+      },
+      {
+        "rank": 9,
+        "code": "603773",
+        "name": "沃格光电",
+        "pct": 332454.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "玻璃基板",
+          "先进封装"
+        ]
+      },
+      {
+        "rank": 10,
+        "code": "603230",
+        "name": "内蒙新华",
+        "pct": 322398.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "文化传媒概念",
+          "国企改革"
+        ]
+      },
+      {
+        "rank": 11,
+        "code": "601811",
+        "name": "新华文轩",
+        "pct": 314990.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "高股息精选",
+          "IP经济(谷子经济)"
+        ]
+      },
+      {
+        "rank": 12,
+        "code": "601086",
+        "name": "国芳集团",
+        "pct": 284064.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "IP经济(谷子经济)",
+          "参股券商"
+        ]
+      },
+      {
+        "rank": 13,
+        "code": "600127",
+        "name": "金健米业",
+        "pct": 264568.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "玉米",
+          "粮食概念"
+        ]
+      },
+      {
+        "rank": 14,
+        "code": "000504",
+        "name": "南华生物",
+        "pct": 247345.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "细胞免疫治疗",
+          "CRO概念"
+        ]
+      },
+      {
+        "rank": 15,
+        "code": "600641",
+        "name": "先导基电",
+        "pct": 235045.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "存储芯片",
+          "第三代半导体"
+        ]
+      },
+      {
+        "rank": 16,
+        "code": "000636",
+        "name": "风华高科",
+        "pct": 230711.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "MLCC概念",
+          "超级电容"
+        ]
+      },
+      {
+        "rank": 17,
+        "code": "920229",
+        "name": "世纪数码",
+        "pct": 228131.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "新股与次新股",
+          "融资融券"
+        ]
+      },
+      {
+        "rank": 18,
+        "code": "600721",
+        "name": "百花医药",
+        "pct": 218580.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "青蒿素",
+          "CRO概念"
+        ]
+      },
+      {
+        "rank": 19,
+        "code": "605058",
+        "name": "澳弘电子",
+        "pct": 212233.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "PCB概念",
+          "共封装光学(CPO)"
+        ]
+      },
+      {
+        "rank": 20,
+        "code": "600487",
+        "name": "亨通光电",
+        "pct": 201235.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "光纤概念",
+          "共封装光学(CPO)"
+        ]
+      }
+    ],
+    "source_health": {
+      "indexes_rsi": "ok",
+      "breadth": "ok",
+      "board_flow": "ok",
+      "limit_pool": "ok",
+      "hot_list": "ok"
+    },
+    "vs_1h": {
+      "reference_at": "2026-09-22T19:09:37+08:00",
+      "indices": {
+        "shanghai": {
+          "pct_change_points": -0.45,
+          "rsi30_change": -11.32
+        },
+        "chinext": {
+          "pct_change_points": -0.63,
+          "rsi30_change": -5.78
+        },
+        "star50": {
+          "pct_change_points": -0.6,
+          "rsi30_change": -2.24
+        }
+      },
+      "up_ratio": null,
+      "emotion_score": null
+    }
   }
 ]
