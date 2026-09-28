@@ -52480,5 +52480,868 @@
       "up_ratio": null,
       "emotion_score": null
     }
+  },
+  {
+    "schema_version": 1,
+    "generated_at": "2026-09-28T14:25:10+08:00",
+    "trade_date": "2026-09-28",
+    "is_trading_day": true,
+    "market_phase": "下午交易",
+    "indices": {
+      "shanghai": {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3832.17,
+        "pct": -1.45,
+        "change": -56.2,
+        "volume": 397185989.0,
+        "amount": 710707869701.1,
+        "open": 3878.41,
+        "prev_close": 3888.37,
+        "high": 3878.41,
+        "low": 3806.67,
+        "rsi14_daily": 37.82,
+        "rsi14_30m": 26.72,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-09-28"
+      },
+      "chinext": {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3153.39,
+        "pct": -4.12,
+        "change": -135.56,
+        "volume": 135808037.0,
+        "amount": 381574037057.17,
+        "open": 3267.6,
+        "prev_close": 3288.95,
+        "high": 3270.81,
+        "low": 3125.2,
+        "rsi14_daily": 34.0,
+        "rsi14_30m": 20.96,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-09-28"
+      },
+      "star50": {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1564.59,
+        "pct": -3.53,
+        "change": -57.28,
+        "volume": 6528027.0,
+        "amount": 70832975082.1,
+        "open": 1610.92,
+        "prev_close": 1621.87,
+        "high": 1610.92,
+        "low": 1548.95,
+        "rsi14_daily": 41.14,
+        "rsi14_30m": 27.86,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-09-28"
+      }
+    },
+    "breadth": {
+      "up": 100,
+      "down": 0,
+      "flat": 0,
+      "total": 100,
+      "up_ratio": 100.0,
+      "strong_ge_5pct": 75,
+      "weak_le_minus5pct": 0
+    },
+    "limit_emotion": {
+      "limit_up": 28,
+      "broken": 12,
+      "limit_down": 0,
+      "seal_success_rate": 70.0,
+      "max_streak": 5,
+      "streak_leaders": [
+        {
+          "code": "600825",
+          "name": "新华传媒",
+          "pct": 10.038609504699707,
+          "streak": 5,
+          "industry": "出版",
+          "seal_fund": 3429790502.0,
+          "open_count": 0
+        },
+        {
+          "code": "603396",
+          "name": "金辰股份",
+          "pct": 9.988776206970215,
+          "streak": 3,
+          "industry": "光伏设备",
+          "seal_fund": 87067120.0,
+          "open_count": 0
+        },
+        {
+          "code": "600802",
+          "name": "福建水泥",
+          "pct": 9.969788551330566,
+          "streak": 3,
+          "industry": "水泥",
+          "seal_fund": 84204702.0,
+          "open_count": 1
+        },
+        {
+          "code": "603949",
+          "name": "雪龙集团",
+          "pct": 10.0,
+          "streak": 3,
+          "industry": "汽车零部",
+          "seal_fund": 67885716.0,
+          "open_count": 1
+        },
+        {
+          "code": "000678",
+          "name": "襄阳轴承",
+          "pct": 10.020661354064941,
+          "streak": 2,
+          "industry": "汽车零部",
+          "seal_fund": 110661189.0,
+          "open_count": 1
+        },
+        {
+          "code": "603278",
+          "name": "大业股份",
+          "pct": 10.0,
+          "streak": 2,
+          "industry": "通用设备",
+          "seal_fund": 100679810.0,
+          "open_count": 1
+        }
+      ]
+    },
+    "emotion_telemetry": {
+      "score": 70.0,
+      "label": "偏强",
+      "note": "仅为盘面遥测分，不替代人工分析"
+    },
+    "fund_flow": {
+      "industry_top_in": [
+        {
+          "code": "BK1264",
+          "name": "商用车",
+          "pct": 1.57,
+          "main_net": 594606352.0,
+          "main_ratio": 9.34,
+          "super_net": 617515760.0,
+          "large_net": -22909408.0,
+          "mid_net": -203928016.0,
+          "small_net": -390695632.0,
+          "leader_code": "江淮汽车",
+          "leader_name": "600418",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0428",
+          "name": "电力",
+          "pct": 0.0,
+          "main_net": 578966080.0,
+          "main_ratio": 2.39,
+          "super_net": 299013184.0,
+          "large_net": 279952896.0,
+          "mid_net": -619410432.0,
+          "small_net": 40413184.0,
+          "leader_code": "浙江新能",
+          "leader_name": "600032",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1530",
+          "name": "商用载货车",
+          "pct": 1.69,
+          "main_net": 545440112.0,
+          "main_ratio": 10.35,
+          "super_net": 593222000.0,
+          "large_net": -47781888.0,
+          "mid_net": -228142736.0,
+          "small_net": -317312016.0,
+          "leader_code": "江淮汽车",
+          "leader_name": "600418",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0427",
+          "name": "公用事业",
+          "pct": -0.07,
+          "main_net": 541276048.0,
+          "main_ratio": 2.03,
+          "super_net": 257017232.0,
+          "large_net": 284258816.0,
+          "mid_net": -601381888.0,
+          "small_net": 51843072.0,
+          "leader_code": "浙江新能",
+          "leader_name": "600032",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1377",
+          "name": "火力发电",
+          "pct": 0.1,
+          "main_net": 404571424.0,
+          "main_ratio": 5.56,
+          "super_net": 303745136.0,
+          "large_net": 100826288.0,
+          "mid_net": -273221504.0,
+          "small_net": -131433728.0,
+          "leader_code": "华能蒙电",
+          "leader_name": "600863",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1578",
+          "name": "其他酒类",
+          "pct": 1.34,
+          "main_net": 394810336.0,
+          "main_ratio": 9.43,
+          "super_net": 458577600.0,
+          "large_net": -63767264.0,
+          "mid_net": -151860624.0,
+          "small_net": -242984416.0,
+          "leader_code": "会稽山",
+          "leader_name": "601579",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1317",
+          "name": "光伏加工设备",
+          "pct": -1.01,
+          "main_net": 392547200.0,
+          "main_ratio": 7.97,
+          "super_net": 223001600.0,
+          "large_net": 169545600.0,
+          "mid_net": -45263696.0,
+          "small_net": -349595696.0,
+          "leader_code": "帝尔激光",
+          "leader_name": "300776",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1279",
+          "name": "非白酒",
+          "pct": 1.2,
+          "main_net": 391963008.0,
+          "main_ratio": 8.25,
+          "super_net": 460575072.0,
+          "large_net": -68612064.0,
+          "mid_net": -149511920.0,
+          "small_net": -242497104.0,
+          "leader_code": "会稽山",
+          "leader_name": "601579",
+          "leader_pct": 1.0
+        }
+      ],
+      "industry_top_out": [
+        {
+          "code": "BK1268",
+          "name": "互联网电商",
+          "pct": -0.53,
+          "main_net": 320000589.0,
+          "main_ratio": 8.81,
+          "super_net": 259285405.0,
+          "large_net": 60715184.0,
+          "mid_net": -38947600.0,
+          "small_net": -288075392.0,
+          "leader_code": "跨境通",
+          "leader_name": "002640",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1495",
+          "name": "生活用纸",
+          "pct": -0.35,
+          "main_net": 327334092.0,
+          "main_ratio": 22.54,
+          "super_net": 509894.0,
+          "large_net": 326824198.0,
+          "mid_net": -42261664.0,
+          "small_net": -285072432.0,
+          "leader_code": "百亚股份",
+          "leader_name": "003006",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1251",
+          "name": "个护用品",
+          "pct": -0.01,
+          "main_net": 327733026.0,
+          "main_ratio": 20.92,
+          "super_net": 47947.0,
+          "large_net": 327685079.0,
+          "mid_net": -46349744.0,
+          "small_net": -281381264.0,
+          "leader_code": "百亚股份",
+          "leader_name": "003006",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1448",
+          "name": "横向通用软件",
+          "pct": 0.79,
+          "main_net": 341490384.0,
+          "main_ratio": 2.79,
+          "super_net": 71473536.0,
+          "large_net": 270016848.0,
+          "mid_net": 367365904.0,
+          "small_net": -708820144.0,
+          "leader_code": "深信服",
+          "leader_name": "300454",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1279",
+          "name": "非白酒",
+          "pct": 1.2,
+          "main_net": 391963008.0,
+          "main_ratio": 8.25,
+          "super_net": 460575072.0,
+          "large_net": -68612064.0,
+          "mid_net": -149511920.0,
+          "small_net": -242497104.0,
+          "leader_code": "会稽山",
+          "leader_name": "601579",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1317",
+          "name": "光伏加工设备",
+          "pct": -1.01,
+          "main_net": 392547200.0,
+          "main_ratio": 7.97,
+          "super_net": 223001600.0,
+          "large_net": 169545600.0,
+          "mid_net": -45263696.0,
+          "small_net": -349595696.0,
+          "leader_code": "帝尔激光",
+          "leader_name": "300776",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1578",
+          "name": "其他酒类",
+          "pct": 1.34,
+          "main_net": 394810336.0,
+          "main_ratio": 9.43,
+          "super_net": 458577600.0,
+          "large_net": -63767264.0,
+          "mid_net": -151860624.0,
+          "small_net": -242984416.0,
+          "leader_code": "会稽山",
+          "leader_name": "601579",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1377",
+          "name": "火力发电",
+          "pct": 0.1,
+          "main_net": 404571424.0,
+          "main_ratio": 5.56,
+          "super_net": 303745136.0,
+          "large_net": 100826288.0,
+          "mid_net": -273221504.0,
+          "small_net": -131433728.0,
+          "leader_code": "华能蒙电",
+          "leader_name": "600863",
+          "leader_pct": 1.0
+        }
+      ],
+      "concept_top_in": [
+        {
+          "code": "BK1029",
+          "name": "汽车整车",
+          "pct": 1.29,
+          "main_net": 968485248.0,
+          "main_ratio": 7.83,
+          "super_net": 968811536.0,
+          "large_net": -326288.0,
+          "mid_net": -429086944.0,
+          "small_net": -539424176.0,
+          "leader_code": "江淮汽车",
+          "leader_name": "600418",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1716",
+          "name": "反转股",
+          "pct": -2.57,
+          "main_net": 377502176.0,
+          "main_ratio": 4.25,
+          "super_net": 446850496.0,
+          "large_net": -69348320.0,
+          "mid_net": -98807296.0,
+          "small_net": -284575536.0,
+          "leader_code": "江淮汽车",
+          "leader_name": "600418",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0429",
+          "name": "交运设备",
+          "pct": -1.0,
+          "main_net": 358493456.0,
+          "main_ratio": 4.31,
+          "super_net": 117176000.0,
+          "large_net": 241317456.0,
+          "mid_net": 133162128.0,
+          "small_net": -493165504.0,
+          "leader_code": "中国中车",
+          "leader_name": "601766",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0896",
+          "name": "白酒",
+          "pct": -0.28,
+          "main_net": 319697456.0,
+          "main_ratio": 2.41,
+          "super_net": 525002768.0,
+          "large_net": -205305312.0,
+          "mid_net": -65411072.0,
+          "small_net": -254316544.0,
+          "leader_code": "巨力索具",
+          "leader_name": "002342",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0664",
+          "name": "婴童概念",
+          "pct": -0.68,
+          "main_net": 315500752.0,
+          "main_ratio": 1.59,
+          "super_net": 19731728.0,
+          "large_net": 295769024.0,
+          "mid_net": -72113664.0,
+          "small_net": -246871040.0,
+          "leader_code": "百亚股份",
+          "leader_name": "003006",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0882",
+          "name": "猪肉概念",
+          "pct": 0.91,
+          "main_net": 282386304.0,
+          "main_ratio": 4.15,
+          "super_net": 176001504.0,
+          "large_net": 106384800.0,
+          "mid_net": 21191072.0,
+          "small_net": -305067440.0,
+          "leader_code": "牧原股份",
+          "leader_name": "002714",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1068",
+          "name": "净水概念",
+          "pct": -0.74,
+          "main_net": 213141088.0,
+          "main_ratio": 4.73,
+          "super_net": 43184304.0,
+          "large_net": 169956784.0,
+          "mid_net": -95988176.0,
+          "small_net": -117154688.0,
+          "leader_code": "美的集团",
+          "leader_name": "000333",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0870",
+          "name": "单抗概念",
+          "pct": 0.33,
+          "main_net": 201429696.0,
+          "main_ratio": 1.69,
+          "super_net": 259660448.0,
+          "large_net": -58230752.0,
+          "mid_net": -107397888.0,
+          "small_net": -94037072.0,
+          "leader_code": "丽珠集团",
+          "leader_name": "000513",
+          "leader_pct": 0.0
+        }
+      ],
+      "concept_top_out": [
+        {
+          "code": "BK0939",
+          "name": "辅助生殖",
+          "pct": -0.23,
+          "main_net": 151228128.0,
+          "main_ratio": 1.31,
+          "super_net": 290898464.0,
+          "large_net": -139670336.0,
+          "mid_net": -259085856.0,
+          "small_net": 107854336.0,
+          "leader_code": "丽珠集团",
+          "leader_name": "000513",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1056",
+          "name": "幽门螺杆菌概念",
+          "pct": 0.17,
+          "main_net": 152360288.0,
+          "main_ratio": 1.79,
+          "super_net": 259612912.0,
+          "large_net": -107252624.0,
+          "mid_net": -229064912.0,
+          "small_net": 76729824.0,
+          "leader_code": "丽珠集团",
+          "leader_name": "000513",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0566",
+          "name": "滨海新区",
+          "pct": -0.15,
+          "main_net": 176690085.0,
+          "main_ratio": 6.88,
+          "super_net": 168422229.0,
+          "large_net": 8267856.0,
+          "mid_net": -103370144.0,
+          "small_net": -73319632.0,
+          "leader_code": "津药药业",
+          "leader_name": "600488",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0822",
+          "name": "租售同权",
+          "pct": 0.04,
+          "main_net": 200264864.0,
+          "main_ratio": 2.51,
+          "super_net": 214941328.0,
+          "large_net": -14676464.0,
+          "mid_net": -57615200.0,
+          "small_net": -142512416.0,
+          "leader_code": "招商蛇口",
+          "leader_name": "001979",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0870",
+          "name": "单抗概念",
+          "pct": 0.33,
+          "main_net": 201429696.0,
+          "main_ratio": 1.69,
+          "super_net": 259660448.0,
+          "large_net": -58230752.0,
+          "mid_net": -107397888.0,
+          "small_net": -94037072.0,
+          "leader_code": "丽珠集团",
+          "leader_name": "000513",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1068",
+          "name": "净水概念",
+          "pct": -0.74,
+          "main_net": 213141088.0,
+          "main_ratio": 4.73,
+          "super_net": 43184304.0,
+          "large_net": 169956784.0,
+          "mid_net": -95988176.0,
+          "small_net": -117154688.0,
+          "leader_code": "美的集团",
+          "leader_name": "000333",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0882",
+          "name": "猪肉概念",
+          "pct": 0.91,
+          "main_net": 282386304.0,
+          "main_ratio": 4.15,
+          "super_net": 176001504.0,
+          "large_net": 106384800.0,
+          "mid_net": 21191072.0,
+          "small_net": -305067440.0,
+          "leader_code": "牧原股份",
+          "leader_name": "002714",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0664",
+          "name": "婴童概念",
+          "pct": -0.68,
+          "main_net": 315500752.0,
+          "main_ratio": 1.59,
+          "super_net": 19731728.0,
+          "large_net": 295769024.0,
+          "mid_net": -72113664.0,
+          "small_net": -246871040.0,
+          "leader_code": "百亚股份",
+          "leader_name": "003006",
+          "leader_pct": 0.0
+        }
+      ]
+    },
+    "hot_stocks": [
+      {
+        "rank": 1,
+        "code": "000592",
+        "name": "平潭发展",
+        "pct": 990116.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "福建自贸区",
+          "海峡两岸"
+        ]
+      },
+      {
+        "rank": 2,
+        "code": "600825",
+        "name": "新华传媒",
+        "pct": 597860.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "无人零售",
+          "AI语料"
+        ]
+      },
+      {
+        "rank": 3,
+        "code": "601811",
+        "name": "新华文轩",
+        "pct": 533720.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "高股息精选",
+          "体育产业"
+        ]
+      },
+      {
+        "rank": 4,
+        "code": "603773",
+        "name": "沃格光电",
+        "pct": 493846.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "玻璃基板",
+          "PET铜箔"
+        ]
+      },
+      {
+        "rank": 5,
+        "code": "000725",
+        "name": "京东方A",
+        "pct": 459846.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "先进封装",
+          "OLED"
+        ]
+      },
+      {
+        "rank": 6,
+        "code": "600707",
+        "name": "彩虹股份",
+        "pct": 444286.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "玻璃基板",
+          "OLED"
+        ]
+      },
+      {
+        "rank": 7,
+        "code": "600487",
+        "name": "亨通光电",
+        "pct": 440123.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "光纤概念",
+          "共封装光学(CPO)"
+        ]
+      },
+      {
+        "rank": 8,
+        "code": "601579",
+        "name": "会稽山",
+        "pct": 408670.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "白酒概念",
+          "共同富裕示范区"
+        ]
+      },
+      {
+        "rank": 9,
+        "code": "600206",
+        "name": "有研新材",
+        "pct": 364636.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "中芯国际概念",
+          "国家大基金持股"
+        ]
+      },
+      {
+        "rank": 10,
+        "code": "002119",
+        "name": "康强电子",
+        "pct": 337975.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "先进封装",
+          "存储芯片"
+        ]
+      },
+      {
+        "rank": 11,
+        "code": "002413",
+        "name": "雷科防务",
+        "pct": 335965.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "军工信息化",
+          "太赫兹"
+        ]
+      },
+      {
+        "rank": 12,
+        "code": "600664",
+        "name": "哈药股份",
+        "pct": 326520.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "流感",
+          "维生素"
+        ]
+      },
+      {
+        "rank": 13,
+        "code": "600127",
+        "name": "金健米业",
+        "pct": 316897.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "玉米",
+          "粮食概念"
+        ]
+      },
+      {
+        "rank": 14,
+        "code": "002614",
+        "name": "奥佳华",
+        "pct": 316221.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "养老概念",
+          "跨境电商"
+        ]
+      },
+      {
+        "rank": 15,
+        "code": "600699",
+        "name": "均胜电子",
+        "pct": 300625.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "汽车热管理",
+          "华为汽车"
+        ]
+      },
+      {
+        "rank": 16,
+        "code": "001330",
+        "name": "博纳影业",
+        "pct": 298145.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "短剧游戏",
+          "AI视频"
+        ]
+      },
+      {
+        "rank": 17,
+        "code": "600802",
+        "name": "福建水泥",
+        "pct": 297669.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "水泥概念",
+          "参股银行"
+        ]
+      },
+      {
+        "rank": 18,
+        "code": "002640",
+        "name": "跨境通",
+        "pct": 276384.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "网红经济",
+          "拼多多概念"
+        ]
+      },
+      {
+        "rank": 19,
+        "code": "000993",
+        "name": "闽东电力",
+        "pct": 254809.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "碳交易",
+          "绿色电力"
+        ]
+      },
+      {
+        "rank": 20,
+        "code": "300300",
+        "name": "海峡创新",
+        "pct": 253700.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "家庭医生",
+          "文化传媒概念"
+        ]
+      }
+    ],
+    "source_health": {
+      "indexes_rsi": "ok",
+      "breadth": "ok",
+      "board_flow": "ok",
+      "limit_pool": "ok",
+      "hot_list": "ok"
+    },
+    "vs_1h": {
+      "reference_at": "2026-09-25T19:24:14+08:00",
+      "indices": {
+        "shanghai": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        },
+        "chinext": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        },
+        "star50": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        }
+      },
+      "up_ratio": 0.0,
+      "emotion_score": -10.7
+    }
   }
 ]
