@@ -1,60 +1,24 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T14:57:51+08:00",
-  "trade_date": "2026-09-30",
+  "generated_at": "2026-10-01T22:17:35+08:00",
+  "trade_date": null,
   "is_trading_day": false,
   "market_phase": "非交易日/数据未进入当日",
   "indices": {
     "shanghai": {
       "name": "上证指数",
       "code": "000001",
-      "price": 3842.19,
-      "pct": 0.31,
-      "change": 11.74,
-      "volume": 414560247.0,
-      "amount": 679398992444.8,
-      "open": 3839.25,
-      "prev_close": 3830.45,
-      "high": 3851.22,
-      "low": 3833.09,
-      "rsi14_daily": 40.35,
-      "rsi14_30m": 44.63,
-      "rsi_alerts": [],
-      "latest_kline_date": "2026-09-30"
+      "error": "GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "chinext": {
       "name": "创业板指",
       "code": "399006",
-      "price": 3135.28,
-      "pct": -0.23,
-      "change": -7.28,
-      "volume": 139371557.0,
-      "amount": 368971648170.82,
-      "open": 3164.7,
-      "prev_close": 3142.56,
-      "high": 3173.36,
-      "low": 3125.49,
-      "rsi14_daily": 33.28,
-      "rsi14_30m": 32.6,
-      "rsi_alerts": [],
-      "latest_kline_date": "2026-09-30"
+      "error": "GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     "star50": {
       "name": "科创50",
       "code": "000688",
-      "price": 1530.01,
-      "pct": -2.51,
-      "change": -39.33,
-      "volume": 7317081.0,
-      "amount": 71878699989.0,
-      "open": 1576.51,
-      "prev_close": 1569.34,
-      "high": 1578.96,
-      "low": 1526.79,
-      "rsi14_daily": 38.3,
-      "rsi14_30m": 27.43,
-      "rsi_alerts": [],
-      "latest_kline_date": "2026-09-30"
+      "error": "GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     }
   },
   "breadth": {
@@ -166,7 +130,7 @@
     ]
   },
   "emotion_telemetry": {
-    "score": 78.7,
+    "score": 80.3,
     "label": "高热",
     "note": "仅为盘面遥测分，不替代人工分析"
   },
@@ -631,45 +595,9 @@
   "hot_stocks": [
     {
       "rank": 1,
-      "code": "002487",
-      "name": "大金重工",
-      "pct": 98125.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "海工装备",
-        "风电"
-      ]
-    },
-    {
-      "rank": 2,
-      "code": "000002",
-      "name": "万科A",
-      "pct": 61467.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "租售同权",
-        "物业管理"
-      ]
-    },
-    {
-      "rank": 3,
-      "code": "001246",
-      "name": "力勤资源",
-      "pct": 57970.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "新股与次新股",
-        "注册制次新股"
-      ]
-    },
-    {
-      "rank": 4,
       "code": "601127",
       "name": "赛力斯",
-      "pct": 57825.0,
+      "pct": 227078.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -678,10 +606,10 @@
       ]
     },
     {
-      "rank": 5,
+      "rank": 2,
       "code": "600418",
       "name": "江淮汽车",
-      "pct": 53934.0,
+      "pct": 105779.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -690,10 +618,34 @@
       ]
     },
     {
-      "rank": 6,
+      "rank": 3,
+      "code": "002487",
+      "name": "大金重工",
+      "pct": 89157.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "海工装备",
+        "风电"
+      ]
+    },
+    {
+      "rank": 4,
+      "code": "000002",
+      "name": "万科A",
+      "pct": 72660.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "租售同权",
+        "物业管理"
+      ]
+    },
+    {
+      "rank": 5,
       "code": "000678",
       "name": "襄阳轴承",
-      "pct": 47415.0,
+      "pct": 65298.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -702,22 +654,22 @@
       ]
     },
     {
-      "rank": 7,
-      "code": "600825",
-      "name": "新华传媒",
-      "pct": 43902.0,
+      "rank": 6,
+      "code": "001246",
+      "name": "力勤资源",
+      "pct": 65243.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "无人零售",
-        "文化传媒概念"
+        "新股与次新股",
+        "注册制次新股"
       ]
     },
     {
-      "rank": 8,
+      "rank": 7,
       "code": "002242",
       "name": "九阳股份",
-      "pct": 43645.0,
+      "pct": 62473.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -726,10 +678,22 @@
       ]
     },
     {
+      "rank": 8,
+      "code": "600825",
+      "name": "新华传媒",
+      "pct": 55352.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "无人零售",
+        "文化传媒概念"
+      ]
+    },
+    {
       "rank": 9,
       "code": "000011",
       "name": "深物业A",
-      "pct": 41507.0,
+      "pct": 52860.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -739,21 +703,9 @@
     },
     {
       "rank": 10,
-      "code": "600127",
-      "name": "金健米业",
-      "pct": 35122.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "玉米",
-        "粮食概念"
-      ]
-    },
-    {
-      "rank": 11,
       "code": "600664",
       "name": "哈药股份",
-      "pct": 31196.0,
+      "pct": 48245.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -762,22 +714,34 @@
       ]
     },
     {
-      "rank": 12,
-      "code": "000560",
-      "name": "我爱我家",
-      "pct": 30780.0,
+      "rank": 11,
+      "code": "600127",
+      "name": "金健米业",
+      "pct": 40605.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "租售同权",
-        "物业管理"
+        "玉米",
+        "粮食概念"
+      ]
+    },
+    {
+      "rank": 12,
+      "code": "603259",
+      "name": "药明康德",
+      "pct": 38068.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "CRO概念",
+        "创新药"
       ]
     },
     {
       "rank": 13,
       "code": "688836",
       "name": "宇树科技",
-      "pct": 29454.0,
+      "pct": 37671.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -789,7 +753,7 @@
       "rank": 14,
       "code": "600487",
       "name": "亨通光电",
-      "pct": 28932.0,
+      "pct": 36306.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -799,33 +763,33 @@
     },
     {
       "rank": 15,
-      "code": "603259",
-      "name": "药明康德",
-      "pct": 25871.0,
+      "code": "000560",
+      "name": "我爱我家",
+      "pct": 35052.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "CRO概念",
-        "创新药"
+        "租售同权",
+        "物业管理"
       ]
     },
     {
       "rank": 16,
-      "code": "601811",
-      "name": "新华文轩",
-      "pct": 25256.0,
+      "code": "603200",
+      "name": "上海洗霸",
+      "pct": 34680.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "高股息精选",
-        "体育产业"
+        "钠离子电池",
+        "固态电池"
       ]
     },
     {
       "rank": 17,
       "code": "002074",
       "name": "国轩高科",
-      "pct": 25250.0,
+      "pct": 32677.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -835,50 +799,50 @@
     },
     {
       "rank": 18,
-      "code": "002866",
-      "name": "传艺科技",
-      "pct": 24987.0,
+      "code": "603538",
+      "name": "美诺华",
+      "pct": 32652.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "钠离子电池",
-        "华为概念"
+        "减肥药",
+        "CRO概念"
       ]
     },
     {
       "rank": 19,
-      "code": "603200",
-      "name": "上海洗霸",
-      "pct": 24951.0,
+      "code": "601811",
+      "name": "新华文轩",
+      "pct": 31950.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "钠离子电池",
-        "固态电池"
+        "高股息精选",
+        "体育产业"
       ]
     },
     {
       "rank": 20,
-      "code": "000504",
-      "name": "南华生物",
-      "pct": 23945.0,
+      "code": "301190",
+      "name": "善水科技",
+      "pct": 31070.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "细胞免疫治疗",
-        "CRO概念"
+        "幽门螺杆菌概念",
+        "参股银行"
       ]
     }
   ],
   "source_health": {
-    "indexes_rsi": "ok",
+    "indexes_rsi": "error: GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
     "breadth": "ok",
     "board_flow": "ok",
     "limit_pool": "ok",
     "hot_list": "ok"
   },
   "vs_1h": {
-    "reference_at": "2026-09-30T20:53:58+08:00",
+    "reference_at": "2026-10-01T14:57:51+08:00",
     "indices": {
       "shanghai": {
         "pct_change_points": null,
@@ -893,7 +857,7 @@
         "rsi30_change": null
       }
     },
-    "up_ratio": null,
-    "emotion_score": null
+    "up_ratio": 0.0,
+    "emotion_score": 1.6
   }
 }
