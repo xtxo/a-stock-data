@@ -61925,5 +61925,868 @@
       "up_ratio": null,
       "emotion_score": null
     }
+  },
+  {
+    "schema_version": 1,
+    "generated_at": "2026-10-07T14:56:50+08:00",
+    "trade_date": null,
+    "is_trading_day": false,
+    "market_phase": "非交易日/数据未进入当日",
+    "indices": {
+      "shanghai": {
+        "name": "上证指数",
+        "code": "000001",
+        "error": "GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      },
+      "chinext": {
+        "name": "创业板指",
+        "code": "399006",
+        "error": "GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      },
+      "star50": {
+        "name": "科创50",
+        "code": "000688",
+        "error": "GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      }
+    },
+    "breadth": {
+      "up": 100,
+      "down": 0,
+      "flat": 0,
+      "total": 100,
+      "up_ratio": 100.0,
+      "strong_ge_5pct": 100,
+      "weak_le_minus5pct": 0
+    },
+    "limit_emotion": {
+      "limit_up": 52,
+      "broken": 12,
+      "limit_down": 0,
+      "seal_success_rate": 81.2,
+      "max_streak": 7,
+      "streak_leaders": [
+        {
+          "code": "600825",
+          "name": "新华传媒",
+          "pct": 9.989372253417969,
+          "streak": 7,
+          "industry": "出版",
+          "seal_fund": 1988381638.0,
+          "open_count": 0
+        },
+        {
+          "code": "000678",
+          "name": "襄阳轴承",
+          "pct": 9.982934951782227,
+          "streak": 4,
+          "industry": "汽车零部",
+          "seal_fund": 67104051.0,
+          "open_count": 0
+        },
+        {
+          "code": "002242",
+          "name": "九阳股份",
+          "pct": 10.035211563110352,
+          "streak": 3,
+          "industry": "小家电",
+          "seal_fund": 164830000.0,
+          "open_count": 1
+        },
+        {
+          "code": "600241",
+          "name": "时代万恒",
+          "pct": 9.954751014709473,
+          "streak": 3,
+          "industry": "电池",
+          "seal_fund": 141936300.0,
+          "open_count": 0
+        },
+        {
+          "code": "301190",
+          "name": "善水科技",
+          "pct": 20.00667953491211,
+          "streak": 3,
+          "industry": "化学原料",
+          "seal_fund": 106419018.0,
+          "open_count": 1
+        },
+        {
+          "code": "000011",
+          "name": "深物业A",
+          "pct": 9.97304630279541,
+          "streak": 3,
+          "industry": "房地产开",
+          "seal_fund": 40166967.0,
+          "open_count": 2
+        },
+        {
+          "code": "605303",
+          "name": "园林股份",
+          "pct": 10.019193649291992,
+          "streak": 2,
+          "industry": "基础建设",
+          "seal_fund": 174751484.0,
+          "open_count": 0
+        },
+        {
+          "code": "605388",
+          "name": "均瑶健康",
+          "pct": 9.970237731933594,
+          "streak": 2,
+          "industry": "饮料乳品",
+          "seal_fund": 77280333.0,
+          "open_count": 0
+        },
+        {
+          "code": "002058",
+          "name": "紫竹高科",
+          "pct": 10.0217866897583,
+          "streak": 2,
+          "industry": "电池",
+          "seal_fund": 69384959.0,
+          "open_count": 0
+        },
+        {
+          "code": "603200",
+          "name": "上海洗霸",
+          "pct": 10.007376670837402,
+          "streak": 2,
+          "industry": "环境治理",
+          "seal_fund": 48320229.0,
+          "open_count": 2
+        }
+      ]
+    },
+    "emotion_telemetry": {
+      "score": 80.3,
+      "label": "高热",
+      "note": "仅为盘面遥测分，不替代人工分析"
+    },
+    "fund_flow": {
+      "industry_top_in": [
+        {
+          "code": "BK1216",
+          "name": "医药生物",
+          "pct": 2.03,
+          "main_net": 6190539776.0,
+          "main_ratio": 4.44,
+          "super_net": 3485894656.0,
+          "large_net": 2704645120.0,
+          "mid_net": -2772193024.0,
+          "small_net": -3319524608.0,
+          "leader_code": "恒瑞医药",
+          "leader_name": "600276",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0727",
+          "name": "医疗服务",
+          "pct": 3.09,
+          "main_net": 2603071648.0,
+          "main_ratio": 6.95,
+          "super_net": 1331170208.0,
+          "large_net": 1271901440.0,
+          "mid_net": -665696512.0,
+          "small_net": -1936582144.0,
+          "leader_code": "药明康德",
+          "leader_name": "603259",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1600",
+          "name": "医疗研发外包",
+          "pct": 4.22,
+          "main_net": 2228100720.0,
+          "main_ratio": 7.39,
+          "super_net": 995245424.0,
+          "large_net": 1232855296.0,
+          "mid_net": -434377728.0,
+          "small_net": -1793722624.0,
+          "leader_code": "药明康德",
+          "leader_name": "603259",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0465",
+          "name": "化学制药",
+          "pct": 2.1,
+          "main_net": 1945034624.0,
+          "main_ratio": 4.03,
+          "super_net": 1281703552.0,
+          "large_net": 663331072.0,
+          "mid_net": -1412409088.0,
+          "small_net": -499464192.0,
+          "leader_code": "恒瑞医药",
+          "leader_name": "600276",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1015",
+          "name": "能源金属",
+          "pct": 0.19,
+          "main_net": 1570977520.0,
+          "main_ratio": 11.27,
+          "super_net": 385862432.0,
+          "large_net": 1185115088.0,
+          "mid_net": 1583204240.0,
+          "small_net": -3154181888.0,
+          "leader_code": "N力勤",
+          "leader_name": "001246",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1622",
+          "name": "镍",
+          "pct": 2.85,
+          "main_net": 1565337557.0,
+          "main_ratio": 16.12,
+          "super_net": 379585557.0,
+          "large_net": 1185752000.0,
+          "mid_net": 1698821328.0,
+          "small_net": -3264158896.0,
+          "leader_code": "N力勤",
+          "leader_name": "001246",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0438",
+          "name": "食品饮料",
+          "pct": 1.51,
+          "main_net": 1420744880.0,
+          "main_ratio": 5.57,
+          "super_net": 1055400368.0,
+          "large_net": 365344512.0,
+          "mid_net": -859511552.0,
+          "small_net": -547132928.0,
+          "leader_code": "贵州茅台",
+          "leader_name": "600519",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1594",
+          "name": "化学制剂",
+          "pct": 2.25,
+          "main_net": 1356723936.0,
+          "main_ratio": 3.59,
+          "super_net": 974387168.0,
+          "large_net": 382336768.0,
+          "mid_net": -1139014144.0,
+          "small_net": -202611968.0,
+          "leader_code": "恒瑞医药",
+          "leader_name": "600276",
+          "leader_pct": 1.0
+        }
+      ],
+      "industry_top_out": [
+        {
+          "code": "BK1575",
+          "name": "白酒Ⅲ",
+          "pct": 2.79,
+          "main_net": 960362736.0,
+          "main_ratio": 8.93,
+          "super_net": 597089472.0,
+          "large_net": 363273264.0,
+          "mid_net": -552112400.0,
+          "small_net": -408250416.0,
+          "leader_code": "贵州茅台",
+          "leader_name": "600519",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1033",
+          "name": "电池",
+          "pct": 0.94,
+          "main_net": 998072832.0,
+          "main_ratio": 1.91,
+          "super_net": 617360128.0,
+          "large_net": 380712704.0,
+          "mid_net": 228890624.0,
+          "small_net": -1214354944.0,
+          "leader_code": "先导智能",
+          "leader_name": "300450",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1211",
+          "name": "汽车",
+          "pct": 0.1,
+          "main_net": 1031911680.0,
+          "main_ratio": 1.79,
+          "super_net": 729875712.0,
+          "large_net": 302035968.0,
+          "mid_net": -510801152.0,
+          "small_net": -573600768.0,
+          "leader_code": "襄阳轴承",
+          "leader_name": "000678",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1044",
+          "name": "生物制品",
+          "pct": 4.53,
+          "main_net": 1351955984.0,
+          "main_ratio": 5.74,
+          "super_net": 740231952.0,
+          "large_net": 611724032.0,
+          "mid_net": -294451200.0,
+          "small_net": -984772608.0,
+          "leader_code": "百普赛斯",
+          "leader_name": "301080",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1594",
+          "name": "化学制剂",
+          "pct": 2.25,
+          "main_net": 1356723936.0,
+          "main_ratio": 3.59,
+          "super_net": 974387168.0,
+          "large_net": 382336768.0,
+          "mid_net": -1139014144.0,
+          "small_net": -202611968.0,
+          "leader_code": "恒瑞医药",
+          "leader_name": "600276",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0438",
+          "name": "食品饮料",
+          "pct": 1.51,
+          "main_net": 1420744880.0,
+          "main_ratio": 5.57,
+          "super_net": 1055400368.0,
+          "large_net": 365344512.0,
+          "mid_net": -859511552.0,
+          "small_net": -547132928.0,
+          "leader_code": "贵州茅台",
+          "leader_name": "600519",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1622",
+          "name": "镍",
+          "pct": 2.85,
+          "main_net": 1565337557.0,
+          "main_ratio": 16.12,
+          "super_net": 379585557.0,
+          "large_net": 1185752000.0,
+          "mid_net": 1698821328.0,
+          "small_net": -3264158896.0,
+          "leader_code": "N力勤",
+          "leader_name": "001246",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1015",
+          "name": "能源金属",
+          "pct": 0.19,
+          "main_net": 1570977520.0,
+          "main_ratio": 11.27,
+          "super_net": 385862432.0,
+          "large_net": 1185115088.0,
+          "mid_net": 1583204240.0,
+          "small_net": -3154181888.0,
+          "leader_code": "N力勤",
+          "leader_name": "001246",
+          "leader_pct": 0.0
+        }
+      ],
+      "concept_top_in": [
+        {
+          "code": "BK1106",
+          "name": "创新药",
+          "pct": 2.74,
+          "main_net": 4150709248.0,
+          "main_ratio": 4.65,
+          "super_net": 2218624512.0,
+          "large_net": 1932084736.0,
+          "mid_net": -1931396608.0,
+          "small_net": -2047282688.0,
+          "leader_code": "恒瑞医药",
+          "leader_name": "600276",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1712",
+          "name": "医药医疗风格",
+          "pct": 2.92,
+          "main_net": 3789874944.0,
+          "main_ratio": 5.44,
+          "super_net": 2179396864.0,
+          "large_net": 1610478080.0,
+          "mid_net": -2033658624.0,
+          "small_net": -1756216832.0,
+          "leader_code": "恒瑞医药",
+          "leader_name": "600276",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0899",
+          "name": "CRO",
+          "pct": 3.8,
+          "main_net": 2726605376.0,
+          "main_ratio": 7.16,
+          "super_net": 1234025024.0,
+          "large_net": 1492580352.0,
+          "mid_net": -505334016.0,
+          "small_net": -2213462528.0,
+          "leader_code": "药明康德",
+          "leader_name": "603259",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1658",
+          "name": "创新医疗服务",
+          "pct": 1.5,
+          "main_net": 2365515936.0,
+          "main_ratio": 5.77,
+          "super_net": 1192811680.0,
+          "large_net": 1172704256.0,
+          "mid_net": -538040832.0,
+          "small_net": -1823360000.0,
+          "leader_code": "药明康德",
+          "leader_name": "603259",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1657",
+          "name": "病原体防治",
+          "pct": 2.63,
+          "main_net": 2349904768.0,
+          "main_ratio": 4.4,
+          "super_net": 1564750208.0,
+          "large_net": 785154560.0,
+          "mid_net": -982209536.0,
+          "small_net": -1284401664.0,
+          "leader_code": "美诺华",
+          "leader_name": "603538",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0499",
+          "name": "AH股",
+          "pct": 0.8,
+          "main_net": 2142706688.0,
+          "main_ratio": 0.99,
+          "super_net": 1513973504.0,
+          "large_net": 628733184.0,
+          "mid_net": 857526272.0,
+          "small_net": -3000235008.0,
+          "leader_code": "N力勤",
+          "leader_name": "001246",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0665",
+          "name": "电商概念",
+          "pct": 0.3,
+          "main_net": 1840956928.0,
+          "main_ratio": 2.69,
+          "super_net": 1434791680.0,
+          "large_net": 406165248.0,
+          "mid_net": -1411932928.0,
+          "small_net": -430147328.0,
+          "leader_code": "贵州茅台",
+          "leader_name": "600519",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0999",
+          "name": "茅指数",
+          "pct": 1.32,
+          "main_net": 1638720768.0,
+          "main_ratio": 2.25,
+          "super_net": 511631104.0,
+          "large_net": 1127089664.0,
+          "mid_net": -921453824.0,
+          "small_net": -717267200.0,
+          "leader_code": "恒瑞医药",
+          "leader_name": "600276",
+          "leader_pct": 1.0
+        }
+      ],
+      "concept_top_out": [
+        {
+          "code": "BK1711",
+          "name": "消费风格",
+          "pct": 1.18,
+          "main_net": 1321337168.0,
+          "main_ratio": 3.29,
+          "super_net": 1085497936.0,
+          "large_net": 235839232.0,
+          "mid_net": -1007801088.0,
+          "small_net": -230242560.0,
+          "leader_code": "贵州茅台",
+          "leader_name": "600519",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0986",
+          "name": "CAR-T细胞疗法",
+          "pct": 3.27,
+          "main_net": 1355826048.0,
+          "main_ratio": 6.82,
+          "super_net": 461264256.0,
+          "large_net": 894561792.0,
+          "mid_net": -333939712.0,
+          "small_net": -967859712.0,
+          "leader_code": "药明康德",
+          "leader_name": "603259",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1146",
+          "name": "减肥药",
+          "pct": 2.87,
+          "main_net": 1540015888.0,
+          "main_ratio": 6.18,
+          "super_net": 952694032.0,
+          "large_net": 587321856.0,
+          "mid_net": -644712192.0,
+          "small_net": -886135040.0,
+          "leader_code": "恒瑞医药",
+          "leader_name": "600276",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1000",
+          "name": "宁组合",
+          "pct": 1.81,
+          "main_net": 1549405440.0,
+          "main_ratio": 3.69,
+          "super_net": 754592256.0,
+          "large_net": 794813184.0,
+          "mid_net": -485235456.0,
+          "small_net": -1064170240.0,
+          "leader_code": "药明康德",
+          "leader_name": "603259",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0999",
+          "name": "茅指数",
+          "pct": 1.32,
+          "main_net": 1638720768.0,
+          "main_ratio": 2.25,
+          "super_net": 511631104.0,
+          "large_net": 1127089664.0,
+          "mid_net": -921453824.0,
+          "small_net": -717267200.0,
+          "leader_code": "恒瑞医药",
+          "leader_name": "600276",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0665",
+          "name": "电商概念",
+          "pct": 0.3,
+          "main_net": 1840956928.0,
+          "main_ratio": 2.69,
+          "super_net": 1434791680.0,
+          "large_net": 406165248.0,
+          "mid_net": -1411932928.0,
+          "small_net": -430147328.0,
+          "leader_code": "贵州茅台",
+          "leader_name": "600519",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0499",
+          "name": "AH股",
+          "pct": 0.8,
+          "main_net": 2142706688.0,
+          "main_ratio": 0.99,
+          "super_net": 1513973504.0,
+          "large_net": 628733184.0,
+          "mid_net": 857526272.0,
+          "small_net": -3000235008.0,
+          "leader_code": "N力勤",
+          "leader_name": "001246",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1657",
+          "name": "病原体防治",
+          "pct": 2.63,
+          "main_net": 2349904768.0,
+          "main_ratio": 4.4,
+          "super_net": 1564750208.0,
+          "large_net": 785154560.0,
+          "mid_net": -982209536.0,
+          "small_net": -1284401664.0,
+          "leader_code": "美诺华",
+          "leader_name": "603538",
+          "leader_pct": 1.0
+        }
+      ]
+    },
+    "hot_stocks": [
+      {
+        "rank": 1,
+        "code": "603259",
+        "name": "药明康德",
+        "pct": 136695.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "CRO概念",
+          "创新药"
+        ]
+      },
+      {
+        "rank": 2,
+        "code": "002487",
+        "name": "大金重工",
+        "pct": 123653.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "海工装备",
+          "风电"
+        ]
+      },
+      {
+        "rank": 3,
+        "code": "300308",
+        "name": "中际旭创",
+        "pct": 106583.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "共封装光学(CPO)",
+          "F5G概念"
+        ]
+      },
+      {
+        "rank": 4,
+        "code": "001246",
+        "name": "力勤资源",
+        "pct": 95012.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "一带一路",
+          "新股与次新股"
+        ]
+      },
+      {
+        "rank": 5,
+        "code": "603127",
+        "name": "昭衍新药",
+        "pct": 84421.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "CRO概念",
+          "细胞免疫治疗"
+        ]
+      },
+      {
+        "rank": 6,
+        "code": "000002",
+        "name": "万科A",
+        "pct": 74994.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "租售同权",
+          "物业管理"
+        ]
+      },
+      {
+        "rank": 7,
+        "code": "603986",
+        "name": "兆易创新",
+        "pct": 72259.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "存储芯片",
+          "汽车芯片"
+        ]
+      },
+      {
+        "rank": 8,
+        "code": "688008",
+        "name": "澜起科技",
+        "pct": 57158.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "存储芯片",
+          "中芯国际概念"
+        ]
+      },
+      {
+        "rank": 9,
+        "code": "600825",
+        "name": "新华传媒",
+        "pct": 55574.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "无人零售",
+          "上海国企改革"
+        ]
+      },
+      {
+        "rank": 10,
+        "code": "601127",
+        "name": "赛力斯",
+        "pct": 55357.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "参股银行",
+          "西部大开发"
+        ]
+      },
+      {
+        "rank": 11,
+        "code": "002242",
+        "name": "九阳股份",
+        "pct": 41792.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "绿色电力",
+          "净水概念"
+        ]
+      },
+      {
+        "rank": 12,
+        "code": "600418",
+        "name": "江淮汽车",
+        "pct": 41216.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "百度概念",
+          "DeepSeek概念"
+        ]
+      },
+      {
+        "rank": 13,
+        "code": "000678",
+        "name": "襄阳轴承",
+        "pct": 38317.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "减速器",
+          "农机"
+        ]
+      },
+      {
+        "rank": 14,
+        "code": "603083",
+        "name": "剑桥科技",
+        "pct": 37480.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "共封装光学(CPO)",
+          "F5G概念"
+        ]
+      },
+      {
+        "rank": 15,
+        "code": "600664",
+        "name": "哈药股份",
+        "pct": 36432.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "创新药",
+          "维生素"
+        ]
+      },
+      {
+        "rank": 16,
+        "code": "600276",
+        "name": "恒瑞医药",
+        "pct": 32866.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "减肥药",
+          "创新药"
+        ]
+      },
+      {
+        "rank": 17,
+        "code": "601869",
+        "name": "长飞光纤",
+        "pct": 28903.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "光纤概念",
+          "共封装光学(CPO)"
+        ]
+      },
+      {
+        "rank": 18,
+        "code": "603200",
+        "name": "上海洗霸",
+        "pct": 27865.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "钠离子电池",
+          "固态电池"
+        ]
+      },
+      {
+        "rank": 19,
+        "code": "000504",
+        "name": "南华生物",
+        "pct": 27453.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "细胞免疫治疗",
+          "CRO概念"
+        ]
+      },
+      {
+        "rank": 20,
+        "code": "600127",
+        "name": "金健米业",
+        "pct": 27358.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "玉米",
+          "粮食概念"
+        ]
+      }
+    ],
+    "source_health": {
+      "indexes_rsi": "error: GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "breadth": "ok",
+      "board_flow": "ok",
+      "limit_pool": "ok",
+      "hot_list": "ok"
+    },
+    "vs_1h": {
+      "reference_at": "2026-10-06T22:23:58+08:00",
+      "indices": {
+        "shanghai": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        },
+        "chinext": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        },
+        "star50": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        }
+      },
+      "up_ratio": 0.0,
+      "emotion_score": 1.6
+    }
   }
 ]
