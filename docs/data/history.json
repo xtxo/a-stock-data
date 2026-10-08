@@ -64550,5 +64550,868 @@
       "up_ratio": 0.0,
       "emotion_score": -3.1
     }
+  },
+  {
+    "schema_version": 1,
+    "generated_at": "2026-10-08T22:31:25+08:00",
+    "trade_date": null,
+    "is_trading_day": false,
+    "market_phase": "非交易日/数据未进入当日",
+    "indices": {
+      "shanghai": {
+        "name": "上证指数",
+        "code": "000001",
+        "error": "GET failed: https://push2.eastmoney.com/api/qt/ulist.np/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/ulist.np/get?secids=1.000001%2C0.399006%2C1.000688&fltt=2&invt=2&fields=f12%2Cf14%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf17%2Cf18%2Cf15%2Cf16"
+      },
+      "chinext": {
+        "name": "创业板指",
+        "code": "399006",
+        "error": "GET failed: https://push2.eastmoney.com/api/qt/ulist.np/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/ulist.np/get?secids=1.000001%2C0.399006%2C1.000688&fltt=2&invt=2&fields=f12%2Cf14%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf17%2Cf18%2Cf15%2Cf16"
+      },
+      "star50": {
+        "name": "科创50",
+        "code": "000688",
+        "error": "GET failed: https://push2.eastmoney.com/api/qt/ulist.np/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/ulist.np/get?secids=1.000001%2C0.399006%2C1.000688&fltt=2&invt=2&fields=f12%2Cf14%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf17%2Cf18%2Cf15%2Cf16"
+      }
+    },
+    "breadth": {
+      "up": 100,
+      "down": 0,
+      "flat": 0,
+      "total": 100,
+      "up_ratio": 100.0,
+      "strong_ge_5pct": 100,
+      "weak_le_minus5pct": 0
+    },
+    "limit_emotion": {
+      "limit_up": 43,
+      "broken": 32,
+      "limit_down": 0,
+      "seal_success_rate": 57.3,
+      "max_streak": 8,
+      "streak_leaders": [
+        {
+          "code": "600825",
+          "name": "新华传媒",
+          "pct": 10.048309326171875,
+          "streak": 8,
+          "industry": "出版",
+          "seal_fund": 1775758428.0,
+          "open_count": 0
+        },
+        {
+          "code": "002242",
+          "name": "九阳股份",
+          "pct": 10.0,
+          "streak": 4,
+          "industry": "小家电",
+          "seal_fund": 240453537.0,
+          "open_count": 0
+        },
+        {
+          "code": "600241",
+          "name": "时代万恒",
+          "pct": 9.979423522949219,
+          "streak": 4,
+          "industry": "电池",
+          "seal_fund": 126269307.0,
+          "open_count": 0
+        },
+        {
+          "code": "605303",
+          "name": "园林股份",
+          "pct": 10.013957023620605,
+          "streak": 3,
+          "industry": "基础建设",
+          "seal_fund": 150949875.0,
+          "open_count": 0
+        },
+        {
+          "code": "002058",
+          "name": "紫竹高科",
+          "pct": 10.0,
+          "streak": 3,
+          "industry": "电池",
+          "seal_fund": 142263550.0,
+          "open_count": 1
+        },
+        {
+          "code": "002866",
+          "name": "传艺科技",
+          "pct": 10.0,
+          "streak": 3,
+          "industry": "消费电子",
+          "seal_fund": 78655925.0,
+          "open_count": 1
+        },
+        {
+          "code": "603200",
+          "name": "上海洗霸",
+          "pct": 9.991059303283691,
+          "streak": 3,
+          "industry": "环境治理",
+          "seal_fund": 14329952.0,
+          "open_count": 7
+        },
+        {
+          "code": "603928",
+          "name": "兴业股份",
+          "pct": 10.022953033447266,
+          "streak": 2,
+          "industry": "塑料",
+          "seal_fund": 76424623.0,
+          "open_count": 0
+        },
+        {
+          "code": "600663",
+          "name": "陆家嘴",
+          "pct": 9.990108489990234,
+          "streak": 2,
+          "industry": "房地产开",
+          "seal_fund": 49243374.0,
+          "open_count": 3
+        },
+        {
+          "code": "603906",
+          "name": "龙蟠科技",
+          "pct": 9.978991508483887,
+          "streak": 2,
+          "industry": "电池",
+          "seal_fund": 12226154.0,
+          "open_count": 8
+        }
+      ]
+    },
+    "emotion_telemetry": {
+      "score": 75.6,
+      "label": "高热",
+      "note": "仅为盘面遥测分，不替代人工分析"
+    },
+    "fund_flow": {
+      "industry_top_in": [
+        {
+          "code": "BK1033",
+          "name": "电池",
+          "pct": 3.34,
+          "main_net": 3275164928.0,
+          "main_ratio": 4.41,
+          "super_net": 1753250816.0,
+          "large_net": 1521914112.0,
+          "mid_net": 400940288.0,
+          "small_net": -3455300096.0,
+          "leader_code": "先导智能",
+          "leader_name": "300450",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1302",
+          "name": "电池化学品",
+          "pct": 2.85,
+          "main_net": 2017175344.0,
+          "main_ratio": 8.21,
+          "super_net": 627173680.0,
+          "large_net": 1390001664.0,
+          "mid_net": 108322816.0,
+          "small_net": -2115296512.0,
+          "leader_code": "天赐材料",
+          "leader_name": "002709",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1200",
+          "name": "电力设备",
+          "pct": 0.45,
+          "main_net": 1943148544.0,
+          "main_ratio": 1.3,
+          "super_net": 1216349696.0,
+          "large_net": 726798848.0,
+          "mid_net": -56216064.0,
+          "small_net": -1711584512.0,
+          "leader_code": "先导智能",
+          "leader_name": "300450",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1206",
+          "name": "基础化工",
+          "pct": 0.09,
+          "main_net": 1179399680.0,
+          "main_ratio": 1.27,
+          "super_net": 1800136960.0,
+          "large_net": -620737280.0,
+          "mid_net": -576552192.0,
+          "small_net": -677351680.0,
+          "leader_code": "东材科技",
+          "leader_name": "601208",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0427",
+          "name": "公用事业",
+          "pct": 1.57,
+          "main_net": 1156639632.0,
+          "main_ratio": 3.07,
+          "super_net": 1039290000.0,
+          "large_net": 117349632.0,
+          "mid_net": -921408768.0,
+          "small_net": -222560768.0,
+          "leader_code": "华能蒙电",
+          "leader_name": "600863",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0428",
+          "name": "电力",
+          "pct": 1.27,
+          "main_net": 1077469904.0,
+          "main_ratio": 3.24,
+          "super_net": 989396688.0,
+          "large_net": 88073216.0,
+          "mid_net": -890381568.0,
+          "small_net": -187088384.0,
+          "leader_code": "华能蒙电",
+          "leader_name": "600863",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0454",
+          "name": "塑料",
+          "pct": -0.19,
+          "main_net": 948350144.0,
+          "main_ratio": 4.32,
+          "super_net": 1074910144.0,
+          "large_net": -126560000.0,
+          "mid_net": -477506560.0,
+          "small_net": -477713920.0,
+          "leader_code": "东材科技",
+          "leader_name": "601208",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1439",
+          "name": "膜材料",
+          "pct": 0.1,
+          "main_net": 754672528.0,
+          "main_ratio": 7.31,
+          "super_net": 856597824.0,
+          "large_net": -101925296.0,
+          "mid_net": -466683184.0,
+          "small_net": -290111920.0,
+          "leader_code": "东材科技",
+          "leader_name": "601208",
+          "leader_pct": 1.0
+        }
+      ],
+      "industry_top_out": [
+        {
+          "code": "BK1624",
+          "name": "其他小金属",
+          "pct": 0.78,
+          "main_net": 616730256.0,
+          "main_ratio": 6.98,
+          "super_net": 505442464.0,
+          "large_net": 111287792.0,
+          "mid_net": -145423920.0,
+          "small_net": -474506784.0,
+          "leader_code": "西部材料",
+          "leader_name": "002149",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1306",
+          "name": "蓄电池及其他电池",
+          "pct": 5.19,
+          "main_net": 619399984.0,
+          "main_ratio": 14.66,
+          "super_net": 643249040.0,
+          "large_net": -23849056.0,
+          "mid_net": -229915264.0,
+          "small_net": -272862432.0,
+          "leader_code": "圣阳股份",
+          "leader_name": "002580",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1377",
+          "name": "火力发电",
+          "pct": 1.84,
+          "main_net": 656072752.0,
+          "main_ratio": 5.79,
+          "super_net": 608788240.0,
+          "large_net": 47284512.0,
+          "mid_net": -520022928.0,
+          "small_net": -136049824.0,
+          "leader_code": "华能蒙电",
+          "leader_name": "600863",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0437",
+          "name": "煤炭",
+          "pct": 2.17,
+          "main_net": 703205120.0,
+          "main_ratio": 4.95,
+          "super_net": 315198864.0,
+          "large_net": 388006256.0,
+          "mid_net": -7723264.0,
+          "small_net": -695481856.0,
+          "leader_code": "中国神华",
+          "leader_name": "601088",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1439",
+          "name": "膜材料",
+          "pct": 0.1,
+          "main_net": 754672528.0,
+          "main_ratio": 7.31,
+          "super_net": 856597824.0,
+          "large_net": -101925296.0,
+          "mid_net": -466683184.0,
+          "small_net": -290111920.0,
+          "leader_code": "东材科技",
+          "leader_name": "601208",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0454",
+          "name": "塑料",
+          "pct": -0.19,
+          "main_net": 948350144.0,
+          "main_ratio": 4.32,
+          "super_net": 1074910144.0,
+          "large_net": -126560000.0,
+          "mid_net": -477506560.0,
+          "small_net": -477713920.0,
+          "leader_code": "东材科技",
+          "leader_name": "601208",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0428",
+          "name": "电力",
+          "pct": 1.27,
+          "main_net": 1077469904.0,
+          "main_ratio": 3.24,
+          "super_net": 989396688.0,
+          "large_net": 88073216.0,
+          "mid_net": -890381568.0,
+          "small_net": -187088384.0,
+          "leader_code": "华能蒙电",
+          "leader_name": "600863",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0427",
+          "name": "公用事业",
+          "pct": 1.57,
+          "main_net": 1156639632.0,
+          "main_ratio": 3.07,
+          "super_net": 1039290000.0,
+          "large_net": 117349632.0,
+          "mid_net": -921408768.0,
+          "small_net": -222560768.0,
+          "leader_code": "华能蒙电",
+          "leader_name": "600863",
+          "leader_pct": 1.0
+        }
+      ],
+      "concept_top_in": [
+        {
+          "code": "BK0574",
+          "name": "锂电池概念",
+          "pct": 0.39,
+          "main_net": 2674938112.0,
+          "main_ratio": 1.37,
+          "super_net": 1576956672.0,
+          "large_net": 1097981440.0,
+          "mid_net": -511660800.0,
+          "small_net": -1973963776.0,
+          "leader_code": "西部材料",
+          "leader_name": "002149",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1648",
+          "name": "电池技术",
+          "pct": 0.03,
+          "main_net": 1967557632.0,
+          "main_ratio": 0.81,
+          "super_net": 1748512000.0,
+          "large_net": 219045632.0,
+          "mid_net": -669892608.0,
+          "small_net": -1096257536.0,
+          "leader_code": "东材科技",
+          "leader_name": "601208",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0968",
+          "name": "固态电池",
+          "pct": 0.82,
+          "main_net": 1568187648.0,
+          "main_ratio": 1.11,
+          "super_net": 509572352.0,
+          "large_net": 1058615296.0,
+          "mid_net": 433850880.0,
+          "small_net": -1814297856.0,
+          "leader_code": "先导智能",
+          "leader_name": "300450",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0988",
+          "name": "钠离子电池",
+          "pct": 1.82,
+          "main_net": 1382200832.0,
+          "main_ratio": 2.65,
+          "super_net": 872471552.0,
+          "large_net": 509729280.0,
+          "mid_net": 99885312.0,
+          "small_net": -1479840512.0,
+          "leader_code": "圣阳股份",
+          "leader_name": "002580",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0492",
+          "name": "煤化工概念",
+          "pct": 1.62,
+          "main_net": 1302106288.0,
+          "main_ratio": 4.64,
+          "super_net": 1312903344.0,
+          "large_net": -10797056.0,
+          "mid_net": -203989248.0,
+          "small_net": -1101593344.0,
+          "leader_code": "金牛化工",
+          "leader_name": "600722",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1197",
+          "name": "反内卷概念",
+          "pct": -0.11,
+          "main_net": 1010797728.0,
+          "main_ratio": 2.33,
+          "super_net": 494560416.0,
+          "large_net": 516237312.0,
+          "mid_net": -402631936.0,
+          "small_net": -609700864.0,
+          "leader_code": "中国神华",
+          "leader_name": "601088",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0577",
+          "name": "核能核电",
+          "pct": 0.1,
+          "main_net": 982045696.0,
+          "main_ratio": 1.6,
+          "super_net": 1563866368.0,
+          "large_net": -581820672.0,
+          "mid_net": -889408000.0,
+          "small_net": -183400192.0,
+          "leader_code": "西部材料",
+          "leader_name": "002149",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0843",
+          "name": "天然气",
+          "pct": 1.38,
+          "main_net": 807982368.0,
+          "main_ratio": 2.22,
+          "super_net": 877204256.0,
+          "large_net": -69221888.0,
+          "mid_net": -550530304.0,
+          "small_net": -201184768.0,
+          "leader_code": "沈鼓集团",
+          "leader_name": "601091",
+          "leader_pct": 1.0
+        }
+      ],
+      "concept_top_out": [
+        {
+          "code": "BK1753",
+          "name": "光刻胶",
+          "pct": -0.91,
+          "main_net": 646187136.0,
+          "main_ratio": 2.41,
+          "super_net": 986669440.0,
+          "large_net": -340482304.0,
+          "mid_net": -751117568.0,
+          "small_net": 91691776.0,
+          "leader_code": "东材科技",
+          "leader_name": "601208",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0856",
+          "name": "工业大麻",
+          "pct": -0.38,
+          "main_net": 653250384.0,
+          "main_ratio": 7.99,
+          "super_net": 611839408.0,
+          "large_net": 41410976.0,
+          "mid_net": -187185104.0,
+          "small_net": -466065280.0,
+          "leader_code": "顺灏股份",
+          "leader_name": "002565",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0682",
+          "name": "燃料电池概念",
+          "pct": -0.48,
+          "main_net": 707674880.0,
+          "main_ratio": 1.25,
+          "super_net": 1144071168.0,
+          "large_net": -436396288.0,
+          "mid_net": -333706496.0,
+          "small_net": -374265088.0,
+          "leader_code": "东材科技",
+          "leader_name": "601208",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0512",
+          "name": "化工原料",
+          "pct": 0.82,
+          "main_net": 714627744.0,
+          "main_ratio": 2.72,
+          "super_net": 524319392.0,
+          "large_net": 190308352.0,
+          "mid_net": -141831168.0,
+          "small_net": -572796416.0,
+          "leader_code": "金牛化工",
+          "leader_name": "600722",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0843",
+          "name": "天然气",
+          "pct": 1.38,
+          "main_net": 807982368.0,
+          "main_ratio": 2.22,
+          "super_net": 877204256.0,
+          "large_net": -69221888.0,
+          "mid_net": -550530304.0,
+          "small_net": -201184768.0,
+          "leader_code": "沈鼓集团",
+          "leader_name": "601091",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0577",
+          "name": "核能核电",
+          "pct": 0.1,
+          "main_net": 982045696.0,
+          "main_ratio": 1.6,
+          "super_net": 1563866368.0,
+          "large_net": -581820672.0,
+          "mid_net": -889408000.0,
+          "small_net": -183400192.0,
+          "leader_code": "西部材料",
+          "leader_name": "002149",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1197",
+          "name": "反内卷概念",
+          "pct": -0.11,
+          "main_net": 1010797728.0,
+          "main_ratio": 2.33,
+          "super_net": 494560416.0,
+          "large_net": 516237312.0,
+          "mid_net": -402631936.0,
+          "small_net": -609700864.0,
+          "leader_code": "中国神华",
+          "leader_name": "601088",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0492",
+          "name": "煤化工概念",
+          "pct": 1.62,
+          "main_net": 1302106288.0,
+          "main_ratio": 4.64,
+          "super_net": 1312903344.0,
+          "large_net": -10797056.0,
+          "mid_net": -203989248.0,
+          "small_net": -1101593344.0,
+          "leader_code": "金牛化工",
+          "leader_name": "600722",
+          "leader_pct": 1.0
+        }
+      ]
+    },
+    "hot_stocks": [
+      {
+        "rank": 1,
+        "code": "002384",
+        "name": "东山精密",
+        "pct": 395695.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "共封装光学(CPO)",
+          "同花顺果指数"
+        ]
+      },
+      {
+        "rank": 2,
+        "code": "001246",
+        "name": "力勤资源",
+        "pct": 375085.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "一带一路",
+          "2026中报预增"
+        ]
+      },
+      {
+        "rank": 3,
+        "code": "600127",
+        "name": "金健米业",
+        "pct": 354822.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "玉米",
+          "粮食概念"
+        ]
+      },
+      {
+        "rank": 4,
+        "code": "002487",
+        "name": "大金重工",
+        "pct": 343386.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "海工装备",
+          "风电"
+        ]
+      },
+      {
+        "rank": 5,
+        "code": "000678",
+        "name": "襄阳轴承",
+        "pct": 311624.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "减速器",
+          "农机"
+        ]
+      },
+      {
+        "rank": 6,
+        "code": "002580",
+        "name": "圣阳股份",
+        "pct": 273245.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "钠离子电池",
+          "动力电池回收"
+        ]
+      },
+      {
+        "rank": 7,
+        "code": "600664",
+        "name": "哈药股份",
+        "pct": 267281.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "创新药",
+          "维生素"
+        ]
+      },
+      {
+        "rank": 8,
+        "code": "600825",
+        "name": "新华传媒",
+        "pct": 263855.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "无人零售",
+          "上海国企改革"
+        ]
+      },
+      {
+        "rank": 9,
+        "code": "002074",
+        "name": "国轩高科",
+        "pct": 259400.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "动力电池回收",
+          "钠离子电池"
+        ]
+      },
+      {
+        "rank": 10,
+        "code": "600418",
+        "name": "江淮汽车",
+        "pct": 249246.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "百度概念",
+          "DeepSeek概念"
+        ]
+      },
+      {
+        "rank": 11,
+        "code": "000002",
+        "name": "万科A",
+        "pct": 247096.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "租售同权",
+          "物业管理"
+        ]
+      },
+      {
+        "rank": 12,
+        "code": "000560",
+        "name": "我爱我家",
+        "pct": 229288.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "租售同权",
+          "物业管理"
+        ]
+      },
+      {
+        "rank": 13,
+        "code": "002242",
+        "name": "九阳股份",
+        "pct": 212986.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "绿色电力",
+          "净水概念"
+        ]
+      },
+      {
+        "rank": 14,
+        "code": "600722",
+        "name": "金牛化工",
+        "pct": 208032.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "煤化工概念",
+          "国企改革"
+        ]
+      },
+      {
+        "rank": 15,
+        "code": "601127",
+        "name": "赛力斯",
+        "pct": 206273.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "参股银行",
+          "西部大开发"
+        ]
+      },
+      {
+        "rank": 16,
+        "code": "603200",
+        "name": "上海洗霸",
+        "pct": 202703.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "钠离子电池",
+          "固态电池"
+        ]
+      },
+      {
+        "rank": 17,
+        "code": "688498",
+        "name": "源杰科技",
+        "pct": 185958.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "共封装光学(CPO)",
+          "光纤概念"
+        ]
+      },
+      {
+        "rank": 18,
+        "code": "000011",
+        "name": "深物业A",
+        "pct": 182142.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "深圳国企改革",
+          "物业管理"
+        ]
+      },
+      {
+        "rank": 19,
+        "code": "600487",
+        "name": "亨通光电",
+        "pct": 173133.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "光纤概念",
+          "共封装光学(CPO)"
+        ]
+      },
+      {
+        "rank": 20,
+        "code": "601208",
+        "name": "东材科技",
+        "pct": 169201.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "PCB概念",
+          "PET铜箔"
+        ]
+      }
+    ],
+    "source_health": {
+      "indexes_rsi": "error: GET failed: https://push2.eastmoney.com/api/qt/ulist.np/get: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/ulist.np/get?secids=1.000001%2C0.399006%2C1.000688&fltt=2&invt=2&fields=f12%2Cf14%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf17%2Cf18%2Cf15%2Cf16",
+      "breadth": "ok",
+      "board_flow": "ok",
+      "limit_pool": "ok",
+      "hot_list": "ok"
+    },
+    "vs_1h": {
+      "reference_at": "2026-10-08T15:04:42+08:00",
+      "indices": {
+        "shanghai": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        },
+        "chinext": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        },
+        "star50": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        }
+      },
+      "up_ratio": 0.0,
+      "emotion_score": 0.0
+    }
   }
 ]
