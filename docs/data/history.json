@@ -66276,5 +66276,904 @@
       "up_ratio": 0.0,
       "emotion_score": 6.7
     }
+  },
+  {
+    "schema_version": 1,
+    "generated_at": "2026-10-09T22:31:30+08:00",
+    "trade_date": "2026-10-09",
+    "is_trading_day": true,
+    "market_phase": "收盘后",
+    "indices": {
+      "shanghai": {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3813.79,
+        "pct": 0.05,
+        "change": 1.89,
+        "volume": 535149921.0,
+        "amount": 888561198263.9,
+        "open": 3804.09,
+        "prev_close": 3811.9,
+        "high": 3824.71,
+        "low": 3754.14,
+        "rsi14_daily": 37.15,
+        "rsi14_30m": 48.59,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-10-09"
+      },
+      "chinext": {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3043.33,
+        "pct": 0.22,
+        "change": 6.67,
+        "volume": 197056283.0,
+        "amount": 494823547448.06,
+        "open": 3021.33,
+        "prev_close": 3036.66,
+        "high": 3053.38,
+        "low": 2932.8,
+        "rsi14_daily": 29.39,
+        "rsi14_30m": 45.06,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-10-09"
+      },
+      "star50": {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1457.27,
+        "pct": 0.07,
+        "change": 0.95,
+        "volume": 9540742.0,
+        "amount": 91972939475.4,
+        "open": 1441.72,
+        "prev_close": 1456.32,
+        "high": 1466.88,
+        "low": 1390.0,
+        "rsi14_daily": 32.36,
+        "rsi14_30m": 42.26,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-10-09"
+      }
+    },
+    "breadth": {
+      "up": 100,
+      "down": 0,
+      "flat": 0,
+      "total": 100,
+      "up_ratio": 100.0,
+      "strong_ge_5pct": 100,
+      "weak_le_minus5pct": 0
+    },
+    "limit_emotion": {
+      "limit_up": 69,
+      "broken": 14,
+      "limit_down": 0,
+      "seal_success_rate": 83.1,
+      "max_streak": 9,
+      "streak_leaders": [
+        {
+          "code": "600825",
+          "name": "新华传媒",
+          "pct": 10.008779525756836,
+          "streak": 9,
+          "industry": "出版",
+          "seal_fund": 1421176407.0,
+          "open_count": 0
+        },
+        {
+          "code": "600241",
+          "name": "时代万恒",
+          "pct": 10.009354591369629,
+          "streak": 5,
+          "industry": "电池",
+          "seal_fund": 229379199.0,
+          "open_count": 0
+        },
+        {
+          "code": "002242",
+          "name": "九阳股份",
+          "pct": 10.03636360168457,
+          "streak": 5,
+          "industry": "小家电",
+          "seal_fund": 74005656.0,
+          "open_count": 6
+        },
+        {
+          "code": "002058",
+          "name": "紫竹高科",
+          "pct": 9.990999221801758,
+          "streak": 4,
+          "industry": "电池",
+          "seal_fund": 89302489.0,
+          "open_count": 0
+        },
+        {
+          "code": "001336",
+          "name": "楚环科技",
+          "pct": 10.024212837219238,
+          "streak": 2,
+          "industry": "环保设备",
+          "seal_fund": 336338541.0,
+          "open_count": 1
+        },
+        {
+          "code": "002733",
+          "name": "雄韬股份",
+          "pct": 10.005293846130371,
+          "streak": 2,
+          "industry": "电池",
+          "seal_fund": 198013887.0,
+          "open_count": 0
+        },
+        {
+          "code": "600812",
+          "name": "华北制药",
+          "pct": 10.03649616241455,
+          "streak": 2,
+          "industry": "化学制药",
+          "seal_fund": 119195793.0,
+          "open_count": 0
+        },
+        {
+          "code": "002805",
+          "name": "丰元股份",
+          "pct": 10.016977310180664,
+          "streak": 2,
+          "industry": "电池",
+          "seal_fund": 88444224.0,
+          "open_count": 1
+        },
+        {
+          "code": "300530",
+          "name": "领湃科技",
+          "pct": 20.016611099243164,
+          "streak": 2,
+          "industry": "电池",
+          "seal_fund": 38023007.0,
+          "open_count": 3
+        },
+        {
+          "code": "600408",
+          "name": "安泰集团",
+          "pct": 9.883721351623535,
+          "streak": 2,
+          "industry": "焦炭Ⅱ",
+          "seal_fund": 34150406.0,
+          "open_count": 0
+        }
+      ]
+    },
+    "emotion_telemetry": {
+      "score": 82.5,
+      "label": "高热",
+      "note": "仅为盘面遥测分，不替代人工分析"
+    },
+    "fund_flow": {
+      "industry_top_in": [
+        {
+          "code": "BK1033",
+          "name": "电池",
+          "pct": 2.23,
+          "main_net": 5043652096.0,
+          "main_ratio": 5.1,
+          "super_net": 2272637440.0,
+          "large_net": 2771014656.0,
+          "mid_net": -1264387072.0,
+          "small_net": -3593007616.0,
+          "leader_code": "宁德时代",
+          "leader_name": "300750",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1302",
+          "name": "电池化学品",
+          "pct": 2.9,
+          "main_net": 3256852448.0,
+          "main_ratio": 8.29,
+          "super_net": 1937300192.0,
+          "large_net": 1319552256.0,
+          "mid_net": -286586880.0,
+          "small_net": -2922280704.0,
+          "leader_code": "天赐材料",
+          "leader_name": "002709",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0478",
+          "name": "有色金属",
+          "pct": 0.75,
+          "main_net": 3127376128.0,
+          "main_ratio": 3.35,
+          "super_net": 1189650944.0,
+          "large_net": 1937725184.0,
+          "mid_net": -548680704.0,
+          "small_net": -2592396800.0,
+          "leader_code": "紫金矿业",
+          "leader_name": "601899",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0486",
+          "name": "传媒",
+          "pct": 5.56,
+          "main_net": 2919085552.0,
+          "main_ratio": 5.48,
+          "super_net": 2337390576.0,
+          "large_net": 581694976.0,
+          "mid_net": -893332992.0,
+          "small_net": -1952598528.0,
+          "leader_code": "中文在线",
+          "leader_name": "300364",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1200",
+          "name": "电力设备",
+          "pct": 0.3,
+          "main_net": 2531290880.0,
+          "main_ratio": 1.38,
+          "super_net": 1346224896.0,
+          "large_net": 1185065984.0,
+          "mid_net": -1825828096.0,
+          "small_net": -513359360.0,
+          "leader_code": "宁德时代",
+          "leader_name": "300750",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0433",
+          "name": "农林牧渔",
+          "pct": 2.49,
+          "main_net": 1890726736.0,
+          "main_ratio": 6.26,
+          "super_net": 1372361808.0,
+          "large_net": 518364928.0,
+          "mid_net": -476177664.0,
+          "small_net": -1328245248.0,
+          "leader_code": "金健米业",
+          "leader_name": "600127",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1303",
+          "name": "锂电池",
+          "pct": 1.56,
+          "main_net": 1862745344.0,
+          "main_ratio": 4.37,
+          "super_net": 344054272.0,
+          "large_net": 1518691072.0,
+          "mid_net": -1018388992.0,
+          "small_net": -815120128.0,
+          "leader_code": "宁德时代",
+          "leader_name": "300750",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0732",
+          "name": "贵金属",
+          "pct": 5.42,
+          "main_net": 1734240240.0,
+          "main_ratio": 8.81,
+          "super_net": 334260528.0,
+          "large_net": 1399979712.0,
+          "mid_net": 239159808.0,
+          "small_net": -1973400064.0,
+          "leader_code": "赤峰黄金",
+          "leader_name": "600988",
+          "leader_pct": 1.0
+        }
+      ],
+      "industry_top_out": [
+        {
+          "code": "BK1203",
+          "name": "非银金融",
+          "pct": 2.03,
+          "main_net": 1545611456.0,
+          "main_ratio": 4.57,
+          "super_net": 1003017408.0,
+          "large_net": 542594048.0,
+          "mid_net": -613723648.0,
+          "small_net": -931888128.0,
+          "leader_code": "东方财富",
+          "leader_name": "300059",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0737",
+          "name": "软件开发",
+          "pct": 3.98,
+          "main_net": 1574217568.0,
+          "main_ratio": 3.86,
+          "super_net": 1013382752.0,
+          "large_net": 560834816.0,
+          "mid_net": -445784576.0,
+          "small_net": -1068687872.0,
+          "leader_code": "深信服",
+          "leader_name": "300454",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1615",
+          "name": "铜",
+          "pct": 1.32,
+          "main_net": 1616574736.0,
+          "main_ratio": 8.82,
+          "super_net": 1113974032.0,
+          "large_net": 502600704.0,
+          "mid_net": -543546624.0,
+          "small_net": -1073027840.0,
+          "leader_code": "紫金矿业",
+          "leader_name": "601899",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1287",
+          "name": "工业金属",
+          "pct": 0.96,
+          "main_net": 1628271264.0,
+          "main_ratio": 5.31,
+          "super_net": 1016281760.0,
+          "large_net": 611989504.0,
+          "mid_net": -601007104.0,
+          "small_net": -1025744384.0,
+          "leader_code": "紫金矿业",
+          "leader_name": "601899",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0732",
+          "name": "贵金属",
+          "pct": 5.42,
+          "main_net": 1734240240.0,
+          "main_ratio": 8.81,
+          "super_net": 334260528.0,
+          "large_net": 1399979712.0,
+          "mid_net": 239159808.0,
+          "small_net": -1973400064.0,
+          "leader_code": "赤峰黄金",
+          "leader_name": "600988",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1303",
+          "name": "锂电池",
+          "pct": 1.56,
+          "main_net": 1862745344.0,
+          "main_ratio": 4.37,
+          "super_net": 344054272.0,
+          "large_net": 1518691072.0,
+          "mid_net": -1018388992.0,
+          "small_net": -815120128.0,
+          "leader_code": "宁德时代",
+          "leader_name": "300750",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0433",
+          "name": "农林牧渔",
+          "pct": 2.49,
+          "main_net": 1890726736.0,
+          "main_ratio": 6.26,
+          "super_net": 1372361808.0,
+          "large_net": 518364928.0,
+          "mid_net": -476177664.0,
+          "small_net": -1328245248.0,
+          "leader_code": "金健米业",
+          "leader_name": "600127",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1200",
+          "name": "电力设备",
+          "pct": 0.3,
+          "main_net": 2531290880.0,
+          "main_ratio": 1.38,
+          "super_net": 1346224896.0,
+          "large_net": 1185065984.0,
+          "mid_net": -1825828096.0,
+          "small_net": -513359360.0,
+          "leader_code": "宁德时代",
+          "leader_name": "300750",
+          "leader_pct": 0.0
+        }
+      ],
+      "concept_top_in": [
+        {
+          "code": "BK0968",
+          "name": "固态电池",
+          "pct": 0.6,
+          "main_net": 4815399680.0,
+          "main_ratio": 2.7,
+          "super_net": 2084928768.0,
+          "large_net": 2730470912.0,
+          "mid_net": -1688244736.0,
+          "small_net": -2948349696.0,
+          "leader_code": "宁德时代",
+          "leader_name": "300750",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1052",
+          "name": "动力电池回收",
+          "pct": 1.66,
+          "main_net": 4361207808.0,
+          "main_ratio": 8.91,
+          "super_net": 2228630016.0,
+          "large_net": 2132577792.0,
+          "mid_net": -1953643008.0,
+          "small_net": -2393288960.0,
+          "leader_code": "宁德时代",
+          "leader_name": "300750",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1173",
+          "name": "锂矿概念",
+          "pct": 1.75,
+          "main_net": 4350400512.0,
+          "main_ratio": 8.43,
+          "super_net": 1838582016.0,
+          "large_net": 2511818496.0,
+          "mid_net": -1316046080.0,
+          "small_net": -3034354688.0,
+          "leader_code": "宁德时代",
+          "leader_name": "300750",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0988",
+          "name": "钠离子电池",
+          "pct": 1.24,
+          "main_net": 4260179712.0,
+          "main_ratio": 5.95,
+          "super_net": 1949438208.0,
+          "large_net": 2310741504.0,
+          "mid_net": -1186311680.0,
+          "small_net": -3072719872.0,
+          "leader_code": "宁德时代",
+          "leader_name": "300750",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0547",
+          "name": "黄金概念",
+          "pct": 2.42,
+          "main_net": 3395899392.0,
+          "main_ratio": 7.21,
+          "super_net": 1406713856.0,
+          "large_net": 1989185536.0,
+          "mid_net": -303195648.0,
+          "small_net": -3081206272.0,
+          "leader_code": "紫金矿业",
+          "leader_name": "601899",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1639",
+          "name": "周期股",
+          "pct": 0.72,
+          "main_net": 3278016768.0,
+          "main_ratio": 1.73,
+          "super_net": 2488993536.0,
+          "large_net": 789023232.0,
+          "mid_net": -3630221568.0,
+          "small_net": 352204800.0,
+          "leader_code": "宁德时代",
+          "leader_name": "300750",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0574",
+          "name": "锂电池概念",
+          "pct": 0.57,
+          "main_net": 3197036800.0,
+          "main_ratio": 1.32,
+          "super_net": 1954802432.0,
+          "large_net": 1242234368.0,
+          "mid_net": -1397104640.0,
+          "small_net": -1613873152.0,
+          "leader_code": "宁德时代",
+          "leader_name": "300750",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1629",
+          "name": "AI应用",
+          "pct": 3.16,
+          "main_net": 2991301376.0,
+          "main_ratio": 2.67,
+          "super_net": 2127025920.0,
+          "large_net": 864275456.0,
+          "mid_net": -756478976.0,
+          "small_net": -2092301824.0,
+          "leader_code": "中文在线",
+          "leader_name": "300364",
+          "leader_pct": 0.0
+        }
+      ],
+      "concept_top_out": [
+        {
+          "code": "BK0665",
+          "name": "电商概念",
+          "pct": 2.04,
+          "main_net": 2493146880.0,
+          "main_ratio": 2.84,
+          "super_net": 2235920896.0,
+          "large_net": 257225984.0,
+          "mid_net": -1680310016.0,
+          "small_net": -775166976.0,
+          "leader_code": "金健米业",
+          "leader_name": "600127",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0937",
+          "name": "蚂蚁金服概念",
+          "pct": 2.26,
+          "main_net": 2612261216.0,
+          "main_ratio": 7.7,
+          "super_net": 964369248.0,
+          "large_net": 1647891968.0,
+          "mid_net": -1406045184.0,
+          "small_net": -1206215936.0,
+          "leader_code": "宁德时代",
+          "leader_name": "300750",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1092",
+          "name": "麒麟电池",
+          "pct": 0.76,
+          "main_net": 2641644640.0,
+          "main_ratio": 13.87,
+          "super_net": 829468256.0,
+          "large_net": 1812176384.0,
+          "mid_net": -1033234432.0,
+          "small_net": -1608410000.0,
+          "leader_code": "宁德时代",
+          "leader_name": "300750",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0695",
+          "name": "小金属概念",
+          "pct": 1.09,
+          "main_net": 2720515840.0,
+          "main_ratio": 3.09,
+          "super_net": 1283525888.0,
+          "large_net": 1436989952.0,
+          "mid_net": -974380032.0,
+          "small_net": -1762736128.0,
+          "leader_code": "紫金矿业",
+          "leader_name": "601899",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1629",
+          "name": "AI应用",
+          "pct": 3.16,
+          "main_net": 2991301376.0,
+          "main_ratio": 2.67,
+          "super_net": 2127025920.0,
+          "large_net": 864275456.0,
+          "mid_net": -756478976.0,
+          "small_net": -2092301824.0,
+          "leader_code": "中文在线",
+          "leader_name": "300364",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0574",
+          "name": "锂电池概念",
+          "pct": 0.57,
+          "main_net": 3197036800.0,
+          "main_ratio": 1.32,
+          "super_net": 1954802432.0,
+          "large_net": 1242234368.0,
+          "mid_net": -1397104640.0,
+          "small_net": -1613873152.0,
+          "leader_code": "宁德时代",
+          "leader_name": "300750",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1639",
+          "name": "周期股",
+          "pct": 0.72,
+          "main_net": 3278016768.0,
+          "main_ratio": 1.73,
+          "super_net": 2488993536.0,
+          "large_net": 789023232.0,
+          "mid_net": -3630221568.0,
+          "small_net": 352204800.0,
+          "leader_code": "宁德时代",
+          "leader_name": "300750",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0547",
+          "name": "黄金概念",
+          "pct": 2.42,
+          "main_net": 3395899392.0,
+          "main_ratio": 7.21,
+          "super_net": 1406713856.0,
+          "large_net": 1989185536.0,
+          "mid_net": -303195648.0,
+          "small_net": -3081206272.0,
+          "leader_code": "紫金矿业",
+          "leader_name": "601899",
+          "leader_pct": 1.0
+        }
+      ]
+    },
+    "hot_stocks": [
+      {
+        "rank": 1,
+        "code": "600418",
+        "name": "江淮汽车",
+        "pct": 711341.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "百度概念",
+          "DeepSeek概念"
+        ]
+      },
+      {
+        "rank": 2,
+        "code": "600127",
+        "name": "金健米业",
+        "pct": 671084.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "玉米",
+          "粮食概念"
+        ]
+      },
+      {
+        "rank": 3,
+        "code": "002242",
+        "name": "九阳股份",
+        "pct": 588026.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "绿色电力",
+          "净水概念"
+        ]
+      },
+      {
+        "rank": 4,
+        "code": "600825",
+        "name": "新华传媒",
+        "pct": 371966.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "无人零售",
+          "上海国企改革"
+        ]
+      },
+      {
+        "rank": 5,
+        "code": "601086",
+        "name": "国芳集团",
+        "pct": 367407.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "IP经济(谷子经济)",
+          "参股券商"
+        ]
+      },
+      {
+        "rank": 6,
+        "code": "600722",
+        "name": "金牛化工",
+        "pct": 347075.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "煤化工概念",
+          "国企改革"
+        ]
+      },
+      {
+        "rank": 7,
+        "code": "002487",
+        "name": "大金重工",
+        "pct": 345620.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "海工装备",
+          "风电"
+        ]
+      },
+      {
+        "rank": 8,
+        "code": "002384",
+        "name": "东山精密",
+        "pct": 334524.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "共封装光学(CPO)",
+          "同花顺果指数"
+        ]
+      },
+      {
+        "rank": 9,
+        "code": "603906",
+        "name": "龙蟠科技",
+        "pct": 283494.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "钠离子电池",
+          "固态电池"
+        ]
+      },
+      {
+        "rank": 10,
+        "code": "002709",
+        "name": "天赐材料",
+        "pct": 274684.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "氟化工概念",
+          "固态电池"
+        ]
+      },
+      {
+        "rank": 11,
+        "code": "002866",
+        "name": "传艺科技",
+        "pct": 273193.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "钠离子电池",
+          "固态电池"
+        ]
+      },
+      {
+        "rank": 12,
+        "code": "603200",
+        "name": "上海洗霸",
+        "pct": 235964.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "钠离子电池",
+          "固态电池"
+        ]
+      },
+      {
+        "rank": 13,
+        "code": "001246",
+        "name": "力勤资源",
+        "pct": 230052.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "一带一路",
+          "2026三季报预增"
+        ]
+      },
+      {
+        "rank": 14,
+        "code": "300308",
+        "name": "中际旭创",
+        "pct": 225923.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "共封装光学(CPO)",
+          "F5G概念"
+        ]
+      },
+      {
+        "rank": 15,
+        "code": "000636",
+        "name": "风华高科",
+        "pct": 219673.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "MLCC概念",
+          "超级电容"
+        ]
+      },
+      {
+        "rank": 16,
+        "code": "601811",
+        "name": "新华文轩",
+        "pct": 212984.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "高股息精选",
+          "IP经济(谷子经济)"
+        ]
+      },
+      {
+        "rank": 17,
+        "code": "600206",
+        "name": "有研新材",
+        "pct": 207390.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "中芯国际概念",
+          "国家大基金持股"
+        ]
+      },
+      {
+        "rank": 18,
+        "code": "300821",
+        "name": "东岳硅材",
+        "pct": 204489.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "有机硅概念",
+          "硅能源"
+        ]
+      },
+      {
+        "rank": 19,
+        "code": "600241",
+        "name": "时代万恒",
+        "pct": 197913.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "国企改革",
+          "锂电池概念"
+        ]
+      },
+      {
+        "rank": 20,
+        "code": "002580",
+        "name": "圣阳股份",
+        "pct": 192562.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "钠离子电池",
+          "动力电池回收"
+        ]
+      }
+    ],
+    "source_health": {
+      "indexes_rsi": "ok",
+      "breadth": "ok",
+      "board_flow": "ok",
+      "limit_pool": "ok",
+      "hot_list": "ok"
+    },
+    "vs_1h": {
+      "reference_at": "2026-10-09T15:11:33+08:00",
+      "indices": {
+        "shanghai": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        },
+        "chinext": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        },
+        "star50": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        }
+      },
+      "up_ratio": 0.0,
+      "emotion_score": 0.2
+    }
   }
 ]

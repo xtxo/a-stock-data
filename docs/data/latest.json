@@ -1,24 +1,60 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09T15:11:33+08:00",
-  "trade_date": null,
-  "is_trading_day": false,
-  "market_phase": "非交易日/数据未进入当日",
+  "generated_at": "2026-10-09T22:31:30+08:00",
+  "trade_date": "2026-10-09",
+  "is_trading_day": true,
+  "market_phase": "收盘后",
   "indices": {
     "shanghai": {
       "name": "上证指数",
       "code": "000001",
-      "error": "GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 3813.79,
+      "pct": 0.05,
+      "change": 1.89,
+      "volume": 535149921.0,
+      "amount": 888561198263.9,
+      "open": 3804.09,
+      "prev_close": 3811.9,
+      "high": 3824.71,
+      "low": 3754.14,
+      "rsi14_daily": 37.15,
+      "rsi14_30m": 48.59,
+      "rsi_alerts": [],
+      "latest_kline_date": "2026-10-09"
     },
     "chinext": {
       "name": "创业板指",
       "code": "399006",
-      "error": "GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 3043.33,
+      "pct": 0.22,
+      "change": 6.67,
+      "volume": 197056283.0,
+      "amount": 494823547448.06,
+      "open": 3021.33,
+      "prev_close": 3036.66,
+      "high": 3053.38,
+      "low": 2932.8,
+      "rsi14_daily": 29.39,
+      "rsi14_30m": 45.06,
+      "rsi_alerts": [],
+      "latest_kline_date": "2026-10-09"
     },
     "star50": {
       "name": "科创50",
       "code": "000688",
-      "error": "GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "price": 1457.27,
+      "pct": 0.07,
+      "change": 0.95,
+      "volume": 9540742.0,
+      "amount": 91972939475.4,
+      "open": 1441.72,
+      "prev_close": 1456.32,
+      "high": 1466.88,
+      "low": 1390.0,
+      "rsi14_daily": 32.36,
+      "rsi14_30m": 42.26,
+      "rsi_alerts": [],
+      "latest_kline_date": "2026-10-09"
     }
   },
   "breadth": {
@@ -43,7 +79,16 @@
         "pct": 10.008779525756836,
         "streak": 9,
         "industry": "出版",
-        "seal_fund": 60002411.0,
+        "seal_fund": 1421176407.0,
+        "open_count": 0
+      },
+      {
+        "code": "600241",
+        "name": "时代万恒",
+        "pct": 10.009354591369629,
+        "streak": 5,
+        "industry": "电池",
+        "seal_fund": 229379199.0,
         "open_count": 0
       },
       {
@@ -54,15 +99,6 @@
         "industry": "小家电",
         "seal_fund": 74005656.0,
         "open_count": 6
-      },
-      {
-        "code": "600241",
-        "name": "时代万恒",
-        "pct": 10.009354591369629,
-        "streak": 5,
-        "industry": "电池",
-        "seal_fund": 20396544.0,
-        "open_count": 0
       },
       {
         "code": "002058",
@@ -92,6 +128,15 @@
         "open_count": 0
       },
       {
+        "code": "600812",
+        "name": "华北制药",
+        "pct": 10.03649616241455,
+        "streak": 2,
+        "industry": "化学制药",
+        "seal_fund": 119195793.0,
+        "open_count": 0
+      },
+      {
         "code": "002805",
         "name": "丰元股份",
         "pct": 10.016977310180664,
@@ -110,27 +155,18 @@
         "open_count": 3
       },
       {
-        "code": "001300",
-        "name": "三柏硕",
-        "pct": 9.992597579956055,
+        "code": "600408",
+        "name": "安泰集团",
+        "pct": 9.883721351623535,
         "streak": 2,
-        "industry": "文娱用品",
-        "seal_fund": 17108318.0,
-        "open_count": 0
-      },
-      {
-        "code": "600812",
-        "name": "华北制药",
-        "pct": 10.03649616241455,
-        "streak": 2,
-        "industry": "化学制药",
-        "seal_fund": 12296979.0,
+        "industry": "焦炭Ⅱ",
+        "seal_fund": 34150406.0,
         "open_count": 0
       }
     ]
   },
   "emotion_telemetry": {
-    "score": 82.3,
+    "score": 82.5,
     "label": "高热",
     "note": "仅为盘面遥测分，不替代人工分析"
   },
@@ -597,7 +633,7 @@
       "rank": 1,
       "code": "600418",
       "name": "江淮汽车",
-      "pct": 856820.0,
+      "pct": 711341.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -607,33 +643,9 @@
     },
     {
       "rank": 2,
-      "code": "002242",
-      "name": "九阳股份",
-      "pct": 609998.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "绿色电力",
-        "净水概念"
-      ]
-    },
-    {
-      "rank": 3,
-      "code": "600825",
-      "name": "新华传媒",
-      "pct": 542633.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "无人零售",
-        "上海国企改革"
-      ]
-    },
-    {
-      "rank": 4,
       "code": "600127",
       "name": "金健米业",
-      "pct": 517724.0,
+      "pct": 671084.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -642,46 +654,58 @@
       ]
     },
     {
-      "rank": 5,
-      "code": "002384",
-      "name": "东山精密",
-      "pct": 339259.0,
+      "rank": 3,
+      "code": "002242",
+      "name": "九阳股份",
+      "pct": 588026.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "共封装光学(CPO)",
-        "同花顺果指数"
+        "绿色电力",
+        "净水概念"
+      ]
+    },
+    {
+      "rank": 4,
+      "code": "600825",
+      "name": "新华传媒",
+      "pct": 371966.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "无人零售",
+        "上海国企改革"
+      ]
+    },
+    {
+      "rank": 5,
+      "code": "601086",
+      "name": "国芳集团",
+      "pct": 367407.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "IP经济(谷子经济)",
+        "参股券商"
       ]
     },
     {
       "rank": 6,
-      "code": "603906",
-      "name": "龙蟠科技",
-      "pct": 338650.0,
+      "code": "600722",
+      "name": "金牛化工",
+      "pct": 347075.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "钠离子电池",
-        "固态电池"
+        "煤化工概念",
+        "国企改革"
       ]
     },
     {
       "rank": 7,
-      "code": "600241",
-      "name": "时代万恒",
-      "pct": 327904.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "国企改革",
-        "锂电池概念"
-      ]
-    },
-    {
-      "rank": 8,
       "code": "002487",
       "name": "大金重工",
-      "pct": 314582.0,
+      "pct": 345620.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -690,10 +714,22 @@
       ]
     },
     {
+      "rank": 8,
+      "code": "002384",
+      "name": "东山精密",
+      "pct": 334524.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "共封装光学(CPO)",
+        "同花顺果指数"
+      ]
+    },
+    {
       "rank": 9,
-      "code": "002866",
-      "name": "传艺科技",
-      "pct": 311577.0,
+      "code": "603906",
+      "name": "龙蟠科技",
+      "pct": 283494.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -703,33 +739,81 @@
     },
     {
       "rank": 10,
-      "code": "002733",
-      "name": "雄韬股份",
-      "pct": 269001.0,
+      "code": "002709",
+      "name": "天赐材料",
+      "pct": 274684.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "固态电池",
-        "5G"
+        "氟化工概念",
+        "固态电池"
       ]
     },
     {
       "rank": 11,
-      "code": "300821",
-      "name": "东岳硅材",
-      "pct": 244780.0,
+      "code": "002866",
+      "name": "传艺科技",
+      "pct": 273193.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "有机硅概念",
-        "硅能源"
+        "钠离子电池",
+        "固态电池"
       ]
     },
     {
       "rank": 12,
+      "code": "603200",
+      "name": "上海洗霸",
+      "pct": 235964.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "钠离子电池",
+        "固态电池"
+      ]
+    },
+    {
+      "rank": 13,
+      "code": "001246",
+      "name": "力勤资源",
+      "pct": 230052.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "一带一路",
+        "2026三季报预增"
+      ]
+    },
+    {
+      "rank": 14,
+      "code": "300308",
+      "name": "中际旭创",
+      "pct": 225923.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "共封装光学(CPO)",
+        "F5G概念"
+      ]
+    },
+    {
+      "rank": 15,
+      "code": "000636",
+      "name": "风华高科",
+      "pct": 219673.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "MLCC概念",
+        "超级电容"
+      ]
+    },
+    {
+      "rank": 16,
       "code": "601811",
       "name": "新华文轩",
-      "pct": 235601.0,
+      "pct": 212984.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -738,111 +822,63 @@
       ]
     },
     {
-      "rank": 13,
-      "code": "600722",
-      "name": "金牛化工",
-      "pct": 231805.0,
+      "rank": 17,
+      "code": "600206",
+      "name": "有研新材",
+      "pct": 207390.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "煤化工概念",
-        "国企改革"
+        "中芯国际概念",
+        "国家大基金持股"
       ]
     },
     {
-      "rank": 14,
-      "code": "001246",
-      "name": "力勤资源",
-      "pct": 227485.0,
+      "rank": 18,
+      "code": "300821",
+      "name": "东岳硅材",
+      "pct": 204489.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "一带一路",
-        "2026中报预增"
+        "有机硅概念",
+        "硅能源"
       ]
     },
     {
-      "rank": 15,
+      "rank": 19,
+      "code": "600241",
+      "name": "时代万恒",
+      "pct": 197913.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "国企改革",
+        "锂电池概念"
+      ]
+    },
+    {
+      "rank": 20,
       "code": "002580",
       "name": "圣阳股份",
-      "pct": 212926.0,
+      "pct": 192562.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
         "钠离子电池",
         "动力电池回收"
       ]
-    },
-    {
-      "rank": 16,
-      "code": "603200",
-      "name": "上海洗霸",
-      "pct": 207494.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "钠离子电池",
-        "固态电池"
-      ]
-    },
-    {
-      "rank": 17,
-      "code": "002058",
-      "name": "紫竹高科",
-      "pct": 205411.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "石墨烯",
-        "固态电池"
-      ]
-    },
-    {
-      "rank": 18,
-      "code": "600812",
-      "name": "华北制药",
-      "pct": 203953.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "维生素",
-        "流感"
-      ]
-    },
-    {
-      "rank": 19,
-      "code": "002565",
-      "name": "顺灏股份",
-      "pct": 201789.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "卫星导航",
-        "商业航天"
-      ]
-    },
-    {
-      "rank": 20,
-      "code": "002074",
-      "name": "国轩高科",
-      "pct": 196588.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "动力电池回收",
-        "钠离子电池"
-      ]
     }
   ],
   "source_health": {
-    "indexes_rsi": "error: GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "indexes_rsi": "ok",
     "breadth": "ok",
     "board_flow": "ok",
     "limit_pool": "ok",
     "hot_list": "ok"
   },
   "vs_1h": {
-    "reference_at": "2026-10-08T22:31:25+08:00",
+    "reference_at": "2026-10-09T15:11:33+08:00",
     "indices": {
       "shanghai": {
         "pct_change_points": null,
@@ -858,6 +894,6 @@
       }
     },
     "up_ratio": 0.0,
-    "emotion_score": 6.7
+    "emotion_score": 0.2
   }
 }
