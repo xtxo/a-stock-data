@@ -68074,5 +68074,904 @@
       "up_ratio": 0.0,
       "emotion_score": -8.9
     }
+  },
+  {
+    "schema_version": 1,
+    "generated_at": "2026-10-13T00:40:05+08:00",
+    "trade_date": "2026-10-12",
+    "is_trading_day": false,
+    "market_phase": "非交易日/数据未进入当日",
+    "indices": {
+      "shanghai": {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3797.24,
+        "pct": -0.43,
+        "change": -16.55,
+        "volume": 461448981.0,
+        "amount": 714909910722.2,
+        "open": 3806.98,
+        "prev_close": 3813.79,
+        "high": 3828.22,
+        "low": 3791.0,
+        "rsi14_daily": 35.19,
+        "rsi14_30m": 43.33,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-10-12"
+      },
+      "chinext": {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 2963.82,
+        "pct": -2.61,
+        "change": -79.51,
+        "volume": 166226688.0,
+        "amount": 394480230843.77,
+        "open": 3023.51,
+        "prev_close": 3043.33,
+        "high": 3049.34,
+        "low": 2962.24,
+        "rsi14_daily": 26.06,
+        "rsi14_30m": 34.25,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-10-12"
+      },
+      "star50": {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1426.72,
+        "pct": -2.1,
+        "change": -30.55,
+        "volume": 6652779.0,
+        "amount": 64617424588.7,
+        "open": 1443.81,
+        "prev_close": 1457.27,
+        "high": 1473.44,
+        "low": 1425.31,
+        "rsi14_daily": 30.06,
+        "rsi14_30m": 37.49,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-10-12"
+      }
+    },
+    "breadth": {
+      "up": 100,
+      "down": 0,
+      "flat": 0,
+      "total": 100,
+      "up_ratio": 100.0,
+      "strong_ge_5pct": 100,
+      "weak_le_minus5pct": 0
+    },
+    "limit_emotion": {
+      "limit_up": 46,
+      "broken": 25,
+      "limit_down": 0,
+      "seal_success_rate": 64.8,
+      "max_streak": 10,
+      "streak_leaders": [
+        {
+          "code": "600825",
+          "name": "新华传媒",
+          "pct": 9.976058006286621,
+          "streak": 10,
+          "industry": "出版",
+          "seal_fund": 1016510886.0,
+          "open_count": 0
+        },
+        {
+          "code": "002242",
+          "name": "九阳股份",
+          "pct": 9.980172157287598,
+          "streak": 6,
+          "industry": "小家电",
+          "seal_fund": 59186816.0,
+          "open_count": 5
+        },
+        {
+          "code": "600241",
+          "name": "时代万恒",
+          "pct": 10.034013748168945,
+          "streak": 6,
+          "industry": "电池",
+          "seal_fund": 31216947.0,
+          "open_count": 3
+        },
+        {
+          "code": "600812",
+          "name": "华北制药",
+          "pct": 9.950248718261719,
+          "streak": 3,
+          "industry": "化学制药",
+          "seal_fund": 143673870.0,
+          "open_count": 2
+        },
+        {
+          "code": "605287",
+          "name": "德才股份",
+          "pct": 10.00497817993164,
+          "streak": 2,
+          "industry": "装修装饰",
+          "seal_fund": 239409300.0,
+          "open_count": 0
+        },
+        {
+          "code": "605136",
+          "name": "丽人丽妆",
+          "pct": 9.957627296447754,
+          "streak": 2,
+          "industry": "互联网电",
+          "seal_fund": 183524835.0,
+          "open_count": 0
+        },
+        {
+          "code": "002343",
+          "name": "慈文传媒",
+          "pct": 10.032894134521484,
+          "streak": 2,
+          "industry": "影视院线",
+          "seal_fund": 141656200.0,
+          "open_count": 0
+        },
+        {
+          "code": "605577",
+          "name": "龙版传媒",
+          "pct": 10.0,
+          "streak": 2,
+          "industry": "出版",
+          "seal_fund": 138536154.0,
+          "open_count": 0
+        },
+        {
+          "code": "603096",
+          "name": "新经典",
+          "pct": 9.982688903808594,
+          "streak": 2,
+          "industry": "出版",
+          "seal_fund": 131756614.0,
+          "open_count": 0
+        },
+        {
+          "code": "601929",
+          "name": "吉视传媒",
+          "pct": 10.0,
+          "streak": 2,
+          "industry": "电视广播",
+          "seal_fund": 98932350.0,
+          "open_count": 2
+        }
+      ]
+    },
+    "emotion_telemetry": {
+      "score": 73.6,
+      "label": "偏强",
+      "note": "仅为盘面遥测分，不替代人工分析"
+    },
+    "fund_flow": {
+      "industry_top_in": [
+        {
+          "code": "BK0486",
+          "name": "传媒",
+          "pct": 2.3,
+          "main_net": 2131631104.0,
+          "main_ratio": 3.16,
+          "super_net": 2331218944.0,
+          "large_net": -199587840.0,
+          "mid_net": -1135030784.0,
+          "small_net": -972086784.0,
+          "leader_code": "新 华 都",
+          "leader_name": "002264",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1326",
+          "name": "半导体设备",
+          "pct": 0.21,
+          "main_net": 1625648336.0,
+          "main_ratio": 5.21,
+          "super_net": 485845200.0,
+          "large_net": 1139803136.0,
+          "mid_net": -1236909056.0,
+          "small_net": -388739024.0,
+          "leader_code": "XD拓荆科",
+          "leader_name": "688072",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1283",
+          "name": "银行",
+          "pct": 1.99,
+          "main_net": 867660032.0,
+          "main_ratio": 2.39,
+          "super_net": 81766144.0,
+          "large_net": 785893888.0,
+          "mid_net": 239606016.0,
+          "small_net": -1107266048.0,
+          "leader_code": "招商银行",
+          "leader_name": "600036",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0475",
+          "name": "银行Ⅱ",
+          "pct": 1.99,
+          "main_net": 867660032.0,
+          "main_ratio": 2.39,
+          "super_net": 81766144.0,
+          "large_net": 785893888.0,
+          "mid_net": 239606016.0,
+          "small_net": -1107266048.0,
+          "leader_code": "招商银行",
+          "leader_name": "600036",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1313",
+          "name": "风电零部件",
+          "pct": 3.09,
+          "main_net": 776999504.0,
+          "main_ratio": 5.92,
+          "super_net": 841947024.0,
+          "large_net": -64947520.0,
+          "mid_net": -334458656.0,
+          "small_net": -401252528.0,
+          "leader_code": "天顺风能",
+          "leader_name": "002531",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1222",
+          "name": "影视院线",
+          "pct": 3.89,
+          "main_net": 691458592.0,
+          "main_ratio": 5.16,
+          "super_net": 778197088.0,
+          "large_net": -86738496.0,
+          "mid_net": -370228768.0,
+          "small_net": -321229888.0,
+          "leader_code": "光线传媒",
+          "leader_name": "300251",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1032",
+          "name": "风电设备",
+          "pct": 2.51,
+          "main_net": 666323760.0,
+          "main_ratio": 4.38,
+          "super_net": 777358016.0,
+          "large_net": -111034256.0,
+          "mid_net": -300744704.0,
+          "small_net": -324290560.0,
+          "leader_code": "天顺风能",
+          "leader_name": "002531",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1299",
+          "name": "影视动漫制作",
+          "pct": 4.24,
+          "main_net": 660237360.0,
+          "main_ratio": 5.35,
+          "super_net": 754057104.0,
+          "large_net": -93819744.0,
+          "mid_net": -354540992.0,
+          "small_net": -305696352.0,
+          "leader_code": "光线传媒",
+          "leader_name": "300251",
+          "leader_pct": 0.0
+        }
+      ],
+      "industry_top_out": [
+        {
+          "code": "BK1428",
+          "name": "其他化学制品",
+          "pct": -1.81,
+          "main_net": 421332096.0,
+          "main_ratio": 3.81,
+          "super_net": 254186976.0,
+          "large_net": 167145120.0,
+          "mid_net": 119667744.0,
+          "small_net": -590133792.0,
+          "leader_code": "凯美特气",
+          "leader_name": "002549",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1611",
+          "name": "国有大型银行Ⅲ",
+          "pct": 2.61,
+          "main_net": 427292176.0,
+          "main_ratio": 3.38,
+          "super_net": 161920688.0,
+          "large_net": 265371488.0,
+          "mid_net": 254074128.0,
+          "small_net": -681366336.0,
+          "leader_code": "工商银行",
+          "leader_name": "601398",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1221",
+          "name": "数字媒体",
+          "pct": 1.65,
+          "main_net": 559076480.0,
+          "main_ratio": 3.28,
+          "super_net": 569907072.0,
+          "large_net": -10830592.0,
+          "mid_net": -225250304.0,
+          "small_net": -333826560.0,
+          "leader_code": "掌阅科技",
+          "leader_name": "603533",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1610",
+          "name": "股份制银行Ⅲ",
+          "pct": 2.1,
+          "main_net": 615148080.0,
+          "main_ratio": 5.16,
+          "super_net": 121817520.0,
+          "large_net": 493330560.0,
+          "mid_net": -230094192.0,
+          "small_net": -385053888.0,
+          "leader_code": "招商银行",
+          "leader_name": "600036",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1299",
+          "name": "影视动漫制作",
+          "pct": 4.24,
+          "main_net": 660237360.0,
+          "main_ratio": 5.35,
+          "super_net": 754057104.0,
+          "large_net": -93819744.0,
+          "mid_net": -354540992.0,
+          "small_net": -305696352.0,
+          "leader_code": "光线传媒",
+          "leader_name": "300251",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1032",
+          "name": "风电设备",
+          "pct": 2.51,
+          "main_net": 666323760.0,
+          "main_ratio": 4.38,
+          "super_net": 777358016.0,
+          "large_net": -111034256.0,
+          "mid_net": -300744704.0,
+          "small_net": -324290560.0,
+          "leader_code": "天顺风能",
+          "leader_name": "002531",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1222",
+          "name": "影视院线",
+          "pct": 3.89,
+          "main_net": 691458592.0,
+          "main_ratio": 5.16,
+          "super_net": 778197088.0,
+          "large_net": -86738496.0,
+          "mid_net": -370228768.0,
+          "small_net": -321229888.0,
+          "leader_code": "光线传媒",
+          "leader_name": "300251",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1313",
+          "name": "风电零部件",
+          "pct": 3.09,
+          "main_net": 776999504.0,
+          "main_ratio": 5.92,
+          "super_net": 841947024.0,
+          "large_net": -64947520.0,
+          "mid_net": -334458656.0,
+          "small_net": -401252528.0,
+          "leader_code": "天顺风能",
+          "leader_name": "002531",
+          "leader_pct": 0.0
+        }
+      ],
+      "concept_top_in": [
+        {
+          "code": "BK0815",
+          "name": "昨日涨停",
+          "pct": 1.44,
+          "main_net": 1364562944.0,
+          "main_ratio": 1.83,
+          "super_net": 1621678336.0,
+          "large_net": -257115392.0,
+          "mid_net": -95070720.0,
+          "small_net": -1269491968.0,
+          "leader_code": "吉视传媒",
+          "leader_name": "601929",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1050",
+          "name": "昨日涨停_含一字",
+          "pct": 1.71,
+          "main_net": 1122182912.0,
+          "main_ratio": 1.45,
+          "super_net": 1530563328.0,
+          "large_net": -408380416.0,
+          "mid_net": -56968704.0,
+          "small_net": -1065213952.0,
+          "leader_code": "吉视传媒",
+          "leader_name": "601929",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1638",
+          "name": "最近多板",
+          "pct": 0.02,
+          "main_net": 1115728384.0,
+          "main_ratio": 1.12,
+          "super_net": 1387420416.0,
+          "large_net": -271692032.0,
+          "mid_net": -26588928.0,
+          "small_net": -1098993152.0,
+          "leader_code": "吉视传媒",
+          "leader_name": "601929",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1654",
+          "name": "文娱消费",
+          "pct": 0.91,
+          "main_net": 1040041472.0,
+          "main_ratio": 2.24,
+          "super_net": 1204843520.0,
+          "large_net": -164802048.0,
+          "mid_net": -480489216.0,
+          "small_net": -559552512.0,
+          "leader_code": "掌阅科技",
+          "leader_name": "603533",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0847",
+          "name": "影视概念",
+          "pct": 1.85,
+          "main_net": 1006335808.0,
+          "main_ratio": 3.13,
+          "super_net": 1111389504.0,
+          "large_net": -105053696.0,
+          "mid_net": -485836544.0,
+          "small_net": -495985408.0,
+          "leader_code": "吉视传媒",
+          "leader_name": "601929",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0839",
+          "name": "知识产权",
+          "pct": 1.86,
+          "main_net": 986022432.0,
+          "main_ratio": 3.78,
+          "super_net": 1153170208.0,
+          "large_net": -167147776.0,
+          "mid_net": -284999424.0,
+          "small_net": -676509440.0,
+          "leader_code": "莱美药业",
+          "leader_name": "300006",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1000",
+          "name": "宁组合",
+          "pct": -0.75,
+          "main_net": 977152512.0,
+          "main_ratio": 2.16,
+          "super_net": 246194688.0,
+          "large_net": 730957824.0,
+          "mid_net": -547127552.0,
+          "small_net": -430025216.0,
+          "leader_code": "宁德时代",
+          "leader_name": "300750",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1630",
+          "name": "昨日首板",
+          "pct": 0.98,
+          "main_net": 955111680.0,
+          "main_ratio": 1.77,
+          "super_net": 1053950208.0,
+          "large_net": -98838528.0,
+          "mid_net": 2110464.0,
+          "small_net": -957221888.0,
+          "leader_code": "吉视传媒",
+          "leader_name": "601929",
+          "leader_pct": 1.0
+        }
+      ],
+      "concept_top_out": [
+        {
+          "code": "BK1183",
+          "name": "谷子经济",
+          "pct": 0.55,
+          "main_net": 736971648.0,
+          "main_ratio": 2.51,
+          "super_net": 1097374592.0,
+          "large_net": -360402944.0,
+          "mid_net": -609924352.0,
+          "small_net": -133794560.0,
+          "leader_code": "光线传媒",
+          "leader_name": "300251",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1092",
+          "name": "麒麟电池",
+          "pct": -1.71,
+          "main_net": 769262688.0,
+          "main_ratio": 5.3,
+          "super_net": 189234688.0,
+          "large_net": 580028000.0,
+          "mid_net": -436508272.0,
+          "small_net": -332754368.0,
+          "leader_code": "宁德时代",
+          "leader_name": "300750",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1071",
+          "name": "跨境支付",
+          "pct": 0.29,
+          "main_net": 795118848.0,
+          "main_ratio": 2.4,
+          "super_net": 231183104.0,
+          "large_net": 563935744.0,
+          "mid_net": -100736512.0,
+          "small_net": -695404288.0,
+          "leader_code": "招商银行",
+          "leader_name": "600036",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1172",
+          "name": "AI语料",
+          "pct": 2.56,
+          "main_net": 876111152.0,
+          "main_ratio": 3.1,
+          "super_net": 1087808816.0,
+          "large_net": -211697664.0,
+          "mid_net": -413938944.0,
+          "small_net": -462172160.0,
+          "leader_code": "掌阅科技",
+          "leader_name": "603533",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1630",
+          "name": "昨日首板",
+          "pct": 0.98,
+          "main_net": 955111680.0,
+          "main_ratio": 1.77,
+          "super_net": 1053950208.0,
+          "large_net": -98838528.0,
+          "mid_net": 2110464.0,
+          "small_net": -957221888.0,
+          "leader_code": "吉视传媒",
+          "leader_name": "601929",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1000",
+          "name": "宁组合",
+          "pct": -0.75,
+          "main_net": 977152512.0,
+          "main_ratio": 2.16,
+          "super_net": 246194688.0,
+          "large_net": 730957824.0,
+          "mid_net": -547127552.0,
+          "small_net": -430025216.0,
+          "leader_code": "宁德时代",
+          "leader_name": "300750",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0839",
+          "name": "知识产权",
+          "pct": 1.86,
+          "main_net": 986022432.0,
+          "main_ratio": 3.78,
+          "super_net": 1153170208.0,
+          "large_net": -167147776.0,
+          "mid_net": -284999424.0,
+          "small_net": -676509440.0,
+          "leader_code": "莱美药业",
+          "leader_name": "300006",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0847",
+          "name": "影视概念",
+          "pct": 1.85,
+          "main_net": 1006335808.0,
+          "main_ratio": 3.13,
+          "super_net": 1111389504.0,
+          "large_net": -105053696.0,
+          "mid_net": -485836544.0,
+          "small_net": -495985408.0,
+          "leader_code": "吉视传媒",
+          "leader_name": "601929",
+          "leader_pct": 1.0
+        }
+      ]
+    },
+    "hot_stocks": [
+      {
+        "rank": 1,
+        "code": "600825",
+        "name": "新华传媒",
+        "pct": 537110.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "无人零售",
+          "上海国企改革"
+        ]
+      },
+      {
+        "rank": 2,
+        "code": "600127",
+        "name": "金健米业",
+        "pct": 449544.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "玉米",
+          "粮食概念"
+        ]
+      },
+      {
+        "rank": 3,
+        "code": "601127",
+        "name": "赛力斯",
+        "pct": 405197.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "参股银行",
+          "西部大开发"
+        ]
+      },
+      {
+        "rank": 4,
+        "code": "002242",
+        "name": "九阳股份",
+        "pct": 372252.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "绿色电力",
+          "净水概念"
+        ]
+      },
+      {
+        "rank": 5,
+        "code": "601811",
+        "name": "新华文轩",
+        "pct": 303033.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "知识产权保护",
+          "文化传媒概念"
+        ]
+      },
+      {
+        "rank": 6,
+        "code": "600418",
+        "name": "江淮汽车",
+        "pct": 295938.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "华为汽车",
+          "百度概念"
+        ]
+      },
+      {
+        "rank": 7,
+        "code": "001330",
+        "name": "博纳影业",
+        "pct": 274153.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "短剧游戏",
+          "AI视频"
+        ]
+      },
+      {
+        "rank": 8,
+        "code": "600241",
+        "name": "时代万恒",
+        "pct": 273304.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "国企改革",
+          "锂电池概念"
+        ]
+      },
+      {
+        "rank": 9,
+        "code": "600664",
+        "name": "哈药股份",
+        "pct": 255085.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "创新药",
+          "维生素"
+        ]
+      },
+      {
+        "rank": 10,
+        "code": "002487",
+        "name": "大金重工",
+        "pct": 240248.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "海工装备",
+          "风电"
+        ]
+      },
+      {
+        "rank": 11,
+        "code": "600693",
+        "name": "东百集团",
+        "pct": 235812.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "免税店",
+          "IP经济(谷子经济)"
+        ]
+      },
+      {
+        "rank": 12,
+        "code": "605577",
+        "name": "龙版传媒",
+        "pct": 212677.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "AI视频",
+          "IP经济(谷子经济)"
+        ]
+      },
+      {
+        "rank": 13,
+        "code": "002343",
+        "name": "慈文传媒",
+        "pct": 209124.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "短剧游戏",
+          "文化传媒概念"
+        ]
+      },
+      {
+        "rank": 14,
+        "code": "600812",
+        "name": "华北制药",
+        "pct": 207209.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "维生素",
+          "流感"
+        ]
+      },
+      {
+        "rank": 15,
+        "code": "601929",
+        "name": "吉视传媒",
+        "pct": 193024.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "短剧游戏",
+          "AI视频"
+        ]
+      },
+      {
+        "rank": 16,
+        "code": "603533",
+        "name": "掌阅科技",
+        "pct": 187775.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "AI视频",
+          "短剧游戏"
+        ]
+      },
+      {
+        "rank": 17,
+        "code": "603096",
+        "name": "新经典",
+        "pct": 186322.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "知识产权保护",
+          "文化传媒概念"
+        ]
+      },
+      {
+        "rank": 18,
+        "code": "300308",
+        "name": "中际旭创",
+        "pct": 185393.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "共封装光学(CPO)",
+          "F5G概念"
+        ]
+      },
+      {
+        "rank": 19,
+        "code": "688808",
+        "name": "联讯仪器",
+        "pct": 180659.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "共封装光学(CPO)",
+          "科创次新股"
+        ]
+      },
+      {
+        "rank": 20,
+        "code": "000892",
+        "name": "欢瑞世纪",
+        "pct": 177302.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "AI视频",
+          "短剧游戏"
+        ]
+      }
+    ],
+    "source_health": {
+      "indexes_rsi": "ok",
+      "breadth": "ok",
+      "board_flow": "ok",
+      "limit_pool": "ok",
+      "hot_list": "ok"
+    },
+    "vs_1h": {
+      "reference_at": "2026-10-12T15:02:37+08:00",
+      "indices": {
+        "shanghai": {
+          "pct_change_points": 0.0,
+          "rsi30_change": 0.0
+        },
+        "chinext": {
+          "pct_change_points": 0.0,
+          "rsi30_change": 0.0
+        },
+        "star50": {
+          "pct_change_points": 0.0,
+          "rsi30_change": 0.0
+        }
+      },
+      "up_ratio": 0.0,
+      "emotion_score": 0.0
+    }
   }
 ]

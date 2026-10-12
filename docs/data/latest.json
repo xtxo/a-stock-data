@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-12T15:02:37+08:00",
+  "generated_at": "2026-10-13T00:40:05+08:00",
   "trade_date": "2026-10-12",
-  "is_trading_day": true,
-  "market_phase": "收盘后",
+  "is_trading_day": false,
+  "market_phase": "非交易日/数据未进入当日",
   "indices": {
     "shanghai": {
       "name": "上证指数",
@@ -631,33 +631,9 @@
   "hot_stocks": [
     {
       "rank": 1,
-      "code": "600127",
-      "name": "金健米业",
-      "pct": 879201.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "玉米",
-        "粮食概念"
-      ]
-    },
-    {
-      "rank": 2,
-      "code": "002242",
-      "name": "九阳股份",
-      "pct": 717579.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "绿色电力",
-        "净水概念"
-      ]
-    },
-    {
-      "rank": 3,
       "code": "600825",
       "name": "新华传媒",
-      "pct": 705966.0,
+      "pct": 537110.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -666,58 +642,82 @@
       ]
     },
     {
-      "rank": 4,
-      "code": "600418",
-      "name": "江淮汽车",
-      "pct": 575058.0,
+      "rank": 2,
+      "code": "600127",
+      "name": "金健米业",
+      "pct": 449544.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "百度概念",
-        "DeepSeek概念"
+        "玉米",
+        "粮食概念"
+      ]
+    },
+    {
+      "rank": 3,
+      "code": "601127",
+      "name": "赛力斯",
+      "pct": 405197.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "参股银行",
+        "西部大开发"
+      ]
+    },
+    {
+      "rank": 4,
+      "code": "002242",
+      "name": "九阳股份",
+      "pct": 372252.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "绿色电力",
+        "净水概念"
       ]
     },
     {
       "rank": 5,
-      "code": "600693",
-      "name": "东百集团",
-      "pct": 560959.0,
+      "code": "601811",
+      "name": "新华文轩",
+      "pct": 303033.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "免税店",
-        "IP经济(谷子经济)"
+        "知识产权保护",
+        "文化传媒概念"
       ]
     },
     {
       "rank": 6,
-      "code": "002487",
-      "name": "大金重工",
-      "pct": 523001.0,
+      "code": "600418",
+      "name": "江淮汽车",
+      "pct": 295938.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "海工装备",
-        "风电"
+        "华为汽车",
+        "百度概念"
       ]
     },
     {
       "rank": 7,
-      "code": "600664",
-      "name": "哈药股份",
-      "pct": 513396.0,
+      "code": "001330",
+      "name": "博纳影业",
+      "pct": 274153.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "创新药",
-        "维生素"
+        "短剧游戏",
+        "AI视频"
       ]
     },
     {
       "rank": 8,
       "code": "600241",
       "name": "时代万恒",
-      "pct": 443318.0,
+      "pct": 273304.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -727,21 +727,69 @@
     },
     {
       "rank": 9,
-      "code": "001330",
-      "name": "博纳影业",
-      "pct": 376638.0,
+      "code": "600664",
+      "name": "哈药股份",
+      "pct": 255085.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "短剧游戏",
-        "AI视频"
+        "创新药",
+        "维生素"
       ]
     },
     {
       "rank": 10,
+      "code": "002487",
+      "name": "大金重工",
+      "pct": 240248.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "海工装备",
+        "风电"
+      ]
+    },
+    {
+      "rank": 11,
+      "code": "600693",
+      "name": "东百集团",
+      "pct": 235812.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "免税店",
+        "IP经济(谷子经济)"
+      ]
+    },
+    {
+      "rank": 12,
+      "code": "605577",
+      "name": "龙版传媒",
+      "pct": 212677.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "AI视频",
+        "IP经济(谷子经济)"
+      ]
+    },
+    {
+      "rank": 13,
+      "code": "002343",
+      "name": "慈文传媒",
+      "pct": 209124.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "短剧游戏",
+        "文化传媒概念"
+      ]
+    },
+    {
+      "rank": 14,
       "code": "600812",
       "name": "华北制药",
-      "pct": 358407.0,
+      "pct": 207209.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -750,118 +798,70 @@
       ]
     },
     {
-      "rank": 11,
-      "code": "601811",
-      "name": "新华文轩",
-      "pct": 303456.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "高股息精选",
-        "IP经济(谷子经济)"
-      ]
-    },
-    {
-      "rank": 12,
-      "code": "605577",
-      "name": "龙版传媒",
-      "pct": 264129.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "IP经济(谷子经济)",
-        "文化传媒概念"
-      ]
-    },
-    {
-      "rank": 13,
-      "code": "002709",
-      "name": "天赐材料",
-      "pct": 249170.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "氟化工概念",
-        "固态电池"
-      ]
-    },
-    {
-      "rank": 14,
-      "code": "601086",
-      "name": "国芳集团",
-      "pct": 242351.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "IP经济(谷子经济)",
-        "参股券商"
-      ]
-    },
-    {
       "rank": 15,
-      "code": "002058",
-      "name": "紫竹高科",
-      "pct": 232686.0,
+      "code": "601929",
+      "name": "吉视传媒",
+      "pct": 193024.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "石墨烯",
-        "固态电池"
+        "短剧游戏",
+        "AI视频"
       ]
     },
     {
       "rank": 16,
-      "code": "600722",
-      "name": "金牛化工",
-      "pct": 226422.0,
+      "code": "603533",
+      "name": "掌阅科技",
+      "pct": 187775.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "煤化工概念",
-        "国企改革"
+        "AI视频",
+        "短剧游戏"
       ]
     },
     {
       "rank": 17,
-      "code": "600176",
-      "name": "中国巨石",
-      "pct": 225591.0,
+      "code": "603096",
+      "name": "新经典",
+      "pct": 186322.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "PCB概念",
-        "PEEK材料"
+        "知识产权保护",
+        "文化传媒概念"
       ]
     },
     {
       "rank": 18,
-      "code": "002475",
-      "name": "立讯精密",
-      "pct": 221605.0,
+      "code": "300308",
+      "name": "中际旭创",
+      "pct": 185393.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "同花顺果指数",
-        "共封装光学(CPO)"
+        "共封装光学(CPO)",
+        "F5G概念"
       ]
     },
     {
       "rank": 19,
-      "code": "002733",
-      "name": "雄韬股份",
-      "pct": 221157.0,
+      "code": "688808",
+      "name": "联讯仪器",
+      "pct": 180659.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "固态电池",
-        "5G"
+        "共封装光学(CPO)",
+        "科创次新股"
       ]
     },
     {
       "rank": 20,
       "code": "000892",
       "name": "欢瑞世纪",
-      "pct": 219979.0,
+      "pct": 177302.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -878,22 +878,22 @@
     "hot_list": "ok"
   },
   "vs_1h": {
-    "reference_at": "2026-10-09T22:31:30+08:00",
+    "reference_at": "2026-10-12T15:02:37+08:00",
     "indices": {
       "shanghai": {
-        "pct_change_points": -0.48,
-        "rsi30_change": -5.26
+        "pct_change_points": 0.0,
+        "rsi30_change": 0.0
       },
       "chinext": {
-        "pct_change_points": -2.83,
-        "rsi30_change": -10.81
+        "pct_change_points": 0.0,
+        "rsi30_change": 0.0
       },
       "star50": {
-        "pct_change_points": -2.17,
-        "rsi30_change": -4.77
+        "pct_change_points": 0.0,
+        "rsi30_change": 0.0
       }
     },
     "up_ratio": 0.0,
-    "emotion_score": -8.9
+    "emotion_score": 0.0
   }
 }
