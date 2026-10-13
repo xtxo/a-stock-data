@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-13T15:27:06+08:00",
+  "generated_at": "2026-10-13T23:12:50+08:00",
   "trade_date": "2026-10-13",
   "is_trading_day": true,
   "market_phase": "收盘后",
@@ -83,6 +83,24 @@
         "open_count": 0
       },
       {
+        "code": "603096",
+        "name": "新经典",
+        "pct": 10.020986557006836,
+        "streak": 3,
+        "industry": "出版",
+        "seal_fund": 216938172.0,
+        "open_count": 0
+      },
+      {
+        "code": "605136",
+        "name": "丽人丽妆",
+        "pct": 10.019268035888672,
+        "streak": 3,
+        "industry": "互联网电",
+        "seal_fund": 100856872.0,
+        "open_count": 0
+      },
+      {
         "code": "002696",
         "name": "百洋股份",
         "pct": 10.062111854553223,
@@ -92,30 +110,12 @@
         "open_count": 0
       },
       {
-        "code": "603096",
-        "name": "新经典",
-        "pct": 10.020986557006836,
-        "streak": 3,
-        "industry": "出版",
-        "seal_fund": 14368644.0,
-        "open_count": 0
-      },
-      {
-        "code": "605136",
-        "name": "丽人丽妆",
-        "pct": 10.019268035888672,
-        "streak": 3,
-        "industry": "互联网电",
-        "seal_fund": 11691796.0,
-        "open_count": 0
-      },
-      {
         "code": "605577",
         "name": "龙版传媒",
         "pct": 9.988776206970215,
         "streak": 3,
         "industry": "出版",
-        "seal_fund": 7461720.0,
+        "seal_fund": 51557800.0,
         "open_count": 3
       },
       {
@@ -133,7 +133,7 @@
         "pct": 10.017889022827148,
         "streak": 2,
         "industry": "一般零售",
-        "seal_fund": 10073700.0,
+        "seal_fund": 129715800.0,
         "open_count": 4
       },
       {
@@ -142,7 +142,7 @@
         "pct": 9.974424362182617,
         "streak": 2,
         "industry": "电视广播",
-        "seal_fund": 4592400.0,
+        "seal_fund": 52693275.0,
         "open_count": 0
       },
       {
@@ -151,7 +151,7 @@
         "pct": 10.038313865661621,
         "streak": 2,
         "industry": "化学制品",
-        "seal_fund": 4251996.0,
+        "seal_fund": 22695477.0,
         "open_count": 2
       },
       {
@@ -160,7 +160,7 @@
         "pct": 10.0,
         "streak": 2,
         "industry": "化学制药",
-        "seal_fund": 1554278.0,
+        "seal_fund": 20695632.0,
         "open_count": 3
       }
     ]
@@ -631,21 +631,21 @@
   "hot_stocks": [
     {
       "rank": 1,
-      "code": "600693",
-      "name": "东百集团",
-      "pct": 802983.0,
+      "code": "600418",
+      "name": "江淮汽车",
+      "pct": 789642.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "免税店",
-        "IP经济(谷子经济)"
+        "华为汽车",
+        "百度概念"
       ]
     },
     {
       "rank": 2,
       "code": "600127",
       "name": "金健米业",
-      "pct": 790192.0,
+      "pct": 656795.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -657,7 +657,7 @@
       "rank": 3,
       "code": "002242",
       "name": "九阳股份",
-      "pct": 613064.0,
+      "pct": 574785.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -667,105 +667,21 @@
     },
     {
       "rank": 4,
-      "code": "600241",
-      "name": "时代万恒",
-      "pct": 561968.0,
+      "code": "600693",
+      "name": "东百集团",
+      "pct": 514988.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "国企改革",
-        "锂电池概念"
-      ]
-    },
-    {
-      "rank": 5,
-      "code": "301660",
-      "name": "粤芯半导体",
-      "pct": 555724.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "新股与次新股",
-        "注册制次新股"
-      ]
-    },
-    {
-      "rank": 6,
-      "code": "605577",
-      "name": "龙版传媒",
-      "pct": 502478.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "AI视频",
+        "免税店",
         "IP经济(谷子经济)"
       ]
     },
     {
-      "rank": 7,
-      "code": "600418",
-      "name": "江淮汽车",
-      "pct": 459227.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "华为汽车",
-        "百度概念"
-      ]
-    },
-    {
-      "rank": 8,
-      "code": "000823",
-      "name": "超声电子",
-      "pct": 451511.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "PCB概念",
-        "共封装光学(CPO)"
-      ]
-    },
-    {
-      "rank": 9,
-      "code": "601127",
-      "name": "赛力斯",
-      "pct": 448758.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "参股银行",
-        "西部大开发"
-      ]
-    },
-    {
-      "rank": 10,
-      "code": "601811",
-      "name": "新华文轩",
-      "pct": 411856.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "知识产权保护",
-        "文化传媒概念"
-      ]
-    },
-    {
-      "rank": 11,
-      "code": "600825",
-      "name": "新华传媒",
-      "pct": 370959.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "无人零售",
-        "上海国企改革"
-      ]
-    },
-    {
-      "rank": 12,
+      "rank": 5,
       "code": "600664",
       "name": "哈药股份",
-      "pct": 348986.0,
+      "pct": 411915.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -774,58 +690,94 @@
       ]
     },
     {
-      "rank": 13,
-      "code": "001330",
-      "name": "博纳影业",
-      "pct": 339389.0,
+      "rank": 6,
+      "code": "301660",
+      "name": "粤芯半导体",
+      "pct": 395320.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "短剧游戏",
-        "AI视频"
+        "新股与次新股",
+        "注册制次新股"
       ]
     },
     {
-      "rank": 14,
-      "code": "600206",
-      "name": "有研新材",
-      "pct": 322517.0,
+      "rank": 7,
+      "code": "605577",
+      "name": "龙版传媒",
+      "pct": 394334.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "中芯国际概念",
-        "国家大基金持股"
+        "AI视频",
+        "IP经济(谷子经济)"
       ]
     },
     {
-      "rank": 15,
-      "code": "000592",
-      "name": "平潭发展",
-      "pct": 306296.0,
+      "rank": 8,
+      "code": "601127",
+      "name": "赛力斯",
+      "pct": 375175.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "福建自贸区",
-        "海峡两岸"
+        "参股银行",
+        "西部大开发"
       ]
     },
     {
-      "rank": 16,
-      "code": "002343",
-      "name": "慈文传媒",
-      "pct": 293934.0,
+      "rank": 9,
+      "code": "605058",
+      "name": "澳弘电子",
+      "pct": 358820.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "短剧游戏",
+        "共封装光学(CPO)",
+        "PCB概念"
+      ]
+    },
+    {
+      "rank": 10,
+      "code": "600241",
+      "name": "时代万恒",
+      "pct": 343770.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "国企改革",
+        "锂电池概念"
+      ]
+    },
+    {
+      "rank": 11,
+      "code": "000823",
+      "name": "超声电子",
+      "pct": 318454.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "PCB概念",
+        "共封装光学(CPO)"
+      ]
+    },
+    {
+      "rank": 12,
+      "code": "601811",
+      "name": "新华文轩",
+      "pct": 308120.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "知识产权保护",
         "文化传媒概念"
       ]
     },
     {
-      "rank": 17,
+      "rank": 13,
       "code": "002487",
       "name": "大金重工",
-      "pct": 284766.0,
+      "pct": 279480.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -834,22 +786,34 @@
       ]
     },
     {
-      "rank": 18,
-      "code": "600812",
-      "name": "华北制药",
-      "pct": 273577.0,
+      "rank": 14,
+      "code": "000592",
+      "name": "平潭发展",
+      "pct": 255457.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "维生素",
-        "流感"
+        "福建自贸区",
+        "海峡两岸"
       ]
     },
     {
-      "rank": 19,
+      "rank": 15,
+      "code": "600825",
+      "name": "新华传媒",
+      "pct": 230778.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "无人零售",
+        "上海国企改革"
+      ]
+    },
+    {
+      "rank": 16,
       "code": "300308",
       "name": "中际旭创",
-      "pct": 272660.0,
+      "pct": 224159.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -858,15 +822,51 @@
       ]
     },
     {
-      "rank": 20,
-      "code": "605136",
-      "name": "丽人丽妆",
-      "pct": 258069.0,
+      "rank": 17,
+      "code": "002639",
+      "name": "雪人集团",
+      "pct": 223940.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "网红经济",
-        "三胎概念"
+        "海工装备",
+        "空气能热泵"
+      ]
+    },
+    {
+      "rank": 18,
+      "code": "001330",
+      "name": "博纳影业",
+      "pct": 218117.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "短剧游戏",
+        "AI视频"
+      ]
+    },
+    {
+      "rank": 19,
+      "code": "600812",
+      "name": "华北制药",
+      "pct": 213766.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "维生素",
+        "流感"
+      ]
+    },
+    {
+      "rank": 20,
+      "code": "002636",
+      "name": "金安国纪",
+      "pct": 213740.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "PCB概念",
+        "2026中报预增"
       ]
     }
   ],
@@ -878,22 +878,22 @@
     "hot_list": "ok"
   },
   "vs_1h": {
-    "reference_at": "2026-10-13T00:40:05+08:00",
+    "reference_at": "2026-10-13T15:27:06+08:00",
     "indices": {
       "shanghai": {
-        "pct_change_points": 0.53,
-        "rsi30_change": 6.38
+        "pct_change_points": 0.0,
+        "rsi30_change": 0.0
       },
       "chinext": {
-        "pct_change_points": 2.43,
-        "rsi30_change": 9.12
+        "pct_change_points": 0.0,
+        "rsi30_change": 0.0
       },
       "star50": {
-        "pct_change_points": 2.13,
-        "rsi30_change": 6.84
+        "pct_change_points": 0.0,
+        "rsi30_change": 0.0
       }
     },
     "up_ratio": 0.0,
-    "emotion_score": 7.6
+    "emotion_score": 0.0
   }
 }
