@@ -68973,5 +68973,904 @@
       "up_ratio": 0.0,
       "emotion_score": 0.0
     }
+  },
+  {
+    "schema_version": 1,
+    "generated_at": "2026-10-13T15:27:06+08:00",
+    "trade_date": "2026-10-13",
+    "is_trading_day": true,
+    "market_phase": "收盘后",
+    "indices": {
+      "shanghai": {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3800.86,
+        "pct": 0.1,
+        "change": 3.62,
+        "volume": 483305909.0,
+        "amount": 779302288022.5,
+        "open": 3760.8,
+        "prev_close": 3797.24,
+        "high": 3822.11,
+        "low": 3741.53,
+        "rsi14_daily": 35.99,
+        "rsi14_30m": 49.71,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-10-13"
+      },
+      "chinext": {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 2958.34,
+        "pct": -0.18,
+        "change": -5.48,
+        "volume": 182678834.0,
+        "amount": 452004282521.84,
+        "open": 2899.15,
+        "prev_close": 2963.82,
+        "high": 2999.76,
+        "low": 2860.8,
+        "rsi14_daily": 25.84,
+        "rsi14_30m": 43.37,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-10-13"
+      },
+      "star50": {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1427.18,
+        "pct": 0.03,
+        "change": 0.46,
+        "volume": 7696867.0,
+        "amount": 76980320632.8,
+        "open": 1389.53,
+        "prev_close": 1426.72,
+        "high": 1447.19,
+        "low": 1375.33,
+        "rsi14_daily": 30.14,
+        "rsi14_30m": 44.33,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-10-13"
+      }
+    },
+    "breadth": {
+      "up": 100,
+      "down": 0,
+      "flat": 0,
+      "total": 100,
+      "up_ratio": 100.0,
+      "strong_ge_5pct": 100,
+      "weak_le_minus5pct": 0
+    },
+    "limit_emotion": {
+      "limit_up": 67,
+      "broken": 19,
+      "limit_down": 0,
+      "seal_success_rate": 77.9,
+      "max_streak": 3,
+      "streak_leaders": [
+        {
+          "code": "002343",
+          "name": "慈文传媒",
+          "pct": 10.014947891235352,
+          "streak": 3,
+          "industry": "影视院线",
+          "seal_fund": 251983289.0,
+          "open_count": 0
+        },
+        {
+          "code": "002696",
+          "name": "百洋股份",
+          "pct": 10.062111854553223,
+          "streak": 3,
+          "industry": "饲料",
+          "seal_fund": 67280775.0,
+          "open_count": 0
+        },
+        {
+          "code": "603096",
+          "name": "新经典",
+          "pct": 10.020986557006836,
+          "streak": 3,
+          "industry": "出版",
+          "seal_fund": 14368644.0,
+          "open_count": 0
+        },
+        {
+          "code": "605136",
+          "name": "丽人丽妆",
+          "pct": 10.019268035888672,
+          "streak": 3,
+          "industry": "互联网电",
+          "seal_fund": 11691796.0,
+          "open_count": 0
+        },
+        {
+          "code": "605577",
+          "name": "龙版传媒",
+          "pct": 9.988776206970215,
+          "streak": 3,
+          "industry": "出版",
+          "seal_fund": 7461720.0,
+          "open_count": 3
+        },
+        {
+          "code": "001231",
+          "name": "农心科技",
+          "pct": 9.996095657348633,
+          "streak": 2,
+          "industry": "农化制品",
+          "seal_fund": 296275045.0,
+          "open_count": 0
+        },
+        {
+          "code": "600693",
+          "name": "东百集团",
+          "pct": 10.017889022827148,
+          "streak": 2,
+          "industry": "一般零售",
+          "seal_fund": 10073700.0,
+          "open_count": 4
+        },
+        {
+          "code": "600831",
+          "name": "广电网络",
+          "pct": 9.974424362182617,
+          "streak": 2,
+          "industry": "电视广播",
+          "seal_fund": 4592400.0,
+          "open_count": 0
+        },
+        {
+          "code": "603968",
+          "name": "醋化股份",
+          "pct": 10.038313865661621,
+          "streak": 2,
+          "industry": "化学制品",
+          "seal_fund": 4251996.0,
+          "open_count": 2
+        },
+        {
+          "code": "600851",
+          "name": "海欣股份",
+          "pct": 10.0,
+          "streak": 2,
+          "industry": "化学制药",
+          "seal_fund": 1554278.0,
+          "open_count": 3
+        }
+      ]
+    },
+    "emotion_telemetry": {
+      "score": 81.2,
+      "label": "高热",
+      "note": "仅为盘面遥测分，不替代人工分析"
+    },
+    "fund_flow": {
+      "industry_top_in": [
+        {
+          "code": "BK1340",
+          "name": "印制电路板",
+          "pct": 6.08,
+          "main_net": 2087754496.0,
+          "main_ratio": 2.49,
+          "super_net": 768375296.0,
+          "large_net": 1319379200.0,
+          "mid_net": -699081728.0,
+          "small_net": -1363525632.0,
+          "leader_code": "沪电股份",
+          "leader_name": "002463",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1329",
+          "name": "集成电路制造",
+          "pct": -0.57,
+          "main_net": 2052160192.0,
+          "main_ratio": 12.26,
+          "super_net": 758821552.0,
+          "large_net": 1293338640.0,
+          "mid_net": 1848243632.0,
+          "small_net": -3900403712.0,
+          "leader_code": "N粤芯-U",
+          "leader_name": "301660",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1204",
+          "name": "国防军工",
+          "pct": 2.53,
+          "main_net": 1932941248.0,
+          "main_ratio": 4.12,
+          "super_net": 1088985024.0,
+          "large_net": 843956224.0,
+          "mid_net": -545758720.0,
+          "small_net": -1378048768.0,
+          "leader_code": "中国船舶",
+          "leader_name": "600150",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0459",
+          "name": "元件",
+          "pct": 4.77,
+          "main_net": 1366614272.0,
+          "main_ratio": 1.37,
+          "super_net": 523705344.0,
+          "large_net": 842908928.0,
+          "mid_net": -374958848.0,
+          "small_net": -963957760.0,
+          "leader_code": "沪电股份",
+          "leader_name": "002463",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1201",
+          "name": "电子",
+          "pct": 1.01,
+          "main_net": 1284182272.0,
+          "main_ratio": 0.32,
+          "super_net": 53752064.0,
+          "large_net": 1230430208.0,
+          "mid_net": 1780060160.0,
+          "small_net": -3059044352.0,
+          "leader_code": "N粤芯-U",
+          "leader_name": "301660",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1383",
+          "name": "航海装备Ⅲ",
+          "pct": 4.36,
+          "main_net": 988968016.0,
+          "main_ratio": 11.56,
+          "super_net": 587083008.0,
+          "large_net": 401885008.0,
+          "mid_net": -136735616.0,
+          "small_net": -852232400.0,
+          "leader_code": "中国船舶",
+          "leader_name": "600150",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1230",
+          "name": "航海装备Ⅱ",
+          "pct": 4.36,
+          "main_net": 988968016.0,
+          "main_ratio": 11.56,
+          "super_net": 587083008.0,
+          "large_net": 401885008.0,
+          "mid_net": -136735616.0,
+          "small_net": -852232400.0,
+          "leader_code": "中国船舶",
+          "leader_name": "600150",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1293",
+          "name": "营销代理",
+          "pct": 1.77,
+          "main_net": 872876976.0,
+          "main_ratio": 5.58,
+          "super_net": 938202800.0,
+          "large_net": -65325824.0,
+          "mid_net": -223556352.0,
+          "small_net": -649320704.0,
+          "leader_code": "天娱数科",
+          "leader_name": "002354",
+          "leader_pct": 0.0
+        }
+      ],
+      "industry_top_out": [
+        {
+          "code": "BK1220",
+          "name": "广告营销",
+          "pct": 1.75,
+          "main_net": 745167488.0,
+          "main_ratio": 4.21,
+          "super_net": 865856848.0,
+          "large_net": -120689360.0,
+          "mid_net": -227216896.0,
+          "small_net": -517950720.0,
+          "leader_code": "天娱数科",
+          "leader_name": "002354",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1384",
+          "name": "航空装备Ⅲ",
+          "pct": 3.12,
+          "main_net": 790586928.0,
+          "main_ratio": 4.96,
+          "super_net": 526254240.0,
+          "large_net": 264332688.0,
+          "mid_net": -191763456.0,
+          "small_net": -590518784.0,
+          "leader_code": "航发动力",
+          "leader_name": "600893",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1231",
+          "name": "航空装备Ⅱ",
+          "pct": 3.12,
+          "main_net": 790586928.0,
+          "main_ratio": 4.96,
+          "super_net": 526254240.0,
+          "large_net": 264332688.0,
+          "mid_net": -191763456.0,
+          "small_net": -590518784.0,
+          "leader_code": "航发动力",
+          "leader_name": "600893",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0486",
+          "name": "传媒",
+          "pct": 1.1,
+          "main_net": 790635008.0,
+          "main_ratio": 1.2,
+          "super_net": 1157078528.0,
+          "large_net": -366443520.0,
+          "mid_net": -442194432.0,
+          "small_net": -382057472.0,
+          "leader_code": "天娱数科",
+          "leader_name": "002354",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1293",
+          "name": "营销代理",
+          "pct": 1.77,
+          "main_net": 872876976.0,
+          "main_ratio": 5.58,
+          "super_net": 938202800.0,
+          "large_net": -65325824.0,
+          "mid_net": -223556352.0,
+          "small_net": -649320704.0,
+          "leader_code": "天娱数科",
+          "leader_name": "002354",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1383",
+          "name": "航海装备Ⅲ",
+          "pct": 4.36,
+          "main_net": 988968016.0,
+          "main_ratio": 11.56,
+          "super_net": 587083008.0,
+          "large_net": 401885008.0,
+          "mid_net": -136735616.0,
+          "small_net": -852232400.0,
+          "leader_code": "中国船舶",
+          "leader_name": "600150",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1230",
+          "name": "航海装备Ⅱ",
+          "pct": 4.36,
+          "main_net": 988968016.0,
+          "main_ratio": 11.56,
+          "super_net": 587083008.0,
+          "large_net": 401885008.0,
+          "mid_net": -136735616.0,
+          "small_net": -852232400.0,
+          "leader_code": "中国船舶",
+          "leader_name": "600150",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1201",
+          "name": "电子",
+          "pct": 1.01,
+          "main_net": 1284182272.0,
+          "main_ratio": 0.32,
+          "super_net": 53752064.0,
+          "large_net": 1230430208.0,
+          "mid_net": 1780060160.0,
+          "small_net": -3059044352.0,
+          "leader_code": "N粤芯-U",
+          "leader_name": "301660",
+          "leader_pct": 0.0
+        }
+      ],
+      "concept_top_in": [
+        {
+          "code": "BK1136",
+          "name": "光通信模块",
+          "pct": 2.42,
+          "main_net": 3532180992.0,
+          "main_ratio": 1.9,
+          "super_net": 1723933440.0,
+          "large_net": 1808247552.0,
+          "mid_net": 738324480.0,
+          "small_net": -4146672640.0,
+          "leader_code": "N粤芯-U",
+          "leader_name": "301660",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1667",
+          "name": "小盘成长",
+          "pct": 0.43,
+          "main_net": 2648609280.0,
+          "main_ratio": 1.77,
+          "super_net": 1796730368.0,
+          "large_net": 851878912.0,
+          "mid_net": -461413120.0,
+          "small_net": -2210435328.0,
+          "leader_code": "雪人集团",
+          "leader_name": "002639",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1721",
+          "name": "高成长股",
+          "pct": 0.33,
+          "main_net": 2343136000.0,
+          "main_ratio": 2.67,
+          "super_net": 1363002624.0,
+          "large_net": 980133376.0,
+          "mid_net": -1479180800.0,
+          "small_net": -863850240.0,
+          "leader_code": "中国船舶",
+          "leader_name": "600150",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0877",
+          "name": "PCB",
+          "pct": 2.12,
+          "main_net": 1905320192.0,
+          "main_ratio": 1.15,
+          "super_net": 570482432.0,
+          "large_net": 1334837760.0,
+          "mid_net": -1294391552.0,
+          "small_net": -592752896.0,
+          "leader_code": "沪电股份",
+          "leader_name": "002463",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1048",
+          "name": "IGBT概念",
+          "pct": -0.31,
+          "main_net": 1764947648.0,
+          "main_ratio": 5.98,
+          "super_net": 505986752.0,
+          "large_net": 1258960896.0,
+          "mid_net": 1881332480.0,
+          "small_net": -3651319296.0,
+          "leader_code": "N粤芯-U",
+          "leader_name": "301660",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1128",
+          "name": "CPO概念",
+          "pct": 2.47,
+          "main_net": 1748638720.0,
+          "main_ratio": 0.93,
+          "super_net": 774748160.0,
+          "large_net": 973890560.0,
+          "mid_net": -1473826304.0,
+          "small_net": -173198848.0,
+          "leader_code": "天孚通信",
+          "leader_name": "300394",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0623",
+          "name": "海洋经济",
+          "pct": 1.17,
+          "main_net": 1475299136.0,
+          "main_ratio": 3.53,
+          "super_net": 777713216.0,
+          "large_net": 697585920.0,
+          "mid_net": -342478848.0,
+          "small_net": -1122112000.0,
+          "leader_code": "中国船舶",
+          "leader_name": "600150",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0490",
+          "name": "军工",
+          "pct": 1.39,
+          "main_net": 1457527808.0,
+          "main_ratio": 1.22,
+          "super_net": 1036984576.0,
+          "large_net": 420543232.0,
+          "mid_net": -544340736.0,
+          "small_net": -963503616.0,
+          "leader_code": "中国船舶",
+          "leader_name": "600150",
+          "leader_pct": 1.0
+        }
+      ],
+      "concept_top_out": [
+        {
+          "code": "BK1743",
+          "name": "券商金股",
+          "pct": 0.4,
+          "main_net": 1180739584.0,
+          "main_ratio": 1.69,
+          "super_net": 665015040.0,
+          "large_net": 515724544.0,
+          "mid_net": -1829416960.0,
+          "small_net": 648677120.0,
+          "leader_code": "天孚通信",
+          "leader_name": "300394",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0429",
+          "name": "交运设备",
+          "pct": 0.63,
+          "main_net": 1226583696.0,
+          "main_ratio": 4.49,
+          "super_net": 628968336.0,
+          "large_net": 597615360.0,
+          "mid_net": -294033664.0,
+          "small_net": -931227648.0,
+          "leader_code": "中国船舶",
+          "leader_name": "600150",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0505",
+          "name": "中字头",
+          "pct": 0.5,
+          "main_net": 1240776704.0,
+          "main_ratio": 2.14,
+          "super_net": 475484416.0,
+          "large_net": 765292288.0,
+          "mid_net": -182274560.0,
+          "small_net": -1059128320.0,
+          "leader_code": "中国船舶",
+          "leader_name": "600150",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0715",
+          "name": "航母概念",
+          "pct": 2.01,
+          "main_net": 1283724048.0,
+          "main_ratio": 7.76,
+          "super_net": 804081808.0,
+          "large_net": 479642240.0,
+          "mid_net": -174986752.0,
+          "small_net": -1108737280.0,
+          "leader_code": "中国船舶",
+          "leader_name": "600150",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0490",
+          "name": "军工",
+          "pct": 1.39,
+          "main_net": 1457527808.0,
+          "main_ratio": 1.22,
+          "super_net": 1036984576.0,
+          "large_net": 420543232.0,
+          "mid_net": -544340736.0,
+          "small_net": -963503616.0,
+          "leader_code": "中国船舶",
+          "leader_name": "600150",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0623",
+          "name": "海洋经济",
+          "pct": 1.17,
+          "main_net": 1475299136.0,
+          "main_ratio": 3.53,
+          "super_net": 777713216.0,
+          "large_net": 697585920.0,
+          "mid_net": -342478848.0,
+          "small_net": -1122112000.0,
+          "leader_code": "中国船舶",
+          "leader_name": "600150",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1128",
+          "name": "CPO概念",
+          "pct": 2.47,
+          "main_net": 1748638720.0,
+          "main_ratio": 0.93,
+          "super_net": 774748160.0,
+          "large_net": 973890560.0,
+          "mid_net": -1473826304.0,
+          "small_net": -173198848.0,
+          "leader_code": "天孚通信",
+          "leader_name": "300394",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1048",
+          "name": "IGBT概念",
+          "pct": -0.31,
+          "main_net": 1764947648.0,
+          "main_ratio": 5.98,
+          "super_net": 505986752.0,
+          "large_net": 1258960896.0,
+          "mid_net": 1881332480.0,
+          "small_net": -3651319296.0,
+          "leader_code": "N粤芯-U",
+          "leader_name": "301660",
+          "leader_pct": 0.0
+        }
+      ]
+    },
+    "hot_stocks": [
+      {
+        "rank": 1,
+        "code": "600693",
+        "name": "东百集团",
+        "pct": 802983.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "免税店",
+          "IP经济(谷子经济)"
+        ]
+      },
+      {
+        "rank": 2,
+        "code": "600127",
+        "name": "金健米业",
+        "pct": 790192.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "玉米",
+          "粮食概念"
+        ]
+      },
+      {
+        "rank": 3,
+        "code": "002242",
+        "name": "九阳股份",
+        "pct": 613064.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "绿色电力",
+          "净水概念"
+        ]
+      },
+      {
+        "rank": 4,
+        "code": "600241",
+        "name": "时代万恒",
+        "pct": 561968.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "国企改革",
+          "锂电池概念"
+        ]
+      },
+      {
+        "rank": 5,
+        "code": "301660",
+        "name": "粤芯半导体",
+        "pct": 555724.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "新股与次新股",
+          "注册制次新股"
+        ]
+      },
+      {
+        "rank": 6,
+        "code": "605577",
+        "name": "龙版传媒",
+        "pct": 502478.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "AI视频",
+          "IP经济(谷子经济)"
+        ]
+      },
+      {
+        "rank": 7,
+        "code": "600418",
+        "name": "江淮汽车",
+        "pct": 459227.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "华为汽车",
+          "百度概念"
+        ]
+      },
+      {
+        "rank": 8,
+        "code": "000823",
+        "name": "超声电子",
+        "pct": 451511.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "PCB概念",
+          "共封装光学(CPO)"
+        ]
+      },
+      {
+        "rank": 9,
+        "code": "601127",
+        "name": "赛力斯",
+        "pct": 448758.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "参股银行",
+          "西部大开发"
+        ]
+      },
+      {
+        "rank": 10,
+        "code": "601811",
+        "name": "新华文轩",
+        "pct": 411856.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "知识产权保护",
+          "文化传媒概念"
+        ]
+      },
+      {
+        "rank": 11,
+        "code": "600825",
+        "name": "新华传媒",
+        "pct": 370959.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "无人零售",
+          "上海国企改革"
+        ]
+      },
+      {
+        "rank": 12,
+        "code": "600664",
+        "name": "哈药股份",
+        "pct": 348986.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "创新药",
+          "维生素"
+        ]
+      },
+      {
+        "rank": 13,
+        "code": "001330",
+        "name": "博纳影业",
+        "pct": 339389.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "短剧游戏",
+          "AI视频"
+        ]
+      },
+      {
+        "rank": 14,
+        "code": "600206",
+        "name": "有研新材",
+        "pct": 322517.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "中芯国际概念",
+          "国家大基金持股"
+        ]
+      },
+      {
+        "rank": 15,
+        "code": "000592",
+        "name": "平潭发展",
+        "pct": 306296.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "福建自贸区",
+          "海峡两岸"
+        ]
+      },
+      {
+        "rank": 16,
+        "code": "002343",
+        "name": "慈文传媒",
+        "pct": 293934.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "短剧游戏",
+          "文化传媒概念"
+        ]
+      },
+      {
+        "rank": 17,
+        "code": "002487",
+        "name": "大金重工",
+        "pct": 284766.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "海工装备",
+          "风电"
+        ]
+      },
+      {
+        "rank": 18,
+        "code": "600812",
+        "name": "华北制药",
+        "pct": 273577.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "维生素",
+          "流感"
+        ]
+      },
+      {
+        "rank": 19,
+        "code": "300308",
+        "name": "中际旭创",
+        "pct": 272660.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "共封装光学(CPO)",
+          "F5G概念"
+        ]
+      },
+      {
+        "rank": 20,
+        "code": "605136",
+        "name": "丽人丽妆",
+        "pct": 258069.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "网红经济",
+          "三胎概念"
+        ]
+      }
+    ],
+    "source_health": {
+      "indexes_rsi": "ok",
+      "breadth": "ok",
+      "board_flow": "ok",
+      "limit_pool": "ok",
+      "hot_list": "ok"
+    },
+    "vs_1h": {
+      "reference_at": "2026-10-13T00:40:05+08:00",
+      "indices": {
+        "shanghai": {
+          "pct_change_points": 0.53,
+          "rsi30_change": 6.38
+        },
+        "chinext": {
+          "pct_change_points": 2.43,
+          "rsi30_change": 9.12
+        },
+        "star50": {
+          "pct_change_points": 2.13,
+          "rsi30_change": 6.84
+        }
+      },
+      "up_ratio": 0.0,
+      "emotion_score": 7.6
+    }
   }
 ]
