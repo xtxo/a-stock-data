@@ -88120,5 +88120,904 @@
       "up_ratio": null,
       "emotion_score": null
     }
+  },
+  {
+    "schema_version": 1,
+    "generated_at": "2026-10-29T21:58:28+08:00",
+    "trade_date": "2026-10-29",
+    "is_trading_day": true,
+    "market_phase": "收盘后",
+    "indices": {
+      "shanghai": {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3651.43,
+        "pct": -0.82,
+        "change": -30.04,
+        "volume": 443564144.0,
+        "amount": 715620694906.3,
+        "open": 3676.77,
+        "prev_close": 3681.47,
+        "high": 3678.46,
+        "low": 3645.26,
+        "rsi14_daily": 32.71,
+        "rsi14_30m": 43.89,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-10-29"
+      },
+      "chinext": {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 2517.59,
+        "pct": -4.45,
+        "change": -117.17,
+        "volume": 174958990.0,
+        "amount": 421433924059.92,
+        "open": 2596.22,
+        "prev_close": 2634.76,
+        "high": 2597.45,
+        "low": 2516.78,
+        "rsi14_daily": 26.24,
+        "rsi14_30m": 37.76,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-10-29"
+      },
+      "star50": {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1228.09,
+        "pct": -4.27,
+        "change": -54.84,
+        "volume": 7600565.0,
+        "amount": 71099759232.5,
+        "open": 1271.81,
+        "prev_close": 1282.93,
+        "high": 1271.81,
+        "low": 1220.52,
+        "rsi14_daily": 26.5,
+        "rsi14_30m": 36.27,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-10-29"
+      }
+    },
+    "breadth": {
+      "up": 100,
+      "down": 0,
+      "flat": 0,
+      "total": 100,
+      "up_ratio": 100.0,
+      "strong_ge_5pct": 100,
+      "weak_le_minus5pct": 0
+    },
+    "limit_emotion": {
+      "limit_up": 39,
+      "broken": 25,
+      "limit_down": 0,
+      "seal_success_rate": 60.9,
+      "max_streak": 4,
+      "streak_leaders": [
+        {
+          "code": "001219",
+          "name": "青岛食品",
+          "pct": 10.01213550567627,
+          "streak": 4,
+          "industry": "休闲食品",
+          "seal_fund": 165299295.0,
+          "open_count": 0
+        },
+        {
+          "code": "002708",
+          "name": "光洋股份",
+          "pct": 9.978880882263184,
+          "streak": 4,
+          "industry": "汽车零部",
+          "seal_fund": 8538217.0,
+          "open_count": 17
+        },
+        {
+          "code": "601956",
+          "name": "东贝集团",
+          "pct": 10.016420364379883,
+          "streak": 3,
+          "industry": "家电零部",
+          "seal_fund": 183435682.0,
+          "open_count": 0
+        },
+        {
+          "code": "600715",
+          "name": "文投控股",
+          "pct": 10.194174766540527,
+          "streak": 3,
+          "industry": "游戏Ⅱ",
+          "seal_fund": 40134962.0,
+          "open_count": 6
+        },
+        {
+          "code": "002862",
+          "name": "实丰文化",
+          "pct": 10.0130033493042,
+          "streak": 2,
+          "industry": "文娱用品",
+          "seal_fund": 405744138.0,
+          "open_count": 0
+        },
+        {
+          "code": "603131",
+          "name": "上海沪工",
+          "pct": 10.0,
+          "streak": 2,
+          "industry": "通用设备",
+          "seal_fund": 134216060.0,
+          "open_count": 0
+        },
+        {
+          "code": "002526",
+          "name": "山东矿机",
+          "pct": 10.067113876342773,
+          "streak": 2,
+          "industry": "专用设备",
+          "seal_fund": 97105016.0,
+          "open_count": 0
+        },
+        {
+          "code": "002943",
+          "name": "宇晶股份",
+          "pct": 9.996017456054688,
+          "streak": 2,
+          "industry": "通用设备",
+          "seal_fund": 83386243.0,
+          "open_count": 2
+        },
+        {
+          "code": "002172",
+          "name": "澳洋健康",
+          "pct": 10.040983200073242,
+          "streak": 2,
+          "industry": "医疗服务",
+          "seal_fund": 75332508.0,
+          "open_count": 4
+        },
+        {
+          "code": "603006",
+          "name": "联明股份",
+          "pct": 9.962756156921387,
+          "streak": 2,
+          "industry": "汽车零部",
+          "seal_fund": 32032652.0,
+          "open_count": 0
+        }
+      ]
+    },
+    "emotion_telemetry": {
+      "score": 69.4,
+      "label": "偏强",
+      "note": "仅为盘面遥测分，不替代人工分析"
+    },
+    "fund_flow": {
+      "industry_top_in": [
+        {
+          "code": "BK1385",
+          "name": "航天装备Ⅲ",
+          "pct": 3.54,
+          "main_net": 1000102768.0,
+          "main_ratio": 10.02,
+          "super_net": 805928688.0,
+          "large_net": 194174080.0,
+          "mid_net": -30302544.0,
+          "small_net": -969800240.0,
+          "leader_code": "中国卫星",
+          "leader_name": "600118",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1232",
+          "name": "航天装备Ⅱ",
+          "pct": 3.54,
+          "main_net": 1000102768.0,
+          "main_ratio": 10.02,
+          "super_net": 805928688.0,
+          "large_net": 194174080.0,
+          "mid_net": -30302544.0,
+          "small_net": -969800240.0,
+          "leader_code": "中国卫星",
+          "leader_name": "600118",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1204",
+          "name": "国防军工",
+          "pct": -0.39,
+          "main_net": 875228416.0,
+          "main_ratio": 1.57,
+          "super_net": 849188864.0,
+          "large_net": 26039552.0,
+          "mid_net": -94142976.0,
+          "small_net": -779234304.0,
+          "leader_code": "中国卫星",
+          "leader_name": "600118",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1032",
+          "name": "风电设备",
+          "pct": 1.94,
+          "main_net": 819307904.0,
+          "main_ratio": 7.44,
+          "super_net": 450323424.0,
+          "large_net": 368984480.0,
+          "mid_net": -89133120.0,
+          "small_net": -726632544.0,
+          "leader_code": "天顺风能",
+          "leader_name": "002531",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1313",
+          "name": "风电零部件",
+          "pct": 2.05,
+          "main_net": 704806736.0,
+          "main_ratio": 8.82,
+          "super_net": 396606944.0,
+          "large_net": 308199792.0,
+          "mid_net": -90356080.0,
+          "small_net": -610908304.0,
+          "leader_code": "天顺风能",
+          "leader_name": "002531",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1611",
+          "name": "国有大型银行Ⅲ",
+          "pct": 2.31,
+          "main_net": 576705184.0,
+          "main_ratio": 4.36,
+          "super_net": 413692768.0,
+          "large_net": 163012416.0,
+          "mid_net": -168915712.0,
+          "small_net": -407789488.0,
+          "leader_code": "工商银行",
+          "leader_name": "601398",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1358",
+          "name": "保险Ⅲ",
+          "pct": 1.61,
+          "main_net": 472059584.0,
+          "main_ratio": 5.01,
+          "super_net": 188350544.0,
+          "large_net": 283709040.0,
+          "mid_net": -196843984.0,
+          "small_net": -275215600.0,
+          "leader_code": "中国平安",
+          "leader_name": "601318",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0474",
+          "name": "保险Ⅱ",
+          "pct": 1.61,
+          "main_net": 472059584.0,
+          "main_ratio": 5.01,
+          "super_net": 188350544.0,
+          "large_net": 283709040.0,
+          "mid_net": -196843984.0,
+          "small_net": -275215600.0,
+          "leader_code": "中国平安",
+          "leader_name": "601318",
+          "leader_pct": 1.0
+        }
+      ],
+      "industry_top_out": [
+        {
+          "code": "BK1575",
+          "name": "白酒Ⅲ",
+          "pct": 0.08,
+          "main_net": 424692976.0,
+          "main_ratio": 3.16,
+          "super_net": 281788784.0,
+          "large_net": 142904192.0,
+          "mid_net": -210340608.0,
+          "small_net": -214352416.0,
+          "leader_code": "五 粮 液",
+          "leader_name": "000858",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0438",
+          "name": "食品饮料",
+          "pct": -0.47,
+          "main_net": 441393600.0,
+          "main_ratio": 1.46,
+          "super_net": 259236288.0,
+          "large_net": 182157312.0,
+          "mid_net": -121413888.0,
+          "small_net": -332343808.0,
+          "leader_code": "五 粮 液",
+          "leader_name": "000858",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1386",
+          "name": "军工电子Ⅲ",
+          "pct": -0.32,
+          "main_net": 455460448.0,
+          "main_ratio": 2.07,
+          "super_net": 374842464.0,
+          "large_net": 80617984.0,
+          "mid_net": 15457536.0,
+          "small_net": -471516672.0,
+          "leader_code": "中海达",
+          "leader_name": "300177",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1233",
+          "name": "军工电子Ⅱ",
+          "pct": -0.32,
+          "main_net": 455460448.0,
+          "main_ratio": 2.07,
+          "super_net": 374842464.0,
+          "large_net": 80617984.0,
+          "mid_net": 15457536.0,
+          "small_net": -471516672.0,
+          "leader_code": "中海达",
+          "leader_name": "300177",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1358",
+          "name": "保险Ⅲ",
+          "pct": 1.61,
+          "main_net": 472059584.0,
+          "main_ratio": 5.01,
+          "super_net": 188350544.0,
+          "large_net": 283709040.0,
+          "mid_net": -196843984.0,
+          "small_net": -275215600.0,
+          "leader_code": "中国平安",
+          "leader_name": "601318",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0474",
+          "name": "保险Ⅱ",
+          "pct": 1.61,
+          "main_net": 472059584.0,
+          "main_ratio": 5.01,
+          "super_net": 188350544.0,
+          "large_net": 283709040.0,
+          "mid_net": -196843984.0,
+          "small_net": -275215600.0,
+          "leader_code": "中国平安",
+          "leader_name": "601318",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1611",
+          "name": "国有大型银行Ⅲ",
+          "pct": 2.31,
+          "main_net": 576705184.0,
+          "main_ratio": 4.36,
+          "super_net": 413692768.0,
+          "large_net": 163012416.0,
+          "mid_net": -168915712.0,
+          "small_net": -407789488.0,
+          "leader_code": "工商银行",
+          "leader_name": "601398",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1313",
+          "name": "风电零部件",
+          "pct": 2.05,
+          "main_net": 704806736.0,
+          "main_ratio": 8.82,
+          "super_net": 396606944.0,
+          "large_net": 308199792.0,
+          "mid_net": -90356080.0,
+          "small_net": -610908304.0,
+          "leader_code": "天顺风能",
+          "leader_name": "002531",
+          "leader_pct": 0.0
+        }
+      ],
+      "concept_top_in": [
+        {
+          "code": "BK0718",
+          "name": "证金持股",
+          "pct": 0.58,
+          "main_net": 1561531392.0,
+          "main_ratio": 3.48,
+          "super_net": 465133824.0,
+          "large_net": 1096397568.0,
+          "mid_net": -448186112.0,
+          "small_net": -1113345024.0,
+          "leader_code": "中国平安",
+          "leader_name": "601318",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1715",
+          "name": "趋势股",
+          "pct": -0.68,
+          "main_net": 1142524928.0,
+          "main_ratio": 2.01,
+          "super_net": 610123520.0,
+          "large_net": 532401408.0,
+          "mid_net": 203062272.0,
+          "small_net": -1359937792.0,
+          "leader_code": "工商银行",
+          "leader_name": "601398",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0994",
+          "name": "空间站概念",
+          "pct": 0.42,
+          "main_net": 1049655008.0,
+          "main_ratio": 7.88,
+          "super_net": 771012560.0,
+          "large_net": 278642448.0,
+          "mid_net": -74317440.0,
+          "small_net": -975337632.0,
+          "leader_code": "中国卫星",
+          "leader_name": "600118",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0629",
+          "name": "卫星导航",
+          "pct": -0.84,
+          "main_net": 992810240.0,
+          "main_ratio": 3.2,
+          "super_net": 819151360.0,
+          "large_net": 173658880.0,
+          "mid_net": 83143168.0,
+          "small_net": -1076308992.0,
+          "leader_code": "中国卫星",
+          "leader_name": "600118",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1641",
+          "name": "红利股",
+          "pct": 0.37,
+          "main_net": 937485056.0,
+          "main_ratio": 1.87,
+          "super_net": 400394752.0,
+          "large_net": 537090304.0,
+          "mid_net": -539001344.0,
+          "small_net": -398483712.0,
+          "leader_code": "中国平安",
+          "leader_name": "601318",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0814",
+          "name": "大飞机",
+          "pct": -0.34,
+          "main_net": 921072448.0,
+          "main_ratio": 2.71,
+          "super_net": 940472896.0,
+          "large_net": -19400448.0,
+          "mid_net": -652725760.0,
+          "small_net": -279568896.0,
+          "leader_code": "中国卫星",
+          "leader_name": "600118",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1636",
+          "name": "红利破净股",
+          "pct": 1.18,
+          "main_net": 874064640.0,
+          "main_ratio": 2.55,
+          "super_net": 538341376.0,
+          "large_net": 335723264.0,
+          "mid_net": -676985856.0,
+          "small_net": -197078784.0,
+          "leader_code": "中国平安",
+          "leader_name": "601318",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1130",
+          "name": "时空大数据",
+          "pct": -1.86,
+          "main_net": 749439440.0,
+          "main_ratio": 9.66,
+          "super_net": 776819728.0,
+          "large_net": -27380288.0,
+          "mid_net": -226109696.0,
+          "small_net": -526750832.0,
+          "leader_code": "中国卫星",
+          "leader_name": "600118",
+          "leader_pct": 1.0
+        }
+      ],
+      "concept_top_out": [
+        {
+          "code": "BK1666",
+          "name": "大盘价值",
+          "pct": 0.45,
+          "main_net": 579083520.0,
+          "main_ratio": 0.72,
+          "super_net": 265718272.0,
+          "large_net": 313365248.0,
+          "mid_net": -559896064.0,
+          "small_net": -19187456.0,
+          "leader_code": "中国平安",
+          "leader_name": "601318",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0480",
+          "name": "航天航空",
+          "pct": -1.02,
+          "main_net": 632724768.0,
+          "main_ratio": 2.56,
+          "super_net": 469143584.0,
+          "large_net": 163581184.0,
+          "mid_net": -111565312.0,
+          "small_net": -535499008.0,
+          "leader_code": "中国卫星",
+          "leader_name": "600118",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1139",
+          "name": "中特估",
+          "pct": 0.23,
+          "main_net": 661329408.0,
+          "main_ratio": 1.07,
+          "super_net": 748487424.0,
+          "large_net": -87158016.0,
+          "mid_net": 133323776.0,
+          "small_net": -794653184.0,
+          "leader_code": "中国卫星",
+          "leader_name": "600118",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0811",
+          "name": "超级品牌",
+          "pct": -0.54,
+          "main_net": 669373856.0,
+          "main_ratio": 2.91,
+          "super_net": 99655328.0,
+          "large_net": 569718528.0,
+          "mid_net": -239628544.0,
+          "small_net": -429745152.0,
+          "leader_code": "五 粮 液",
+          "leader_name": "000858",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1130",
+          "name": "时空大数据",
+          "pct": -1.86,
+          "main_net": 749439440.0,
+          "main_ratio": 9.66,
+          "super_net": 776819728.0,
+          "large_net": -27380288.0,
+          "mid_net": -226109696.0,
+          "small_net": -526750832.0,
+          "leader_code": "中国卫星",
+          "leader_name": "600118",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1636",
+          "name": "红利破净股",
+          "pct": 1.18,
+          "main_net": 874064640.0,
+          "main_ratio": 2.55,
+          "super_net": 538341376.0,
+          "large_net": 335723264.0,
+          "mid_net": -676985856.0,
+          "small_net": -197078784.0,
+          "leader_code": "中国平安",
+          "leader_name": "601318",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0814",
+          "name": "大飞机",
+          "pct": -0.34,
+          "main_net": 921072448.0,
+          "main_ratio": 2.71,
+          "super_net": 940472896.0,
+          "large_net": -19400448.0,
+          "mid_net": -652725760.0,
+          "small_net": -279568896.0,
+          "leader_code": "中国卫星",
+          "leader_name": "600118",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1641",
+          "name": "红利股",
+          "pct": 0.37,
+          "main_net": 937485056.0,
+          "main_ratio": 1.87,
+          "super_net": 400394752.0,
+          "large_net": 537090304.0,
+          "mid_net": -539001344.0,
+          "small_net": -398483712.0,
+          "leader_code": "中国平安",
+          "leader_name": "601318",
+          "leader_pct": 1.0
+        }
+      ]
+    },
+    "hot_stocks": [
+      {
+        "rank": 1,
+        "code": "000678",
+        "name": "襄阳轴承",
+        "pct": 761078.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "减速器",
+          "农机"
+        ]
+      },
+      {
+        "rank": 2,
+        "code": "688836",
+        "name": "宇树科技",
+        "pct": 495186.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "人形机器人",
+          "科创次新股"
+        ]
+      },
+      {
+        "rank": 3,
+        "code": "300394",
+        "name": "天孚通信",
+        "pct": 465977.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "共封装光学(CPO)",
+          "光纤概念"
+        ]
+      },
+      {
+        "rank": 4,
+        "code": "600838",
+        "name": "上海九百",
+        "pct": 384306.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "物业管理",
+          "参股券商"
+        ]
+      },
+      {
+        "rank": 5,
+        "code": "600825",
+        "name": "新华传媒",
+        "pct": 372045.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "AI语料",
+          "文化传媒概念"
+        ]
+      },
+      {
+        "rank": 6,
+        "code": "601086",
+        "name": "国芳集团",
+        "pct": 359593.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "IP经济(谷子经济)",
+          "参股券商"
+        ]
+      },
+      {
+        "rank": 7,
+        "code": "002249",
+        "name": "大洋电机",
+        "pct": 340977.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "人形机器人",
+          "长安汽车概念"
+        ]
+      },
+      {
+        "rank": 8,
+        "code": "002242",
+        "name": "九阳股份",
+        "pct": 328923.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "绿色电力",
+          "净水概念"
+        ]
+      },
+      {
+        "rank": 9,
+        "code": "000530",
+        "name": "冰山冷热",
+        "pct": 322529.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "冰雪产业",
+          "无人零售"
+        ]
+      },
+      {
+        "rank": 10,
+        "code": "300308",
+        "name": "中际旭创",
+        "pct": 270532.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "共封装光学(CPO)",
+          "F5G概念"
+        ]
+      },
+      {
+        "rank": 11,
+        "code": "002696",
+        "name": "百洋股份",
+        "pct": 270394.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "预制菜",
+          "乡村振兴"
+        ]
+      },
+      {
+        "rank": 12,
+        "code": "600172",
+        "name": "黄河旋风",
+        "pct": 267567.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "培育钻石",
+          "第三代半导体"
+        ]
+      },
+      {
+        "rank": 13,
+        "code": "000559",
+        "name": "万向钱潮",
+        "pct": 252831.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "人形机器人",
+          "机器人概念"
+        ]
+      },
+      {
+        "rank": 14,
+        "code": "600118",
+        "name": "中国卫星",
+        "pct": 237415.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "6G概念",
+          "商业航天"
+        ]
+      },
+      {
+        "rank": 15,
+        "code": "002708",
+        "name": "光洋股份",
+        "pct": 236724.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "减速器",
+          "人形机器人"
+        ]
+      },
+      {
+        "rank": 16,
+        "code": "002185",
+        "name": "华天科技",
+        "pct": 229054.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "国家大基金持股",
+          "存储芯片"
+        ]
+      },
+      {
+        "rank": 17,
+        "code": "002172",
+        "name": "澳洋健康",
+        "pct": 221681.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "高压氧舱",
+          "毛发医疗"
+        ]
+      },
+      {
+        "rank": 18,
+        "code": "002724",
+        "name": "海洋王",
+        "pct": 221375.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "智慧灯杆",
+          "军工"
+        ]
+      },
+      {
+        "rank": 19,
+        "code": "002636",
+        "name": "金安国纪",
+        "pct": 217766.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "PCB概念",
+          "2026中报预增"
+        ]
+      },
+      {
+        "rank": 20,
+        "code": "603278",
+        "name": "大业股份",
+        "pct": 216931.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "人形机器人",
+          "高端装备"
+        ]
+      }
+    ],
+    "source_health": {
+      "indexes_rsi": "ok",
+      "breadth": "ok",
+      "board_flow": "ok",
+      "limit_pool": "ok",
+      "hot_list": "ok"
+    },
+    "vs_1h": {
+      "reference_at": "2026-10-29T14:48:47+08:00",
+      "indices": {
+        "shanghai": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        },
+        "chinext": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        },
+        "star50": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        }
+      },
+      "up_ratio": null,
+      "emotion_score": null
+    }
   }
 ]
