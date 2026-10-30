@@ -89019,5 +89019,618 @@
       "up_ratio": null,
       "emotion_score": null
     }
+  },
+  {
+    "schema_version": 1,
+    "generated_at": "2026-10-30T14:52:33+08:00",
+    "trade_date": null,
+    "is_trading_day": false,
+    "market_phase": "非交易日/数据未进入当日",
+    "indices": {
+      "shanghai": {
+        "name": "上证指数",
+        "code": "000001",
+        "error": "GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      },
+      "chinext": {
+        "name": "创业板指",
+        "code": "399006",
+        "error": "GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      },
+      "star50": {
+        "name": "科创50",
+        "code": "000688",
+        "error": "GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      }
+    },
+    "breadth": {
+      "up": 100,
+      "down": 0,
+      "flat": 0,
+      "total": 100,
+      "up_ratio": 100.0,
+      "strong_ge_5pct": 100,
+      "weak_le_minus5pct": 0
+    },
+    "limit_emotion": {
+      "limit_up": 46,
+      "broken": 32,
+      "limit_down": 0,
+      "seal_success_rate": 59.0,
+      "max_streak": 5,
+      "streak_leaders": [
+        {
+          "code": "001219",
+          "name": "青岛食品",
+          "pct": 9.983452796936035,
+          "streak": 5,
+          "industry": "休闲食品",
+          "seal_fund": 66034939.0,
+          "open_count": 3
+        },
+        {
+          "code": "603131",
+          "name": "上海沪工",
+          "pct": 10.031347274780273,
+          "streak": 3,
+          "industry": "通用设备",
+          "seal_fund": 332082328.0,
+          "open_count": 0
+        },
+        {
+          "code": "002172",
+          "name": "澳洋健康",
+          "pct": 10.055866241455078,
+          "streak": 3,
+          "industry": "医疗服务",
+          "seal_fund": 71874465.0,
+          "open_count": 2
+        },
+        {
+          "code": "600261",
+          "name": "阳光照明",
+          "pct": 9.946236610412598,
+          "streak": 2,
+          "industry": "照明设备",
+          "seal_fund": 712908133.0,
+          "open_count": 0
+        },
+        {
+          "code": "603703",
+          "name": "盛洋科技",
+          "pct": 10.036831855773926,
+          "streak": 2,
+          "industry": "光学光电",
+          "seal_fund": 266531127.0,
+          "open_count": 0
+        },
+        {
+          "code": "003032",
+          "name": "传智教育",
+          "pct": 10.055248260498047,
+          "streak": 2,
+          "industry": "教育",
+          "seal_fund": 129249914.0,
+          "open_count": 0
+        },
+        {
+          "code": "002275",
+          "name": "桂林三金",
+          "pct": 9.985315322875977,
+          "streak": 2,
+          "industry": "中药Ⅱ",
+          "seal_fund": 117518564.0,
+          "open_count": 0
+        },
+        {
+          "code": "002086",
+          "name": "东方海洋",
+          "pct": 10.116731643676758,
+          "streak": 2,
+          "industry": "农产品加",
+          "seal_fund": 92875223.0,
+          "open_count": 1
+        },
+        {
+          "code": "605338",
+          "name": "巴比食品",
+          "pct": 10.010537147521973,
+          "streak": 2,
+          "industry": "食品加工",
+          "seal_fund": 3234312.0,
+          "open_count": 6
+        }
+      ]
+    },
+    "emotion_telemetry": {
+      "score": 76.1,
+      "label": "高热",
+      "note": "仅为盘面遥测分，不替代人工分析"
+    },
+    "fund_flow": {
+      "industry_top_in": [
+        {
+          "code": "BK0438",
+          "name": "食品饮料",
+          "pct": 0.84,
+          "main_net": 2823218688.0,
+          "main_ratio": 6.11,
+          "super_net": 1822970112.0,
+          "large_net": 1000248576.0,
+          "mid_net": -1333401856.0,
+          "small_net": -1475228928.0,
+          "leader_code": "五 粮 液",
+          "leader_name": "000858",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1216",
+          "name": "医药生物",
+          "pct": -0.49,
+          "main_net": 2676514816.0,
+          "main_ratio": 2.26,
+          "super_net": 1846607360.0,
+          "large_net": 829907456.0,
+          "mid_net": -331767808.0,
+          "small_net": -2342501376.0,
+          "leader_code": "哈药股份",
+          "leader_name": "600664",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1575",
+          "name": "白酒Ⅲ",
+          "pct": 5.11,
+          "main_net": 2351024416.0,
+          "main_ratio": 10.08,
+          "super_net": 1383078432.0,
+          "large_net": 967945984.0,
+          "mid_net": -1196452608.0,
+          "small_net": -1154424224.0,
+          "leader_code": "五 粮 液",
+          "leader_name": "000858",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1277",
+          "name": "白酒Ⅱ",
+          "pct": 5.11,
+          "main_net": 2351024416.0,
+          "main_ratio": 10.08,
+          "super_net": 1383078432.0,
+          "large_net": 967945984.0,
+          "mid_net": -1196452608.0,
+          "small_net": -1154424224.0,
+          "leader_code": "五 粮 液",
+          "leader_name": "000858",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0727",
+          "name": "医疗服务",
+          "pct": 1.63,
+          "main_net": 1626397216.0,
+          "main_ratio": 4.84,
+          "super_net": 1105847840.0,
+          "large_net": 520549376.0,
+          "mid_net": -137679616.0,
+          "small_net": -1488462336.0,
+          "leader_code": "药明康德",
+          "leader_name": "603259",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1600",
+          "name": "医疗研发外包",
+          "pct": 3.5,
+          "main_net": 1430580992.0,
+          "main_ratio": 5.96,
+          "super_net": 847026688.0,
+          "large_net": 583554304.0,
+          "mid_net": -48231936.0,
+          "small_net": -1382376192.0,
+          "leader_code": "药明康德",
+          "leader_name": "603259",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1303",
+          "name": "锂电池",
+          "pct": -1.93,
+          "main_net": 781729392.0,
+          "main_ratio": 3.41,
+          "super_net": 82492784.0,
+          "large_net": 699236608.0,
+          "mid_net": -133356800.0,
+          "small_net": -654834944.0,
+          "leader_code": "宁德时代",
+          "leader_name": "300750",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1033",
+          "name": "电池",
+          "pct": -1.66,
+          "main_net": 675692064.0,
+          "main_ratio": 1.55,
+          "super_net": -58169056.0,
+          "large_net": 733861120.0,
+          "mid_net": 273650688.0,
+          "small_net": -963080960.0,
+          "leader_code": "宁德时代",
+          "leader_name": "300750",
+          "leader_pct": 0.0
+        }
+      ],
+      "industry_top_out": [
+        {
+          "code": "BK1239",
+          "name": "白色家电",
+          "pct": 0.13,
+          "main_net": 506209328.0,
+          "main_ratio": 6.97,
+          "super_net": 218055696.0,
+          "large_net": 288153632.0,
+          "mid_net": 42226976.0,
+          "small_net": -548434240.0,
+          "leader_code": "美的集团",
+          "leader_name": "000333",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1596",
+          "name": "其他生物制品",
+          "pct": -0.45,
+          "main_net": 522862912.0,
+          "main_ratio": 4.4,
+          "super_net": 177748832.0,
+          "large_net": 345114080.0,
+          "mid_net": 44541248.0,
+          "small_net": -570984944.0,
+          "leader_code": "义翘神州",
+          "leader_name": "301047",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0464",
+          "name": "石油石化",
+          "pct": -1.06,
+          "main_net": 530355664.0,
+          "main_ratio": 3.29,
+          "super_net": 497471072.0,
+          "large_net": 32884592.0,
+          "mid_net": -93604864.0,
+          "small_net": -436573696.0,
+          "leader_code": "中国石化",
+          "leader_name": "600028",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1044",
+          "name": "生物制品",
+          "pct": -0.54,
+          "main_net": 556926640.0,
+          "main_ratio": 3.61,
+          "super_net": 137766512.0,
+          "large_net": 419160128.0,
+          "mid_net": 16261376.0,
+          "small_net": -585882368.0,
+          "leader_code": "义翘神州",
+          "leader_name": "301047",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1033",
+          "name": "电池",
+          "pct": -1.66,
+          "main_net": 675692064.0,
+          "main_ratio": 1.55,
+          "super_net": -58169056.0,
+          "large_net": 733861120.0,
+          "mid_net": 273650688.0,
+          "small_net": -963080960.0,
+          "leader_code": "宁德时代",
+          "leader_name": "300750",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1303",
+          "name": "锂电池",
+          "pct": -1.93,
+          "main_net": 781729392.0,
+          "main_ratio": 3.41,
+          "super_net": 82492784.0,
+          "large_net": 699236608.0,
+          "mid_net": -133356800.0,
+          "small_net": -654834944.0,
+          "leader_code": "宁德时代",
+          "leader_name": "300750",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1600",
+          "name": "医疗研发外包",
+          "pct": 3.5,
+          "main_net": 1430580992.0,
+          "main_ratio": 5.96,
+          "super_net": 847026688.0,
+          "large_net": 583554304.0,
+          "mid_net": -48231936.0,
+          "small_net": -1382376192.0,
+          "leader_code": "药明康德",
+          "leader_name": "603259",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0727",
+          "name": "医疗服务",
+          "pct": 1.63,
+          "main_net": 1626397216.0,
+          "main_ratio": 4.84,
+          "super_net": 1105847840.0,
+          "large_net": 520549376.0,
+          "mid_net": -137679616.0,
+          "small_net": -1488462336.0,
+          "leader_code": "药明康德",
+          "leader_name": "603259",
+          "leader_pct": 1.0
+        }
+      ],
+      "concept_top_in": [
+        {
+          "code": "BK0477",
+          "name": "酿酒概念",
+          "pct": 2.76,
+          "main_net": 2463309472.0,
+          "main_ratio": 9.54,
+          "super_net": 1432220832.0,
+          "large_net": 1031088640.0,
+          "mid_net": -1164985344.0,
+          "small_net": -1298189824.0,
+          "leader_code": "五 粮 液",
+          "leader_name": "000858",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0896",
+          "name": "白酒",
+          "pct": 1.83,
+          "main_net": 2460751040.0,
+          "main_ratio": 9.2,
+          "super_net": 1498025152.0,
+          "large_net": 962725888.0,
+          "mid_net": -1212859904.0,
+          "small_net": -1247709184.0,
+          "leader_code": "五 粮 液",
+          "leader_name": "000858",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1653",
+          "name": "味蕾经济",
+          "pct": 0.22,
+          "main_net": 2417416704.0,
+          "main_ratio": 6.17,
+          "super_net": 1608102912.0,
+          "large_net": 809313792.0,
+          "mid_net": -1042570496.0,
+          "small_net": -1368443136.0,
+          "leader_code": "五 粮 液",
+          "leader_name": "000858",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1711",
+          "name": "消费风格",
+          "pct": 0.19,
+          "main_net": 2096111104.0,
+          "main_ratio": 3.48,
+          "super_net": 1149624576.0,
+          "large_net": 946486528.0,
+          "mid_net": -926514944.0,
+          "small_net": -1187133696.0,
+          "leader_code": "五 粮 液",
+          "leader_name": "000858",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0811",
+          "name": "超级品牌",
+          "pct": 1.31,
+          "main_net": 1895338752.0,
+          "main_ratio": 5.44,
+          "super_net": 847051776.0,
+          "large_net": 1048286976.0,
+          "mid_net": -662273792.0,
+          "small_net": -1232975104.0,
+          "leader_code": "五 粮 液",
+          "leader_name": "000858",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0899",
+          "name": "CRO",
+          "pct": 1.97,
+          "main_net": 1854163088.0,
+          "main_ratio": 5.91,
+          "super_net": 999211152.0,
+          "large_net": 854951936.0,
+          "mid_net": -421632.0,
+          "small_net": -1842261760.0,
+          "leader_code": "药明康德",
+          "leader_name": "603259",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0999",
+          "name": "茅指数",
+          "pct": 0.41,
+          "main_net": 1801076736.0,
+          "main_ratio": 1.98,
+          "super_net": 634683392.0,
+          "large_net": 1166393344.0,
+          "mid_net": 197266688.0,
+          "small_net": -1997632768.0,
+          "leader_code": "宁德时代",
+          "leader_name": "300750",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1658",
+          "name": "创新医疗服务",
+          "pct": -0.04,
+          "main_net": 1701016816.0,
+          "main_ratio": 4.48,
+          "super_net": 1117567728.0,
+          "large_net": 583449088.0,
+          "mid_net": -161729024.0,
+          "small_net": -1528396288.0,
+          "leader_code": "药明康德",
+          "leader_name": "603259",
+          "leader_pct": 1.0
+        }
+      ],
+      "concept_top_out": [
+        {
+          "code": "BK1666",
+          "name": "大盘价值",
+          "pct": 0.51,
+          "main_net": 1334901504.0,
+          "main_ratio": 1.57,
+          "super_net": 965159680.0,
+          "large_net": 369741824.0,
+          "mid_net": 237007872.0,
+          "small_net": -1570707456.0,
+          "leader_code": "五 粮 液",
+          "leader_name": "000858",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0718",
+          "name": "证金持股",
+          "pct": 0.22,
+          "main_net": 1343833344.0,
+          "main_ratio": 2.9,
+          "super_net": 849498624.0,
+          "large_net": 494334720.0,
+          "mid_net": 110299136.0,
+          "small_net": -1454246656.0,
+          "leader_code": "五 粮 液",
+          "leader_name": "000858",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1712",
+          "name": "医药医疗风格",
+          "pct": 0.5,
+          "main_net": 1382274048.0,
+          "main_ratio": 2.42,
+          "super_net": 818062848.0,
+          "large_net": 564211200.0,
+          "mid_net": -210918144.0,
+          "small_net": -1170681344.0,
+          "leader_code": "哈药股份",
+          "leader_name": "600664",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1106",
+          "name": "创新药",
+          "pct": -0.18,
+          "main_net": 1394336768.0,
+          "main_ratio": 2.03,
+          "super_net": 826144768.0,
+          "large_net": 568192000.0,
+          "mid_net": -463746560.0,
+          "small_net": -975372288.0,
+          "leader_code": "哈药股份",
+          "leader_name": "600664",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1658",
+          "name": "创新医疗服务",
+          "pct": -0.04,
+          "main_net": 1701016816.0,
+          "main_ratio": 4.48,
+          "super_net": 1117567728.0,
+          "large_net": 583449088.0,
+          "mid_net": -161729024.0,
+          "small_net": -1528396288.0,
+          "leader_code": "药明康德",
+          "leader_name": "603259",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0999",
+          "name": "茅指数",
+          "pct": 0.41,
+          "main_net": 1801076736.0,
+          "main_ratio": 1.98,
+          "super_net": 634683392.0,
+          "large_net": 1166393344.0,
+          "mid_net": 197266688.0,
+          "small_net": -1997632768.0,
+          "leader_code": "宁德时代",
+          "leader_name": "300750",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0899",
+          "name": "CRO",
+          "pct": 1.97,
+          "main_net": 1854163088.0,
+          "main_ratio": 5.91,
+          "super_net": 999211152.0,
+          "large_net": 854951936.0,
+          "mid_net": -421632.0,
+          "small_net": -1842261760.0,
+          "leader_code": "药明康德",
+          "leader_name": "603259",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0811",
+          "name": "超级品牌",
+          "pct": 1.31,
+          "main_net": 1895338752.0,
+          "main_ratio": 5.44,
+          "super_net": 847051776.0,
+          "large_net": 1048286976.0,
+          "mid_net": -662273792.0,
+          "small_net": -1232975104.0,
+          "leader_code": "五 粮 液",
+          "leader_name": "000858",
+          "leader_pct": 0.0
+        }
+      ]
+    },
+    "hot_stocks": [],
+    "source_health": {
+      "indexes_rsi": "error: GET failed: https://push2his.eastmoney.com/api/qt/stock/kline/get: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "breadth": "ok",
+      "board_flow": "ok",
+      "limit_pool": "ok",
+      "hot_list": "empty"
+    },
+    "vs_1h": {
+      "reference_at": "2026-10-29T21:58:28+08:00",
+      "indices": {
+        "shanghai": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        },
+        "chinext": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        },
+        "star50": {
+          "pct_change_points": null,
+          "rsi30_change": null
+        }
+      },
+      "up_ratio": 0.0,
+      "emotion_score": 6.7
+    }
   }
 ]
