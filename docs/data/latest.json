@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T15:24:59+08:00",
+  "generated_at": "2026-11-03T01:21:27+08:00",
   "trade_date": "2026-11-02",
-  "is_trading_day": true,
-  "market_phase": "收盘后",
+  "is_trading_day": false,
+  "market_phase": "非交易日/数据未进入当日",
   "indices": {
     "shanghai": {
       "name": "上证指数",
@@ -86,6 +86,15 @@
         "open_count": 2
       },
       {
+        "code": "600261",
+        "name": "阳光照明",
+        "pct": 10.024450302124023,
+        "streak": 3,
+        "industry": "照明设备",
+        "seal_fund": 564421419.0,
+        "open_count": 0
+      },
+      {
         "code": "002086",
         "name": "东方海洋",
         "pct": 9.893993377685547,
@@ -101,15 +110,6 @@
         "streak": 3,
         "industry": "中药Ⅱ",
         "seal_fund": 192956112.0,
-        "open_count": 0
-      },
-      {
-        "code": "600261",
-        "name": "阳光照明",
-        "pct": 10.024450302124023,
-        "streak": 3,
-        "industry": "照明设备",
-        "seal_fund": 35407800.0,
         "open_count": 0
       },
       {
@@ -140,21 +140,21 @@
         "open_count": 0
       },
       {
-        "code": "000410",
-        "name": "沈阳机床",
-        "pct": 10.055866241455078,
-        "streak": 2,
-        "industry": "通用设备",
-        "seal_fund": 2709144.0,
-        "open_count": 8
-      },
-      {
         "code": "600189",
         "name": "泉阳泉",
         "pct": 9.954751014709473,
         "streak": 2,
         "industry": "饮料乳品",
-        "seal_fund": 1772928.0,
+        "seal_fund": 22743108.0,
+        "open_count": 4
+      },
+      {
+        "code": "603587",
+        "name": "地素时尚",
+        "pct": 10.0,
+        "streak": 2,
+        "industry": "服装家纺",
+        "seal_fund": 11641206.0,
         "open_count": 4
       }
     ]
@@ -172,21 +172,9 @@
   "hot_stocks": [
     {
       "rank": 1,
-      "code": "002172",
-      "name": "澳洋健康",
-      "pct": 477822.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "高压氧舱",
-        "毛发医疗"
-      ]
-    },
-    {
-      "rank": 2,
       "code": "000678",
       "name": "襄阳轴承",
-      "pct": 470647.0,
+      "pct": 250698.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -195,10 +183,10 @@
       ]
     },
     {
-      "rank": 3,
+      "rank": 2,
       "code": "002086",
       "name": "东方海洋",
-      "pct": 466150.0,
+      "pct": 236849.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -207,82 +195,22 @@
       ]
     },
     {
+      "rank": 3,
+      "code": "002172",
+      "name": "澳洋健康",
+      "pct": 185371.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "高压氧舱",
+        "毛发医疗"
+      ]
+    },
+    {
       "rank": 4,
-      "code": "600825",
-      "name": "新华传媒",
-      "pct": 440310.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "AI语料",
-        "文化传媒概念"
-      ]
-    },
-    {
-      "rank": 5,
-      "code": "002384",
-      "name": "东山精密",
-      "pct": 431649.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "共封装光学(CPO)",
-        "光纤概念"
-      ]
-    },
-    {
-      "rank": 6,
-      "code": "688836",
-      "name": "宇树科技",
-      "pct": 331787.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "人形机器人",
-        "科创次新股"
-      ]
-    },
-    {
-      "rank": 7,
-      "code": "002724",
-      "name": "海洋王",
-      "pct": 318192.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "智慧灯杆",
-        "军工"
-      ]
-    },
-    {
-      "rank": 8,
-      "code": "603703",
-      "name": "盛洋科技",
-      "pct": 310134.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "铜缆高速连接",
-        "光纤概念"
-      ]
-    },
-    {
-      "rank": 9,
-      "code": "002636",
-      "name": "金安国纪",
-      "pct": 308125.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "PCB概念",
-        "2026中报预增"
-      ]
-    },
-    {
-      "rank": 10,
       "code": "002242",
       "name": "九阳股份",
-      "pct": 292983.0,
+      "pct": 179982.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -291,70 +219,22 @@
       ]
     },
     {
-      "rank": 11,
-      "code": "603278",
-      "name": "大业股份",
-      "pct": 278100.0,
+      "rank": 5,
+      "code": "600715",
+      "name": "文投控股",
+      "pct": 177842.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "人形机器人",
-        "高端装备"
+        "短剧游戏",
+        "文化传媒概念"
       ]
     },
     {
-      "rank": 12,
-      "code": "603131",
-      "name": "上海沪工",
-      "pct": 270045.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "工业母机",
-        "商业航天"
-      ]
-    },
-    {
-      "rank": 13,
-      "code": "000995",
-      "name": "皇台酒业",
-      "pct": 251059.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "白酒概念",
-        "乡村振兴"
-      ]
-    },
-    {
-      "rank": 14,
-      "code": "600261",
-      "name": "阳光照明",
-      "pct": 248687.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "高股息精选",
-        "氢能源"
-      ]
-    },
-    {
-      "rank": 15,
-      "code": "001219",
-      "name": "青岛食品",
-      "pct": 205962.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "中韩自贸区",
-        "乳业"
-      ]
-    },
-    {
-      "rank": 16,
+      "rank": 6,
       "code": "000530",
       "name": "冰山冷热",
-      "pct": 205765.0,
+      "pct": 163964.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -363,34 +243,82 @@
       ]
     },
     {
-      "rank": 17,
-      "code": "000525",
-      "name": "红太阳",
-      "pct": 197136.0,
+      "rank": 7,
+      "code": "001219",
+      "name": "青岛食品",
+      "pct": 161899.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "草甘膦",
-        "农村电商"
+        "中韩自贸区",
+        "乳业"
       ]
     },
     {
-      "rank": 18,
-      "code": "300308",
-      "name": "中际旭创",
-      "pct": 182843.0,
+      "rank": 8,
+      "code": "600261",
+      "name": "阳光照明",
+      "pct": 155944.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "共封装光学(CPO)",
-        "F5G概念"
+        "高股息精选",
+        "氢能源"
       ]
     },
     {
-      "rank": 19,
+      "rank": 9,
+      "code": "002724",
+      "name": "海洋王",
+      "pct": 143994.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "智慧灯杆",
+        "军工"
+      ]
+    },
+    {
+      "rank": 10,
+      "code": "600825",
+      "name": "新华传媒",
+      "pct": 135042.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "AI语料",
+        "文化传媒概念"
+      ]
+    },
+    {
+      "rank": 11,
+      "code": "002029",
+      "name": "七匹狼",
+      "pct": 130359.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "跨境电商",
+        "参股保险"
+      ]
+    },
+    {
+      "rank": 12,
+      "code": "603278",
+      "name": "大业股份",
+      "pct": 115090.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "人形机器人",
+        "高端装备"
+      ]
+    },
+    {
+      "rank": 13,
       "code": "000410",
       "name": "沈阳机床",
-      "pct": 177800.0,
+      "pct": 103485.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -399,15 +327,87 @@
       ]
     },
     {
-      "rank": 20,
-      "code": "300502",
-      "name": "新易盛",
-      "pct": 169302.0,
+      "rank": 14,
+      "code": "600189",
+      "name": "泉阳泉",
+      "pct": 100734.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "三胎概念",
+        "土地流转"
+      ]
+    },
+    {
+      "rank": 15,
+      "code": "000995",
+      "name": "皇台酒业",
+      "pct": 98685.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "白酒概念",
+        "乡村振兴"
+      ]
+    },
+    {
+      "rank": 16,
+      "code": "300413",
+      "name": "芒果超媒",
+      "pct": 98218.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "短剧游戏",
+        "AI视频"
+      ]
+    },
+    {
+      "rank": 17,
+      "code": "002384",
+      "name": "东山精密",
+      "pct": 97804.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
         "共封装光学(CPO)",
-        "5G"
+        "光纤概念"
+      ]
+    },
+    {
+      "rank": 18,
+      "code": "000525",
+      "name": "红太阳",
+      "pct": 94801.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "草甘膦",
+        "农村电商"
+      ]
+    },
+    {
+      "rank": 19,
+      "code": "000417",
+      "name": "合百集团",
+      "pct": 91580.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "农村电商",
+        "啤酒概念"
+      ]
+    },
+    {
+      "rank": 20,
+      "code": "300308",
+      "name": "中际旭创",
+      "pct": 88843.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "共封装光学(CPO)",
+        "F5G概念"
       ]
     }
   ],
@@ -419,19 +419,19 @@
     "hot_list": "ok"
   },
   "vs_1h": {
-    "reference_at": "2026-10-30T21:53:35+08:00",
+    "reference_at": "2026-11-02T15:24:59+08:00",
     "indices": {
       "shanghai": {
-        "pct_change_points": 2.52,
-        "rsi30_change": 15.84
+        "pct_change_points": 0.0,
+        "rsi30_change": 0.0
       },
       "chinext": {
-        "pct_change_points": 6.0,
-        "rsi30_change": 14.1
+        "pct_change_points": 0.0,
+        "rsi30_change": 0.0
       },
       "star50": {
-        "pct_change_points": 8.59,
-        "rsi30_change": 18.28
+        "pct_change_points": 0.0,
+        "rsi30_change": 0.0
       }
     },
     "up_ratio": null,
