@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-04T15:19:23+08:00",
+  "generated_at": "2026-11-04T23:40:35+08:00",
   "trade_date": "2026-11-04",
   "is_trading_day": true,
   "market_phase": "收盘后",
@@ -67,10 +67,10 @@
     "weak_le_minus5pct": 0
   },
   "limit_emotion": {
-    "limit_up": 119,
-    "broken": 32,
+    "limit_up": 118,
+    "broken": 33,
     "limit_down": 0,
-    "seal_success_rate": 78.8,
+    "seal_success_rate": 78.1,
     "max_streak": 3,
     "streak_leaders": [
       {
@@ -83,6 +83,24 @@
         "open_count": 0
       },
       {
+        "code": "601599",
+        "name": "浙文影业",
+        "pct": 9.947644233703613,
+        "streak": 3,
+        "industry": "纺织制造",
+        "seal_fund": 185745403.0,
+        "open_count": 0
+      },
+      {
+        "code": "600892",
+        "name": "大晟文化",
+        "pct": 9.979209899902344,
+        "streak": 3,
+        "industry": "游戏Ⅱ",
+        "seal_fund": 142929981.0,
+        "open_count": 0
+      },
+      {
         "code": "002578",
         "name": "闽发铝业",
         "pct": 10.106383323669434,
@@ -90,6 +108,15 @@
         "industry": "工业金属",
         "seal_fund": 54342882.0,
         "open_count": 0
+      },
+      {
+        "code": "605577",
+        "name": "龙版传媒",
+        "pct": 10.0,
+        "streak": 3,
+        "industry": "出版",
+        "seal_fund": 21381789.0,
+        "open_count": 4
       },
       {
         "code": "002058",
@@ -101,31 +128,13 @@
         "open_count": 2
       },
       {
-        "code": "600892",
-        "name": "大晟文化",
-        "pct": 9.979209899902344,
-        "streak": 3,
-        "industry": "游戏Ⅱ",
-        "seal_fund": 8567155.0,
+        "code": "603381",
+        "name": "永臻股份",
+        "pct": 10.012836456298828,
+        "streak": 2,
+        "industry": "光伏设备",
+        "seal_fund": 74655395.0,
         "open_count": 0
-      },
-      {
-        "code": "601599",
-        "name": "浙文影业",
-        "pct": 9.947644233703613,
-        "streak": 3,
-        "industry": "纺织制造",
-        "seal_fund": 8122800.0,
-        "open_count": 0
-      },
-      {
-        "code": "605577",
-        "name": "龙版传媒",
-        "pct": 10.0,
-        "streak": 3,
-        "industry": "出版",
-        "seal_fund": 1972542.0,
-        "open_count": 4
       },
       {
         "code": "002652",
@@ -146,27 +155,18 @@
         "open_count": 0
       },
       {
-        "code": "002992",
-        "name": "宝明科技",
-        "pct": 10.013175010681152,
+        "code": "601123",
+        "name": "马矿股份",
+        "pct": 10.019906997680664,
         "streak": 2,
-        "industry": "光学光电",
-        "seal_fund": 28447147.0,
-        "open_count": 0
-      },
-      {
-        "code": "002088",
-        "name": "鲁阳节能",
-        "pct": 9.963985443115234,
-        "streak": 2,
-        "industry": "装修建材",
-        "seal_fund": 16023432.0,
-        "open_count": 2
+        "industry": "冶钢原料",
+        "seal_fund": 39742342.0,
+        "open_count": 3
       }
     ]
   },
   "emotion_telemetry": {
-    "score": 97.0,
+    "score": 96.9,
     "label": "高热",
     "note": "仅为盘面遥测分，不替代人工分析"
   },
@@ -631,33 +631,9 @@
   "hot_stocks": [
     {
       "rank": 1,
-      "code": "002086",
-      "name": "东方海洋",
-      "pct": 678298.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "预制菜",
-        "幽门螺杆菌概念"
-      ]
-    },
-    {
-      "rank": 2,
-      "code": "002580",
-      "name": "圣阳股份",
-      "pct": 662985.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "钠离子电池",
-        "动力电池回收"
-      ]
-    },
-    {
-      "rank": 3,
       "code": "002029",
       "name": "七匹狼",
-      "pct": 655137.0,
+      "pct": 479670.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -666,10 +642,10 @@
       ]
     },
     {
-      "rank": 4,
+      "rank": 2,
       "code": "001381",
       "name": "皇冠新材",
-      "pct": 546868.0,
+      "pct": 445192.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -678,46 +654,10 @@
       ]
     },
     {
-      "rank": 5,
-      "code": "600261",
-      "name": "阳光照明",
-      "pct": 502383.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "高股息精选",
-        "氢能源"
-      ]
-    },
-    {
-      "rank": 6,
-      "code": "601566",
-      "name": "九牧王",
-      "pct": 471159.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "网红经济",
-        "IP经济(谷子经济)"
-      ]
-    },
-    {
-      "rank": 7,
-      "code": "002428",
-      "name": "云南锗业",
-      "pct": 458349.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "第三代半导体",
-        "光纤概念"
-      ]
-    },
-    {
-      "rank": 8,
+      "rank": 3,
       "code": "000530",
       "name": "冰山冷热",
-      "pct": 409961.0,
+      "pct": 444623.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -726,22 +666,34 @@
       ]
     },
     {
-      "rank": 9,
-      "code": "300308",
-      "name": "中际旭创",
-      "pct": 400010.0,
+      "rank": 4,
+      "code": "002428",
+      "name": "云南锗业",
+      "pct": 422101.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "共封装光学(CPO)",
-        "F5G概念"
+        "第三代半导体",
+        "光纤概念"
       ]
     },
     {
-      "rank": 10,
+      "rank": 5,
+      "code": "002086",
+      "name": "东方海洋",
+      "pct": 415362.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "预制菜",
+        "幽门螺杆菌概念"
+      ]
+    },
+    {
+      "rank": 6,
       "code": "000678",
       "name": "襄阳轴承",
-      "pct": 383257.0,
+      "pct": 414897.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -750,94 +702,34 @@
       ]
     },
     {
-      "rank": 11,
-      "code": "000995",
-      "name": "皇台酒业",
-      "pct": 377399.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "白酒概念",
-        "乡村振兴"
-      ]
-    },
-    {
-      "rank": 12,
-      "code": "600715",
-      "name": "文投控股",
-      "pct": 354824.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "短剧游戏",
-        "文化传媒概念"
-      ]
-    },
-    {
-      "rank": 13,
-      "code": "002172",
-      "name": "澳洋健康",
-      "pct": 317542.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "高压氧舱",
-        "毛发医疗"
-      ]
-    },
-    {
-      "rank": 14,
-      "code": "300502",
-      "name": "新易盛",
-      "pct": 267539.0,
+      "rank": 7,
+      "code": "300308",
+      "name": "中际旭创",
+      "pct": 380601.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
         "共封装光学(CPO)",
-        "5G"
+        "F5G概念"
       ]
     },
     {
-      "rank": 15,
-      "code": "002081",
-      "name": "金螳螂",
-      "pct": 267250.0,
+      "rank": 8,
+      "code": "688825",
+      "name": "长鑫科技",
+      "pct": 347560.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "芯片概念",
-        "装配式建筑"
+        "科创次新股",
+        "存储芯片"
       ]
     },
     {
-      "rank": 16,
-      "code": "002724",
-      "name": "海洋王",
-      "pct": 261636.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "智慧灯杆",
-        "军工"
-      ]
-    },
-    {
-      "rank": 17,
-      "code": "605577",
-      "name": "龙版传媒",
-      "pct": 256565.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "AI视频",
-        "文化传媒概念"
-      ]
-    },
-    {
-      "rank": 18,
+      "rank": 9,
       "code": "002242",
       "name": "九阳股份",
-      "pct": 235162.0,
+      "pct": 308217.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -846,10 +738,118 @@
       ]
     },
     {
+      "rank": 10,
+      "code": "002384",
+      "name": "东山精密",
+      "pct": 306844.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "共封装光学(CPO)",
+        "光纤概念"
+      ]
+    },
+    {
+      "rank": 11,
+      "code": "002081",
+      "name": "金螳螂",
+      "pct": 304046.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "芯片概念",
+        "装配式建筑"
+      ]
+    },
+    {
+      "rank": 12,
+      "code": "000995",
+      "name": "皇台酒业",
+      "pct": 297585.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "白酒概念",
+        "乡村振兴"
+      ]
+    },
+    {
+      "rank": 13,
+      "code": "002636",
+      "name": "金安国纪",
+      "pct": 278969.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "PCB概念",
+        "2026中报预增"
+      ]
+    },
+    {
+      "rank": 14,
+      "code": "600261",
+      "name": "阳光照明",
+      "pct": 267479.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "高股息精选",
+        "氢能源"
+      ]
+    },
+    {
+      "rank": 15,
+      "code": "300274",
+      "name": "阳光电源",
+      "pct": 261794.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "虚拟电厂",
+        "宁德时代概念"
+      ]
+    },
+    {
+      "rank": 16,
+      "code": "002580",
+      "name": "圣阳股份",
+      "pct": 260174.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "钠离子电池",
+        "动力电池回收"
+      ]
+    },
+    {
+      "rank": 17,
+      "code": "688836",
+      "name": "宇树科技",
+      "pct": 254246.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "人形机器人",
+        "科创次新股"
+      ]
+    },
+    {
+      "rank": 18,
+      "code": "300502",
+      "name": "新易盛",
+      "pct": 251003.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "共封装光学(CPO)",
+        "5G"
+      ]
+    },
+    {
       "rank": 19,
       "code": "603278",
       "name": "大业股份",
-      "pct": 207062.0,
+      "pct": 222877.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -859,14 +859,14 @@
     },
     {
       "rank": 20,
-      "code": "688825",
-      "name": "长鑫科技",
-      "pct": 204383.0,
+      "code": "600206",
+      "name": "有研新材",
+      "pct": 222038.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "科创次新股",
-        "存储芯片"
+        "国家大基金持股",
+        "中芯国际概念"
       ]
     }
   ],
@@ -878,22 +878,22 @@
     "hot_list": "ok"
   },
   "vs_1h": {
-    "reference_at": "2026-11-03T15:40:41+08:00",
+    "reference_at": "2026-11-04T15:19:23+08:00",
     "indices": {
       "shanghai": {
-        "pct_change_points": 2.98,
-        "rsi30_change": 19.68
+        "pct_change_points": 0.0,
+        "rsi30_change": 0.0
       },
       "chinext": {
-        "pct_change_points": 9.13,
-        "rsi30_change": 27.88
+        "pct_change_points": 0.0,
+        "rsi30_change": 0.0
       },
       "star50": {
-        "pct_change_points": 13.73,
-        "rsi30_change": 32.23
+        "pct_change_points": 0.0,
+        "rsi30_change": 0.0
       }
     },
     "up_ratio": 0.0,
-    "emotion_score": 25.6
+    "emotion_score": -0.1
   }
 }
