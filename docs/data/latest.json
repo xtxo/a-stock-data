@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T15:33:44+08:00",
+  "generated_at": "2026-11-11T23:33:37+08:00",
   "trade_date": "2026-11-11",
   "is_trading_day": true,
   "market_phase": "收盘后",
@@ -631,21 +631,21 @@
   "hot_stocks": [
     {
       "rank": 1,
-      "code": "000530",
-      "name": "冰山冷热",
-      "pct": 601100.0,
+      "code": "000678",
+      "name": "襄阳轴承",
+      "pct": 558529.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "无人零售",
-        "冰雪产业"
+        "减速器",
+        "农机"
       ]
     },
     {
       "rank": 2,
       "code": "600715",
       "name": "文投控股",
-      "pct": 536881.0,
+      "pct": 434011.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -655,81 +655,9 @@
     },
     {
       "rank": 3,
-      "code": "603366",
-      "name": "日出东方",
-      "pct": 467076.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "PPP概念",
-        "参股银行"
-      ]
-    },
-    {
-      "rank": 4,
-      "code": "002310",
-      "name": "东方新能",
-      "pct": 461873.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "绿色电力",
-        "PPP概念"
-      ]
-    },
-    {
-      "rank": 5,
-      "code": "600261",
-      "name": "阳光照明",
-      "pct": 450707.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "高股息精选",
-        "跨境电商"
-      ]
-    },
-    {
-      "rank": 6,
-      "code": "000678",
-      "name": "襄阳轴承",
-      "pct": 450356.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "减速器",
-        "农机"
-      ]
-    },
-    {
-      "rank": 7,
-      "code": "002578",
-      "name": "闽发铝业",
-      "pct": 435931.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "国企改革",
-        "光伏概念"
-      ]
-    },
-    {
-      "rank": 8,
-      "code": "600327",
-      "name": "大东方",
-      "pct": 395271.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "预制菜",
-        "信托概念"
-      ]
-    },
-    {
-      "rank": 9,
       "code": "002086",
       "name": "东方海洋",
-      "pct": 374584.0,
+      "pct": 433955.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -738,10 +666,22 @@
       ]
     },
     {
-      "rank": 10,
+      "rank": 4,
+      "code": "000530",
+      "name": "冰山冷热",
+      "pct": 392931.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "无人零售",
+        "冰雪产业"
+      ]
+    },
+    {
+      "rank": 5,
       "code": "002384",
       "name": "东山精密",
-      "pct": 372821.0,
+      "pct": 330254.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -750,10 +690,34 @@
       ]
     },
     {
-      "rank": 11,
+      "rank": 6,
+      "code": "603366",
+      "name": "日出东方",
+      "pct": 327689.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "PPP概念",
+        "参股银行"
+      ]
+    },
+    {
+      "rank": 7,
+      "code": "600261",
+      "name": "阳光照明",
+      "pct": 317320.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "高股息精选",
+        "跨境电商"
+      ]
+    },
+    {
+      "rank": 8,
       "code": "300308",
       "name": "中际旭创",
-      "pct": 357111.0,
+      "pct": 313599.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -762,10 +726,34 @@
       ]
     },
     {
-      "rank": 12,
+      "rank": 9,
+      "code": "002310",
+      "name": "东方新能",
+      "pct": 311692.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "绿色电力",
+        "PPP概念"
+      ]
+    },
+    {
+      "rank": 10,
+      "code": "002578",
+      "name": "闽发铝业",
+      "pct": 272329.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "国企改革",
+        "光伏概念"
+      ]
+    },
+    {
+      "rank": 11,
       "code": "002708",
       "name": "光洋股份",
-      "pct": 351980.0,
+      "pct": 254136.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -774,10 +762,22 @@
       ]
     },
     {
+      "rank": 12,
+      "code": "600327",
+      "name": "大东方",
+      "pct": 245350.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "预制菜",
+        "信托概念"
+      ]
+    },
+    {
       "rank": 13,
       "code": "300502",
       "name": "新易盛",
-      "pct": 324986.0,
+      "pct": 242033.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -787,21 +787,9 @@
     },
     {
       "rank": 14,
-      "code": "601188",
-      "name": "龙江交通",
-      "pct": 282538.0,
-      "heat": null,
-      "rank_change": null,
-      "concepts": [
-        "冰雪产业",
-        "黑龙江自贸区"
-      ]
-    },
-    {
-      "rank": 15,
       "code": "688836",
       "name": "宇树科技",
-      "pct": 252122.0,
+      "pct": 229037.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -810,34 +798,46 @@
       ]
     },
     {
-      "rank": 16,
-      "code": "603083",
-      "name": "剑桥科技",
-      "pct": 235571.0,
+      "rank": 15,
+      "code": "603278",
+      "name": "大业股份",
+      "pct": 220073.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "F5G概念",
-        "共封装光学(CPO)"
+        "人形机器人",
+        "生物质能发电"
+      ]
+    },
+    {
+      "rank": 16,
+      "code": "605488",
+      "name": "福莱新材",
+      "pct": 215865.0,
+      "heat": null,
+      "rank_change": null,
+      "concepts": [
+        "人形机器人",
+        "传感器"
       ]
     },
     {
       "rank": 17,
-      "code": "002343",
-      "name": "慈文传媒",
-      "pct": 235321.0,
+      "code": "603466",
+      "name": "风语筑",
+      "pct": 207597.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "短剧游戏",
-        "AI语料"
+        "AI视频",
+        "抖音概念(字节概念)"
       ]
     },
     {
       "rank": 18,
       "code": "601599",
       "name": "浙文影业",
-      "pct": 227063.0,
+      "pct": 205145.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
@@ -847,26 +847,26 @@
     },
     {
       "rank": 19,
-      "code": "002565",
-      "name": "顺灏股份",
-      "pct": 223940.0,
+      "code": "002242",
+      "name": "九阳股份",
+      "pct": 202988.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "卫星导航",
-        "商业航天"
+        "绿色电力",
+        "净水概念"
       ]
     },
     {
       "rank": 20,
-      "code": "605488",
-      "name": "福莱新材",
-      "pct": 205797.0,
+      "code": "601188",
+      "name": "龙江交通",
+      "pct": 189674.0,
       "heat": null,
       "rank_change": null,
       "concepts": [
-        "人形机器人",
-        "传感器"
+        "冰雪产业",
+        "黑龙江自贸区"
       ]
     }
   ],
@@ -878,22 +878,22 @@
     "hot_list": "ok"
   },
   "vs_1h": {
-    "reference_at": "2026-11-10T16:03:39+08:00",
+    "reference_at": "2026-11-11T15:33:44+08:00",
     "indices": {
       "shanghai": {
-        "pct_change_points": 0.38,
-        "rsi30_change": 7.49
+        "pct_change_points": 0.0,
+        "rsi30_change": 0.0
       },
       "chinext": {
-        "pct_change_points": 1.65,
-        "rsi30_change": 16.8
+        "pct_change_points": 0.0,
+        "rsi30_change": 0.0
       },
       "star50": {
-        "pct_change_points": 2.16,
-        "rsi30_change": 13.3
+        "pct_change_points": 0.0,
+        "rsi30_change": 0.0
       }
     },
     "up_ratio": 0.0,
-    "emotion_score": 1.8
+    "emotion_score": 0.0
   }
 }
