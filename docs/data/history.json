@@ -97409,5 +97409,904 @@
       "up_ratio": 0.0,
       "emotion_score": 9.6
     }
+  },
+  {
+    "schema_version": 1,
+    "generated_at": "2026-11-11T15:33:44+08:00",
+    "trade_date": "2026-11-11",
+    "is_trading_day": true,
+    "market_phase": "收盘后",
+    "indices": {
+      "shanghai": {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3680.64,
+        "pct": 0.46,
+        "change": 16.92,
+        "volume": 433120083.0,
+        "amount": 736154792000.5,
+        "open": 3655.66,
+        "prev_close": 3663.72,
+        "high": 3689.65,
+        "low": 3650.31,
+        "rsi14_daily": 45.23,
+        "rsi14_30m": 57.95,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-11-11"
+      },
+      "chinext": {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 2572.07,
+        "pct": 3.11,
+        "change": 77.67,
+        "volume": 189419613.0,
+        "amount": 480539578677.74,
+        "open": 2490.1,
+        "prev_close": 2494.4,
+        "high": 2580.34,
+        "low": 2490.1,
+        "rsi14_daily": 42.13,
+        "rsi14_30m": 67.33,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-11-11"
+      },
+      "star50": {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1300.38,
+        "pct": 2.8,
+        "change": 35.36,
+        "volume": 7969763.0,
+        "amount": 76439313265.4,
+        "open": 1260.07,
+        "prev_close": 1265.02,
+        "high": 1303.06,
+        "low": 1254.25,
+        "rsi14_daily": 46.19,
+        "rsi14_30m": 64.73,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-11-11"
+      }
+    },
+    "breadth": {
+      "up": 100,
+      "down": 0,
+      "flat": 0,
+      "total": 100,
+      "up_ratio": 100.0,
+      "strong_ge_5pct": 100,
+      "weak_le_minus5pct": 0
+    },
+    "limit_emotion": {
+      "limit_up": 85,
+      "broken": 19,
+      "limit_down": 0,
+      "seal_success_rate": 81.7,
+      "max_streak": 4,
+      "streak_leaders": [
+        {
+          "code": "603366",
+          "name": "日出东方",
+          "pct": 10.01838207244873,
+          "streak": 4,
+          "industry": "厨卫电器",
+          "seal_fund": 569218986.0,
+          "open_count": 0
+        },
+        {
+          "code": "600327",
+          "name": "大东方",
+          "pct": 9.932659149169922,
+          "streak": 4,
+          "industry": "一般零售",
+          "seal_fund": 116875219.0,
+          "open_count": 2
+        },
+        {
+          "code": "002623",
+          "name": "亚玛顿",
+          "pct": 9.995285034179688,
+          "streak": 3,
+          "industry": "光伏设备",
+          "seal_fund": 171634470.0,
+          "open_count": 0
+        },
+        {
+          "code": "002931",
+          "name": "锋龙股份",
+          "pct": 10.01036262512207,
+          "streak": 3,
+          "industry": "通用设备",
+          "seal_fund": 146633500.0,
+          "open_count": 1
+        },
+        {
+          "code": "600715",
+          "name": "文投控股",
+          "pct": 10.175437927246094,
+          "streak": 3,
+          "industry": "游戏Ⅱ",
+          "seal_fund": 104688856.0,
+          "open_count": 9
+        },
+        {
+          "code": "002708",
+          "name": "光洋股份",
+          "pct": 10.012412071228027,
+          "streak": 3,
+          "industry": "汽车零部",
+          "seal_fund": 99852363.0,
+          "open_count": 2
+        },
+        {
+          "code": "603706",
+          "name": "东方环宇",
+          "pct": 9.995497703552246,
+          "streak": 3,
+          "industry": "燃气Ⅱ",
+          "seal_fund": 13485360.0,
+          "open_count": 10
+        },
+        {
+          "code": "002209",
+          "name": "达 意 隆",
+          "pct": 10.007880210876465,
+          "streak": 2,
+          "industry": "专用设备",
+          "seal_fund": 472343091.0,
+          "open_count": 0
+        },
+        {
+          "code": "603536",
+          "name": "惠发食品",
+          "pct": 10.027854919433594,
+          "streak": 2,
+          "industry": "食品加工",
+          "seal_fund": 75527160.0,
+          "open_count": 0
+        },
+        {
+          "code": "002861",
+          "name": "瀛通通讯",
+          "pct": 9.984639167785645,
+          "streak": 2,
+          "industry": "消费电子",
+          "seal_fund": 63447624.0,
+          "open_count": 0
+        }
+      ]
+    },
+    "emotion_telemetry": {
+      "score": 87.9,
+      "label": "高热",
+      "note": "仅为盘面遥测分，不替代人工分析"
+    },
+    "fund_flow": {
+      "industry_top_in": [
+        {
+          "code": "BK1201",
+          "name": "电子",
+          "pct": 2.66,
+          "main_net": 17741453312.0,
+          "main_ratio": 4.2,
+          "super_net": 12107069440.0,
+          "large_net": 5634383872.0,
+          "mid_net": -8320188416.0,
+          "small_net": -9399873536.0,
+          "leader_code": "东山精密",
+          "leader_name": "002384",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0448",
+          "name": "通信设备",
+          "pct": 4.82,
+          "main_net": 13530310144.0,
+          "main_ratio": 9.65,
+          "super_net": 8689348352.0,
+          "large_net": 4840961792.0,
+          "mid_net": -5268907776.0,
+          "small_net": -7827615232.0,
+          "leader_code": "新易盛",
+          "leader_name": "300502",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1215",
+          "name": "通信",
+          "pct": 4.01,
+          "main_net": 13383342592.0,
+          "main_ratio": 8.82,
+          "super_net": 8662517760.0,
+          "large_net": 4720824832.0,
+          "mid_net": -5283398400.0,
+          "small_net": -7666841088.0,
+          "leader_code": "新易盛",
+          "leader_name": "300502",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1591",
+          "name": "通信网络设备及器件",
+          "pct": 7.19,
+          "main_net": 10474917888.0,
+          "main_ratio": 10.3,
+          "super_net": 5808359424.0,
+          "large_net": 4666558464.0,
+          "mid_net": -4291001344.0,
+          "small_net": -5764733952.0,
+          "leader_code": "新易盛",
+          "leader_name": "300502",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0459",
+          "name": "元件",
+          "pct": 4.9,
+          "main_net": 8178702592.0,
+          "main_ratio": 8.33,
+          "super_net": 6261493248.0,
+          "large_net": 1917209344.0,
+          "mid_net": -3080059392.0,
+          "small_net": -5102391552.0,
+          "leader_code": "东山精密",
+          "leader_name": "002384",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1036",
+          "name": "半导体",
+          "pct": 3.1,
+          "main_net": 7675108096.0,
+          "main_ratio": 3.67,
+          "super_net": 4974288896.0,
+          "large_net": 2700819200.0,
+          "mid_net": -4792115200.0,
+          "small_net": -2871089152.0,
+          "leader_code": "长鑫科技",
+          "leader_name": "688825",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1340",
+          "name": "印制电路板",
+          "pct": 5.76,
+          "main_net": 7213603328.0,
+          "main_ratio": 8.42,
+          "super_net": 5854818560.0,
+          "large_net": 1358784768.0,
+          "mid_net": -2792259072.0,
+          "small_net": -4411617536.0,
+          "leader_code": "东山精密",
+          "leader_name": "002384",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1331",
+          "name": "数字芯片设计",
+          "pct": 3.36,
+          "main_net": 5526149120.0,
+          "main_ratio": 5.54,
+          "super_net": 3948148736.0,
+          "large_net": 1578000384.0,
+          "mid_net": -3156252416.0,
+          "small_net": -2379430400.0,
+          "leader_code": "长鑫科技",
+          "leader_name": "688825",
+          "leader_pct": 1.0
+        }
+      ],
+      "industry_top_out": [
+        {
+          "code": "BK1237",
+          "name": "自动化设备",
+          "pct": 3.06,
+          "main_net": 1764144896.0,
+          "main_ratio": 3.89,
+          "super_net": 1103944192.0,
+          "large_net": 660200704.0,
+          "mid_net": -471058176.0,
+          "small_net": -1260553472.0,
+          "leader_code": "大族激光",
+          "leader_name": "002008",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0481",
+          "name": "汽车零部件",
+          "pct": 1.87,
+          "main_net": 1781478656.0,
+          "main_ratio": 2.83,
+          "super_net": 1144072448.0,
+          "large_net": 637406208.0,
+          "mid_net": -1085159168.0,
+          "small_net": -725985280.0,
+          "leader_code": "拓普集团",
+          "leader_name": "601689",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1592",
+          "name": "通信线缆及配套",
+          "pct": 6.04,
+          "main_net": 2176739648.0,
+          "main_ratio": 8.85,
+          "super_net": 1634843456.0,
+          "large_net": 541896192.0,
+          "mid_net": -467661824.0,
+          "small_net": -1692227328.0,
+          "leader_code": "亨通光电",
+          "leader_name": "600487",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1205",
+          "name": "机械设备",
+          "pct": 2.16,
+          "main_net": 4296040704.0,
+          "main_ratio": 2.72,
+          "super_net": 3078550528.0,
+          "large_net": 1217490176.0,
+          "mid_net": -1724732672.0,
+          "small_net": -2498060032.0,
+          "leader_code": "英维克",
+          "leader_name": "002837",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1331",
+          "name": "数字芯片设计",
+          "pct": 3.36,
+          "main_net": 5526149120.0,
+          "main_ratio": 5.54,
+          "super_net": 3948148736.0,
+          "large_net": 1578000384.0,
+          "mid_net": -3156252416.0,
+          "small_net": -2379430400.0,
+          "leader_code": "长鑫科技",
+          "leader_name": "688825",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1340",
+          "name": "印制电路板",
+          "pct": 5.76,
+          "main_net": 7213603328.0,
+          "main_ratio": 8.42,
+          "super_net": 5854818560.0,
+          "large_net": 1358784768.0,
+          "mid_net": -2792259072.0,
+          "small_net": -4411617536.0,
+          "leader_code": "东山精密",
+          "leader_name": "002384",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1036",
+          "name": "半导体",
+          "pct": 3.1,
+          "main_net": 7675108096.0,
+          "main_ratio": 3.67,
+          "super_net": 4974288896.0,
+          "large_net": 2700819200.0,
+          "mid_net": -4792115200.0,
+          "small_net": -2871089152.0,
+          "leader_code": "长鑫科技",
+          "leader_name": "688825",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0459",
+          "name": "元件",
+          "pct": 4.9,
+          "main_net": 8178702592.0,
+          "main_ratio": 8.33,
+          "super_net": 6261493248.0,
+          "large_net": 1917209344.0,
+          "mid_net": -3080059392.0,
+          "small_net": -5102391552.0,
+          "leader_code": "东山精密",
+          "leader_name": "002384",
+          "leader_pct": 0.0
+        }
+      ],
+      "concept_top_in": [
+        {
+          "code": "BK1650",
+          "name": "通信技术",
+          "pct": 3.29,
+          "main_net": 26164262400.0,
+          "main_ratio": 7.12,
+          "super_net": 17453639168.0,
+          "large_net": 8710623232.0,
+          "mid_net": -10405052416.0,
+          "small_net": -15500898304.0,
+          "leader_code": "新易盛",
+          "leader_name": "300502",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1713",
+          "name": "科技风格",
+          "pct": 3.69,
+          "main_net": 23472502272.0,
+          "main_ratio": 6.93,
+          "super_net": 16906778112.0,
+          "large_net": 6565724160.0,
+          "mid_net": -12187385856.0,
+          "small_net": -11285116928.0,
+          "leader_code": "新易盛",
+          "leader_name": "300502",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0714",
+          "name": "5G概念",
+          "pct": 3.05,
+          "main_net": 22604803328.0,
+          "main_ratio": 7.22,
+          "super_net": 15783972096.0,
+          "large_net": 6820831232.0,
+          "mid_net": -8770768896.0,
+          "small_net": -13846044672.0,
+          "leader_code": "新易盛",
+          "leader_name": "300502",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1749",
+          "name": "2026中报预增",
+          "pct": 1.7,
+          "main_net": 21377751040.0,
+          "main_ratio": 4.92,
+          "super_net": 15806015488.0,
+          "large_net": 5571735552.0,
+          "mid_net": -8798834688.0,
+          "small_net": -12551643136.0,
+          "leader_code": "新易盛",
+          "leader_name": "300502",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0596",
+          "name": "融资融券",
+          "pct": 1.04,
+          "main_net": 21359927296.0,
+          "main_ratio": 1.47,
+          "super_net": 18998067200.0,
+          "large_net": 2361860096.0,
+          "mid_net": -15865847808.0,
+          "small_net": -5325688832.0,
+          "leader_code": "新易盛",
+          "leader_name": "300502",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0821",
+          "name": "MSCI中国",
+          "pct": 0.63,
+          "main_net": 20654886912.0,
+          "main_ratio": 2.86,
+          "super_net": 15577608192.0,
+          "large_net": 5077278720.0,
+          "mid_net": -12379095040.0,
+          "small_net": -8275791872.0,
+          "leader_code": "新易盛",
+          "leader_name": "300502",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1128",
+          "name": "CPO概念",
+          "pct": 5.83,
+          "main_net": 20553658880.0,
+          "main_ratio": 9.52,
+          "super_net": 13400644864.0,
+          "large_net": 7153014016.0,
+          "mid_net": -8573653504.0,
+          "small_net": -11715985152.0,
+          "leader_code": "新易盛",
+          "leader_name": "300502",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1136",
+          "name": "光通信模块",
+          "pct": 5.33,
+          "main_net": 19090076416.0,
+          "main_ratio": 9.05,
+          "super_net": 12832593664.0,
+          "large_net": 6257482752.0,
+          "mid_net": -8206540800.0,
+          "small_net": -10439352064.0,
+          "leader_code": "新易盛",
+          "leader_name": "300502",
+          "leader_pct": 0.0
+        }
+      ],
+      "concept_top_out": [
+        {
+          "code": "BK0536",
+          "name": "基金重仓",
+          "pct": 2.71,
+          "main_net": 16489703680.0,
+          "main_ratio": 6.04,
+          "super_net": 11378903296.0,
+          "large_net": 5110800384.0,
+          "mid_net": -10076979200.0,
+          "small_net": -6196133632.0,
+          "leader_code": "新易盛",
+          "leader_name": "300502",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1665",
+          "name": "大盘成长",
+          "pct": 2.25,
+          "main_net": 16905491456.0,
+          "main_ratio": 5.03,
+          "super_net": 11086509056.0,
+          "large_net": 5818982400.0,
+          "mid_net": -9759014912.0,
+          "small_net": -7146477056.0,
+          "leader_code": "新易盛",
+          "leader_name": "300502",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1663",
+          "name": "大盘股",
+          "pct": 0.73,
+          "main_net": 18088820736.0,
+          "main_ratio": 3.41,
+          "super_net": 13297016832.0,
+          "large_net": 4791803904.0,
+          "mid_net": -10655883264.0,
+          "small_net": -7432941568.0,
+          "leader_code": "新易盛",
+          "leader_name": "300502",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1689",
+          "name": "基金减仓",
+          "pct": 1.14,
+          "main_net": 18933809152.0,
+          "main_ratio": 2.11,
+          "super_net": 14960250880.0,
+          "large_net": 3973558272.0,
+          "mid_net": -12622692352.0,
+          "small_net": -6311329792.0,
+          "leader_code": "中际旭创",
+          "leader_name": "300308",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1136",
+          "name": "光通信模块",
+          "pct": 5.33,
+          "main_net": 19090076416.0,
+          "main_ratio": 9.05,
+          "super_net": 12832593664.0,
+          "large_net": 6257482752.0,
+          "mid_net": -8206540800.0,
+          "small_net": -10439352064.0,
+          "leader_code": "新易盛",
+          "leader_name": "300502",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1128",
+          "name": "CPO概念",
+          "pct": 5.83,
+          "main_net": 20553658880.0,
+          "main_ratio": 9.52,
+          "super_net": 13400644864.0,
+          "large_net": 7153014016.0,
+          "mid_net": -8573653504.0,
+          "small_net": -11715985152.0,
+          "leader_code": "新易盛",
+          "leader_name": "300502",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0821",
+          "name": "MSCI中国",
+          "pct": 0.63,
+          "main_net": 20654886912.0,
+          "main_ratio": 2.86,
+          "super_net": 15577608192.0,
+          "large_net": 5077278720.0,
+          "mid_net": -12379095040.0,
+          "small_net": -8275791872.0,
+          "leader_code": "新易盛",
+          "leader_name": "300502",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0596",
+          "name": "融资融券",
+          "pct": 1.04,
+          "main_net": 21359927296.0,
+          "main_ratio": 1.47,
+          "super_net": 18998067200.0,
+          "large_net": 2361860096.0,
+          "mid_net": -15865847808.0,
+          "small_net": -5325688832.0,
+          "leader_code": "新易盛",
+          "leader_name": "300502",
+          "leader_pct": 0.0
+        }
+      ]
+    },
+    "hot_stocks": [
+      {
+        "rank": 1,
+        "code": "000530",
+        "name": "冰山冷热",
+        "pct": 601100.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "无人零售",
+          "冰雪产业"
+        ]
+      },
+      {
+        "rank": 2,
+        "code": "600715",
+        "name": "文投控股",
+        "pct": 536881.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "短剧游戏",
+          "手机游戏"
+        ]
+      },
+      {
+        "rank": 3,
+        "code": "603366",
+        "name": "日出东方",
+        "pct": 467076.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "PPP概念",
+          "参股银行"
+        ]
+      },
+      {
+        "rank": 4,
+        "code": "002310",
+        "name": "东方新能",
+        "pct": 461873.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "绿色电力",
+          "PPP概念"
+        ]
+      },
+      {
+        "rank": 5,
+        "code": "600261",
+        "name": "阳光照明",
+        "pct": 450707.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "高股息精选",
+          "跨境电商"
+        ]
+      },
+      {
+        "rank": 6,
+        "code": "000678",
+        "name": "襄阳轴承",
+        "pct": 450356.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "减速器",
+          "农机"
+        ]
+      },
+      {
+        "rank": 7,
+        "code": "002578",
+        "name": "闽发铝业",
+        "pct": 435931.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "国企改革",
+          "光伏概念"
+        ]
+      },
+      {
+        "rank": 8,
+        "code": "600327",
+        "name": "大东方",
+        "pct": 395271.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "预制菜",
+          "信托概念"
+        ]
+      },
+      {
+        "rank": 9,
+        "code": "002086",
+        "name": "东方海洋",
+        "pct": 374584.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "预制菜",
+          "幽门螺杆菌概念"
+        ]
+      },
+      {
+        "rank": 10,
+        "code": "002384",
+        "name": "东山精密",
+        "pct": 372821.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "共封装光学(CPO)",
+          "光纤概念"
+        ]
+      },
+      {
+        "rank": 11,
+        "code": "300308",
+        "name": "中际旭创",
+        "pct": 357111.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "F5G概念",
+          "共封装光学(CPO)"
+        ]
+      },
+      {
+        "rank": 12,
+        "code": "002708",
+        "name": "光洋股份",
+        "pct": 351980.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "减速器",
+          "人形机器人"
+        ]
+      },
+      {
+        "rank": 13,
+        "code": "300502",
+        "name": "新易盛",
+        "pct": 324986.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "共封装光学(CPO)",
+          "5G"
+        ]
+      },
+      {
+        "rank": 14,
+        "code": "601188",
+        "name": "龙江交通",
+        "pct": 282538.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "冰雪产业",
+          "黑龙江自贸区"
+        ]
+      },
+      {
+        "rank": 15,
+        "code": "688836",
+        "name": "宇树科技",
+        "pct": 252122.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "人形机器人",
+          "科创次新股"
+        ]
+      },
+      {
+        "rank": 16,
+        "code": "603083",
+        "name": "剑桥科技",
+        "pct": 235571.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "F5G概念",
+          "共封装光学(CPO)"
+        ]
+      },
+      {
+        "rank": 17,
+        "code": "002343",
+        "name": "慈文传媒",
+        "pct": 235321.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "短剧游戏",
+          "AI语料"
+        ]
+      },
+      {
+        "rank": 18,
+        "code": "601599",
+        "name": "浙文影业",
+        "pct": 227063.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "短剧游戏",
+          "文化传媒概念"
+        ]
+      },
+      {
+        "rank": 19,
+        "code": "002565",
+        "name": "顺灏股份",
+        "pct": 223940.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "卫星导航",
+          "商业航天"
+        ]
+      },
+      {
+        "rank": 20,
+        "code": "605488",
+        "name": "福莱新材",
+        "pct": 205797.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "人形机器人",
+          "传感器"
+        ]
+      }
+    ],
+    "source_health": {
+      "indexes_rsi": "ok",
+      "breadth": "ok",
+      "board_flow": "ok",
+      "limit_pool": "ok",
+      "hot_list": "ok"
+    },
+    "vs_1h": {
+      "reference_at": "2026-11-10T16:03:39+08:00",
+      "indices": {
+        "shanghai": {
+          "pct_change_points": 0.38,
+          "rsi30_change": 7.49
+        },
+        "chinext": {
+          "pct_change_points": 1.65,
+          "rsi30_change": 16.8
+        },
+        "star50": {
+          "pct_change_points": 2.16,
+          "rsi30_change": 13.3
+        }
+      },
+      "up_ratio": 0.0,
+      "emotion_score": 1.8
+    }
   }
 ]
