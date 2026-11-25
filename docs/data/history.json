@@ -106578,5 +106578,904 @@
       "up_ratio": 0.0,
       "emotion_score": -9.7
     }
+  },
+  {
+    "schema_version": 1,
+    "generated_at": "2026-11-25T17:39:00+08:00",
+    "trade_date": "2026-11-25",
+    "is_trading_day": true,
+    "market_phase": "收盘后",
+    "indices": {
+      "shanghai": {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3476.47,
+        "pct": -2.03,
+        "change": -71.9,
+        "volume": 472561427.0,
+        "amount": 652709381596.1,
+        "open": 3522.59,
+        "prev_close": 3548.37,
+        "high": 3526.34,
+        "low": 3468.65,
+        "rsi14_daily": 26.53,
+        "rsi14_30m": 32.1,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-11-25"
+      },
+      "chinext": {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 2183.58,
+        "pct": -4.19,
+        "change": -95.41,
+        "volume": 170366194.0,
+        "amount": 359506681684.77,
+        "open": 2233.18,
+        "prev_close": 2278.99,
+        "high": 2274.18,
+        "low": 2183.58,
+        "rsi14_daily": 30.24,
+        "rsi14_30m": 29.87,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-11-25"
+      },
+      "star50": {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1186.14,
+        "pct": -5.12,
+        "change": -63.95,
+        "volume": 9532084.0,
+        "amount": 82282620463.7,
+        "open": 1218.69,
+        "prev_close": 1250.09,
+        "high": 1230.4,
+        "low": 1185.45,
+        "rsi14_daily": 38.18,
+        "rsi14_30m": 34.2,
+        "rsi_alerts": [],
+        "latest_kline_date": "2026-11-25"
+      }
+    },
+    "breadth": {
+      "up": 100,
+      "down": 0,
+      "flat": 0,
+      "total": 100,
+      "up_ratio": 100.0,
+      "strong_ge_5pct": 100,
+      "weak_le_minus5pct": 0
+    },
+    "limit_emotion": {
+      "limit_up": 51,
+      "broken": 30,
+      "limit_down": 0,
+      "seal_success_rate": 63.0,
+      "max_streak": 5,
+      "streak_leaders": [
+        {
+          "code": "002579",
+          "name": "中京电子",
+          "pct": 10.0,
+          "streak": 5,
+          "industry": "元件",
+          "seal_fund": 107285381.0,
+          "open_count": 0
+        },
+        {
+          "code": "603960",
+          "name": "克来机电",
+          "pct": 9.994086265563965,
+          "streak": 4,
+          "industry": "汽车零部",
+          "seal_fund": 305550086.0,
+          "open_count": 0
+        },
+        {
+          "code": "002548",
+          "name": "金新农",
+          "pct": 10.10988998413086,
+          "streak": 4,
+          "industry": "饲料",
+          "seal_fund": 101571432.0,
+          "open_count": 2
+        },
+        {
+          "code": "002242",
+          "name": "九阳股份",
+          "pct": 10.014265060424805,
+          "streak": 3,
+          "industry": "小家电",
+          "seal_fund": 274275506.0,
+          "open_count": 7
+        },
+        {
+          "code": "600814",
+          "name": "杭州解百",
+          "pct": 10.013175010681152,
+          "streak": 3,
+          "industry": "一般零售",
+          "seal_fund": 245554612.0,
+          "open_count": 0
+        },
+        {
+          "code": "002164",
+          "name": "宁波东力",
+          "pct": 9.984794616699219,
+          "streak": 3,
+          "industry": "通用设备",
+          "seal_fund": 128958760.0,
+          "open_count": 2
+        },
+        {
+          "code": "002122",
+          "name": "汇洲智能",
+          "pct": 10.122699737548828,
+          "streak": 3,
+          "industry": "通用设备",
+          "seal_fund": 70220159.0,
+          "open_count": 0
+        },
+        {
+          "code": "300703",
+          "name": "创源股份",
+          "pct": 20.026973724365234,
+          "streak": 3,
+          "industry": "文娱用品",
+          "seal_fund": 67635995.0,
+          "open_count": 1
+        },
+        {
+          "code": "603926",
+          "name": "铁流股份",
+          "pct": 9.975520133972168,
+          "streak": 3,
+          "industry": "汽车零部",
+          "seal_fund": 2846448.0,
+          "open_count": 12
+        },
+        {
+          "code": "002872",
+          "name": "天圣制药",
+          "pct": 10.077519416809082,
+          "streak": 2,
+          "industry": "化学制药",
+          "seal_fund": 90157930.0,
+          "open_count": 0
+        }
+      ]
+    },
+    "emotion_telemetry": {
+      "score": 69.7,
+      "label": "偏强",
+      "note": "仅为盘面遥测分，不替代人工分析"
+    },
+    "fund_flow": {
+      "industry_top_in": [
+        {
+          "code": "BK0438",
+          "name": "食品饮料",
+          "pct": -0.68,
+          "main_net": 624802336.0,
+          "main_ratio": 2.02,
+          "super_net": -97684704.0,
+          "large_net": 722487040.0,
+          "mid_net": -18963200.0,
+          "small_net": -616115456.0,
+          "leader_code": "贵州茅台",
+          "leader_name": "600519",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1575",
+          "name": "白酒Ⅲ",
+          "pct": -0.55,
+          "main_net": 611579344.0,
+          "main_ratio": 4.61,
+          "super_net": -207100208.0,
+          "large_net": 818679552.0,
+          "mid_net": -237515264.0,
+          "small_net": -374064176.0,
+          "leader_code": "贵州茅台",
+          "leader_name": "600519",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1277",
+          "name": "白酒Ⅱ",
+          "pct": -0.55,
+          "main_net": 611579344.0,
+          "main_ratio": 4.61,
+          "super_net": -207100208.0,
+          "large_net": 818679552.0,
+          "mid_net": -237515264.0,
+          "small_net": -374064176.0,
+          "leader_code": "贵州茅台",
+          "leader_name": "600519",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1267",
+          "name": "造纸",
+          "pct": -1.83,
+          "main_net": 569517440.0,
+          "main_ratio": 14.7,
+          "super_net": 626369888.0,
+          "large_net": -56852448.0,
+          "mid_net": -272064688.0,
+          "small_net": -302910288.0,
+          "leader_code": "青山纸业",
+          "leader_name": "600103",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1545",
+          "name": "特种纸",
+          "pct": -2.42,
+          "main_net": 558695136.0,
+          "main_ratio": 18.48,
+          "super_net": 625985456.0,
+          "large_net": -67290320.0,
+          "mid_net": -258362432.0,
+          "small_net": -305790256.0,
+          "leader_code": "青山纸业",
+          "leader_name": "600103",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0482",
+          "name": "一般零售",
+          "pct": 0.35,
+          "main_net": 492761472.0,
+          "main_ratio": 4.52,
+          "super_net": 540198992.0,
+          "large_net": -47437520.0,
+          "mid_net": -174467008.0,
+          "small_net": -318294544.0,
+          "leader_code": "国芳集团",
+          "leader_name": "601086",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1213",
+          "name": "商贸零售",
+          "pct": -0.68,
+          "main_net": 473261840.0,
+          "main_ratio": 3.06,
+          "super_net": 594639248.0,
+          "large_net": -121377408.0,
+          "mid_net": -172920064.0,
+          "small_net": -303255552.0,
+          "leader_code": "国芳集团",
+          "leader_name": "601086",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0465",
+          "name": "化学制药",
+          "pct": -0.16,
+          "main_net": 469204960.0,
+          "main_ratio": 1.7,
+          "super_net": 536500704.0,
+          "large_net": -67295744.0,
+          "mid_net": 51139072.0,
+          "small_net": -525122560.0,
+          "leader_code": "新华制药",
+          "leader_name": "000756",
+          "leader_pct": 0.0
+        }
+      ],
+      "industry_top_out": [
+        {
+          "code": "BK1260",
+          "name": "渔业",
+          "pct": 2.98,
+          "main_net": 371108138.0,
+          "main_ratio": 19.32,
+          "super_net": 296868218.0,
+          "large_net": 74239920.0,
+          "mid_net": -87630720.0,
+          "small_net": -283477424.0,
+          "leader_code": "好当家",
+          "leader_name": "600467",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1212",
+          "name": "轻工制造",
+          "pct": -3.21,
+          "main_net": 408544544.0,
+          "main_ratio": 2.56,
+          "super_net": 516811824.0,
+          "large_net": -108267280.0,
+          "mid_net": -201689856.0,
+          "small_net": -227262720.0,
+          "leader_code": "青山纸业",
+          "leader_name": "600103",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1216",
+          "name": "医药生物",
+          "pct": -1.17,
+          "main_net": 424436992.0,
+          "main_ratio": 0.53,
+          "super_net": 532847872.0,
+          "large_net": -108410880.0,
+          "mid_net": 538744832.0,
+          "small_net": -995878144.0,
+          "leader_code": "新华制药",
+          "leader_name": "000756",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1551",
+          "name": "百货",
+          "pct": 1.84,
+          "main_net": 434585280.0,
+          "main_ratio": 7.51,
+          "super_net": 520629056.0,
+          "large_net": -86043776.0,
+          "mid_net": -181446160.0,
+          "small_net": -253139120.0,
+          "leader_code": "国芳集团",
+          "leader_name": "601086",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0465",
+          "name": "化学制药",
+          "pct": -0.16,
+          "main_net": 469204960.0,
+          "main_ratio": 1.7,
+          "super_net": 536500704.0,
+          "large_net": -67295744.0,
+          "mid_net": 51139072.0,
+          "small_net": -525122560.0,
+          "leader_code": "新华制药",
+          "leader_name": "000756",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1213",
+          "name": "商贸零售",
+          "pct": -0.68,
+          "main_net": 473261840.0,
+          "main_ratio": 3.06,
+          "super_net": 594639248.0,
+          "large_net": -121377408.0,
+          "mid_net": -172920064.0,
+          "small_net": -303255552.0,
+          "leader_code": "国芳集团",
+          "leader_name": "601086",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0482",
+          "name": "一般零售",
+          "pct": 0.35,
+          "main_net": 492761472.0,
+          "main_ratio": 4.52,
+          "super_net": 540198992.0,
+          "large_net": -47437520.0,
+          "mid_net": -174467008.0,
+          "small_net": -318294544.0,
+          "leader_code": "国芳集团",
+          "leader_name": "601086",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK1545",
+          "name": "特种纸",
+          "pct": -2.42,
+          "main_net": 558695136.0,
+          "main_ratio": 18.48,
+          "super_net": 625985456.0,
+          "large_net": -67290320.0,
+          "mid_net": -258362432.0,
+          "small_net": -305790256.0,
+          "leader_code": "青山纸业",
+          "leader_name": "600103",
+          "leader_pct": 1.0
+        }
+      ],
+      "concept_top_in": [
+        {
+          "code": "BK0825",
+          "name": "新零售",
+          "pct": -0.59,
+          "main_net": 1121937248.0,
+          "main_ratio": 3.14,
+          "super_net": 786020960.0,
+          "large_net": 335916288.0,
+          "mid_net": -234597888.0,
+          "small_net": -888218880.0,
+          "leader_code": "京东方Ａ",
+          "leader_name": "000725",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK0906",
+          "name": "流感",
+          "pct": 0.43,
+          "main_net": 874655328.0,
+          "main_ratio": 3.48,
+          "super_net": 954180960.0,
+          "large_net": -79525632.0,
+          "mid_net": -246423296.0,
+          "small_net": -628232192.0,
+          "leader_code": "好当家",
+          "leader_name": "600467",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0615",
+          "name": "中药概念",
+          "pct": 0.34,
+          "main_net": 862271856.0,
+          "main_ratio": 3.01,
+          "super_net": 1078129264.0,
+          "large_net": -215857408.0,
+          "mid_net": -203592960.0,
+          "small_net": -664381952.0,
+          "leader_code": "青山纸业",
+          "leader_name": "600103",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0896",
+          "name": "白酒",
+          "pct": -0.71,
+          "main_net": 772114016.0,
+          "main_ratio": 4.55,
+          "super_net": 6432144.0,
+          "large_net": 765681872.0,
+          "mid_net": -327394304.0,
+          "small_net": -444719728.0,
+          "leader_code": "贵州茅台",
+          "leader_name": "600519",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0811",
+          "name": "超级品牌",
+          "pct": 0.49,
+          "main_net": 769216192.0,
+          "main_ratio": 2.9,
+          "super_net": -13589312.0,
+          "large_net": 782805504.0,
+          "mid_net": -244257536.0,
+          "small_net": -524958464.0,
+          "leader_code": "贵州茅台",
+          "leader_name": "600519",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0477",
+          "name": "酿酒概念",
+          "pct": -0.36,
+          "main_net": 654451984.0,
+          "main_ratio": 4.22,
+          "super_net": -190353728.0,
+          "large_net": 844805712.0,
+          "mid_net": -219827456.0,
+          "small_net": -434624496.0,
+          "leader_code": "贵州茅台",
+          "leader_name": "600519",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0834",
+          "name": "乡村振兴",
+          "pct": -2.03,
+          "main_net": 633852112.0,
+          "main_ratio": 1.99,
+          "super_net": -77927472.0,
+          "large_net": 711779584.0,
+          "mid_net": -343484928.0,
+          "small_net": -304429056.0,
+          "leader_code": "贵州茅台",
+          "leader_name": "600519",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0470",
+          "name": "造纸印刷",
+          "pct": -2.46,
+          "main_net": 569108128.0,
+          "main_ratio": 11.46,
+          "super_net": 631714880.0,
+          "large_net": -62606752.0,
+          "mid_net": -274812160.0,
+          "small_net": -306679616.0,
+          "leader_code": "青山纸业",
+          "leader_name": "600103",
+          "leader_pct": 1.0
+        }
+      ],
+      "concept_top_out": [
+        {
+          "code": "BK0664",
+          "name": "婴童概念",
+          "pct": -1.76,
+          "main_net": 476856128.0,
+          "main_ratio": 1.9,
+          "super_net": 277108800.0,
+          "large_net": 199747328.0,
+          "mid_net": 223838976.0,
+          "small_net": -706376448.0,
+          "leader_code": "百亚股份",
+          "leader_name": "003006",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1653",
+          "name": "味蕾经济",
+          "pct": -1.38,
+          "main_net": 507307152.0,
+          "main_ratio": 1.89,
+          "super_net": -278952048.0,
+          "large_net": 786259200.0,
+          "mid_net": -71118336.0,
+          "small_net": -439913984.0,
+          "leader_code": "贵州茅台",
+          "leader_name": "600519",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0889",
+          "name": "医美概念",
+          "pct": -0.86,
+          "main_net": 518365824.0,
+          "main_ratio": 3.2,
+          "super_net": 501385472.0,
+          "large_net": 16980352.0,
+          "mid_net": -484753408.0,
+          "small_net": -48258304.0,
+          "leader_code": "京东方Ａ",
+          "leader_name": "000725",
+          "leader_pct": 0.0
+        },
+        {
+          "code": "BK1001",
+          "name": "内贸流通",
+          "pct": -0.42,
+          "main_net": 556609024.0,
+          "main_ratio": 2.28,
+          "super_net": 654927872.0,
+          "large_net": -98318848.0,
+          "mid_net": -217559040.0,
+          "small_net": -339049984.0,
+          "leader_code": "国芳集团",
+          "leader_name": "601086",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0470",
+          "name": "造纸印刷",
+          "pct": -2.46,
+          "main_net": 569108128.0,
+          "main_ratio": 11.46,
+          "super_net": 631714880.0,
+          "large_net": -62606752.0,
+          "mid_net": -274812160.0,
+          "small_net": -306679616.0,
+          "leader_code": "青山纸业",
+          "leader_name": "600103",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0834",
+          "name": "乡村振兴",
+          "pct": -2.03,
+          "main_net": 633852112.0,
+          "main_ratio": 1.99,
+          "super_net": -77927472.0,
+          "large_net": 711779584.0,
+          "mid_net": -343484928.0,
+          "small_net": -304429056.0,
+          "leader_code": "贵州茅台",
+          "leader_name": "600519",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0477",
+          "name": "酿酒概念",
+          "pct": -0.36,
+          "main_net": 654451984.0,
+          "main_ratio": 4.22,
+          "super_net": -190353728.0,
+          "large_net": 844805712.0,
+          "mid_net": -219827456.0,
+          "small_net": -434624496.0,
+          "leader_code": "贵州茅台",
+          "leader_name": "600519",
+          "leader_pct": 1.0
+        },
+        {
+          "code": "BK0811",
+          "name": "超级品牌",
+          "pct": 0.49,
+          "main_net": 769216192.0,
+          "main_ratio": 2.9,
+          "super_net": -13589312.0,
+          "large_net": 782805504.0,
+          "mid_net": -244257536.0,
+          "small_net": -524958464.0,
+          "leader_code": "贵州茅台",
+          "leader_name": "600519",
+          "leader_pct": 1.0
+        }
+      ]
+    },
+    "hot_stocks": [
+      {
+        "rank": 1,
+        "code": "002242",
+        "name": "九阳股份",
+        "pct": 1585756.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "净水概念",
+          "绿色电力"
+        ]
+      },
+      {
+        "rank": 2,
+        "code": "000530",
+        "name": "冰山冷热",
+        "pct": 712545.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "无人零售",
+          "冰雪产业"
+        ]
+      },
+      {
+        "rank": 3,
+        "code": "600410",
+        "name": "华胜天成",
+        "pct": 653888.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "云计算",
+          "网络安全"
+        ]
+      },
+      {
+        "rank": 4,
+        "code": "002579",
+        "name": "中京电子",
+        "pct": 627205.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "共封装光学(CPO)",
+          "PCB概念"
+        ]
+      },
+      {
+        "rank": 5,
+        "code": "300394",
+        "name": "天孚通信",
+        "pct": 552385.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "共封装光学(CPO)",
+          "光纤概念"
+        ]
+      },
+      {
+        "rank": 6,
+        "code": "600103",
+        "name": "青山纸业",
+        "pct": 439856.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "共封装光学(CPO)",
+          "海峡两岸"
+        ]
+      },
+      {
+        "rank": 7,
+        "code": "002086",
+        "name": "东方海洋",
+        "pct": 437560.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "预制菜",
+          "幽门螺杆菌概念"
+        ]
+      },
+      {
+        "rank": 8,
+        "code": "002685",
+        "name": "华东重机",
+        "pct": 406369.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "信创",
+          "芯片概念"
+        ]
+      },
+      {
+        "rank": 9,
+        "code": "002148",
+        "name": "北纬科技",
+        "pct": 392629.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "手机游戏",
+          "网络游戏"
+        ]
+      },
+      {
+        "rank": 10,
+        "code": "600715",
+        "name": "文投控股",
+        "pct": 371594.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "短剧游戏",
+          "手机游戏"
+        ]
+      },
+      {
+        "rank": 11,
+        "code": "300502",
+        "name": "新易盛",
+        "pct": 370702.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "共封装光学(CPO)",
+          "5G"
+        ]
+      },
+      {
+        "rank": 12,
+        "code": "002771",
+        "name": "真视通",
+        "pct": 369138.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "算力租赁",
+          "东数西算(算力)"
+        ]
+      },
+      {
+        "rank": 13,
+        "code": "300308",
+        "name": "中际旭创",
+        "pct": 356305.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "共封装光学(CPO)",
+          "F5G概念"
+        ]
+      },
+      {
+        "rank": 14,
+        "code": "002384",
+        "name": "东山精密",
+        "pct": 327230.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "共封装光学(CPO)",
+          "光纤概念"
+        ]
+      },
+      {
+        "rank": 15,
+        "code": "600467",
+        "name": "好当家",
+        "pct": 311075.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "预制菜",
+          "中韩自贸区"
+        ]
+      },
+      {
+        "rank": 16,
+        "code": "600722",
+        "name": "金牛化工",
+        "pct": 292841.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "煤化工概念",
+          "京津冀一体化"
+        ]
+      },
+      {
+        "rank": 17,
+        "code": "000678",
+        "name": "襄阳轴承",
+        "pct": 278706.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "减速器",
+          "农机"
+        ]
+      },
+      {
+        "rank": 18,
+        "code": "603324",
+        "name": "盛剑科技",
+        "pct": 274590.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "中芯国际概念",
+          "先进封装"
+        ]
+      },
+      {
+        "rank": 19,
+        "code": "002548",
+        "name": "金新农",
+        "pct": 235024.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "猪肉",
+          "生态农业"
+        ]
+      },
+      {
+        "rank": 20,
+        "code": "603960",
+        "name": "克来机电",
+        "pct": 201251.0,
+        "heat": null,
+        "rank_change": null,
+        "concepts": [
+          "华为汽车",
+          "汽车热管理"
+        ]
+      }
+    ],
+    "source_health": {
+      "indexes_rsi": "ok",
+      "breadth": "ok",
+      "board_flow": "ok",
+      "limit_pool": "ok",
+      "hot_list": "ok"
+    },
+    "vs_1h": {
+      "reference_at": "2026-11-24T18:43:23+08:00",
+      "indices": {
+        "shanghai": {
+          "pct_change_points": -2.3,
+          "rsi30_change": -19.31
+        },
+        "chinext": {
+          "pct_change_points": -4.14,
+          "rsi30_change": -18.05
+        },
+        "star50": {
+          "pct_change_points": -6.93,
+          "rsi30_change": -18.81
+        }
+      },
+      "up_ratio": 0.0,
+      "emotion_score": -6.4
+    }
   }
 ]
